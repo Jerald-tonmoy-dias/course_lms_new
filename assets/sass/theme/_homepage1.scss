@@ -1,0 +1,351 @@
+/* Homepage 1*/
+.lms_hero-section {
+    padding-top: 170px;
+    padding-bottom: 60px;
+ 
+// hero-wrapper
+.hero-wrapper {
+position: relative;
+background-size:cover;
+background-repeat: no-repeat;
+width: 100%;
+border-radius: 10px;
+padding: 60px;
+height: 690px;
+}
+// left side
+.left-side {
+        .hero-small-text {
+            font-family: $inter;
+            color: $primary-color;
+            font-weight: 700;
+        }
+        .small-img {
+            width: 70px;
+        }
+        .main-title {
+            font-weight: 700;
+            font-family: $rubik;
+        }
+        .para {
+           font-weight: 500;
+           text-transform: capitalize;
+        }
+        .play-btn {
+            font-size: 50px;
+        }
+        .play-btn-text {
+            font-family: $inter;
+            font-size: 16px;
+            color: $secondary-color;
+            margin-left: 10px;
+        }
+    }
+// right side
+
+.right-side {
+    width: 45%;
+    position: absolute;
+    bottom: 0;
+    right: 60px;
+
+    @include screen-1200 {
+        width: 40%;
+    }
+}
+
+.vec2 {
+    position: absolute;
+    width: 70px;
+    bottom: 10%;
+    left: 28%;
+}
+
+// play-btn
+.play-btn {
+    color: $orange-color;
+}
+.play-btn-text {
+    font-family: $inter;
+    font-weight: 700;
+    font-size: 16px;
+}
+}
+
+// common title
+.common-title {
+    font-family: $rubik;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: $secondary-color;
+}
+
+// single-lms-card-one
+.single-lms-card-one {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: $white-color;
+    box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+    h5 {
+        color: $secondary-color;
+        transition: .3s;
+        &:hover {
+            color: $primary-color;
+        }
+    }
+    .info-title {
+        font-weight: 500;
+        font-family: $body-font;
+        font-size: 14px;
+        color: $secondary-color;
+        text-transform: capitalize;
+     
+    }
+    .inner-card {
+        position: relative;
+        overflow: hidden;
+        padding: 10px;
+    }
+    .bottom-section {
+     transition: .3s;
+    }
+    .single-btn {
+        line-height: 37px;
+        text-decoration: none;
+        width: initial;
+        transition: .3s;
+        box-shadow: 0px 9px 21px 0px rgba(0, 101, 36, 0.15);
+        width: 150px;
+        position: absolute;
+        top: 150%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+  
+    }
+    .separator {
+        color:#b5b5b5;
+    }
+    &:hover {
+         .bottom-section {
+        transform: translateY(-150%);
+        }
+        .single-btn {
+            top: 50%;
+        }
+    }
+
+    
+    
+}
+
+// lms_instructor_section
+.lms_instructor_section {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card_instructor {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+      
+    .title {
+        font-family: $rubik;
+    }
+    .subtitle {
+        font-size: 14px;
+        font-weight: 500;
+    }
+.course-img {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    width: 400px;
+}
+}
+
+// course_lms_counter
+.course_lms_counter {
+    background: $blue-color;
+    text-align: center;
+    border-radius: 15px;
+    color: $white-color;
+    padding: 50px;
+    position: relative;
+    overflow: hidden;
+    .card-thumb {
+        width: 170px;
+    
+    }
+    .vec1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    .mid-title {
+        font-family: $rubik;
+        font-weight: 500;
+        font-size: 18px;
+        color: $white-color;
+        transition: .3s;
+        &:hover {
+            color: $primary-color;
+        }
+    }
+    .para {
+        font-weight: 500;
+        font-size: 14px;
+    }
+}
+.counter-title {
+    font-family: $rubik;
+    font-weight: 700;
+
+}
+// single-small-course-card
+.single-small-course-card {
+    border-radius: 15px;
+    background-color: $white-color;
+    box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+    padding: 10px;
+      
+    display: flex;
+    align-items: center;
+    .small-img {
+        width: 140px;
+        border-radius: 15px;
+    }
+    .right-side {
+        margin-left: 20px;
+    }
+    .subtitle {
+        font-weight: 400;
+        text-transform: capitalize;
+        font-size: 18px;
+        display: block;
+    }
+}
+.view-more {
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: $secondary-color;
+    &:hover {
+        color: $primary-color;
+    }
+}
+// top-course-section
+.top-course-section {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.grid-280 {
+    width: 280px;
+}
+.single-course-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+    background: $white-color;
+    .card-img {
+        width: 100%;
+        transition: .3s;
+    }
+    .heart-icon {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        font-size: 14px;
+        line-height: 30px;
+        text-align: center;
+        background-color: $white-color;
+        color: $secondary-color;
+        z-index: 22;
+        transition: .3s;
+        &:hover {
+            background-color: $primary-color;
+            color: $white-color;
+        }
+    }
+
+    // bottom-section
+    .bottom-section {
+        padding: 30px 20px;
+        .title {
+            display: block;
+            font-weight: 700;
+            font-family: $rubik;
+            color: $secondary-color;
+            transition: .3s;
+            font-size: 16px;
+            &:hover {
+                color: $primary-color;
+            }
+        }
+        .teacher-name {
+            font-size:14px;
+            font-weight: 400;
+        }
+      .ratings-icon {
+        color: $yellow-color;
+        font-size: 12px;
+      }
+      .ratings-badge {
+          display: inline-block;
+          font-weight: 500;
+          font-size: 12px;
+          width: 50px;
+          color: $secondary-color;
+          background-color: $yellow-color;
+          border-radius: 4px;
+          text-align: center;
+      }
+    .lesson {
+        font-weight: 500;
+        font-size: 14px;
+        text-transform: capitalize;
+    }
+    .icon-color{
+        color: #b5b5b5;
+    }
+    .price {
+        font-weight: 700;
+        font-size: 18px;
+        font-family: $rubik;
+    }
+      .small-btn {
+          font-family: $inter;
+          font-weight: 500;
+          font-size: 13px;
+          width: 115px!important;
+          height: 30px;
+          line-height: 30px;
+          transform: translateY(80px);
+        //   opacity: 0;
+        //   visibility: hidden;
+          transition: .3s;
+      }
+    }
+
+    // hover effect
+    &:hover {
+        .card-img {
+            transform: scale(1.2) skewX(-2deg)
+        }
+        .small-btn {
+            transform: translate(0);
+        }
+    }
+}

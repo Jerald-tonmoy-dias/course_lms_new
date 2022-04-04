@@ -1,0 +1,68 @@
+/* Button */
+.btn1 {
+  // font-family: $heading-font;
+  font-weight: 500;
+  z-index: 11;
+  font-size: 16px;
+  height: 40px;
+  line-height: 37px;
+  min-width: 140px;
+  text-transform: capitalize;
+  transition: $transition;
+  display: inline-block;
+  border-radius: 25px;
+  color: $white-color;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid transparent;
+  text-align: center;
+  font-family: $inter;
+
+  &::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: $primary-color;
+    z-index: -1;
+    transition: $transition;
+  }
+
+  @include screen-576 {
+    padding: 8px 20px;
+  }
+
+  @include screen-992 {
+    padding: 8px 15px;
+  }
+
+  @include screen-1200 {
+    padding: 10px 20px;
+  }
+
+  &:hover {
+    &::before {
+      top: -100%;
+    }
+
+    border: 1px solid $primary-color;
+    color: $primary-color;
+  }
+}
+// btn white
+.btn-white {
+  color: $secondary-color;
+  &::before {
+    content: '';
+    background: $white-color;
+  }
+
+  &:hover {
+    border: 1px solid $white-color;
+    color: $white-color;
+  }
+}
+

@@ -1,0 +1,29 @@
+/* Navbar */
+.lms_main_nav {
+    display: flex;
+    justify-content: space-around;
+    li {
+        position: relative;
+        .lms_badge {
+            font-weight: 500;
+            font-size: 11px;
+            color: $white-color;
+            width: 30px;
+            height: 16px;
+            line-height: 16px;
+            background-color: $red-color;
+            padding: 1px 2px 3px 2px;
+            border-radius: 4px 4px 4px 0px;
+            position: absolute;
+            top: -8px;
+            right: -32px;
+        }
+        a {
+            font-weight: 700;
+            font-size: 16px;
+            color: $menu-nav-color;
+            text-transform: capitalize;
+            text-decoration: none;
+        }
+    }
+}

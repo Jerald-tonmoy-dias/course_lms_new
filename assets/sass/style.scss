@@ -1,0 +1,47 @@
+/*-------------------------------------------------------------
+Template Name: CourseLMS
+Template URL: 
+Author Name: SoftTech IT
+Author URL: https://themeforest.net/user/softtech-it/portfolio
+Version: 1.0
+Description: This is course lms template
+Tags: 	Bootstrap 5,
+Text Domain: CourseLMS
+-------------------------------------------------------------*/
+
+/*------------------------------------------------------------- 
+TABLE OF CONTENTS: 
+---------------------------------------------------------------
+>> Author CSS
+>> Navbar
+>> Header Section
+>> Footer Section
+>> Breadcrumb Section
+>> Preloader
+>> Button 
+>> Form
+>> Theme
+>> Homepage 1
+--------------------------------------------------------------*/
+
+// Setting
+@import "settings/variable";
+@import "settings/mixin";
+
+// Base
+@import "base/base";
+
+// Module
+@import "module/preloader";
+@import "module/button";
+@import "module/form";
+// Layout
+@import "layout/navbar";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/breadcrumb";
+
+
+// Theme
+@import "theme/theme";
+@import "theme/homepage1";
