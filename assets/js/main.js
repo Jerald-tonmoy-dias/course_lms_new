@@ -458,7 +458,18 @@
         //     });
 
 
+        // isotope filter test start
+        // external js: isotope.pkgd.js
 
+        // init Isotope
+        var $grid = $('.trendy-item-wrapper').isotope({
+            // options
+        });
+        // filter items on button click
+        $('.trendy-course-nav-wrapper').on('click', '.single-small-course-card-extend', function () {
+            var filterValue = $(this).attr('data-filter');
+            $grid.isotope({ filter: filterValue });
+        });
         /* end point */
     });
 

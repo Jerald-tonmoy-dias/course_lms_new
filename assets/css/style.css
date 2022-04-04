@@ -1291,3 +1291,15 @@ a {
     -webkit-transform: translate(0);
     -ms-transform: translate(0);
     transform: translate(0); }
+
+.grid-270 {
+  width: 270px; }
+
+.grid-570 {
+  width: 570px; }
+
+.single-small-course-card-extend .small-img {
+  width: 90px; }
+
+.single-small-course-card-extend .counter-title {
+  font-size: 18px; }
