@@ -247,9 +247,7 @@ height: 690px;
     padding-top: 130px;
     padding-bottom: 130px;
 }
-.grid-280 {
-    width: 280px;
-}
+// single course card
 .single-course-card {
     position: relative;
     overflow: hidden;
@@ -295,6 +293,7 @@ height: 690px;
             }
         }
         .teacher-name {
+            text-transform: capitalize;
             font-size:14px;
             font-weight: 400;
         }
@@ -350,14 +349,7 @@ height: 690px;
     }
 }
 
-// grid-270
-.grid-270 {
-    width: 270px;
-}
-// grid 570
-.grid-570 {
-    width: 570px;
-}
+// single small course card extend
 .single-small-course-card-extend {
     .small-img {
         width: 90px;
@@ -365,4 +357,153 @@ height: 690px;
     .counter-title {
         font-size: 18px;
     }
+}
+
+// single-course-card-lg 
+.single-course-card-lg {
+    .bottom-section {
+        .title {
+            font-size: 20px;
+        }
+        .teacher-name {
+            font-size: 18px;
+        }
+        .lesson {
+            font-size: 16px;
+        }
+
+        .small-btn {
+             height: 40px;
+             line-height: 40px;
+         }
+    }
+}
+
+// single-small-filter-card
+.single-small-filter-card {
+    .small-img {
+        width: 120px;
+    }
+    .bottom-section {
+        padding: 0;
+        .teacher-name {
+            font-size: 12px;
+        }
+        .total-ratings {
+            font-weight: 500;
+            font-size: 16px;
+            display: inline-block;
+        }
+        .total-ratings-amount {
+            font-size: 12px;
+            font-weight: 400;
+        }
+    }
+}
+
+// trendy-item-wrapper
+.trendy-item-wrapper {
+    .element-item {
+        margin-bottom: 15px;
+    }
+}
+
+// feature-course-section
+.feature-course-section {
+    margin-bottom: -170px;
+}
+.course-vdo-section {
+    background-size: cover;
+    padding: 30px;
+    border-radius: 20px;
+    position: relative;
+    &::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 20px;
+        background-image: linear-gradient(112deg, #51be78 -34%, rgba(255, 255, 255, 0.18039) 133%)
+    }
+}
+
+// video-course-card
+.video-course-card {
+z-index: 11;
+.bottom-section {
+    padding: 40px 20px;
+    .small-btn {
+        transform: translateY(0);
+    }
+}
+}
+.video-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    line-height: 30px;
+    z-index: 22;
+    color: $white-color;
+    &:hover {
+        color: $white-color;
+    }
+    &::after {
+        content: '';
+        width: 55px;
+        height: 55px;
+        background: $primary-color;
+        z-index: -16;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 50%;
+        line-height: 55px;
+
+    }
+}
+
+// feature-course-right-side 
+.feature-course-right-side {
+    padding: 30px;
+    border-radius: 20px;
+    background: $blue-color;
+}
+
+// instructor-single-slider
+.instructor-single-slider {
+    .title {
+        font-size: 24px;
+        font-weight: 500;
+        font-family: $rubik;
+    }
+    .subtitle {
+        font-weight: 400;
+        font-size: 16px;
+        text-transform: capitalize;
+    }
+    .total-ratings {
+        font-weight: 700;
+        font-size: 14px;
+    }
+    .ratings-icon {
+        color: $yellow-color;
+        font-size: 12px;
+    }
+    .view-more {
+        font-weight: 500;
+        font-size: 14px;
+        text-transform: capitalize;
+    }
+}
+
+// testimonial-section
+.instructor-section{
+    background-size: cover;
+    padding-top: 280px;
+    padding-bottom: 130px;
 }
