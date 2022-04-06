@@ -134,6 +134,37 @@
             //     }
             // ]
         });
+        // testimonial-slider-active
+        $('.testimonial-slider-active').slick({
+            dots: true,
+            infinite: true,
+            arrows: false,
+            speed: 500,
+            slidesToShow: 3,
+            adaptiveHeight: true,
+            // nextArrow: '<button class="slick-next"><i class="fas fa-arrow-right"></i></button>',
+            // prevArrow: '<button class="slick-prev"><i class="fas fa-arrow-left"></i></button>',
+            // responsive: [
+            //     {
+            //         breakpoint: 1440,
+            //         settings: {
+            //             slidesToShow: 3
+            //         }
+            //     },
+            //     {
+            //         breakpoint: 992,
+            //         settings: {
+            //             slidesToShow: 2
+            //         }
+            //     },
+            //     {
+            //         breakpoint: 576,
+            //         settings: {
+            //             slidesToShow: 1
+            //         }
+            //     }
+            // ]
+        });
 
 
         // dbl product slider
