@@ -343,6 +343,19 @@ a {
     border-radius: 30px;
     text-transform: capitalize;
     line-height: 19px; }
+    .lms_searchbar_wrapper .header_cat_selector .current {
+      width: 50px;
+      white-space: nowrap;
+      overflow: hidden;
+      -o-text-overflow: ellipsis;
+      text-overflow: ellipsis;
+      display: block; }
+      @media (max-width: 575.98px) {
+        .lms_searchbar_wrapper .header_cat_selector .current {
+          width: 30px; } }
+    @media (max-width: 575.98px) {
+      .lms_searchbar_wrapper .header_cat_selector {
+        width: 100px; } }
     .lms_searchbar_wrapper .header_cat_selector:after {
       border-color: #ffffff;
       right: 18px; }
@@ -350,6 +363,9 @@ a {
       color: #1a264e; }
   .lms_searchbar_wrapper .header-search-input {
     padding-left: 20px; }
+    @media (max-width: 575.98px) {
+      .lms_searchbar_wrapper .header-search-input {
+        width: 140px; } }
   .lms_searchbar_wrapper .header-search-btn {
     width: 35px;
     height: 35px;
@@ -415,12 +431,18 @@ a {
   @media (max-width: 1439.98px) {
     .newletter-wrapper {
       width: 320px; } }
+  @media (max-width: 575.98px) {
+    .newletter-wrapper {
+      width: 220px; } }
   .newletter-wrapper .input-box {
     border: none;
     outline: none; }
     @media (max-width: 1439.98px) {
       .newletter-wrapper .input-box {
         font-size: 14px; } }
+    @media (max-width: 575.98px) {
+      .newletter-wrapper .input-box {
+        width: 100px; } }
   @media (max-width: 1439.98px) {
     .newletter-wrapper .subs-btn {
       min-width: 80px !important;
@@ -1168,9 +1190,15 @@ a {
 
 .grid-570 {
   width: 570px; }
+  @media (max-width: 991.98px) {
+    .grid-570 {
+      width: 300px; } }
 
 .grid-420 {
   width: 420px; }
+  @media (max-width: 991.98px) {
+    .grid-420 {
+      width: 300px; } }
 
 /* Homepage 1*/
 .lms_hero-section {
@@ -1179,6 +1207,9 @@ a {
   @media (max-width: 991.98px) {
     .lms_hero-section {
       padding-top: 210px; } }
+  @media (max-width: 575.98px) {
+    .lms_hero-section {
+      padding-top: 265px; } }
   .lms_hero-section .hero-wrapper {
     position: relative;
     background-size: cover;
@@ -1187,25 +1218,46 @@ a {
     border-radius: 10px;
     padding: 60px;
     height: 690px; }
+    @media (max-width: 991.98px) {
+      .lms_hero-section .hero-wrapper {
+        height: auto; } }
   .lms_hero-section .left-side .hero-small-text {
     font-family: "Inter", sans-serif;
     color: #51be78;
     font-weight: 700; }
+    @media (max-width: 767.98px) {
+      .lms_hero-section .left-side .hero-small-text {
+        font-size: 14px; } }
   .lms_hero-section .left-side .small-img {
     width: 70px; }
+    @media (max-width: 767.98px) {
+      .lms_hero-section .left-side .small-img {
+        width: 50px; } }
   .lms_hero-section .left-side .main-title {
     font-weight: 700;
     font-family: "Rubik", sans-serif; }
+    @media (max-width: 767.98px) {
+      .lms_hero-section .left-side .main-title {
+        font-size: 20px; } }
   .lms_hero-section .left-side .para {
     font-weight: 500;
     text-transform: capitalize; }
+    @media (max-width: 767.98px) {
+      .lms_hero-section .left-side .para {
+        font-size: 14px; } }
   .lms_hero-section .left-side .play-btn {
     font-size: 50px; }
+    @media (max-width: 767.98px) {
+      .lms_hero-section .left-side .play-btn {
+        font-size: 30px; } }
   .lms_hero-section .left-side .play-btn-text {
     font-family: "Inter", sans-serif;
     font-size: 16px;
     color: #1a264e;
     margin-left: 10px; }
+    @media (max-width: 767.98px) {
+      .lms_hero-section .left-side .play-btn-text {
+        font-size: 14px; } }
   .lms_hero-section .right-side {
     width: 45%;
     position: absolute;
@@ -1214,11 +1266,17 @@ a {
     @media (max-width: 1199.98px) {
       .lms_hero-section .right-side {
         width: 40%; } }
+    @media (max-width: 767.98px) {
+      .lms_hero-section .right-side {
+        display: none; } }
   .lms_hero-section .vec2 {
     position: absolute;
     width: 70px;
     bottom: 10%;
     left: 28%; }
+    @media (max-width: 767.98px) {
+      .lms_hero-section .vec2 {
+        display: none; } }
   .lms_hero-section .play-btn {
     color: #ff6e17; }
   .lms_hero-section .play-btn-text {
@@ -1232,6 +1290,9 @@ a {
   text-transform: capitalize;
   font-size: 30px;
   color: #1a264e; }
+  @media (max-width: 991.98px) {
+    .common-title {
+      font-size: 20px; } }
 
 .single-lms-card-one {
   padding: 10px;
@@ -1562,7 +1623,8 @@ a {
   margin-bottom: -170px; }
 
 .course-vdo-section {
-  background-size: cover;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
   padding: 30px;
   border-radius: 20px;
   position: relative; }

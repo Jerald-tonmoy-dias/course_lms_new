@@ -49,11 +49,17 @@ background: $white-color;
     @include screen-1440 {
         width: 320px;
     }
+    @include screen-576 {
+        width: 220px;
+    }
     .input-box {
         border: none;
         outline: none;
         @include screen-1440 {
             font-size: 14px;
+        }
+        @include screen-576 {
+            width: 100px;
         }
     }
     @include screen-1440 {

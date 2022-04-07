@@ -870,7 +870,13 @@ a {
 
 .grid-570 {
   width: 570px;
+  @include screen-992 {
+    width: 300px;
+  }
 }
 .grid-420 {
   width: 420px;
+  @include screen-992 {
+    width: 300px;
+  }
 }

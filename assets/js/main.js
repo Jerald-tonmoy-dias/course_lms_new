@@ -51,8 +51,6 @@
             speed: 500,
             slidesToShow: 5,
             adaptiveHeight: true,
-            // nextArrow: '<button class="slick-next"><i class="fas fa-arrow-right"></i></button>',
-            // prevArrow: '<button class="slick-prev"><i class="fas fa-arrow-left"></i></button>',
             responsive: [
                 {
                     breakpoint: 1440,
@@ -67,7 +65,7 @@
                     }
                 },
                 {
-                    breakpoint: 576,
+                    breakpoint: 768,
                     settings: {
                         slidesToShow: 1
                     }
@@ -144,26 +142,20 @@
             adaptiveHeight: true,
             // nextArrow: '<button class="slick-next"><i class="fas fa-arrow-right"></i></button>',
             // prevArrow: '<button class="slick-prev"><i class="fas fa-arrow-left"></i></button>',
-            // responsive: [
-            //     {
-            //         breakpoint: 1440,
-            //         settings: {
-            //             slidesToShow: 3
-            //         }
-            //     },
-            //     {
-            //         breakpoint: 992,
-            //         settings: {
-            //             slidesToShow: 2
-            //         }
-            //     },
-            //     {
-            //         breakpoint: 576,
-            //         settings: {
-            //             slidesToShow: 1
-            //         }
-            //     }
-            // ]
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
         });
 
 
