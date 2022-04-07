@@ -1222,8 +1222,8 @@ a {
 .lms_instructor_section {
   padding-top: 130px;
   padding-bottom: 130px;
-  background-size: cover;
-  background-repeat: no-repeat; }
+  background-size: cover !important;
+  background-repeat: no-repeat !important; }
 
 .card_instructor {
   height: 400px;
@@ -1305,6 +1305,9 @@ a {
     text-transform: capitalize;
     font-size: 18px;
     display: block; }
+
+.trendy-course-nav-wrapper .single-small-course-card {
+  cursor: pointer; }
 
 .view-more {
   font-weight: 500;

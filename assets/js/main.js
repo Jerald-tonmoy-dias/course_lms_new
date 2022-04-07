@@ -110,29 +110,27 @@
             arrows: false,
             speed: 500,
             slidesToShow: 4,
-            adaptiveHeight: true,
-            // nextArrow: '<button class="slick-next"><i class="fas fa-arrow-right"></i></button>',
-            // prevArrow: '<button class="slick-prev"><i class="fas fa-arrow-left"></i></button>',
-            // responsive: [
-            //     {
-            //         breakpoint: 1440,
-            //         settings: {
-            //             slidesToShow: 3
-            //         }
-            //     },
-            //     {
-            //         breakpoint: 992,
-            //         settings: {
-            //             slidesToShow: 2
-            //         }
-            //     },
-            //     {
-            //         breakpoint: 576,
-            //         settings: {
-            //             slidesToShow: 1
-            //         }
-            //     }
-            // ]
+            // adaptiveHeight: true,
+            responsive: [
+                {
+                    breakpoint: 1600,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
         });
         // testimonial-slider-active
         $('.testimonial-slider-active').slick({
@@ -185,7 +183,7 @@
         //     focusOnSelect: true
         // });
 
-        // vdo popup activation
+        // vdo popup activation header section
         $('.popup-link').magnificPopup({
             type: 'iframe',
             // other options
