@@ -38,10 +38,11 @@
 
     <!-- header -->
     <header class="lms_header">
-        <div class="container">
+        <div class="container position-relative">
             <div class="row align-items-center">
                 <!-- logo -->
-                <div class="col-lg-2">
+                <div class="col-lg-2 d-flex align-items-center">
+                    <span class="lms-mobile-menu-trigger"><i class="fas fa-bars"></i></span>
                     <img class="logo" src="./assets/images/logo.png" alt="">
                 </div>
                 <!-- menu -->
@@ -52,8 +53,8 @@
                             <a href="#">tranding</a>
                         </li>
                         <li>
-                            <span class="lms_badge">New</span>
                             <a href="#">Course</a>
+                            <span class="lms_badge">New</span>
                         </li>
                         <li><a href="#">instructors</a></li>
 
@@ -61,7 +62,7 @@
                 </div>
 
                 <!-- searchbar login button -->
-                <div class="col-lg-5 d-flex align-items-center justify-content-between">
+                <div class="col-12 col-lg-5 d-flex align-items-center justify-content-between mt-4 mt-lg-0">
                     <div class="lms_searchbar_wrapper">
                         <!-- category selector -->
                         <select class="header_cat_selector">
@@ -136,7 +137,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-2">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mt-4">
                     <div class="single-lms-card-one">
                         <img src="./assets/images/11.png" class="thumb" alt="">
 
@@ -157,7 +158,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mt-4">
                     <div class="single-lms-card-one">
                         <img src="./assets/images/12.png" class="thumb" alt="">
 
@@ -178,7 +179,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mt-4">
                     <div class="single-lms-card-one">
                         <img src="./assets/images/13.png" class="thumb" alt="">
 
@@ -199,7 +200,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mt-4">
                     <div class="single-lms-card-one">
                         <img src="./assets/images/14.png" class="thumb" alt="">
 
@@ -220,7 +221,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mt-4">
                     <div class="single-lms-card-one">
                         <img src="./assets/images/15.png" class="thumb" alt="">
 
@@ -241,7 +242,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mt-4">
                     <div class="single-lms-card-one">
                         <img src="./assets/images/12.png" class="thumb" alt="">
 
@@ -269,9 +270,9 @@
     <!-- instructor-->
     <div class="lms_instructor_section" style="background: url('./assets/images/section-bg1.png');">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
                 <!-- instructor -->
-                <div class="col-lg-6">
+                <div class="col-md-8 col-lg-6">
                     <div class="card_instructor" style="background: url('./assets/images/bg11.png');">
                         <!-- left side -->
                         <div class="col-lg-7">
@@ -289,7 +290,7 @@
                     </div>
                 </div>
                 <!-- course counter -->
-                <div class="col-lg-3">
+                <div class="col-md-4 col-lg-3">
                     <div class="course_lms_counter">
                         <!-- vector -->
                         <img class="vec1" src="./assets/images/vc1.png" alt="vec">
@@ -303,7 +304,7 @@
                     </div>
                 </div>
                 <!-- course small card -->
-                <div class="col-lg-3">
+                <div class="col-lg-3 mt-4 mt-lg-0">
                     <div class="single-small-course-card">
                         <!-- left side -->
                         <img src="./assets/images/ci1.png" class="small-img" alt="img">
@@ -871,30 +872,33 @@
             </div>
 
             <!-- navbar style -->
-            <div class="trendy-course-nav-wrapper d-flex justify-content-between mb-30">
+            <div class="trendy-course-nav-wrapper d-flex flex-wrap justify-content-between mb-30">
                 <!-- single nav -->
-                <div class="single-small-course-card single-small-course-card-extend grid-270" data-filter=".ui_ux">
+                <div class="single-small-course-card single-small-course-card-extend grid-270 mt-4"
+                    data-filter=".ui_ux">
                     <img src="./assets/images/sm1.png" class="small-img" alt="img">
                     <div class="right-side">
                         <h4 class="counter-title">UI & UX Design</h4>
                     </div>
                 </div>
                 <!-- single nav -->
-                <div class="single-small-course-card single-small-course-card-extend grid-270" data-filter=".music">
+                <div class="single-small-course-card single-small-course-card-extend grid-270 mt-4"
+                    data-filter=".music">
                     <img src="./assets/images/sm2.png" class="small-img" alt="img">
                     <div class="right-side">
                         <h4 class="counter-title">Music lesson</h4>
                     </div>
                 </div>
                 <!-- single nav -->
-                <div class="single-small-course-card single-small-course-card-extend grid-270" data-filter=".mobile">
+                <div class="single-small-course-card single-small-course-card-extend grid-270 mt-4"
+                    data-filter=".mobile">
                     <img src="./assets/images/sm3.png" class="small-img" alt="img">
                     <div class="right-side">
                         <h4 class="counter-title">mobile app</h4>
                     </div>
                 </div>
                 <!-- single nav -->
-                <div class="single-small-course-card single-small-course-card-extend grid-270"
+                <div class="single-small-course-card single-small-course-card-extend grid-270 mt-4"
                     data-filter=".photography">
                     <img src="./assets/images/sm4.png" class="small-img" alt="img">
                     <div class="right-side">
@@ -902,7 +906,8 @@
                     </div>
                 </div>
                 <!-- single nav -->
-                <div class="single-small-course-card single-small-course-card-extend grid-270" data-filter=".webDesign">
+                <div class="single-small-course-card single-small-course-card-extend grid-270 mt-4"
+                    data-filter=".webDesign">
                     <img src="./assets/images/sm5.png" class="small-img" alt="img">
                     <div class="right-side">
                         <h4 class="counter-title">web-design</h4>
@@ -1721,10 +1726,10 @@
     <div class="feature-course-section container">
         <div class="row">
             <!-- video -->
-            <div class="col-lg-6">
+            <div class="col-lg-12 col-xl-6">
                 <div class="course-vdo-section" style="background: url('./assets/images/vdo1.png');">
                     <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 col-md-6">
                             <!-- card -->
                             <div class="single-course-card video-course-card grid-280">
                                 <!-- bottom section -->
@@ -1772,7 +1777,7 @@
                             </div>
                         </div>
                         <!-- video icon -->
-                        <div class="col-lg-6 position-relative">
+                        <div class="col-lg-6 col-md-6 position-relative">
                             <a class="video-icon item-ripple popup-link"
                                 href="https://www.youtube.com/watch?v=dNwxvuR41gw">
                                 <i class="fas fa-play-circle"></i>
@@ -1784,10 +1789,10 @@
             </div>
 
             <!-- slider -->
-            <div class="col-lg-6">
+            <div class="col-lg-12 col-xl-6 mt-4 mt-xl-0">
                 <div class="feature-course-right-side">
                     <div class="row align-items-center">
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 col-md-6">
                             <!-- card -->
                             <div class="single-course-card video-course-card grid-280">
                                 <!-- bottom section -->
@@ -1835,7 +1840,7 @@
                             </div>
                         </div>
                         <!-- video icon -->
-                        <div class="col-lg-6 ">
+                        <div class="col-lg-6 col-md-6 ">
                             <div class="feature-slider-active">
                                 <img class="feature-slider-img" src="./assets/images/s1.png" alt="">
                                 <img class="feature-slider-img" src="./assets/images/s1.png" alt="">
@@ -1868,7 +1873,7 @@
                         <img src="./assets/images/t1.png" class="small-img" alt="img">
                         <!-- right side -->
                         <div class="right-side">
-                            <h4 class="title">Tonmoy Khan</h4>
+                            <h4 class="title">Mariya Chirst</h4>
                             <span class="subtitle mt-2">UI & UX Designer</span>
 
                             <div class="d-flex align-items-center d-block mt-2">
@@ -1889,13 +1894,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="testi-single-slider">
+                <div class="instructor-single-slider">
                     <div class="single-small-course-card lms-testimonial-card">
                         <!-- left side -->
                         <img src="./assets/images/t2.png" class="small-img" alt="img">
                         <!-- right side -->
                         <div class="right-side">
-                            <h4 class="title">Tonmoy Khan</h4>
+                            <h4 class="title">Md. Prince </h4>
                             <span class="subtitle mt-2">UI & UX Designer</span>
 
                             <div class="d-flex align-items-center d-block mt-2">
@@ -1916,13 +1921,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="testi-single-slider">
+                <div class="instructor-single-slider">
                     <div class="single-small-course-card lms-testimonial-card">
                         <!-- left side -->
                         <img src="./assets/images/t3.png" class="small-img" alt="img">
                         <!-- right side -->
                         <div class="right-side">
-                            <h4 class="title">Tonmoy Khan</h4>
+                            <h4 class="title">Andrew Brad</h4>
                             <span class="subtitle mt-2">UI & UX Designer</span>
 
                             <div class="d-flex align-items-center d-block mt-2">
@@ -1939,11 +1944,10 @@
                             <a href="#" class="view-more mt-2 d-block">view more
                                 <i class="fas fa-arrow-right"></i>
                             </a>
-
                         </div>
                     </div>
                 </div>
-                <div class="testi-single-slider">
+                <div class="instructor-single-slider">
                     <div class="single-small-course-card lms-testimonial-card">
                         <!-- left side -->
                         <img src="./assets/images/t4.png" class="small-img" alt="img">
@@ -1970,13 +1974,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="testi-single-slider">
+
+                <div class="instructor-single-slider">
                     <div class="single-small-course-card lms-testimonial-card">
                         <!-- left side -->
                         <img src="./assets/images/t1.png" class="small-img" alt="img">
                         <!-- right side -->
                         <div class="right-side">
-                            <h4 class="title">Tonmoy Khan</h4>
+                            <h4 class="title">Mariya Chirst</h4>
                             <span class="subtitle mt-2">UI & UX Designer</span>
 
                             <div class="d-flex align-items-center d-block mt-2">
@@ -1997,13 +2002,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="testi-single-slider">
+                <div class="instructor-single-slider">
                     <div class="single-small-course-card lms-testimonial-card">
                         <!-- left side -->
                         <img src="./assets/images/t2.png" class="small-img" alt="img">
                         <!-- right side -->
                         <div class="right-side">
-                            <h4 class="title">Tonmoy Khan</h4>
+                            <h4 class="title">Md. Prince </h4>
                             <span class="subtitle mt-2">UI & UX Designer</span>
 
                             <div class="d-flex align-items-center d-block mt-2">
@@ -2024,13 +2029,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="testi-single-slider">
+                <div class="instructor-single-slider">
                     <div class="single-small-course-card lms-testimonial-card">
                         <!-- left side -->
                         <img src="./assets/images/t3.png" class="small-img" alt="img">
                         <!-- right side -->
                         <div class="right-side">
-                            <h4 class="title">Tonmoy Khan</h4>
+                            <h4 class="title">Andrew Brad</h4>
                             <span class="subtitle mt-2">UI & UX Designer</span>
 
                             <div class="d-flex align-items-center d-block mt-2">
@@ -2047,11 +2052,10 @@
                             <a href="#" class="view-more mt-2 d-block">view more
                                 <i class="fas fa-arrow-right"></i>
                             </a>
-
                         </div>
                     </div>
                 </div>
-                <div class="testi-single-slider">
+                <div class="instructor-single-slider">
                     <div class="single-small-course-card lms-testimonial-card">
                         <!-- left side -->
                         <img src="./assets/images/t4.png" class="small-img" alt="img">
@@ -2078,6 +2082,7 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -2226,22 +2231,22 @@
         <div class="container lms-footer-inner-wrapper">
             <!-- brands -->
             <div class="row align-items-center lms-brand-wraper">
-                <div class="col-lg-2">
+                <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
                     <img class="lms-single-brand mx-auto" src="./assets/images/b6.png" alt="">
                 </div>
-                <div class="col-lg-2">
+                <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
                     <img class="lms-single-brand mx-auto" src="./assets/images/b5.png" alt="">
                 </div>
-                <div class="col-lg-2">
+                <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
                     <img class="lms-single-brand mx-auto" src="./assets/images/b4.png" alt="">
                 </div>
-                <div class="col-lg-2">
+                <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
                     <img class="lms-single-brand mx-auto" src="./assets/images/b1.png" alt="">
                 </div>
-                <div class="col-lg-2">
+                <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
                     <img class="lms-single-brand mx-auto" src="./assets/images/b3.png" alt="">
                 </div>
-                <div class="col-lg-2">
+                <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
                     <img class="lms-single-brand mx-auto" src="./assets/images/b2.png" alt="">
                 </div>
             </div>
@@ -2268,7 +2273,7 @@
                 <!--footer menu  -->
                 <div class="col-lg-6 offset-lg-1">
                     <div class="row">
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
                             <div class="single-footer-menu">
                                 <span class="title mb-3">
                                     course
@@ -2280,7 +2285,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
                             <div class="single-footer-menu">
                                 <span class="title mb-3">
                                     login
@@ -2292,7 +2297,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
                             <div class="single-footer-menu">
                                 <span class="title mb-3">
                                     More Links
@@ -2304,7 +2309,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
                             <div class="single-footer-menu">
                                 <span class="title mb-3">
                                     contact

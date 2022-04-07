@@ -2,11 +2,7 @@
     "use strict"
     jQuery(document).ready(function () {
         /* start point */
-        //mobile menu
-        // $('#main-menu').meanmenu({
-        //     meanMenuContainer: '.mobile-menu',
-        //     meanScreenWidth: "991.99"
-        // });
+
 
         // Scroll To Top 
         $('.scrollup').on('click', function () {
@@ -23,6 +19,12 @@
             }
         });
 
+        // mobile menu
+        document.querySelector(".lms-mobile-menu-trigger").addEventListener("click", togleMenu);
+        function togleMenu() {
+            var element = document.querySelector(".lms_main_nav");
+            element.classList.toggle("mobile-menu-active");
+        }
         // counterUp
         // $('.counter').counterUp({
         //     delay: 10,
@@ -51,26 +53,26 @@
             adaptiveHeight: true,
             // nextArrow: '<button class="slick-next"><i class="fas fa-arrow-right"></i></button>',
             // prevArrow: '<button class="slick-prev"><i class="fas fa-arrow-left"></i></button>',
-            // responsive: [
-            //     {
-            //         breakpoint: 1440,
-            //         settings: {
-            //             slidesToShow: 3
-            //         }
-            //     },
-            //     {
-            //         breakpoint: 992,
-            //         settings: {
-            //             slidesToShow: 2
-            //         }
-            //     },
-            //     {
-            //         breakpoint: 576,
-            //         settings: {
-            //             slidesToShow: 1
-            //         }
-            //     }
-            // ]
+            responsive: [
+                {
+                    breakpoint: 1440,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
         });
         // feature course slider
         $('.feature-slider-active').slick({

@@ -853,10 +853,19 @@ a {
 // grid-270
 .grid-270 {
   width: 270px;
+  @include screen-1600 {
+     width: 210px;
+  }
+  @include screen-1440 {
+     width: 160px;
+  }
 }
 
 .grid-280 {
   width: 280px;
+  @include screen-1600 {
+    width: 250px;
+  }
 }
 
 .grid-570 {

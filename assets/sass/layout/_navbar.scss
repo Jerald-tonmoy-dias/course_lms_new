@@ -2,6 +2,9 @@
 .lms_main_nav {
     display: flex;
     justify-content: space-around;
+    @include screen-1200{
+        display: none;
+    }
     li {
         position: relative;
         .lms_badge {
@@ -27,3 +30,54 @@
         }
     }
 }
+
+// mobile menu style
+.lms-mobile-menu-trigger {
+    background: $primary-color;
+    text-align: center;
+    display: block;
+    padding: 5px 15px;
+    color: $white-color;
+    margin-right: 20px;
+    display: none;
+    @include screen-1200 {
+        display: block;
+    }
+}
+
+.mobile-menu-active {
+    flex-direction: column;
+    background: $primary-color;
+    padding: 20px;
+    border-radius: 15px;
+    position: absolute;
+    z-index: 9999;
+    top: 50px;
+    width: 100%;
+    border-radius: 15px;
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    right: 0%;
+    width: 220px;
+    display: block;
+    li {
+      margin-bottom: 10px;
+      transition: .3s;
+      &:hover {
+          margin-left: 10px;
+      }
+      .lms_badge {
+          position: static;
+          border-radius: 0;
+          margin-left: 10px;
+      }
+      &:last-child{
+          margin-bottom: 0;
+      }
+      a {
+          color: $white-color;
+      }
+    }
+}
+

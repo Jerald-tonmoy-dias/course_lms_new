@@ -2,6 +2,9 @@
 .lms_hero-section {
     padding-top: 170px;
     padding-bottom: 60px;
+    @include screen-992 {
+        padding-top: 210px;
+    }
  
 // hero-wrapper
 .hero-wrapper {
@@ -167,6 +170,9 @@ height: 690px;
     bottom: 0;
     right: 10px;
     width: 400px;
+    @include screen-1600 {
+        width: 160px;
+    }
 }
 }
 
@@ -181,6 +187,9 @@ height: 690px;
     overflow: hidden;
     .card-thumb {
         width: 170px;
+        @include screen-1600 {
+            width: 110px;
+        }
     
     }
     .vec1 {
@@ -196,6 +205,9 @@ height: 690px;
         font-size: 18px;
         color: $white-color;
         transition: .3s;
+        @include screen-1440 {
+            font-size: 14px;
+        }
         &:hover {
             color: $primary-color;
         }
@@ -203,11 +215,17 @@ height: 690px;
     .para {
         font-weight: 500;
         font-size: 14px;
+        @include screen-1440 {
+            font-size: 12px;
+        }
     }
 }
 .counter-title {
     font-family: $rubik;
     font-weight: 700;
+    @include screen-1440 {
+        font-size: 20px;
+    }
 
 }
 // single-small-course-card
@@ -216,26 +234,53 @@ height: 690px;
     background-color: $white-color;
     box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
     padding: 10px;
-      
     display: flex;
     align-items: center;
     .small-img {
         width: 140px;
         border-radius: 15px;
+        @include screen-1600 {
+            width: 100px;
+        }
     }
     .right-side {
         margin-left: 20px;
+        @include screen-1600 {
+            margin-left: 10px;
+        }
     }
     .subtitle {
         font-weight: 400;
         text-transform: capitalize;
-        font-size: 18px;
+        font-size: 16px;
         display: block;
+        @include screen-1440 {
+            font-size: 12px;
+        }
+    }
+    .counter-title {
+        @include screen-1440 {
+            font-size: 20px;
+        }
+    }
+    .view-more {
+        @include screen-1440 {
+            font-size: 10px;
+        }
     }
 }
 .trendy-course-nav-wrapper {
     .single-small-course-card {
         cursor: pointer;
+        .counter-title {
+            font-size: 14px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            @include screen-1440 {
+                width: 60px;
+            }
+        }
     }
 }
 .view-more {
@@ -358,6 +403,9 @@ height: 690px;
 .single-small-course-card-extend {
     .small-img {
         width: 90px;
+        @include screen-1600 {
+            width: 60px;
+        }
     }
     .counter-title {
         font-size: 18px;
@@ -485,15 +533,29 @@ z-index: 11;
         font-size: 24px;
         font-weight: 500;
         font-family: $rubik;
+        @include screen-1440 {
+            font-size: 16px;
+        }
     }
     .subtitle {
         font-weight: 400;
         font-size: 16px;
         text-transform: capitalize;
+        @include screen-1440 {
+            font-size: 14px;
+        }
     }
     .total-ratings {
         font-weight: 700;
         font-size: 14px;
+        @include screen-1440 {
+            font-size: 12px;
+        }
+    }
+    .total-ratings-amount {
+        @include screen-1440 {
+            font-size: 12px;
+        }
     }
     .ratings-icon {
         color: $yellow-color;
@@ -503,6 +565,9 @@ z-index: 11;
         font-weight: 500;
         font-size: 14px;
         text-transform: capitalize;
+        @include screen-1440 {
+            font-size: 12px;
+        }
     }
 }
 
