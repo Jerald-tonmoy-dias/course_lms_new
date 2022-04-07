@@ -21,6 +21,7 @@ TABLE OF CONTENTS:
 >> Form
 >> Theme
 >> Homepage 1
+>> Login page
 --------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto:wght@400;500;700;900&family=Rubik:wght@500;700&display=swap");
 /* Author CSS */
@@ -1762,3 +1763,39 @@ a {
       text-transform: capitalize;
       display: block;
       font-weight: 400; }
+
+/* Login page*/
+.login-page-wrapper .login-form {
+  border-radius: 20px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 7.815px 18.41px 38px 0px rgba(15, 49, 120, 0.1);
+  box-shadow: 7.815px 18.41px 38px 0px rgba(15, 49, 120, 0.1);
+  padding: 60px 30px 60px; }
+  .login-page-wrapper .login-form .label-title {
+    font-weight: 500;
+    font-size: 16px;
+    color: #1a264e;
+    text-transform: capitalize;
+    display: block; }
+  .login-page-wrapper .login-form .login-input {
+    background: #eafcff;
+    padding: 20px 30px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 100%; }
+  .login-page-wrapper .login-form .small-text {
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #1a264e;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s; }
+    .login-page-wrapper .login-form .small-text:hover {
+      color: #51be78; }
+  .login-page-wrapper .login-form .reg-btn {
+    border-radius: 10px;
+    padding: 5px 40px;
+    line-height: 1.4; }

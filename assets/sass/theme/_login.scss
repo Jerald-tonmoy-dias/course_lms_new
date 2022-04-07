@@ -1,0 +1,44 @@
+/* Login page*/ 
+.login-page-wrapper {
+
+    .login-form {
+        border-radius: 20px;
+        background-color: $white-color;
+        box-shadow: 7.815px 18.41px 38px 0px rgba(15, 49, 120, 0.1);
+        padding: 60px 30px 60px;
+
+    .label-title {
+        font-weight: 500;
+        font-size: 16px;
+        color: $secondary-color;
+        text-transform: capitalize;
+        display: block;
+    }
+    .login-input {
+        background: #eafcff;
+        padding: 20px 30px;
+        font-size: 14px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        width: 100%;
+    }
+    .small-text {
+        font-size: 14px;
+        text-transform: capitalize;
+        font-weight: 400;
+        color: $secondary-color;
+        transition: .3s;
+        &:hover {
+            color: $primary-color;
+        }
+    }
+    .reg-btn {
+        border-radius: 10px;
+        padding: 5px 40px;
+        line-height: 1.4;
+    }
+
+}
+
+}
