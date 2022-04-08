@@ -31,17 +31,6 @@
     transition: $transition;
   }
 
-  @include screen-576 {
-    padding: 8px 20px;
-  }
-
-  @include screen-992 {
-    padding: 8px 15px;
-  }
-
-  @include screen-1200 {
-    padding: 10px 20px;
-  }
 
   &:hover {
     &::before {

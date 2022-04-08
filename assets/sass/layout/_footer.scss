@@ -8,6 +8,9 @@
 
 .lms-single-brand {
     max-width: 150px;
+    @include screen-1440 {
+        width: 80px;
+    }
 }
 
 .lms-footer-inner-wrapper {
@@ -43,9 +46,27 @@ background: $white-color;
     padding: 7px 7px 7px 25px;
     display: flex;
     justify-content: space-between;
+    @include screen-1440 {
+        width: 320px;
+    }
+    @include screen-576 {
+        width: 220px;
+    }
     .input-box {
         border: none;
         outline: none;
+        @include screen-1440 {
+            font-size: 14px;
+        }
+        @include screen-576 {
+            width: 100px;
+        }
+    }
+    @include screen-1440 {
+       .subs-btn {
+            min-width: 80px!important;
+            font-size: 12px;
+        }
     }
 }
 

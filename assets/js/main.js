@@ -2,11 +2,7 @@
     "use strict"
     jQuery(document).ready(function () {
         /* start point */
-        //mobile menu
-        // $('#main-menu').meanmenu({
-        //     meanMenuContainer: '.mobile-menu',
-        //     meanScreenWidth: "991.99"
-        // });
+
 
         // Scroll To Top 
         $('.scrollup').on('click', function () {
@@ -23,6 +19,12 @@
             }
         });
 
+        // mobile menu
+        document.querySelector(".lms-mobile-menu-trigger").addEventListener("click", togleMenu);
+        function togleMenu() {
+            var element = document.querySelector(".lms_main_nav");
+            element.classList.toggle("mobile-menu-active");
+        }
         // counterUp
         // $('.counter').counterUp({
         //     delay: 10,
@@ -49,28 +51,26 @@
             speed: 500,
             slidesToShow: 5,
             adaptiveHeight: true,
-            // nextArrow: '<button class="slick-next"><i class="fas fa-arrow-right"></i></button>',
-            // prevArrow: '<button class="slick-prev"><i class="fas fa-arrow-left"></i></button>',
-            // responsive: [
-            //     {
-            //         breakpoint: 1440,
-            //         settings: {
-            //             slidesToShow: 3
-            //         }
-            //     },
-            //     {
-            //         breakpoint: 992,
-            //         settings: {
-            //             slidesToShow: 2
-            //         }
-            //     },
-            //     {
-            //         breakpoint: 576,
-            //         settings: {
-            //             slidesToShow: 1
-            //         }
-            //     }
-            // ]
+            responsive: [
+                {
+                    breakpoint: 1440,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
         });
         // feature course slider
         $('.feature-slider-active').slick({
@@ -110,29 +110,27 @@
             arrows: false,
             speed: 500,
             slidesToShow: 4,
-            adaptiveHeight: true,
-            // nextArrow: '<button class="slick-next"><i class="fas fa-arrow-right"></i></button>',
-            // prevArrow: '<button class="slick-prev"><i class="fas fa-arrow-left"></i></button>',
-            // responsive: [
-            //     {
-            //         breakpoint: 1440,
-            //         settings: {
-            //             slidesToShow: 3
-            //         }
-            //     },
-            //     {
-            //         breakpoint: 992,
-            //         settings: {
-            //             slidesToShow: 2
-            //         }
-            //     },
-            //     {
-            //         breakpoint: 576,
-            //         settings: {
-            //             slidesToShow: 1
-            //         }
-            //     }
-            // ]
+            // adaptiveHeight: true,
+            responsive: [
+                {
+                    breakpoint: 1600,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
         });
         // testimonial-slider-active
         $('.testimonial-slider-active').slick({
@@ -144,26 +142,20 @@
             adaptiveHeight: true,
             // nextArrow: '<button class="slick-next"><i class="fas fa-arrow-right"></i></button>',
             // prevArrow: '<button class="slick-prev"><i class="fas fa-arrow-left"></i></button>',
-            // responsive: [
-            //     {
-            //         breakpoint: 1440,
-            //         settings: {
-            //             slidesToShow: 3
-            //         }
-            //     },
-            //     {
-            //         breakpoint: 992,
-            //         settings: {
-            //             slidesToShow: 2
-            //         }
-            //     },
-            //     {
-            //         breakpoint: 576,
-            //         settings: {
-            //             slidesToShow: 1
-            //         }
-            //     }
-            // ]
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
         });
 
 
@@ -185,39 +177,39 @@
         //     focusOnSelect: true
         // });
 
-        // vdo popup activation
-        // $('.popup-link').magnificPopup({
-        //     type: 'iframe',
-        //     // other options
-        //     iframe: {
-        //         markup: '<div class="mfp-iframe-scaler">' +
-        //             '<div class="mfp-close"></div>' +
-        //             '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>' +
-        //             '</div>',
+        // vdo popup activation header section
+        $('.popup-link').magnificPopup({
+            type: 'iframe',
+            // other options
+            iframe: {
+                markup: '<div class="mfp-iframe-scaler">' +
+                    '<div class="mfp-close"></div>' +
+                    '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>' +
+                    '</div>',
 
-        //         patterns: {
-        //             youtube: {
-        //                 index: 'youtube.com/',
+                patterns: {
+                    youtube: {
+                        index: 'youtube.com/',
 
-        //                 id: 'v=',
+                        id: 'v=',
 
-        //                 src: 'https://www.youtube.com/embed/%id%?autoplay=1'
-        //             },
-        //             vimeo: {
-        //                 index: 'vimeo.com/',
-        //                 id: '/',
-        //                 src: '//player.vimeo.com/video/%id%?autoplay=1'
-        //             },
-        //             gmaps: {
-        //                 index: '//maps.google.',
-        //                 src: '%id%&output=embed'
-        //             }
+                        src: 'https://www.youtube.com/embed/%id%?autoplay=1'
+                    },
+                    vimeo: {
+                        index: 'vimeo.com/',
+                        id: '/',
+                        src: '//player.vimeo.com/video/%id%?autoplay=1'
+                    },
+                    gmaps: {
+                        index: '//maps.google.',
+                        src: '%id%&output=embed'
+                    }
 
-        //         },
+                },
 
-        //         srcAction: 'iframe_src',
-        //     }
-        // });
+                srcAction: 'iframe_src',
+            }
+        });
 
         // food-price range-slider
         // $(function () {

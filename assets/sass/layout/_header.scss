@@ -6,7 +6,8 @@
     position: absolute;
     top: 0;
     width: 100%;
-    overflow-y: hidden;
+    // overflow-y: hidden;
+    overflow: visible;
     .logo{
         width: 200px;
         @include screen-1440 {
@@ -45,6 +46,19 @@
         border-radius: 30px;
         text-transform: capitalize;
         line-height: 19px;
+        .current {
+            width: 50px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: block;
+            @include screen-576 {
+                width: 30px;
+            }
+        }
+        @include screen-576 {
+            width: 100px;
+        }
         &:after {
             border-color: $white-color;
             right: 18px;
@@ -56,6 +70,9 @@
 
     .header-search-input {
         padding-left: 20px;
+        @include screen-576 {
+            width: 140px;
+        }
     }
     .header-search-btn {
     width: 35px;
