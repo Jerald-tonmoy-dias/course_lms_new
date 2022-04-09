@@ -4,13 +4,19 @@
         background-color: $white-color;
         box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
         padding: 70px 40px;
+        @include screen-576 {
+            box-shadow:initial;
+            padding: 0;
+        }
       
         // left side
     .left-side {
         background: $primary-color;
         padding: 100px 50px;
         border-radius: 15px;
-
+        @include screen-576 {
+            padding: 30px 10px;
+        }
         .title {
             font-weight: 500;
             font-size: 30px;
@@ -31,6 +37,7 @@
                 background-color: $white-color;
                 box-shadow: 5.619px 13.908px 30px 0px rgba(39, 53, 160, 0.1);
                 display: flex;
+                flex-wrap: wrap;
                 align-items: center;
                 .thumb {
                     width: 100px;
@@ -58,6 +65,9 @@
         background-color: $white-color;
         box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
         padding: 40px 70px;
+        @include screen-576 {
+            padding: 40px 10px;
+        } 
         .title {
             font-weight: 700;
             font-size: 24px;
@@ -86,6 +96,7 @@
     }
     .checkbox-wrapper {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
      
     }

@@ -2033,10 +2033,18 @@ a {
   -webkit-box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
   box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
   padding: 70px 40px; }
+  @media (max-width: 575.98px) {
+    .lms-contact-form-wrapper {
+      -webkit-box-shadow: initial;
+      box-shadow: initial;
+      padding: 0; } }
   .lms-contact-form-wrapper .left-side {
     background: #51be78;
     padding: 100px 50px;
     border-radius: 15px; }
+    @media (max-width: 575.98px) {
+      .lms-contact-form-wrapper .left-side {
+        padding: 30px 10px; } }
     .lms-contact-form-wrapper .left-side .title {
       font-weight: 500;
       font-size: 30px;
@@ -2056,6 +2064,8 @@ a {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center; }
@@ -2077,6 +2087,9 @@ a {
     -webkit-box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
     box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
     padding: 40px 70px; }
+    @media (max-width: 575.98px) {
+      .lms-contact-form-wrapper .right-side-contact-form {
+        padding: 40px 10px; } }
     .lms-contact-form-wrapper .right-side-contact-form .title {
       font-weight: 700;
       font-size: 24px;
@@ -2102,6 +2115,8 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between; }
