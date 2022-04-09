@@ -1,0 +1,92 @@
+/* Contact page */ 
+.lms-contact-form-wrapper {
+        border-radius: 20px;
+        background-color: $white-color;
+        box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+        padding: 70px 40px;
+      
+        // left side
+    .left-side {
+        background: $primary-color;
+        padding: 100px 50px;
+        border-radius: 15px;
+
+        .title {
+            font-weight: 500;
+            font-size: 30px;
+            color: $white-color;
+            display: block;
+            font-family: $rubik;
+        }
+        .para {
+            font-size: 18px;
+            font-weight: 400;
+            color: $white-color;
+        }
+
+        // single-contact-info
+        .single-contact-info {
+                padding: 20px;
+                border-radius: 15px;
+                background-color: $white-color;
+                box-shadow: 5.619px 13.908px 30px 0px rgba(39, 53, 160, 0.1);
+                display: flex;
+                align-items: center;
+                .thumb {
+                    width: 100px;
+                    margin-right: 20px;
+                }
+                .right-side {
+                    .title {
+                        font-family: $rubik;
+                        font-size: 18px;
+                        font-weight: 700;
+                        text-transform: capitalize;
+                        color:$secondary-color;
+                    }
+                    .info {
+                        font-size: 14px;
+                        color:$secondary-color;
+                    }
+                }
+        }
+    }
+
+    // right-side
+    .right-side-contact-form {
+        border-radius: 20px;
+        background-color: $white-color;
+        box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+        padding: 40px 70px;
+        .title {
+            font-weight: 700;
+            font-size: 24px;
+            display: block;
+            font-family: $rubik;
+        }
+        .label {
+            font-weight: 500;
+            font-size: 16px;
+            color: $secondary-color;
+            text-transform: capitalize;
+            display: inline-block;
+        }
+        .inputbox {
+            width: 100%;
+            display: block;
+            background: #eafcff;
+            padding: 10px 20px;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+        }
+        .submit-btn {
+            border-radius: 5px;
+        }
+    }
+    .checkbox-wrapper {
+        display: flex;
+        justify-content: space-between;
+     
+    }
+}

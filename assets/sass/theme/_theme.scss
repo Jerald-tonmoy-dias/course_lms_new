@@ -500,6 +500,12 @@
 
 // template pagination
 .template-pagination {
+    border-radius: 10px;
+    background-color: $white-color;
+    box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+    display: inline-block;
+    padding: 5px 2px;
+  
   ul {
     li {
       display: inline;
@@ -517,13 +523,13 @@
 
         &:hover {
           color: $white-color;
-          background-color: $secondary-color;
+          background-color: $primary-color;
         }
       }
 
       a.active {
         color: $white-color;
-        background-color: $secondary-color;
+        background-color: $primary-color;
       }
 
       &.pagination-arrow {
@@ -851,6 +857,15 @@ a {
   text-decoration: none;
 }
 // grid-270
+.grid-250 {
+  width: 250px;
+  @include screen-1600 {
+     width: 200px;
+  }
+  @include screen-1440 {
+     width: 150px;
+  }
+}
 .grid-270 {
   width: 270px;
   @include screen-1600 {
@@ -879,4 +894,24 @@ a {
   @include screen-992 {
     width: 300px;
   }
+}
+
+.custom-width-lg-100 {
+  width: 100%!important;
+  @include screen-992 {
+    width: initial!important;
+  }
+}
+
+.yellow-color {
+  color: #ffa200;
+}
+.cyan-color {
+  color: #16bcf3;
+}
+.red-color {
+  color: #fe1a4a;
+}
+.purple-color {
+  color: #6d5edf;
 }

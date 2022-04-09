@@ -22,8 +22,11 @@ TABLE OF CONTENTS:
 >> Theme
 >> Homepage 1
 >> Login page
+>> About page
+>> Blog page
+>> Contact page
 --------------------------------------------------------------*/
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto:wght@400;500;700;900&family=Rubik:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto:wght@400;500;700;900&family=Ubuntu:wght@500;700&display=swap");
 /* Author CSS */
 body {
   color: #1a264e;
@@ -174,7 +177,7 @@ a {
 /* Button */
 .btn1 {
   font-weight: 500;
-  z-index: 11;
+  z-index: 1;
   font-size: 16px;
   height: 40px;
   line-height: 37px;
@@ -453,7 +456,7 @@ a {
   font-size: 20px;
   color: #1a264e;
   font-weight: 700;
-  font-family: "Rubik", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   text-transform: capitalize;
   display: block; }
 
@@ -850,34 +853,41 @@ a {
   .scrollup:hover {
     background: #1a264e; }
 
-.template-pagination ul li {
-  display: inline;
-  margin: 0 5px; }
-  .template-pagination ul li a {
-    display: inline-block;
-    color: #1a264e;
-    padding: 10px;
-    font-weight: 700;
-    border-radius: 5px;
-    -webkit-transition: all 0.3s ease-in;
-    -o-transition: all 0.3s ease-in;
-    transition: all 0.3s ease-in;
-    line-height: 16px;
-    font-family: "Roboto", sans-serif; }
-    .template-pagination ul li a:hover {
+.template-pagination {
+  border-radius: 10px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+  box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+  display: inline-block;
+  padding: 5px 2px; }
+  .template-pagination ul li {
+    display: inline;
+    margin: 0 5px; }
+    .template-pagination ul li a {
+      display: inline-block;
+      color: #1a264e;
+      padding: 10px;
+      font-weight: 700;
+      border-radius: 5px;
+      -webkit-transition: all 0.3s ease-in;
+      -o-transition: all 0.3s ease-in;
+      transition: all 0.3s ease-in;
+      line-height: 16px;
+      font-family: "Roboto", sans-serif; }
+      .template-pagination ul li a:hover {
+        color: #ffffff;
+        background-color: #51be78; }
+    .template-pagination ul li a.active {
       color: #ffffff;
-      background-color: #1a264e; }
-  .template-pagination ul li a.active {
-    color: #ffffff;
-    background-color: #1a264e; }
-  .template-pagination ul li.pagination-arrow a {
-    color: #1a264e;
-    background-color: transparent;
-    border: 1px solid transparent;
-    padding: 0;
-    font-size: 18px; }
-    .template-pagination ul li.pagination-arrow a i {
-      font-weight: 700; }
+      background-color: #51be78; }
+    .template-pagination ul li.pagination-arrow a {
+      color: #1a264e;
+      background-color: transparent;
+      border: 1px solid transparent;
+      padding: 0;
+      font-size: 18px; }
+      .template-pagination ul li.pagination-arrow a i {
+        font-weight: 700; }
 
 .item-rotate {
   -webkit-animation: rotted 5s infinite ease-in-out;
@@ -1174,6 +1184,15 @@ a {
 a {
   text-decoration: none; }
 
+.grid-250 {
+  width: 250px; }
+  @media (max-width: 1599.98px) {
+    .grid-250 {
+      width: 200px; } }
+  @media (max-width: 1439.98px) {
+    .grid-250 {
+      width: 150px; } }
+
 .grid-270 {
   width: 270px; }
   @media (max-width: 1599.98px) {
@@ -1200,6 +1219,24 @@ a {
   @media (max-width: 991.98px) {
     .grid-420 {
       width: 300px; } }
+
+.custom-width-lg-100 {
+  width: 100% !important; }
+  @media (max-width: 991.98px) {
+    .custom-width-lg-100 {
+      width: initial !important; } }
+
+.yellow-color {
+  color: #ffa200; }
+
+.cyan-color {
+  color: #16bcf3; }
+
+.red-color {
+  color: #fe1a4a; }
+
+.purple-color {
+  color: #6d5edf; }
 
 /* Homepage 1*/
 .lms_hero-section {
@@ -1236,7 +1273,7 @@ a {
         width: 50px; } }
   .lms_hero-section .left-side .main-title {
     font-weight: 700;
-    font-family: "Rubik", sans-serif; }
+    font-family: "Ubuntu", sans-serif; }
     @media (max-width: 767.98px) {
       .lms_hero-section .left-side .main-title {
         font-size: 20px; } }
@@ -1286,8 +1323,8 @@ a {
     font-size: 16px; }
 
 .common-title {
-  font-family: "Rubik", sans-serif;
-  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
   text-transform: capitalize;
   font-size: 30px;
   color: #1a264e; }
@@ -1367,7 +1404,7 @@ a {
   -webkit-box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
   box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1); }
   .card_instructor .title {
-    font-family: "Rubik", sans-serif; }
+    font-family: "Ubuntu", sans-serif; }
   .card_instructor .subtitle {
     font-size: 14px;
     font-weight: 500; }
@@ -1400,7 +1437,7 @@ a {
     width: 100%;
     z-index: 1; }
   .course_lms_counter .mid-title {
-    font-family: "Rubik", sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-weight: 500;
     font-size: 18px;
     color: #ffffff;
@@ -1420,7 +1457,7 @@ a {
         font-size: 12px; } }
 
 .counter-title {
-  font-family: "Rubik", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700; }
   @media (max-width: 1439.98px) {
     .counter-title {
@@ -1524,7 +1561,7 @@ a {
     .single-course-card .bottom-section .title {
       display: block;
       font-weight: 700;
-      font-family: "Rubik", sans-serif;
+      font-family: "Ubuntu", sans-serif;
       color: #1a264e;
       -webkit-transition: .3s;
       -o-transition: .3s;
@@ -1557,7 +1594,7 @@ a {
     .single-course-card .bottom-section .price {
       font-weight: 700;
       font-size: 18px;
-      font-family: "Rubik", sans-serif; }
+      font-family: "Ubuntu", sans-serif; }
     .single-course-card .bottom-section .small-btn {
       font-family: "Inter", sans-serif;
       font-weight: 500;
@@ -1686,7 +1723,7 @@ a {
 .instructor-single-slider .title {
   font-size: 24px;
   font-weight: 500;
-  font-family: "Rubik", sans-serif; }
+  font-family: "Ubuntu", sans-serif; }
   @media (max-width: 1439.98px) {
     .instructor-single-slider .title {
       font-size: 16px; } }
@@ -1756,7 +1793,7 @@ a {
     .lms-single-testimonial .bottom-section .title {
       font-size: 16px;
       display: block;
-      font-family: "Rubik", sans-serif;
+      font-family: "Ubuntu", sans-serif;
       text-transform: capitalize; }
     .lms-single-testimonial .bottom-section .desig {
       font-size: 16px;
@@ -1765,37 +1802,306 @@ a {
       font-weight: 400; }
 
 /* Login page*/
-.login-page-wrapper .login-form {
+.login-section {
+  padding-bottom: 100px; }
+
+.login-page-wrapper {
+  background-size: 100% 100% !important; }
+  @media (max-width: 991.98px) {
+    .login-page-wrapper {
+      padding: 30px !important; } }
+  .login-page-wrapper .login-form {
+    border-radius: 20px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 7.815px 18.41px 38px 0px rgba(15, 49, 120, 0.1);
+    box-shadow: 7.815px 18.41px 38px 0px rgba(15, 49, 120, 0.1);
+    padding: 82px 50px 96px; }
+    @media (max-width: 991.98px) {
+      .login-page-wrapper .login-form {
+        padding: 30px; } }
+    @media (max-width: 575.98px) {
+      .login-page-wrapper .login-form {
+        padding: 30px 10px; } }
+    .login-page-wrapper .login-form .label-title {
+      font-weight: 500;
+      font-size: 16px;
+      color: #1a264e;
+      text-transform: capitalize;
+      display: block; }
+    .login-page-wrapper .login-form .login-input {
+      background: #eafcff;
+      padding: 20px 30px;
+      font-size: 14px;
+      border: none;
+      outline: none;
+      border-radius: 10px;
+      width: 100%; }
+    .login-page-wrapper .login-form .small-text {
+      font-size: 14px;
+      text-transform: capitalize;
+      font-weight: 400;
+      color: #1a264e;
+      -webkit-transition: .3s;
+      -o-transition: .3s;
+      transition: .3s; }
+      .login-page-wrapper .login-form .small-text:hover {
+        color: #51be78; }
+    .login-page-wrapper .login-form .reg-btn {
+      border-radius: 10px;
+      padding: 5px 40px;
+      line-height: 1.4; }
+
+/* About page */
+.lms-about-wrapper {
+  height: auto !important;
+  background-size: 100% 100% !important; }
+  .lms-about-wrapper .para {
+    font-size: 18px; }
+
+.inner-about-wrapper {
   border-radius: 20px;
   background-color: #ffffff;
-  -webkit-box-shadow: 7.815px 18.41px 38px 0px rgba(15, 49, 120, 0.1);
-  box-shadow: 7.815px 18.41px 38px 0px rgba(15, 49, 120, 0.1);
-  padding: 60px 30px 60px; }
-  .login-page-wrapper .login-form .label-title {
-    font-weight: 500;
-    font-size: 16px;
-    color: #1a264e;
-    text-transform: capitalize;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+  box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+  padding: 70px 100px 130px; }
+  @media (max-width: 1439.98px) {
+    .inner-about-wrapper {
+      padding: 70px 50px 130px !important; } }
+  @media (max-width: 767.98px) {
+    .inner-about-wrapper {
+      padding: 30px !important; } }
+
+.lms-dedicated-section .list-wrapper {
+  line-height: 2; }
+  .lms-dedicated-section .list-wrapper .color-icon {
+    color: #51be78;
+    margin-right: 20px; }
+
+.lms-dedicated-section .dedicated-right {
+  padding: 30px 60px; }
+  @media (max-width: 991.98px) {
+    .lms-dedicated-section .dedicated-right {
+      padding: 30px !important; } }
+
+.single-lms-counterup {
+  border-radius: 15px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+  box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+  text-align: center;
+  padding: 30px; }
+  .single-lms-counterup .counter-title {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 36px; }
+
+/* Blog page */
+@media (max-width: 575.98px) {
+  .blog-hero-wrapper {
+    background-image: none !important;
+    padding: 0 !important; } }
+
+.blog_searchbar_wrapper {
+  width: 300px; }
+  @media (max-width: 575.98px) {
+    .blog_searchbar_wrapper {
+      width: 220px; } }
+  .blog_searchbar_wrapper .header-search-input {
+    width: 90%; }
+  .blog_searchbar_wrapper .header-search-btn {
+    background-color: #51be78; }
+
+.single-blog-sidebar-widget {
+  padding: 30px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+  box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1); }
+  .single-blog-sidebar-widget .title {
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Ubuntu", sans-serif;
     display: block; }
-  .login-page-wrapper .login-form .login-input {
-    background: #eafcff;
-    padding: 20px 30px;
-    font-size: 14px;
-    border: none;
-    outline: none;
-    border-radius: 10px;
-    width: 100%; }
-  .login-page-wrapper .login-form .small-text {
-    font-size: 14px;
-    text-transform: capitalize;
-    font-weight: 400;
+  .single-blog-sidebar-widget .cat-link {
+    list-style-type: circle; }
+    .single-blog-sidebar-widget .cat-link li {
+      list-style-position: inside;
+      display: list-item;
+      width: 100%;
+      position: relative; }
+      .single-blog-sidebar-widget .cat-link li a {
+        color: #1a264e;
+        -webkit-transition: .3s;
+        -o-transition: .3s;
+        transition: .3s;
+        font-size: 16px;
+        text-transform: capitalize;
+        padding-right: 25px; }
+        @media (max-width: 1439.98px) {
+          .single-blog-sidebar-widget .cat-link li a {
+            font-size: 14px; } }
+        .single-blog-sidebar-widget .cat-link li a:hover {
+          color: #51be78; }
+      .single-blog-sidebar-widget .cat-link li::marker {
+        font-size: 24px; }
+      .single-blog-sidebar-widget .cat-link li .item-counter {
+        position: absolute;
+        top: 7px;
+        right: 0;
+        font-size: 16px; }
+        @media (max-width: 1439.98px) {
+          .single-blog-sidebar-widget .cat-link li .item-counter {
+            font-size: 14px; } }
+  .single-blog-sidebar-widget .recent-link li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 20px; }
+    .single-blog-sidebar-widget .recent-link li:last-child {
+      margin-bottom: 0; }
+  .single-blog-sidebar-widget .recent-link a {
     color: #1a264e;
     -webkit-transition: .3s;
     -o-transition: .3s;
-    transition: .3s; }
-    .login-page-wrapper .login-form .small-text:hover {
+    transition: .3s;
+    font-size: 16px;
+    text-transform: capitalize; }
+    @media (max-width: 1439.98px) {
+      .single-blog-sidebar-widget .recent-link a {
+        font-size: 14px; } }
+    .single-blog-sidebar-widget .recent-link a:hover {
       color: #51be78; }
-  .login-page-wrapper .login-form .reg-btn {
-    border-radius: 10px;
-    padding: 5px 40px;
-    line-height: 1.4; }
+  .single-blog-sidebar-widget .recent-link .rb-img {
+    width: 60px;
+    margin-right: 20px; }
+  .single-blog-sidebar-widget .small-text {
+    font-size: 14px; }
+  .single-blog-sidebar-widget .subs-btn {
+    border-radius: 5px; }
+
+.single-blog-excerpt-wrapper {
+  padding: 30px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 5.619px 13.908px 30px 0px rgba(39, 53, 160, 0.1);
+  box-shadow: 5.619px 13.908px 30px 0px rgba(39, 53, 160, 0.1); }
+  .single-blog-excerpt-wrapper .content-right {
+    margin-left: 30px; }
+    .single-blog-excerpt-wrapper .content-right.content-reverse {
+      margin-left: initial;
+      margin-right: 30px; }
+      @media (max-width: 991.98px) {
+        .single-blog-excerpt-wrapper .content-right.content-reverse {
+          margin-right: 0; } }
+    @media (max-width: 991.98px) {
+      .single-blog-excerpt-wrapper .content-right {
+        margin-left: 0; } }
+  .single-blog-excerpt-wrapper .title {
+    font-size: 24px;
+    color: #1a264e;
+    font-weight: 700; }
+    .single-blog-excerpt-wrapper .title:hover {
+      color: #51be78; }
+  .single-blog-excerpt-wrapper .blog-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .single-blog-excerpt-wrapper .blog-info .info {
+      color: #1a264e;
+      -webkit-transition: .3s;
+      -o-transition: .3s;
+      transition: .3s;
+      font-family: "Ubuntu", sans-serif;
+      font-weight: 500;
+      font-size: 16px; }
+      .single-blog-excerpt-wrapper .blog-info .info:hover {
+        color: #51be78; }
+
+/* Contact page */
+.lms-contact-form-wrapper {
+  border-radius: 20px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+  box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+  padding: 70px 40px; }
+  .lms-contact-form-wrapper .left-side {
+    background: #51be78;
+    padding: 100px 50px;
+    border-radius: 15px; }
+    .lms-contact-form-wrapper .left-side .title {
+      font-weight: 500;
+      font-size: 30px;
+      color: #ffffff;
+      display: block;
+      font-family: "Ubuntu", sans-serif; }
+    .lms-contact-form-wrapper .left-side .para {
+      font-size: 18px;
+      font-weight: 400;
+      color: #ffffff; }
+    .lms-contact-form-wrapper .left-side .single-contact-info {
+      padding: 20px;
+      border-radius: 15px;
+      background-color: #ffffff;
+      -webkit-box-shadow: 5.619px 13.908px 30px 0px rgba(39, 53, 160, 0.1);
+      box-shadow: 5.619px 13.908px 30px 0px rgba(39, 53, 160, 0.1);
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .lms-contact-form-wrapper .left-side .single-contact-info .thumb {
+        width: 100px;
+        margin-right: 20px; }
+      .lms-contact-form-wrapper .left-side .single-contact-info .right-side .title {
+        font-family: "Ubuntu", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: capitalize;
+        color: #1a264e; }
+      .lms-contact-form-wrapper .left-side .single-contact-info .right-side .info {
+        font-size: 14px;
+        color: #1a264e; }
+  .lms-contact-form-wrapper .right-side-contact-form {
+    border-radius: 20px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+    box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+    padding: 40px 70px; }
+    .lms-contact-form-wrapper .right-side-contact-form .title {
+      font-weight: 700;
+      font-size: 24px;
+      display: block;
+      font-family: "Ubuntu", sans-serif; }
+    .lms-contact-form-wrapper .right-side-contact-form .label {
+      font-weight: 500;
+      font-size: 16px;
+      color: #1a264e;
+      text-transform: capitalize;
+      display: inline-block; }
+    .lms-contact-form-wrapper .right-side-contact-form .inputbox {
+      width: 100%;
+      display: block;
+      background: #eafcff;
+      padding: 10px 20px;
+      border: none;
+      outline: none;
+      border-radius: 5px; }
+    .lms-contact-form-wrapper .right-side-contact-form .submit-btn {
+      border-radius: 5px; }
+  .lms-contact-form-wrapper .checkbox-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
