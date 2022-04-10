@@ -1,0 +1,11 @@
+/* Course list */ 
+.color-tag-wrapper {
+    display: flex;
+    align-items: center;
+    .tag-btn {
+        padding: 5px 25px;
+        text-transform: capitalize;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+}

@@ -25,6 +25,7 @@ TABLE OF CONTENTS:
 >> About page
 >> Blog page
 >> Contact page
+>> Course list
 --------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto:wght@400;500;700;900&family=Ubuntu:wght@500;700&display=swap");
 /* Author CSS */
@@ -1238,6 +1239,18 @@ a {
 .purple-color {
   color: #6d5edf; }
 
+.combo-purple {
+  color: #6d5edf;
+  background-color: #edebff; }
+
+.combo-green {
+  color: #51be78;
+  background-color: #caf6d9; }
+
+.combo-orange {
+  color: #ff7e00;
+  background-color: #ffe9cb; }
+
 /* Homepage 1*/
 .lms_hero-section {
   padding-top: 170px;
@@ -2120,3 +2133,17 @@ a {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between; }
+
+/* Course list */
+.color-tag-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .color-tag-wrapper .tag-btn {
+    padding: 5px 25px;
+    text-transform: capitalize;
+    font-size: 16px;
+    border-radius: 5px; }
