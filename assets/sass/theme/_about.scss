@@ -1,0 +1,55 @@
+/* About page */ 
+.lms-about-wrapper {
+    height: auto!important;
+    background-size: 100% 100%!important;
+    .para {
+        font-size: 18px;
+    }
+}
+
+// inner about wrapper
+.inner-about-wrapper {
+    border-radius: 20px;
+    background-color: $white-color;
+    box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+    padding: 70px 100px 130px;
+    @include screen-1440 {
+        padding: 70px 50px  130px!important;
+    }
+    @include screen-768 {
+        padding: 30px!important;
+    }
+  }
+//   lms-dedicated-section
+.lms-dedicated-section {
+    .list-wrapper {
+        line-height: 2;
+        .color-icon {
+            color: $primary-color;
+            margin-right: 20px;
+        }
+    }
+
+    // dedicated-right
+    .dedicated-right {
+        padding: 30px 60px;
+        @include screen-992 {
+            padding: 30px!important;
+        }
+    }
+}
+
+// single-lms-counterup
+.single-lms-counterup {
+    border-radius: 15px;
+    background-color: $white-color;
+    box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+    text-align: center;
+    padding: 30px;
+    .counter-title {
+        font-family: $rubik;
+        font-weight: 700;
+       font-size: 36px;
+    }
+}
+

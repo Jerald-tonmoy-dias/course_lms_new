@@ -1,11 +1,23 @@
 /* Login page*/ 
+.login-section {
+    padding-bottom: 100px;
+}
 .login-page-wrapper {
-
+    background-size: 100% 100%!important;
+    @include screen-992 {
+        padding: 30px!important;
+    }
     .login-form {
         border-radius: 20px;
         background-color: $white-color;
         box-shadow: 7.815px 18.41px 38px 0px rgba(15, 49, 120, 0.1);
-        padding: 60px 30px 60px;
+        padding: 82px 50px 96px;
+        @include screen-992 {
+            padding: 30px;
+        }
+        @include screen-576 {
+            padding: 30px 10px;
+        }
 
     .label-title {
         font-weight: 500;
