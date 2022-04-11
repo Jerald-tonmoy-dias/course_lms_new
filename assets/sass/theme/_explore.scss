@@ -1,0 +1,106 @@
+/* Explore page */ 
+.explore-hero-title {
+    padding-right: 220px;
+    @include screen-1200 {
+        padding-right: 0;
+    }
+}
+.explore-sidebar-icon {
+    .thumb {
+        width: 70px;
+    }
+    .cat-link {
+        li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .small-img {
+            width: 20px;
+        }
+        .small-text {
+            font-weight: 400;
+            font-size: 14px;
+            text-transform: capitalize;
+            display: block;
+        }
+        .cat-amount  {
+            font-weight: 700;
+            font-size: 16px;
+        }
+    }
+}
+
+.single-explore-topics {
+    padding: 40px 20px;
+    border-radius: 15px;
+    background-color: $white-color;
+    box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+    .thumb {
+        width: 55px;
+    }
+    .title {
+        display: block;
+        font-family: $rubik;
+        font-weight: 700;
+        font-size: 20px;
+        color: $secondary-color;
+        text-transform: capitalize;
+        transition: .3s;
+        &:hover {
+            color: $primary-color;
+        }
+    }
+    .single-tag {
+        font-weight: 500;
+        font-size: 16px;
+        color: $secondary-color;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        text-transform: capitalize;
+        transition: .3s;
+        &:hover {
+            color: $primary-color;
+        }
+    }
+    .tag-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .tag-icon {
+        margin-right: 10px;
+    }
+  }
+  
+  .single-explore-topics-2 {
+      display: flex;
+      align-items: center;
+      .small-card-wrapper {
+          display: flex;
+      }
+      .small-card-info {
+          text-align: center;
+          color: $white-color;
+          border-radius: 5px;
+          padding: 10px 20px;
+          .number {
+              font-weight: 700;
+              font-size: 18px;
+              display: block;
+          }
+          .views {
+              font-weight: 500;
+              display: block;
+              font-size: 14px;
+          }
+          &.green {
+              background-color: $primary-color;
+          }
+          &.orange {
+              background-color: $orange-color;
+          }
+          &.cyan {
+              background-color: $cyan-color;
+          }
+      }
+  }

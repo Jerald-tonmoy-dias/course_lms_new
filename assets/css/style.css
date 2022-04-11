@@ -26,6 +26,7 @@ TABLE OF CONTENTS:
 >> Blog page
 >> Contact page
 >> Course list
+>> Explore page
 --------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto:wght@400;500;700;900&family=Ubuntu:wght@500;700&display=swap");
 /* Author CSS */
@@ -532,7 +533,7 @@ a {
   padding-top: 55px; }
 
 .pt-60 {
-  padding-top: 60px; }
+  padding-top: 60px !important; }
 
 .pt-65 {
   padding-top: 65px; }
@@ -619,7 +620,7 @@ a {
   padding-bottom: 55px; }
 
 .pb-60 {
-  padding-bottom: 60px; }
+  padding-bottom: 60px !important; }
 
 .pb-65 {
   padding-bottom: 65px; }
@@ -2210,3 +2211,107 @@ a {
 
 .course-list-sidebar-widget .small-text {
   font-size: 12px; }
+
+/* Explore page */
+.explore-hero-title {
+  padding-right: 220px; }
+  @media (max-width: 1199.98px) {
+    .explore-hero-title {
+      padding-right: 0; } }
+
+.explore-sidebar-icon .thumb {
+  width: 70px; }
+
+.explore-sidebar-icon .cat-link li {
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.explore-sidebar-icon .cat-link .small-img {
+  width: 20px; }
+
+.explore-sidebar-icon .cat-link .small-text {
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: capitalize;
+  display: block; }
+
+.explore-sidebar-icon .cat-link .cat-amount {
+  font-weight: 700;
+  font-size: 16px; }
+
+.single-explore-topics {
+  padding: 40px 20px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+  box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1); }
+  .single-explore-topics .thumb {
+    width: 55px; }
+  .single-explore-topics .title {
+    display: block;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #1a264e;
+    text-transform: capitalize;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s; }
+    .single-explore-topics .title:hover {
+      color: #51be78; }
+  .single-explore-topics .single-tag {
+    font-weight: 500;
+    font-size: 16px;
+    color: #1a264e;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s; }
+    .single-explore-topics .single-tag:hover {
+      color: #51be78; }
+  .single-explore-topics .tag-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .single-explore-topics .tag-icon {
+    margin-right: 10px; }
+
+.single-explore-topics-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .single-explore-topics-2 .small-card-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .single-explore-topics-2 .small-card-info {
+    text-align: center;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 20px; }
+    .single-explore-topics-2 .small-card-info .number {
+      font-weight: 700;
+      font-size: 18px;
+      display: block; }
+    .single-explore-topics-2 .small-card-info .views {
+      font-weight: 500;
+      display: block;
+      font-size: 14px; }
+    .single-explore-topics-2 .small-card-info.green {
+      background-color: #51be78; }
+    .single-explore-topics-2 .small-card-info.orange {
+      background-color: #ff6e17; }
+    .single-explore-topics-2 .small-card-info.cyan {
+      background-color: #16bcf3; }
