@@ -43,6 +43,37 @@
         $('select').niceSelect();
 
 
+        // tab-product-slider-active
+        $('.tab-product-slider-active').slick({
+            rows: 2,
+            dots: true,
+            infinite: true,
+            arrows: false,
+            speed: 500,
+            slidesToShow: 3,
+            adaptiveHeight: true,
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+
+
+        // tab-product-slider-active refresh
+        $('button[data-bs-toggle="tab"]').on('shown.bs.tab', function (e) {
+            $('.tab-product-slider-active').slick('setPosition');
+        });
+
         // top-course-slider-active
         $('.top-course-slider-active').slick({
             dots: true,

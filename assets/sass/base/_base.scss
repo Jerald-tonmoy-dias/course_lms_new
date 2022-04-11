@@ -2,22 +2,31 @@
 body {
   color: $secondary-color;
   font-family: $body-font;
+  font-weight: 400;
 }
 
 h1 {
   font-size: 55px;
+  font-family: $rubik;
+  font-weight: 700;
 }
 
 h2 {
   font-size: 36px;
+  font-family: $rubik;
+  font-weight: 700;
 }
 
 h3 {
   font-size: 30px;
+  font-family: $rubik;
+  font-weight: 700;
 }
 
 h4 {
   font-size: 24px;
+  font-family: $rubik;
+  font-weight: 700;
 }
 
 h5 {

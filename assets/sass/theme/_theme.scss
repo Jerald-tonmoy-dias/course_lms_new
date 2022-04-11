@@ -217,7 +217,7 @@
 }
 
 .pb-130 {
-  padding-bottom: 130px;
+  padding-bottom: 130px!important;
 }
 
 .pb-135 {
@@ -927,5 +927,12 @@ a {
 .combo-orange {
   color: #ff7e00;
   background-color: #ffe9cb;
+}
+
+.box-shadow-combo {
+  padding: 50px 40px;
+  border-radius: 15px;
+  background-color: $white-color;
+  box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
 }
 

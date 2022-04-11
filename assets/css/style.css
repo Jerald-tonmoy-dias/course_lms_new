@@ -31,19 +31,28 @@ TABLE OF CONTENTS:
 /* Author CSS */
 body {
   color: #1a264e;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
 
 h1 {
-  font-size: 55px; }
+  font-size: 55px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700; }
 
 h2 {
-  font-size: 36px; }
+  font-size: 36px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700; }
 
 h3 {
-  font-size: 30px; }
+  font-size: 30px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700; }
 
 h4 {
-  font-size: 24px; }
+  font-size: 24px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700; }
 
 h5 {
   font-size: 18px; }
@@ -222,6 +231,19 @@ a {
   .btn-white:hover {
     border: 1px solid #ffffff;
     color: #ffffff; }
+
+.small-btn-border-radious-5 {
+  border-radius: 5px;
+  height: 30px;
+  line-height: 27px;
+  border: 1px solid #51be78;
+  background: #ffffff !important;
+  color: #1a264e; }
+  .small-btn-border-radious-5:before {
+    content: initial; }
+  .small-btn-border-radious-5.active, .small-btn-border-radious-5:hover {
+    background: #51be78 !important;
+    color: #ffffff !important; }
 
 /* Form */
 /* Navbar */
@@ -639,7 +661,7 @@ a {
   padding-bottom: 125px; }
 
 .pb-130 {
-  padding-bottom: 130px; }
+  padding-bottom: 130px !important; }
 
 .pb-135 {
   padding-bottom: 135px; }
@@ -1251,6 +1273,13 @@ a {
   color: #ff7e00;
   background-color: #ffe9cb; }
 
+.box-shadow-combo {
+  padding: 50px 40px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+  box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1); }
+
 /* Homepage 1*/
 .lms_hero-section {
   padding-top: 170px;
@@ -1586,18 +1615,6 @@ a {
       text-transform: capitalize;
       font-size: 14px;
       font-weight: 400; }
-    .single-course-card .bottom-section .ratings-icon {
-      color: #ffa200;
-      font-size: 12px; }
-    .single-course-card .bottom-section .ratings-badge {
-      display: inline-block;
-      font-weight: 500;
-      font-size: 12px;
-      width: 50px;
-      color: #1a264e;
-      background-color: #ffa200;
-      border-radius: 4px;
-      text-align: center; }
     .single-course-card .bottom-section .lesson {
       font-weight: 500;
       font-size: 14px;
@@ -1629,6 +1646,20 @@ a {
     -webkit-transform: translate(0);
     -ms-transform: translate(0);
     transform: translate(0); }
+
+.ratings-icon {
+  color: #ffa200;
+  font-size: 12px; }
+
+.ratings-badge {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 12px;
+  width: 50px;
+  color: #1a264e;
+  background-color: #ffa200;
+  border-radius: 4px;
+  text-align: center; }
 
 .single-small-course-card-extend .small-img {
   width: 90px; }
@@ -1814,6 +1845,14 @@ a {
       display: block;
       font-weight: 400; }
 
+.single-course-card .heart-icon-left {
+  right: initial;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 10px; }
+
 /* Login page*/
 .login-section {
   padding-bottom: 100px; }
@@ -1934,7 +1973,8 @@ a {
     font-weight: 700;
     font-size: 20px;
     font-family: "Ubuntu", sans-serif;
-    display: block; }
+    display: block;
+    text-transform: capitalize; }
   .single-blog-sidebar-widget .cat-link {
     list-style-type: circle; }
     .single-blog-sidebar-widget .cat-link li {
@@ -2147,3 +2187,26 @@ a {
     text-transform: capitalize;
     font-size: 16px;
     border-radius: 5px; }
+
+.tab-product-slider-item {
+  margin: 10px 0; }
+
+.top-filter-menu {
+  border-radius: 5px;
+  background-color: #f9faff;
+  height: 50px;
+  border-radius: 5px; }
+
+.course-list-sidebar-widget .ratings-wrapper-box {
+  position: absolute;
+  top: 1px;
+  left: 20px; }
+
+.course-list-sidebar-widget .ratings-icon {
+  font-size: 10px; }
+
+.course-list-sidebar-widget .ratings-badge {
+  font-size: 10px; }
+
+.course-list-sidebar-widget .small-text {
+  font-size: 12px; }

@@ -55,3 +55,21 @@
   }
 }
 
+.small-btn-border-radious-5 {
+  border-radius: 5px;
+  height: 30px;
+  line-height: 27px;
+  border: 1px solid $primary-color;
+  background: $white-color!important;
+  color: $secondary-color;
+  &:before {
+  content: initial;
+  }
+  &.active,&:hover {
+    background: $primary-color!important;
+    color: $white-color!important;
+
+  }
+}
+
+

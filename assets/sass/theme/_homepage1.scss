@@ -383,20 +383,6 @@ height: 690px;
             font-size:14px;
             font-weight: 400;
         }
-      .ratings-icon {
-        color: $yellow-color;
-        font-size: 12px;
-      }
-      .ratings-badge {
-          display: inline-block;
-          font-weight: 500;
-          font-size: 12px;
-          width: 50px;
-          color: $secondary-color;
-          background-color: $yellow-color;
-          border-radius: 4px;
-          text-align: center;
-      }
     .lesson {
         font-weight: 500;
         font-size: 14px;
@@ -434,7 +420,20 @@ height: 690px;
         }
     }
 }
-
+.ratings-icon {
+    color: $yellow-color;
+    font-size: 12px;
+  }
+  .ratings-badge {
+      display: inline-block;
+      font-weight: 500;
+      font-size: 12px;
+      width: 50px;
+      color: $secondary-color;
+      background-color: $yellow-color;
+      border-radius: 4px;
+      text-align: center;
+  }
 // single small course card extend
 .single-small-course-card-extend {
     .small-img {
@@ -656,3 +655,11 @@ z-index: 11;
     }
   }
   
+  .single-course-card .heart-icon-left {
+    right: initial;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 10px;
+}
