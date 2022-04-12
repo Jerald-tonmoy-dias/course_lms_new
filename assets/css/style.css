@@ -2086,16 +2086,23 @@ a {
   .single-blog-excerpt-wrapper .title {
     font-size: 24px;
     color: #1a264e;
-    font-weight: 700; }
-    .single-blog-excerpt-wrapper .title:hover {
-      color: #51be78; }
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    display: block;
+    text-transform: capitalize; }
+    .single-blog-excerpt-wrapper .title.small-title {
+      font-size: 20px; }
+  .single-blog-excerpt-wrapper a.title:hover {
+    color: #51be78; }
   .single-blog-excerpt-wrapper .blog-info {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between; }
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
     .single-blog-excerpt-wrapper .blog-info .info {
       color: #1a264e;
       -webkit-transition: .3s;
@@ -2103,9 +2110,45 @@ a {
       transition: .3s;
       font-family: "Ubuntu", sans-serif;
       font-weight: 500;
-      font-size: 16px; }
-      .single-blog-excerpt-wrapper .blog-info .info:hover {
-        color: #51be78; }
+      font-size: 16px;
+      text-transform: capitalize; }
+    .single-blog-excerpt-wrapper .blog-info a.info:hover {
+      color: #51be78; }
+  .single-blog-excerpt-wrapper .single-page-list-items li {
+    line-height: 2; }
+    .single-blog-excerpt-wrapper .single-page-list-items li i {
+      margin-right: 10px; }
+
+.single-blog-related-post {
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+  box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .single-blog-related-post .thumb {
+    width: 100px; }
+  .single-blog-related-post .title {
+    font-family: "Ubuntu", sans-serif;
+    color: #1a264e;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    font-size: 16px;
+    font-weight: 700; }
+    .single-blog-related-post .title:hover {
+      color: #51be78; }
+  .single-blog-related-post .date {
+    color: #1a264e;
+    font-size: 14px;
+    font-weight: 400; }
+  .single-blog-related-post a.date:hover {
+    color: #51be78; }
 
 /* Contact page */
 .lms-contact-form-wrapper {
@@ -2489,9 +2532,6 @@ a {
   align-items: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
-  @media (max-width: 767.98px) {
-    .lms-shopping-cart-right .coupon-wrapper {
-      margin-top: 30px; } }
   .lms-shopping-cart-right .coupon-wrapper .inputBox {
     border: none;
     height: 40px;

@@ -94,9 +94,7 @@
         border-radius: 10px;
         align-items: center;
         flex-wrap: wrap;
-        @include screen-768 {
-            margin-top: 30px;
-        }
+
       
      .inputBox {
         border: none;
