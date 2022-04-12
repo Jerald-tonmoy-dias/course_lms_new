@@ -907,10 +907,13 @@ a {
   color: #ffa200;
 }
 .cyan-color {
-  color: #16bcf3;
+  color: $cyan-color;
 }
 .red-color {
   color: #fe1a4a;
+}
+.green-color {
+  color: #51be78;
 }
 .purple-color {
   color: #6d5edf;

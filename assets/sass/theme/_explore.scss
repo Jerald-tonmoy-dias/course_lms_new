@@ -55,7 +55,7 @@
         font-weight: 500;
         font-size: 16px;
         color: $secondary-color;
-        margin-right: 10px;
+        margin-right: 50px;
         margin-bottom: 10px;
         text-transform: capitalize;
         transition: .3s;
@@ -75,6 +75,10 @@
   .single-explore-topics-2 {
       display: flex;
       align-items: center;
+      justify-content: space-between;
+      @include screen-768 {
+          flex-wrap: wrap;
+      }
       .small-card-wrapper {
           display: flex;
       }
@@ -83,15 +87,26 @@
           color: $white-color;
           border-radius: 5px;
           padding: 10px 20px;
+
+          @include screen-768 {
+            padding: 10px;
+            margin-top: 10px;
+          }
           .number {
               font-weight: 700;
               font-size: 18px;
               display: block;
+                @include screen-768 {
+                 font-size: 14px;
+          }
           }
           .views {
               font-weight: 500;
               display: block;
               font-size: 14px;
+                @include screen-768 {
+                    font-size: 12px;
+          }
           }
           &.green {
               background-color: $primary-color;

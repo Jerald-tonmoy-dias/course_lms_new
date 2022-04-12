@@ -18,6 +18,18 @@
   text-align: center;
   font-family: $inter;
 
+  &.border-radious-5 {
+    border-radius: 5px;
+
+  }
+  &.dotted {
+    border: 1px dashed $primary-color;
+    color: $primary-color;
+    &::before {
+      top: -100%;
+    }
+  }
+
   &::before {
     content: "";
     width: 100%;
@@ -31,7 +43,38 @@
     transition: $transition;
   }
 
+  // purple 
+  &.purple {
+    &::before {
+      background: $blue-color;
+    }
 
+    &:hover {
+      &::before {
+        top: -100%;
+      }
+  
+      border: 1px solid $blue-color;
+      color: $blue-color;
+    }
+  }
+  // cyan 
+  &.cyan {
+    &::before {
+      background: $cyan-color;
+    }
+
+    &:hover {
+      &::before {
+        top: -100%;
+      }
+  
+      border: 1px solid $cyan-color;
+      color: $cyan-color;
+    }
+  }
+
+  // default
   &:hover {
     &::before {
       top: -100%;

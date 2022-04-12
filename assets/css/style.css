@@ -27,6 +27,8 @@ TABLE OF CONTENTS:
 >> Contact page
 >> Course list
 >> Explore page
+>> Package page
+>> Shopping cart
 --------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto:wght@400;500;700;900&family=Ubuntu:wght@500;700&display=swap");
 /* Author CSS */
@@ -205,6 +207,13 @@ a {
   border: 1px solid transparent;
   text-align: center;
   font-family: "Inter", sans-serif; }
+  .btn1.border-radious-5 {
+    border-radius: 5px; }
+  .btn1.dotted {
+    border: 1px dashed #51be78;
+    color: #51be78; }
+    .btn1.dotted::before {
+      top: -100%; }
   .btn1::before {
     content: "";
     width: 100%;
@@ -218,6 +227,20 @@ a {
     -webkit-transition: all 0.3s ease-in;
     -o-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in; }
+  .btn1.purple::before {
+    background: #5d58ec; }
+  .btn1.purple:hover {
+    border: 1px solid #5d58ec;
+    color: #5d58ec; }
+    .btn1.purple:hover::before {
+      top: -100%; }
+  .btn1.cyan::before {
+    background: #16bcf3; }
+  .btn1.cyan:hover {
+    border: 1px solid #16bcf3;
+    color: #16bcf3; }
+    .btn1.cyan:hover::before {
+      top: -100%; }
   .btn1:hover {
     border: 1px solid #51be78;
     color: #51be78; }
@@ -1259,6 +1282,9 @@ a {
 .red-color {
   color: #fe1a4a; }
 
+.green-color {
+  color: #51be78; }
+
 .purple-color {
   color: #6d5edf; }
 
@@ -1859,6 +1885,7 @@ a {
   padding-bottom: 100px; }
 
 .login-page-wrapper {
+  height: auto !important;
   background-size: 100% 100% !important; }
   @media (max-width: 991.98px) {
     .login-page-wrapper {
@@ -2268,7 +2295,7 @@ a {
     font-weight: 500;
     font-size: 16px;
     color: #1a264e;
-    margin-right: 10px;
+    margin-right: 50px;
     margin-bottom: 10px;
     text-transform: capitalize;
     -webkit-transition: .3s;
@@ -2291,7 +2318,14 @@ a {
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  @media (max-width: 767.98px) {
+    .single-explore-topics-2 {
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; } }
   .single-explore-topics-2 .small-card-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2301,17 +2335,205 @@ a {
     color: #ffffff;
     border-radius: 5px;
     padding: 10px 20px; }
+    @media (max-width: 767.98px) {
+      .single-explore-topics-2 .small-card-info {
+        padding: 10px;
+        margin-top: 10px; } }
     .single-explore-topics-2 .small-card-info .number {
       font-weight: 700;
       font-size: 18px;
       display: block; }
+      @media (max-width: 767.98px) {
+        .single-explore-topics-2 .small-card-info .number {
+          font-size: 14px; } }
     .single-explore-topics-2 .small-card-info .views {
       font-weight: 500;
       display: block;
       font-size: 14px; }
+      @media (max-width: 767.98px) {
+        .single-explore-topics-2 .small-card-info .views {
+          font-size: 12px; } }
     .single-explore-topics-2 .small-card-info.green {
       background-color: #51be78; }
     .single-explore-topics-2 .small-card-info.orange {
       background-color: #ff6e17; }
     .single-explore-topics-2 .small-card-info.cyan {
       background-color: #16bcf3; }
+
+/* Package page */
+.package-wrapper {
+  padding: 70px 180px 130px; }
+  @media (max-width: 1599.98px) {
+    .package-wrapper {
+      padding: 70px 100px 130px; } }
+
+.lms-single-package {
+  padding: 50px 30px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 7.815px 18.41px 38px 0px rgba(15, 49, 120, 0.1);
+  box-shadow: 7.815px 18.41px 38px 0px rgba(15, 49, 120, 0.1);
+  text-align: center; }
+  .lms-single-package .thumb {
+    width: 150px; }
+  .lms-single-package .package-amount {
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 40px;
+    display: inline-block;
+    position: relative; }
+    .lms-single-package .package-amount .currency {
+      position: absolute;
+      top: 11px;
+      left: -10px;
+      font-size: 18px;
+      font-weight: 700;
+      font-family: "Ubuntu", sans-serif; }
+  .lms-single-package .duration {
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    display: inline-block; }
+
+/* Shopping cart */
+.shopping-cart-inner-wrapper {
+  border-radius: 20px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+  box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+  padding: 100px 40px; }
+
+.lms-shopping-cart-left {
+  padding: 30px;
+  border-radius: 15px;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+  box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1); }
+  .lms-shopping-cart-left .accordion-button {
+    font-size: 18px;
+    color: #1a264e;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #1a264e;
+    background-color: #dbffe6;
+    border-radius: 5px;
+    padding: 10px 30px; }
+    .lms-shopping-cart-left .accordion-button::after {
+      width: 1rem;
+      height: 1rem;
+      background-size: 1rem;
+      color: #1a264e; }
+    .lms-shopping-cart-left .accordion-button:focus {
+      border: none;
+      outline: none;
+      -webkit-box-shadow: initial;
+      box-shadow: initial; }
+  .lms-shopping-cart-left .accordion-item {
+    border: none; }
+  .lms-shopping-cart-left .shopping-cart-wrapper {
+    font-weight: 500;
+    font-size: 20px;
+    color: #1a264e;
+    font-family: "Ubuntu", sans-serif;
+    text-transform: capitalize; }
+    .lms-shopping-cart-left .shopping-cart-wrapper .shopping-cart-price {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+  .lms-shopping-cart-left .payment-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly; }
+    .lms-shopping-cart-left .payment-wrapper .thumb {
+      width: initial;
+      margin-right: 10px;
+      cursor: pointer;
+      padding: 10px;
+      -webkit-transition: .3s;
+      -o-transition: .3s;
+      transition: .3s; }
+    .lms-shopping-cart-left .payment-wrapper .inputBox {
+      display: none;
+      opacity: 0;
+      visibility: hidden; }
+    .lms-shopping-cart-left .payment-wrapper .inputBox:checked + label {
+      border: 1px dashed #51be78; }
+
+.lms-shopping-cart-right .table {
+  border: 1px solid #eaeaea; }
+
+.lms-shopping-cart-right .section-title {
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+  color: #1a264e;
+  font-size: 20px;
+  text-transform: capitalize;
+  display: block; }
+
+.lms-shopping-cart-right .coupon-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  @media (max-width: 767.98px) {
+    .lms-shopping-cart-right .coupon-wrapper {
+      margin-top: 30px; } }
+  .lms-shopping-cart-right .coupon-wrapper .inputBox {
+    border: none;
+    height: 40px;
+    padding: 0px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #f7f7f7; }
+
+.lms-shopping-cart-right .shopping-cart-single-course-card {
+  -webkit-box-shadow: initial;
+  box-shadow: initial; }
+
+.lms-shopping-cart-right .product-img {
+  width: 200px; }
+
+.lms-shopping-cart-right .shopping-header-title {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: capitalize; }
+
+.lms-shopping-cart-right .shopping-table-price {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: capitalize; }
+
+.lms-shopping-cart-right .shopping-action-btn {
+  border: none;
+  outline: none;
+  -webkit-box-shadow: initial;
+  box-shadow: initial;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  color: #1a264e;
+  background: transparent; }
+  .lms-shopping-cart-right .shopping-action-btn:hover {
+    color: #51be78; }
+
+.lms-shopping-cart-right .shopping-cart-table-header {
+  background-color: #f7f7f7; }
+
+.lms-shopping-cart-right .table-td-space {
+  padding: 30px 20px; }

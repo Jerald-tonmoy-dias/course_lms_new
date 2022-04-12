@@ -1,0 +1,42 @@
+/* Package page */ 
+.package-wrapper {
+    padding: 70px 180px 130px;
+    @include screen-1600 {
+        padding: 70px 100px 130px;
+    }
+}
+.lms-single-package {
+    padding: 50px 30px;
+    border-radius: 20px;
+    background-color: $white-color;
+    box-shadow: 7.815px 18.41px 38px 0px rgba(15, 49, 120, 0.1);
+    text-align: center;
+    .thumb {
+        width: 150px;
+
+    }
+    .package-amount {
+        font-weight: 700;
+        font-family: $rubik;
+        font-size: 40px;
+        display: inline-block;
+        position: relative; 
+        .currency {
+            position: absolute;
+            top: 11px;
+            left: -10px;
+            font-size: 18px;
+            font-weight: 700;
+            font-family: $rubik;
+        }
+    }
+    .duration {
+        font-weight: 400;
+        font-size: 16px;
+        text-transform: capitalize;
+        display: inline-block;
+    }
+
+}
+
+  
