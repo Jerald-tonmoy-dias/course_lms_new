@@ -30,6 +30,7 @@ TABLE OF CONTENTS:
 >> Package page
 >> Shopping cart
 >> Single Instructor
+>> Single course
 --------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto:wght@400;500;700;900&family=Ubuntu:wght@500;700&display=swap");
 /* Author CSS */
@@ -1310,12 +1311,18 @@ a {
 .bg-orange {
   background-color: #ff7e00; }
 
+.color-gray {
+  color: #eeeeee; }
+
 .box-shadow-combo {
   padding: 50px 40px;
   border-radius: 15px;
   background-color: #ffffff;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
   box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1); }
+
+.separator {
+  color: #eeeeee; }
 
 /* Homepage 1*/
 .lms_hero-section {
@@ -1579,6 +1586,8 @@ a {
   @media (max-width: 1439.98px) {
     .single-small-course-card .view-more {
       font-size: 10px; } }
+  .single-small-course-card .total-ratings {
+    font-weight: 700; }
 
 .trendy-course-nav-wrapper .single-small-course-card {
   cursor: pointer; }
@@ -2667,3 +2676,82 @@ a {
     font-weight: 700; }
   .single-badge-card a.counter-title:hover {
     color: #51be78; }
+
+/* Single course */
+.single-course-container-wrapper {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 40px; }
+  @media (max-width: 575.98px) {
+    .single-course-container-wrapper {
+      padding: 10px; } }
+
+.single-course-hero-card {
+  padding: 90px 30px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+  box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1); }
+  .single-course-hero-card .title {
+    font-size: 30px; }
+  .single-course-hero-card .para {
+    font-size: 14px; }
+  .single-course-hero-card .teacher-name {
+    text-transform: capitalize;
+    font-size: 18px; }
+    .single-course-hero-card .teacher-name .link {
+      color: #51be78; }
+
+.single-small-course-card .instructor-course-info {
+  font-size: 14px;
+  text-transform: capitalize; }
+
+.course-list-accordion .accordion-button.collapsed {
+  background-color: #f8f8f8 !important;
+  color: #1a264e; }
+
+.course-list-accordion .accordion-button {
+  background-color: #51be78;
+  color: #ffffff;
+  position: relative; }
+
+.course-list-accordion .course-details {
+  font-weight: 500;
+  font-size: 14px;
+  position: absolute;
+  right: 70px;
+  text-transform: lowercase; }
+  @media (max-width: 575.98px) {
+    .course-list-accordion .course-details {
+      display: none; } }
+
+.course-list-accordion .load-more {
+  background-color: #f8f8f8 !important;
+  color: #1a264e;
+  text-align: center; }
+
+.course-class-list-vdo-wrapper li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 2; }
+  .course-class-list-vdo-wrapper li .preview {
+    color: #1a264e;
+    margin-right: 50px; }
+    .course-class-list-vdo-wrapper li .preview:hover {
+      color: #51be78; }
+  .course-class-list-vdo-wrapper li .locked {
+    background-color: #c9fff4;
+    display: inline-block;
+    height: 17px;
+    text-align: center;
+    line-height: 17px;
+    width: 70px;
+    font-size: 12px;
+    border-radius: 10px; }

@@ -941,6 +941,9 @@ a {
 .bg-orange {
   background-color: #ff7e00;
 }
+.color-gray {
+  color: $hr-color;
+}
 
 .box-shadow-combo {
   padding: 50px 40px;
@@ -949,3 +952,6 @@ a {
   box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
 }
 
+.separator {
+  color: $hr-color;
+}
