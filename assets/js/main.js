@@ -54,7 +54,7 @@
             adaptiveHeight: true,
             responsive: [
                 {
-                    breakpoint: 992,
+                    breakpoint: 1200,
                     settings: {
                         slidesToShow: 2
                     }

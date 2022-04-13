@@ -1,0 +1,4 @@
+1. check tab slider responsive
+2. section animation
+3.check hover effect
+4. check responsive

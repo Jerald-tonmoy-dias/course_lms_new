@@ -29,6 +29,7 @@ TABLE OF CONTENTS:
 >> Explore page
 >> Package page
 >> Shopping cart
+>> Single Instructor
 --------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto:wght@400;500;700;900&family=Ubuntu:wght@500;700&display=swap");
 /* Author CSS */
@@ -1299,6 +1300,15 @@ a {
 .combo-orange {
   color: #ff7e00;
   background-color: #ffe9cb; }
+
+.bg-purple {
+  background-color: #6d5edf; }
+
+.bg-green {
+  background-color: #51be78; }
+
+.bg-orange {
+  background-color: #ff7e00; }
 
 .box-shadow-combo {
   padding: 50px 40px;
@@ -2577,3 +2587,83 @@ a {
 
 .lms-shopping-cart-right .table-td-space {
   padding: 30px 20px; }
+
+/* Single Instructor */
+@media (max-width: 767.98px) {
+  .single-instructor-wrapper {
+    padding: 30px !important; } }
+
+.single-instructor-wrapper .desig-title {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize; }
+
+.single-instructor-wrapper .total-ratings {
+  font-weight: 700; }
+
+.single-instructor-wrapper .separator {
+  margin: 0 20px; }
+
+.single-experience {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .single-experience .small-img {
+    width: 70px; }
+  .single-experience .total-title {
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: 500; }
+  .single-experience .count-number {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 24px; }
+
+.social-icon-wrapper-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .social-icon-wrapper-two .icon-class {
+    color: #1a264e;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-right: 30px; }
+    @media (max-width: 1439.98px) {
+      .social-icon-wrapper-two .icon-class {
+        margin-right: 10px; } }
+    .social-icon-wrapper-two .icon-class:hover {
+      color: #51be78; }
+
+.single-skill-progress-bar .progress {
+  height: 3px;
+  overflow: visible !important; }
+
+.single-skill-progress-bar .progress-bar {
+  position: relative;
+  overflow: visible !important; }
+  .single-skill-progress-bar .progress-bar .progress-percentage {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    color: #1a264e; }
+
+.course-vdo-section-2::after {
+  content: initial; }
+
+.single-badge-card {
+  padding: 20px; }
+  .single-badge-card .small-img {
+    width: 90px; }
+  .single-badge-card .subtitle {
+    font-size: 14px; }
+  .single-badge-card .counter-title {
+    color: #1a264e;
+    font-size: 24px;
+    font-family: "Ubuntu", sans-serif;
+    display: block;
+    font-weight: 700; }
+  .single-badge-card a.counter-title:hover {
+    color: #51be78; }

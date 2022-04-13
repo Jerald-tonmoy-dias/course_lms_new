@@ -1,0 +1,98 @@
+/* Single Instructor */ 
+.single-instructor-wrapper {
+    @include screen-768 {
+        padding: 30px!important;
+    }
+    .desig-title {
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: capitalize;
+    }
+    .total-ratings {
+        font-weight: 700;
+    }
+    .separator {
+        margin: 0 20px;
+    }
+}
+
+// single-experience
+.single-experience {
+    display: flex;
+    align-items: center;
+    .small-img {
+        width: 70px;
+    }
+    .total-title {
+        font-size: 12px;
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+    .count-number {
+        font-family: $rubik;
+        font-weight: 700;
+        font-size: 24px;
+    }
+}
+.social-icon-wrapper-two {
+    display: flex;
+    .icon-class {
+       color: $secondary-color;
+       text-transform: capitalize;
+       font-size: 16px;
+       margin-right: 30px;
+       @include screen-1440 {
+           margin-right: 10px;
+       }
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}
+//single-skill-progress-bar
+.single-skill-progress-bar {
+    .progress {
+        height: 3px;
+        overflow: visible!important;
+    }
+    .progress-bar {
+        position: relative;
+        overflow: visible!important;
+        .progress-percentage {
+            position: absolute;
+            top: -20px;
+            right: 0;
+            color: $secondary-color;
+        }
+    }
+}
+
+// course-vdo-section-2
+.course-vdo-section-2 {
+    // padding: 0;
+    &::after {
+        content: initial;
+    }
+
+}
+.single-badge-card {
+    padding: 20px;
+    .small-img {
+        width: 90px;
+    }
+    .subtitle {
+        font-size: 14px;
+    }
+    .counter-title {
+        color: $secondary-color;
+        font-size: 24px;
+        font-family: $rubik;
+        display: block;
+        font-weight: 700;
+    }
+    a.counter-title {
+       &:hover {
+           color: $primary-color;
+       }
+    }
+}
