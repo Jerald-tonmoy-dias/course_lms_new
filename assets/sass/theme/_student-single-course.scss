@@ -1,6 +1,6 @@
 /* Student single course*/ 
 .student-single-course-progress {
-    height: 5px;
+    height: 7px;
     overflow: visible;
     border-radius: 2px;
     .progress-bar {
@@ -17,6 +17,9 @@
 
 .lms-student-single-ratings-wrapper {
     display: flex;
+    @include screen-1440 {
+        flex-wrap: wrap;
+    }
     .big-ratings {
         padding: 30px;
         font-size: 40px;
@@ -33,15 +36,47 @@
 .students-review-list-wrapper li {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 
     .student-single-course-progress {
        width: 300px;
        background: #ffebc9;
+       @include screen-768 {
+           width: 200px;
+           margin-top: 20px;
+           margin-bottom: 20px;
+       }
     }
 }
-
+// text-area-input
+.text-area-input {
+    border: 1px solid $border-color;
+    padding: 30px;
+    width: 90%;
+    border-radius: 15px;
+}
 // comments-radio-input-wrapper
 .comments-radio-input-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    .separator {
+        display: block;
+        width: 1px;
+        height: 40px;
+        margin: 0 50px;
+        background: $border-color;
+        @include screen-992 {
+            margin: 0 30px;
+        }
+        @include screen-576 {
+            margin: 20px 10px;
+            background: $white-color;
+        }
+    }
+    .small-title {
+        font-size: 14px;
+    }
     .radio-input {
         opacity: 0;
         visibility: hidden;

@@ -272,9 +272,15 @@ height: 690px;
     padding: 10px;
     display: flex;
     align-items: center;
+    @include screen-576 {
+        flex-wrap: wrap;
+    }
     .small-img {
         width: 140px;
         border-radius: 15px;
+        @include screen-576 {
+            margin-bottom: 20px;
+        }
         @include screen-1600 {
             width: 100px;
         }

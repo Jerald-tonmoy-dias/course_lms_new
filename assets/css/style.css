@@ -1565,9 +1565,16 @@ a {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
+  @media (max-width: 575.98px) {
+    .single-small-course-card {
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; } }
   .single-small-course-card .small-img {
     width: 140px;
     border-radius: 15px; }
+    @media (max-width: 575.98px) {
+      .single-small-course-card .small-img {
+        margin-bottom: 20px; } }
     @media (max-width: 1599.98px) {
       .single-small-course-card .small-img {
         width: 100px; } }
@@ -2842,7 +2849,7 @@ a {
 
 /* Student single course*/
 .student-single-course-progress {
-  height: 5px;
+  height: 7px;
   overflow: visible;
   border-radius: 2px; }
   .student-single-course-progress .progress-bar {
@@ -2858,6 +2865,10 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+  @media (max-width: 1439.98px) {
+    .lms-student-single-ratings-wrapper {
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; } }
   .lms-student-single-ratings-wrapper .big-ratings {
     padding: 30px;
     font-size: 40px;
@@ -2875,15 +2886,51 @@ a {
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
   .students-review-list-wrapper li .student-single-course-progress {
     width: 300px;
     background: #ffebc9; }
+    @media (max-width: 767.98px) {
+      .students-review-list-wrapper li .student-single-course-progress {
+        width: 200px;
+        margin-top: 20px;
+        margin-bottom: 20px; } }
 
-.comments-radio-input-wrapper .radio-input {
-  opacity: 0;
-  visibility: hidden;
-  display: none; }
+.text-area-input {
+  border: 1px solid #eaeaea;
+  padding: 30px;
+  width: 90%;
+  border-radius: 15px; }
 
-.comments-radio-input-wrapper .label {
-  cursor: pointer; }
+.comments-radio-input-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .comments-radio-input-wrapper .separator {
+    display: block;
+    width: 1px;
+    height: 40px;
+    margin: 0 50px;
+    background: #eaeaea; }
+    @media (max-width: 991.98px) {
+      .comments-radio-input-wrapper .separator {
+        margin: 0 30px; } }
+    @media (max-width: 575.98px) {
+      .comments-radio-input-wrapper .separator {
+        margin: 20px 10px;
+        background: #ffffff; } }
+  .comments-radio-input-wrapper .small-title {
+    font-size: 14px; }
+  .comments-radio-input-wrapper .radio-input {
+    opacity: 0;
+    visibility: hidden;
+    display: none; }
+  .comments-radio-input-wrapper .label {
+    cursor: pointer; }
