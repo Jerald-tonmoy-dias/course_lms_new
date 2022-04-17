@@ -1,0 +1,41 @@
+/* Student single course*/ 
+.student-single-course-progress {
+    height: 5px;
+    overflow: visible;
+    border-radius: 2px;
+    .progress-bar {
+        position: relative;
+        overflow: visible;
+        .progress-percentage {
+            position: absolute;
+            top: -20px;
+            right: 0;
+            color: $secondary-color;
+        }
+    }
+}
+
+.lms-student-single-ratings-wrapper {
+    display: flex;
+    .big-ratings {
+        padding: 30px;
+        font-size: 40px;
+        font-family: $rubik;
+        font-weight: 700;
+        border-radius: 20px;
+        background-color: $white-color;
+        box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+        text-align: center;
+    }
+}
+
+// lms-student-single-ratings-wrappe
+.students-review-list-wrapper li {
+    display: flex;
+    align-items: center;
+    .student-single-course-progress {
+       width: 300px;
+       background: #ffebc9;
+    }
+}
+  

@@ -31,6 +31,7 @@ TABLE OF CONTENTS:
 >> Shopping cart
 >> Single Instructor
 >> Single course
+>> Student single course
 --------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto:wght@400;500;700;900&family=Ubuntu:wght@500;700&display=swap");
 /* Author CSS */
@@ -1277,6 +1278,9 @@ a {
 
 .yellow-color {
   color: #ffa200; }
+
+.bg-yellow {
+  background: #ffa200; }
 
 .cyan-color {
   color: #16bcf3; }
@@ -2835,3 +2839,43 @@ a {
       transition: .3s; }
       .lms-course-sidebar-feature .social-wrapper .social-icon:hover {
         color: #51be78; }
+
+/* Student single course*/
+.student-single-course-progress {
+  height: 5px;
+  overflow: visible;
+  border-radius: 2px; }
+  .student-single-course-progress .progress-bar {
+    position: relative;
+    overflow: visible; }
+    .student-single-course-progress .progress-bar .progress-percentage {
+      position: absolute;
+      top: -20px;
+      right: 0;
+      color: #1a264e; }
+
+.lms-student-single-ratings-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .lms-student-single-ratings-wrapper .big-ratings {
+    padding: 30px;
+    font-size: 40px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    border-radius: 20px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+    box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+    text-align: center; }
+
+.students-review-list-wrapper li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .students-review-list-wrapper li .student-single-course-progress {
+    width: 300px;
+    background: #ffebc9; }
