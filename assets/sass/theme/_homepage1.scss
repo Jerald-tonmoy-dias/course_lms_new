@@ -634,6 +634,12 @@ z-index: 11;
         font-size: 40px;
         color: $lite-sky;
     }
+
+    .rating-wrapper {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
     .bottom-section {
         display: flex;
         align-items: center;
