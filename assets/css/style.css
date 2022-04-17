@@ -2879,3 +2879,11 @@ a {
   .students-review-list-wrapper li .student-single-course-progress {
     width: 300px;
     background: #ffebc9; }
+
+.comments-radio-input-wrapper .radio-input {
+  opacity: 0;
+  visibility: hidden;
+  display: none; }
+
+.comments-radio-input-wrapper .label {
+  cursor: pointer; }

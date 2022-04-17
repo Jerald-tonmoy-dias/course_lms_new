@@ -33,9 +33,22 @@
 .students-review-list-wrapper li {
     display: flex;
     align-items: center;
+
     .student-single-course-progress {
        width: 300px;
        background: #ffebc9;
+    }
+}
+
+// comments-radio-input-wrapper
+.comments-radio-input-wrapper {
+    .radio-input {
+        opacity: 0;
+        visibility: hidden;
+        display: none;
+    }
+    .label {
+        cursor: pointer;
     }
 }
   
