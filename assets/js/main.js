@@ -22,9 +22,26 @@
         // mobile menu
         document.querySelector(".lms-mobile-menu-trigger").addEventListener("click", togleMenu);
         function togleMenu() {
-            var element = document.querySelector(".lms_main_nav");
+            var element = document.querySelector(".lms-mobile-sidebar");
             element.classList.toggle("mobile-menu-active");
         }
+
+        // close mobile menu
+        document.querySelector(".close-trigger").addEventListener("click", closeMenu);
+        function closeMenu() {
+            var element = document.querySelector(".lms-mobile-sidebar");
+            element.classList.remove("mobile-menu-active");
+            console.log(element);
+        }
+
+        //"cart-box
+        document.getElementById("cart-box").addEventListener("click", toggleCart);
+        function toggleCart() {
+            var element = document.querySelector(".header-lms-cart-dropdown");
+            element.classList.toggle("show");
+            console.log(element);
+        }
+
         // counterUp
         $('.counter').counterUp({
             delay: 10,

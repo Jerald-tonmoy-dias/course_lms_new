@@ -912,6 +912,9 @@ a {
 .cyan-color {
   color: $cyan-color;
 }
+.bg-cyan {
+  background-color: $cyan-color;
+}
 .red-color {
   color: #fe1a4a;
 }
@@ -946,6 +949,18 @@ a {
 }
 .color-gray {
   color: $hr-color;
+}
+.bg-lite-black {
+  background: $secondary-color;
+}
+.bg-red {
+  background: #e13926;
+}
+.bg-red {
+  background: #e13926;
+}
+.bg-dark-cyan {
+  background: #07a0d3;
 }
 
 .box-shadow-combo {

@@ -1,0 +1,31 @@
+/* Mobile sidebar */  
+.lms-mobile-sidebar {
+    width: 0px;
+    background: $primary-color;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 80px 30px;
+    z-index: 999999;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    transform: translateX(-100%);
+transition: .3s;
+    &.mobile-menu-active {
+        width: 300px;
+        transform: translateX(0);
+    }
+    .close-trigger {
+        font-size: 40px;
+        position: relative;
+        top: -8%;
+        color: $white-color;
+        transition: .3s;
+        cursor: pointer;
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+
+}
