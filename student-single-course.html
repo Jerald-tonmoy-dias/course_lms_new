@@ -38,54 +38,139 @@
 
     <!-- header -->
     <header class="lms_header">
-        <div class="container position-relative">
-            <div class="row align-items-center">
-                <!-- logo -->
-                <div class="col-lg-2 d-flex align-items-center">
-                    <span class="lms-mobile-menu-trigger"><i class="fas fa-bars"></i></span>
-                    <img class="logo" src="./assets/images/logo.png" alt="">
-                </div>
-                <!-- menu -->
-                <div class="col-lg-5">
-                    <ul class="lms_main_nav">
-                        <li><a href="#">Home</a></li>
-                        <li>
-                            <a href="#">tranding</a>
-                        </li>
-                        <li>
-                            <a href="#">Course</a>
-                            <span class="lms_badge">New</span>
-                        </li>
-                        <li><a href="#">instructors</a></li>
+        <div class="container header-wrapper-style-2 position-relative">
 
-                    </ul>
-                </div>
+            <!-- logo -->
+            <div class="d-flex align-items-center">
+                <span class="lms-mobile-menu-trigger"><i class="fas fa-bars"></i></span>
+                <img class="logo" src="./assets/images/logo.png" alt="">
+            </div>
 
+            <!-- menu -->
+            <ul class="lms_main_nav">
+                <li><a href="#">Home</a></li>
+                <li>
+                    <a href="#">tranding</a>
+                </li>
+                <li>
+                    <a href="#">Course</a>
+                    <span class="lms_badge">New</span>
+                </li>
+                <li><a href="#">instructors</a></li>
+            </ul>
+
+
+            <div class="searchbar-style-wrapper mt-4 mt-md-0">
                 <!-- searchbar login button -->
-                <div class="col-12 col-lg-5 d-flex flex-wrap align-items-center justify-content-between mt-4 mt-lg-0">
-                    <div class="lms_searchbar_wrapper">
-                        <!-- category selector -->
-                        <select class="header_cat_selector">
-                            <option>all category</option>
-                            <option>history</option>
-                            <option>math</option>
-                            <option>biology</option>
-                            <option>science</option>
-                            <option>accounting</option>
-                            <option>Socialogy</option>
-                        </select>
-                        <!-- search input -->
-                        <input class="header-search-input" placeholder="Search for anything..." type="text" />
-                        <!-- seach button -->
-                        <button class="header-search-btn"><i class="fas fa-search"></i></button>
+                <div class="lms_searchbar_wrapper">
+                    <!-- category selector -->
+                    <select class="header_cat_selector">
+                        <option>all category</option>
+                        <option>history</option>
+                        <option>math</option>
+                        <option>biology</option>
+                        <option>science</option>
+                        <option>accounting</option>
+                        <option>Socialogy</option>
+                    </select>
+                    <!-- search input -->
+                    <input class="header-search-input" placeholder="Search for anything..." type="text" />
+                    <!-- seach button -->
+                    <button class="header-search-btn"><i class="fas fa-search"></i></button>
+                </div>
+
+                <!-- signin/login button -->
+                <button class="btn1 header-signin d-none d-xxl-blocka  mt-md-0">sign in</button>
+
+                <!-- cart -->
+                <div class="header-style-cart-wrapper d-none d-xxl-blocka">
+                    <span id="cart-box" class="header-cart-icon bg-green text-white" href="#">
+                        <span class="small-badge bg-lite-black">1</span>
+                        <i class="fas fa-shopping-cart"></i>
+                    </span>
+                    <a class="header-cart-icon bg-orange text-white" href="#">
+                        <span class="small-badge bg-red">1</span>
+                        <i class="fas fa-bell"></i>
+                    </a>
+                    <a class="header-cart-icon bg-cyan text-white" href="#">
+                        <span class="small-badge bg-dark-cyan">1</span>
+                        <i class="fas fa-heart"></i>
+                    </a>
+                    <a class="header-cart-icon" href="#">
+                        <span class="small-badge bg-green profile-active"></span>
+                        <img class="mt-10" src="./assets/images/user-two.png" alt="">
+                    </a>
+
+                    <!-- cart dropdown -->
+                    <div class="header-lms-cart-dropdown">
+                        <ul>
+                            <li>
+                                <!-- left side -->
+                                <img class="thumb" src="./assets/images/sc1.png" alt="">
+                                <!-- right side -->
+                                <div class="right-side">
+                                    <a class="title" href="#">
+                                        Graphic Design & illusta...
+                                    </a>
+                                    <span class="price">$50</span>
+                                </div>
+                            </li>
+                            <li>
+                                <!-- left side -->
+                                <img class="thumb" src="./assets/images/sc2.png" alt="">
+                                <!-- right side -->
+                                <div class="right-side">
+                                    <a class="title" href="#">
+                                        3d animation Cours....
+                                    </a>
+                                    <span class="price">$70</span>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <!-- button -->
+                        <a class="btn1 border-radious-5 mt-3 mx-4" href="#">go to cart</a>
                     </div>
 
-                    <!-- signin/login button -->
-                    <button class="btn1 header-signin mt-4 mt-md-0">sign in</button>
                 </div>
             </div>
+
+
         </div>
     </header>
+
+    <!-- mobile sidebar -->
+    <div class="lms-mobile-sidebar">
+        <span class="close-trigger"><i class="far fa-window-close"></i></span>
+        <ul class="lms-mobile-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">Course</a></li>
+            <li><a href="#">Instructors</a></li>
+        </ul>
+        <!-- cart -->
+        <div class="header-style-cart-wrapper mb-4">
+            <a href="#" class="header-cart-icon bg-white green-color" href="#">
+                <span class="small-badge bg-white">1</span>
+                <i class="fas fa-shopping-cart"></i>
+            </a>
+            <a class="header-cart-icon bg-orange text-white" href="#">
+                <span class="small-badge bg-red">1</span>
+                <i class="fas fa-bell"></i>
+            </a>
+            <a class="header-cart-icon bg-cyan text-white" href="#">
+                <span class="small-badge bg-dark-cyan">1</span>
+                <i class="fas fa-heart"></i>
+            </a>
+            <a class="header-cart-icon" href="#">
+                <span class="small-badge bg-green profile-active"></span>
+                <img src="./assets/images/user-two.png" alt="">
+            </a>
+        </div>
+
+        <!-- sign button -->
+        <button class="btn1  mt-4 mt-md-0">sign in</button>
+    </div>
 
     <!--breadcrumb section -->
     <div class="lms_hero-section login-section" style="background: url('./assets/images/home-bg1.png');">
