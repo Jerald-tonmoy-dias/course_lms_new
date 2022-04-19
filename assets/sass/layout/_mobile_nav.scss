@@ -43,11 +43,11 @@
     width: 100%;
     z-index: 20;
 
+// seacrh wrapper
     .search-wrapper {
         position: relative;
        width: 70%;
        margin: 20px auto;
-
 
         .search-icon {
             position: absolute;
@@ -65,6 +65,47 @@
             border-radius: 15px;
             width: 100%;
             border: 1px solid $border-color;
+        }
+    }
+    // top-search-link-wrapper
+    .top-search-link-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            border: 1px solid $border-color;
+            display: inline-block;
+            border-radius: 15px;
+            transition: .3s;
+            margin: 5px;
+            a {
+                transition: .3s;
+                color: $secondary-color;
+                padding: 10px 20px;
+                text-transform: lowercase;
+            }
+            &:hover {
+                background: $secondary-color;
+                a {
+                    color: $white-color;
+                }
+            }
+        }
+    }
+
+    // all-categories
+    .all-categories {
+        .all-link-wrapper {
+            li {
+                line-height: 2;
+                a {
+                    text-transform: capitalize;
+                    display: block;
+                    color: $secondary-color;
+                    .icon {
+                        margin-right: 10px;
+                    }
+                }
+            }
         }
     }
 }
