@@ -1,7 +1,7 @@
 /* Homepage 1*/
 .lms_hero-section {
-    padding-top: 140px;
-    padding-bottom: 60px;
+    padding-top: 160px;
+    padding-bottom: 100px;
     @include screen-992 {
         padding-top: 180px;
     }
@@ -180,8 +180,6 @@ height: 690px;
 
 // lms_instructor_section
 .lms_instructor_section {
-    padding-top: 130px;
-    padding-bottom: 130px;
     background-size: cover!important;
     background-repeat: no-repeat!important;
 }
@@ -336,11 +334,6 @@ height: 690px;
     &:hover {
         color: $primary-color;
     }
-}
-// top-course-section
-.top-course-section {
-    padding-top: 130px;
-    padding-bottom: 130px;
 }
 // single course card
 .single-course-card {
@@ -619,15 +612,11 @@ z-index: 11;
 // instructor-section
 .instructor-section{
     background-size: cover;
-    padding-top: 280px;
-    padding-bottom: 130px;
+    padding-top: 288px;
+    padding-bottom: 170px;
 }
 
 // lms-testimonial-section 
-.lms-testimonial-section {
-    padding-top: 130px;
-    padding-bottom: 130px;
-}
 .lms-single-testimonial {
     padding: 20px;
     border-radius: 15px;

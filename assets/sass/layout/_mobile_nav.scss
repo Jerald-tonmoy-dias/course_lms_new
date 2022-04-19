@@ -1,0 +1,70 @@
+/* Mobile nav*/ 
+.mobile-app-menu-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding: 10px 0px!important;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 22;
+    border: 1px solid $border-color;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: $white-color;
+    box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+    a {
+        color: $secondary-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        transition: .3s;
+        .link-text {
+            margin: 0 10px;
+            text-transform: capitalize;
+        }
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}
+
+//  mobile searchbar
+.mobile-app-seachbar-style {
+    height: 100% ;
+    background: rgba($white-color, 1);
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 20;
+
+    .search-wrapper {
+        position: relative;
+       width: 70%;
+       margin: 20px auto;
+
+
+        .search-icon {
+            position: absolute;
+            left: 5px;
+            top: 9px;
+            border: none;
+            background: none;
+            color: $border-color;
+            &:hover {
+                color: $primary-color;
+            }
+        }
+        .searchbox {
+            padding: 8px 30px 8px 40px;
+            border-radius: 15px;
+            width: 100%;
+            border: 1px solid $border-color;
+        }
+    }
+}

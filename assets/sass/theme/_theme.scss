@@ -235,6 +235,9 @@
 .pb-150 {
   padding-bottom: 150px;
 }
+.pb-170 {
+  padding-bottom: 170px;
+}
 
 // margin
 .ml-60 {
@@ -477,12 +480,12 @@
   background: $primary-color;
   color: $white-color;
   display: block;
-  width: 45px;
-  height: 55px;
-  line-height: 55px;
-  border-top-left-radius: 10px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+ border-radius: 50%;
   text-align: center;
-  font-size: 18px;
+  font-size: 14px;
   outline: none;
   border: none;
   transition: 0.5s;
@@ -493,6 +496,9 @@
   z-index: 22;
   cursor: pointer;
 
+  @include screen-992{
+    bottom: 70px;
+  }
   &:hover {
     background: $secondary-color;
   }
@@ -826,7 +832,7 @@
   // slick dot
   .slick-dots {
     position: absolute;
-    bottom: -15%;
+    bottom: -14%;
     left: 50%;
     transform: translateX(-50%);
     display: flex !important;
