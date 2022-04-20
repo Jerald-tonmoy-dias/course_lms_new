@@ -3,11 +3,11 @@
     padding-top: 160px;
     padding-bottom: 100px;
     @include screen-992 {
-        padding-top: 180px;
+        padding-top: 120px;
     }
-    @include screen-576 {
-        padding-top: 190px;
-    }
+    // @include screen-576 {
+    //     padding-top: 120px;
+    // }
  
 // hero-wrapper
 .hero-wrapper {
@@ -54,7 +54,7 @@ height: 690px;
         }
         .play-btn {
             font-size: 50px;
-            @include screen-768 {
+            @include screen-992 {
                 font-size: 30px;
             }
         }
@@ -63,7 +63,7 @@ height: 690px;
             font-size: 16px;
             color: $secondary-color;
             margin-left: 10px;
-            @include screen-768 {
+            @include screen-992 {
                 font-size: 14px;
             }
         }

@@ -48,14 +48,6 @@
             time: 1000
         });
 
-        // Countdown 
-        // $('.countdown').downCount({
-        //     date: '06/28/2025 12:00:00',
-        //     offset: +6
-        // }, function () {
-        //     alert('Countdown done!');
-        // });
-
         // nice-select
         $('select').niceSelect();
 
@@ -128,28 +120,7 @@
             speed: 500,
             slidesToShow: 1,
             adaptiveHeight: true,
-            // nextArrow: '<button class="slick-next"><i class="fas fa-arrow-right"></i></button>',
-            // prevArrow: '<button class="slick-prev"><i class="fas fa-arrow-left"></i></button>',
-            // responsive: [
-            //     {
-            //         breakpoint: 1440,
-            //         settings: {
-            //             slidesToShow: 3
-            //         }
-            //     },
-            //     {
-            //         breakpoint: 992,
-            //         settings: {
-            //             slidesToShow: 2
-            //         }
-            //     },
-            //     {
-            //         breakpoint: 576,
-            //         settings: {
-            //             slidesToShow: 1
-            //         }
-            //     }
-            // ]
+
         });
         // lms-instructor-slider-active
         $('.lms-instructor-slider-active').slick({
@@ -221,25 +192,6 @@
             ]
         });
 
-
-        // dbl product slider
-        // $('.product-for').slick({
-        //     slidesToShow: 1,
-        //     slidesToScroll: 1,
-        //     arrows: false,
-        //     fade: true,
-        //     asNavFor: '.product-nav'
-        // });
-        // $('.product-nav').slick({
-        //     slidesToShow: 4,
-        //     slidesToScroll: 1,
-        //     asNavFor: '.product-for',
-        //     dots: false,
-        //     centerPadding: '10px',
-        //     arrows: false,
-        //     focusOnSelect: true
-        // });
-
         // vdo popup activation header section
         $('.popup-link').magnificPopup({
             type: 'iframe',
@@ -274,37 +226,6 @@
             }
         });
 
-        // food-price range-slider
-        // $(function () {
-        //     $("#slider-range").slider({
-        //         range: true,
-        //         min: 0,
-        //         max: 500,
-        //         values: [75, 300],
-        //         slide: function (event, ui) {
-        //             $("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
-        //         }
-        //     });
-        //     $("#amount").val("$" + $("#slider-range").slider("values", 0) +
-        //         " - $" + $("#slider-range").slider("values", 1));
-        // });
-
-
-        //Language Switcher 
-        // $(".lang-switcher").on("click", function(e){
-        //     e.preventDefault();
-        //     $(".lang-list").toggleClass("lang-list-open");
-        // });
-
-        // $(".lang-list li").each(function(){
-        //     $(this).on("click", function(){
-        //         var logoSrc = $(this).children(".flag").children("img").attr("src");
-        //         var flagText = $(this).children("a").text() + '<span> <i class="fas fa-angle-down"></i></span>'; 
-        //         $(".lang-switcher > .flag img").attr("src", logoSrc);
-        //         $(".lang-switcher > a").html(flagText);
-        //     });
-        // });
-
 
         // init Isotope
         var $grid = $('.trendy-item-wrapper').isotope({
@@ -321,6 +242,33 @@
         $('.trendy-course-nav-wrapper').on('click', '.single-small-course-card-extend', function () {
             var filterValue = $(this).attr('data-filter');
             $grid.isotope({ filter: filterValue });
+        });
+
+
+        // mobile app menu 
+        let mobileSrch = document.getElementById("mobile-search-id");
+        let overlay = document.getElementById("mobile-overlay-active");
+        let searchContent = document.getElementById("search-content-area-id");
+        let mobileSearchid = document.getElementById("mobile-search-button-id");
+        let mobilecloseid = document.getElementById("mobile-close-button-id");
+
+        // show mobile searchbar
+        mobileSrch.addEventListener("click", activeSearchbar);
+
+        function activeSearchbar() {
+            overlay.classList.toggle("overlay");
+            mobileSrch.classList.toggle("active");
+            searchContent.classList.toggle("active");
+            mobileSearchid.classList.toggle("d-none");
+            mobilecloseid.classList.toggle("d-none");
+        }
+
+
+        // show searchbar
+        let mobilesearchbarshowhide = document.getElementById('showsearchbar');
+
+        mobilesearchbarshowhide.addEventListener('click', () => {
+            overlay.classList.toggle("show");
         });
         /* end point */
     });

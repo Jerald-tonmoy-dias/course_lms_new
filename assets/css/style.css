@@ -46,6 +46,9 @@ h1 {
   font-size: 55px;
   font-family: "Ubuntu", sans-serif;
   font-weight: 700; }
+  @media (max-width: 991.98px) {
+    h1 {
+      font-size: 30px; } }
 
 h2 {
   font-size: 36px;
@@ -76,7 +79,8 @@ h5,
 h6 {
   font-weight: 700;
   text-transform: capitalize;
-  line-height: 1.2; }
+  line-height: 1.2;
+  font-family: "Ubuntu", sans-serif; }
 
 p {
   font-size: 16px;
@@ -319,6 +323,9 @@ a {
   @media (max-width: 1199.98px) {
     .lms-mobile-menu-trigger {
       display: block; } }
+  @media (max-width: 991.98px) {
+    .lms-mobile-menu-trigger {
+      display: none; } }
 
 .lms-mobile-menu {
   text-align: center; }
@@ -371,6 +378,9 @@ a {
     @media (max-width: 1599.98px) {
       .lms_header .logo {
         width: 150px; } }
+    @media (max-width: 575.98px) {
+      .lms_header .logo {
+        width: 130px; } }
 
 .lms_searchbar_wrapper {
   background: #ffffff;
@@ -413,7 +423,6 @@ a {
         height: 30px;
         line-height: 14px; } }
     .lms_searchbar_wrapper .header_cat_selector .current {
-      width: 50px;
       white-space: nowrap;
       overflow: hidden;
       -o-text-overflow: ellipsis;
@@ -699,7 +708,7 @@ a {
     .lms-mobile-sidebar .close-trigger:hover {
       color: #1a264e; }
 
-/* Mobile nav*/
+/* Mobile bottom navigation*/
 .mobile-app-menu-bottom {
   position: fixed;
   bottom: 0;
@@ -708,21 +717,18 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 10px 0px !important;
   -webkit-box-pack: space-evenly;
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  z-index: 22;
+  z-index: 9999;
   border: 1px solid #eaeaea;
-  padding: 10px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
   background-color: #ffffff;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
-  box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1); }
+  box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+  overflow-x: scroll; }
   .mobile-app-menu-bottom a {
     color: #1a264e;
     display: -webkit-box;
@@ -738,40 +744,107 @@ a {
     flex-wrap: wrap;
     -webkit-transition: .3s;
     -o-transition: .3s;
-    transition: .3s; }
+    transition: .3s;
+    font-family: "Ubuntu", sans-serif;
+    padding: 12px 0px;
+    font-size: 14px; }
     .mobile-app-menu-bottom a .link-text {
       margin: 0 10px;
       text-transform: capitalize; }
     .mobile-app-menu-bottom a:hover {
       color: #51be78; }
 
+.mobile-app-menu-bottom::-webkit-scrollbar-thumb {
+  height: 1px !important; }
+
+.mobile-app-menu-bottom::-webkit-scrollbar {
+  width: 5px !important;
+  height: 2px;
+  background-color: #1a264e; }
+
 .mobile-app-seachbar-style {
-  height: 100%;
+  height: 100vh;
   background: white;
-  display: block;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 20; }
+  z-index: 999;
+  overflow-y: scroll;
+  padding-bottom: 70px;
+  display: none; }
+  .mobile-app-seachbar-style.show {
+    display: block; }
+  .mobile-app-seachbar-style.overlay::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(26, 38, 78, 0.8); }
   .mobile-app-seachbar-style .search-wrapper {
     position: relative;
     width: 70%;
-    margin: 20px auto; }
+    margin: 20px auto;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s; }
+    .mobile-app-seachbar-style .search-wrapper.active {
+      z-index: 111;
+      width: 100%; }
+      .mobile-app-seachbar-style .search-wrapper.active .searchbox {
+        border-radius: 0; }
     .mobile-app-seachbar-style .search-wrapper .search-icon {
       position: absolute;
       left: 5px;
       top: 9px;
       border: none;
       background: none;
-      color: #eaeaea; }
+      color: #eaeaea;
+      z-index: 11; }
       .mobile-app-seachbar-style .search-wrapper .search-icon:hover {
         color: #51be78; }
     .mobile-app-seachbar-style .search-wrapper .searchbox {
       padding: 8px 30px 8px 40px;
       border-radius: 15px;
       width: 100%;
-      border: 1px solid #eaeaea; }
+      font-family: "Ubuntu", sans-serif;
+      border: 1px solid #eaeaea;
+      -webkit-transition: .3s;
+      -o-transition: .3s;
+      transition: .3s; }
+  .mobile-app-seachbar-style .search-content-area {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+    box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+    max-height: 100vh;
+    overflow-y: scroll;
+    padding: 20px 20px 40px 20px;
+    z-index: 111;
+    position: relative;
+    top: -20px;
+    background: #ffffff;
+    overflow-y: scroll;
+    display: none; }
+    .mobile-app-seachbar-style .search-content-area.active {
+      display: block; }
+    .mobile-app-seachbar-style .search-content-area .all-link-wrapper li {
+      line-height: 2.5; }
+      .mobile-app-seachbar-style .search-content-area .all-link-wrapper li .icon {
+        display: inline-block;
+        margin-right: 10px; }
+      .mobile-app-seachbar-style .search-content-area .all-link-wrapper li a {
+        color: #1a264e;
+        -webkit-transition: .3s;
+        -o-transition: .3s;
+        transition: .3s;
+        font-family: "Ubuntu", sans-serif; }
+        .mobile-app-seachbar-style .search-content-area .all-link-wrapper li a:hover {
+          color: #51be78; }
+  .mobile-app-seachbar-style .search-content-area::-webkit-scrollbar {
+    display: none; }
   .mobile-app-seachbar-style .top-search-link-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -787,6 +860,8 @@ a {
       transition: .3s;
       margin: 5px; }
       .mobile-app-seachbar-style .top-search-link-wrapper li a {
+        font-family: "Ubuntu", sans-serif;
+        font-size: 14px;
         -webkit-transition: .3s;
         -o-transition: .3s;
         transition: .3s;
@@ -798,13 +873,39 @@ a {
         .mobile-app-seachbar-style .top-search-link-wrapper li:hover a {
           color: #ffffff; }
   .mobile-app-seachbar-style .all-categories .all-link-wrapper li {
-    line-height: 2; }
+    width: 100%;
+    display: block;
+    position: relative;
+    line-height: 2.5;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    padding: 0 10px; }
+    .mobile-app-seachbar-style .all-categories .all-link-wrapper li .nav-icon {
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      right: 12px;
+      font-size: 12px; }
     .mobile-app-seachbar-style .all-categories .all-link-wrapper li a {
       text-transform: capitalize;
       display: block;
+      font-size: 14px;
       color: #1a264e; }
       .mobile-app-seachbar-style .all-categories .all-link-wrapper li a .icon {
         margin-right: 10px; }
+    .mobile-app-seachbar-style .all-categories .all-link-wrapper li:hover {
+      -webkit-box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1);
+      box-shadow: 0px 0px 10px 0px rgba(39, 53, 160, 0.1); }
+
+.mobile-app-seachbar-style::-webkit-scrollbar {
+  width: 2px !important;
+  height: 2px;
+  background-color: #1a264e; }
 
 /* Theme Default */
 .p-30 {
@@ -1637,10 +1738,7 @@ a {
   padding-bottom: 100px; }
   @media (max-width: 991.98px) {
     .lms_hero-section {
-      padding-top: 180px; } }
-  @media (max-width: 575.98px) {
-    .lms_hero-section {
-      padding-top: 190px; } }
+      padding-top: 120px; } }
   .lms_hero-section .hero-wrapper {
     position: relative;
     background-size: cover;
@@ -1678,7 +1776,7 @@ a {
         font-size: 14px; } }
   .lms_hero-section .left-side .play-btn {
     font-size: 50px; }
-    @media (max-width: 767.98px) {
+    @media (max-width: 991.98px) {
       .lms_hero-section .left-side .play-btn {
         font-size: 30px; } }
   .lms_hero-section .left-side .play-btn-text {
@@ -1686,7 +1784,7 @@ a {
     font-size: 16px;
     color: #1a264e;
     margin-left: 10px; }
-    @media (max-width: 767.98px) {
+    @media (max-width: 991.98px) {
       .lms_hero-section .left-side .play-btn-text {
         font-size: 14px; } }
   .lms_hero-section .right-side {

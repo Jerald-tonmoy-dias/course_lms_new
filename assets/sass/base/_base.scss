@@ -9,6 +9,9 @@ h1 {
   font-size: 55px;
   font-family: $rubik;
   font-weight: 700;
+  @include screen-992 {
+    font-size: 30px;
+  }
 }
 
 h2 {
@@ -46,6 +49,7 @@ h6 {
   font-weight: 700;
   text-transform: capitalize;
   line-height: 1.2;
+  font-family: $rubik;
 }
 
 p {

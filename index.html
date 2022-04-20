@@ -37,7 +37,7 @@
     </div>
 
     <!-- header -->
-    <header class="lms_header d-none">
+    <header class="lms_header">
         <div class="container header-wrapper-style-2 position-relative">
 
             <!-- logo -->
@@ -59,8 +59,8 @@
                 <li><a href="#">instructors</a></li>
             </ul>
 
-
-            <div class="searchbar-style-wrapper mt-4 mt-md-0">
+            <!-- web search bar -->
+            <div class="searchbar-style-wrapper d-none d-lg-block mt-4 mt-md-0">
                 <!-- searchbar login button -->
                 <div class="lms_searchbar_wrapper">
                     <!-- category selector -->
@@ -135,7 +135,8 @@
                 </div>
             </div>
 
-
+            <!--sign in/sign out button -->
+            <a href="#" class="btn1 d-lg-none">sign in</a>
         </div>
     </header>
 
@@ -182,7 +183,7 @@
             </a>
         </li>
         <li>
-            <a href="#">
+            <a href="#" id="showsearchbar">
                 <!-- icon -->
                 <i class="fas fa-search"></i>
                 <span class="link-text">search</span>
@@ -195,8 +196,8 @@
             </a></li>
         <li><a href="#">
                 <!-- icon -->
-                <i class="fas fa-grip-lines"></i>
-                <span class="link-text">menu</span>
+                <i class="fas fa-heart"></i>
+                <span class="link-text">wislist</span>
             </a></li>
 
         <li>
@@ -209,12 +210,23 @@
     </ul>
 
     <!-- mobile searchbar -->
-    <div class=" mobile-app-seachbar-style d-lg-none">
-
+    <div class="mobile-app-seachbar-style  d-lg-none" id="mobile-overlay-active">
         <!-- search input -->
-        <div class="search-wrapper">
-            <button class="search-icon"> <i class="fas fa-search"></i></button>
+        <div class="search-wrapper" id="mobile-search-id">
+            <button class="search-icon" id="mobile-search-button-id"> <i class="fas fa-search"></i></button>
+            <button class="search-icon d-none" id="mobile-close-button-id"><i class="fas fa-times"></i></button>
             <input class="searchbox" type="text" placeholder="Search here" />
+        </div>
+
+        <!-- search content area -->
+        <div class="search-content-area" id="search-content-area-id">
+            <ul class="all-link-wrapper">
+                <li><a href="#">
+                        <span class="icon"><i class="fas fa-search"></i></span>
+                        python
+                    </a></li>
+
+            </ul>
         </div>
 
         <!-- top search  -->
@@ -235,33 +247,46 @@
             </div>
         </div>
 
-        <!-- al; categories -->
+        <!-- browse categories -->
         <div class="container mt-20">
             <div class="all-categories">
-                <h6 class="mb-20">All searches</h6>
+                <h6 class="mb-20">Browse categories</h6>
                 <ul class="all-link-wrapper">
                     <li><a href="#">
-                            <span class="icon"><i class="fas fa-code"></i></span>
+                            <span class="icon"><i class="fab fa-connectdevelop"></i></span>
                             python
+                            <span class="nav-icon"><i class="fas fa-chevron-right"></i></span>
                         </a></li>
                     <li><a href="#">
-                            <span class="icon"><i class="fas fa-code"></i></span>
-                            java</a></li>
+                            <span class="icon"><i class="fas fa-database"></i></span>
+                            java</a>
+                        <span class="nav-icon"><i class="fas fa-chevron-right"></i></span>
+                    </li>
+                    <li><a href="#">
+                            <span class="icon"><i class="fab fa-js"></i></span>
+                            js</a>
+                        <span class="nav-icon"><i class="fas fa-chevron-right"></i></span>
+                    </li>
                     <li><a href="#">
                             <span class="icon"><i class="fas fa-code"></i></span>
-                            js</a></li>
+                            aws</a>
+                        <span class="nav-icon"><i class="fas fa-chevron-right"></i></span>
+                    </li>
                     <li><a href="#">
-                            <span class="icon"><i class="fas fa-code"></i></span>
-                            aws</a></li>
+                            <span class="icon"><i class="fab fa-php"></i></span>
+                            php</a>
+                        <span class="nav-icon"><i class="fas fa-chevron-right"></i></span>
+                    </li>
                     <li><a href="#">
-                            <span class="icon"><i class="fas fa-code"></i></span>
-                            php</a></li>
+                            <span class="icon"><i class="fas fa-book"></i></span>
+                            english</a>
+                        <span class="nav-icon"><i class="fas fa-chevron-right"></i></span>
+                    </li>
                     <li><a href="#">
-                            <span class="icon"><i class="fas fa-code"></i></span>
-                            english</a></li>
-                    <li><a href="#">
-                            <span class="icon"><i class="fas fa-code"></i></span>
-                            ielts</a></li>
+                            <span class="icon"><i class="fab fa-openid"></i></span>
+                            ielts</a>
+                        <span class="nav-icon"><i class="fas fa-chevron-right"></i></span>
+                    </li>
                 </ul>
             </div>
         </div>

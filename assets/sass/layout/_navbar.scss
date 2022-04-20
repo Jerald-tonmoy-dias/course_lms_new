@@ -44,6 +44,9 @@
     @include screen-1200 {
         display: block;
     }
+    @include screen-992 {
+        display: none;
+    }
 }
 
 // mobile-menu

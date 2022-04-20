@@ -14,6 +14,9 @@
         @include screen-1600 {
             width: 150px;
         }
+        @include screen-576 {
+            width: 130px;
+        }
      
     
     }
@@ -59,7 +62,6 @@
             line-height: 14px;
         }
         .current {
-            width: 50px;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
