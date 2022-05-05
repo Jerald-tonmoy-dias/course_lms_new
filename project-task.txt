@@ -2,3 +2,10 @@
 2. section animation
 3.check hover effect
 4. check responsive
+
+navbar inspirartion from codepen
+-----------------------------------------
+https://codepen.io/fadzrinmadu/pen/gOmxJzx
+https://codepen.io/pejonic/pen/VwLzzgL
+https://codepen.io/azouaoui-med/pen/wpBadb
+https://codepen.io/profnajafi/pen/ZErYadB
