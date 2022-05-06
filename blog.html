@@ -1,611 +1,813 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required Meta Tags -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <!-- Page Title -->
-    <title> Blog page-CourseLMS HTML5 Template</title>
+    <title>Blog page-CourseLMS HTML5 Template</title>
 
     <!-- Favicon Icon -->
-    <link rel="shortcut icon" href="favicon.png">
+    <link rel="shortcut icon" href="favicon.png" />
 
     <!-- CSS Files -->
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/font-awsome-all.min.css">
-    <link rel="stylesheet" href="assets/css/meanmenu.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/font-awsome-all.min.css" />
+    <link rel="stylesheet" href="assets/css/meanmenu.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-<body>
+  <body>
     <!-- Preloader Starts -->
     <div class="preloader" id="preloader">
-        <div class="preloader-inner">
-            <div class="spinner">
-                <div class="bounce1"></div>
-                <div class="bounce2"></div>
-                <div class="bounce3"></div>
-            </div>
+      <div class="preloader-inner">
+        <div class="spinner">
+          <div class="bounce1"></div>
+          <div class="bounce2"></div>
+          <div class="bounce3"></div>
         </div>
+      </div>
     </div>
 
     <!-- header -->
     <header class="lms_header">
-        <div class="container header-wrapper-style-2 position-relative">
-
-            <!-- logo -->
-            <div class="d-flex align-items-center">
-                <span class="lms-mobile-menu-trigger"><i class="fas fa-bars"></i></span>
-                <img class="logo" src="./assets/images/logo.png" alt="">
-            </div>
-
-            <!-- menu -->
-            <ul class="lms_main_nav">
-                <li><a href="#">Home</a></li>
-                <li>
-                    <a href="#">tranding</a>
-                </li>
-                <li>
-                    <a href="#">Course</a>
-                    <span class="lms_badge">New</span>
-                </li>
-                <li><a href="#">instructors</a></li>
-            </ul>
-
-
-            <div class="searchbar-style-wrapper mt-4 mt-md-0">
-                <!-- searchbar login button -->
-                <div class="lms_searchbar_wrapper">
-                    <!-- category selector -->
-                    <select class="header_cat_selector">
-                        <option>all category</option>
-                        <option>history</option>
-                        <option>math</option>
-                        <option>biology</option>
-                        <option>science</option>
-                        <option>accounting</option>
-                        <option>Socialogy</option>
-                    </select>
-                    <!-- search input -->
-                    <input class="header-search-input" placeholder="Search for anything..." type="text" />
-                    <!-- seach button -->
-                    <button class="header-search-btn"><i class="fas fa-search"></i></button>
-                </div>
-
-                <!-- signin/login button -->
-                <button class="btn1 header-signin d-none d-xxl-block  mt-md-0">sign in</button>
-
-                <!-- cart -->
-                <div class="header-style-cart-wrapper d-none d-xxl-blocka">
-                    <span id="cart-box" class="header-cart-icon bg-green text-white">
-                        <span class="small-badge bg-lite-black">1</span>
-                        <i class="fas fa-shopping-cart"></i>
-                    </span>
-                    <a class="header-cart-icon bg-orange text-white" href="#">
-                        <span class="small-badge bg-red">1</span>
-                        <i class="fas fa-bell"></i>
-                    </a>
-                    <a class="header-cart-icon bg-cyan text-white" href="#">
-                        <span class="small-badge bg-dark-cyan">1</span>
-                        <i class="fas fa-heart"></i>
-                    </a>
-                    <a class="header-cart-icon" href="#">
-                        <span class="small-badge bg-green profile-active"></span>
-                        <img class="mt-10" src="./assets/images/user-two.png" alt="">
-                    </a>
-
-                    <!-- cart dropdown -->
-                    <div class="header-lms-cart-dropdown">
-                        <ul>
-                            <li>
-                                <!-- left side -->
-                                <img class="thumb" src="./assets/images/sc1.png" alt="">
-                                <!-- right side -->
-                                <div class="right-side">
-                                    <a class="title" href="#">
-                                        Graphic Design & illusta...
-                                    </a>
-                                    <span class="price">$50</span>
-                                </div>
-                            </li>
-                            <li>
-                                <!-- left side -->
-                                <img class="thumb" src="./assets/images/sc2.png" alt="">
-                                <!-- right side -->
-                                <div class="right-side">
-                                    <a class="title" href="#">
-                                        3d animation Cours....
-                                    </a>
-                                    <span class="price">$70</span>
-                                </div>
-                            </li>
-                        </ul>
-
-                        <!-- button -->
-                        <a class="btn1 border-radious-5 mt-3 mx-4" href="#">go to cart</a>
-                    </div>
-
-                </div>
-            </div>
-
-
+      <div
+        class="container-fluid container-xl header-wrapper-style-2 position-relative"
+      >
+        <!-- logo -->
+        <div class="d-flex align-items-center">
+          <span class="lms-mobile-menu-trigger"
+            ><i class="fas fa-bars"></i
+          ></span>
+          <img class="logo" src="./assets/images/logo.png" alt="" />
         </div>
+
+        <!-- menu -->
+        <ul class="lms_main_nav">
+          <li><a href="#">Home</a></li>
+          <li>
+            <a href="#">tranding</a>
+          </li>
+          <li>
+            <a href="#">Course</a>
+            <span class="lms_badge">New</span>
+          </li>
+          <li><a href="#">instructors</a></li>
+        </ul>
+
+        <!-- web search bar -->
+        <div class="searchbar-style-wrapper d-nonee d-lg-blocke mt-4 mt-md-0">
+          <!-- searchbar login button -->
+          <div class="lms_searchbar_wrapper d-none d-lg-flex">
+            <!-- category selector -->
+            <select class="header_cat_selector">
+              <option>all category</option>
+              <option>history</option>
+              <option>math</option>
+              <option>biology</option>
+              <option>science</option>
+              <option>accounting</option>
+              <option>Socialogy</option>
+            </select>
+            <!-- search input -->
+            <input
+              class="header-search-input"
+              placeholder="Search for anything..."
+              type="text"
+            />
+            <!-- seach button -->
+            <button class="header-search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+
+          <!-- signin/login button -->
+          <button class="btn1 header-signin mt-md-0 d-none d-xl-block">
+            sign in
+          </button>
+
+          <!-- cart -->
+          <div class="header-style-cart-wrapper d-none d-xxl-blocka">
+            <span id="cart-box" class="header-cart-icon bg-green text-white">
+              <span class="small-badge bg-lite-black">1</span>
+              <i class="fas fa-shopping-cart"></i>
+            </span>
+            <a class="header-cart-icon bg-orange text-white" href="#">
+              <span class="small-badge bg-red">1</span>
+              <i class="fas fa-bell"></i>
+            </a>
+            <a class="header-cart-icon bg-cyan text-white" href="#">
+              <span class="small-badge bg-dark-cyan">1</span>
+              <i class="fas fa-heart"></i>
+            </a>
+            <a class="header-cart-icon" href="#">
+              <span class="small-badge bg-green profile-active"></span>
+              <img class="mt-10" src="./assets/images/user-two.png" alt="" />
+            </a>
+
+            <!-- cart dropdown -->
+            <div class="header-lms-cart-dropdown">
+              <ul>
+                <li>
+                  <!-- left side -->
+                  <img class="thumb" src="./assets/images/sc1.png" alt="" />
+                  <!-- right side -->
+                  <div class="right-side">
+                    <a class="title" href="#"> Graphic Design & illusta... </a>
+                    <span class="price">$50</span>
+                  </div>
+                </li>
+                <li>
+                  <!-- left side -->
+                  <img class="thumb" src="./assets/images/sc2.png" alt="" />
+                  <!-- right side -->
+                  <div class="right-side">
+                    <a class="title" href="#"> 3d animation Cours.... </a>
+                    <span class="price">$70</span>
+                  </div>
+                </li>
+              </ul>
+
+              <!-- button -->
+              <a class="btn1 border-radious-5 mt-3 mx-4" href="#">go to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <!--sign in/sign out button -->
+        <a href="#" class="btn1 d-lg-none">sign in</a>
+      </div>
     </header>
 
     <!-- mobile sidebar -->
     <div class="lms-mobile-sidebar">
-        <span class="close-trigger"><i class="far fa-window-close"></i></span>
-        <ul class="lms-mobile-menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Trending</a></li>
-            <li><a href="#">Course</a></li>
-            <li><a href="#">Instructors</a></li>
-        </ul>
-        <!-- cart -->
-        <div class="header-style-cart-wrapper mb-4">
-            <a class="header-cart-icon bg-white green-color" href="#">
-                <span class="small-badge bg-white">1</span>
-                <i class="fas fa-shopping-cart"></i>
-            </a>
-            <a class="header-cart-icon bg-orange text-white" href="#">
-                <span class="small-badge bg-red">1</span>
-                <i class="fas fa-bell"></i>
-            </a>
-            <a class="header-cart-icon bg-cyan text-white" href="#">
-                <span class="small-badge bg-dark-cyan">1</span>
-                <i class="fas fa-heart"></i>
-            </a>
-            <a class="header-cart-icon" href="#">
-                <span class="small-badge bg-green profile-active"></span>
-                <img src="./assets/images/user-two.png" alt="">
-            </a>
-        </div>
+      <span class="close-trigger"><i class="far fa-window-close"></i></span>
+      <ul class="lms-mobile-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">Course</a></li>
+        <li><a href="#">Instructors</a></li>
+      </ul>
+      <!-- cart -->
+      <div class="header-style-cart-wrapper mb-4">
+        <a class="header-cart-icon bg-white green-color" href="#">
+          <span class="small-badge bg-white">1</span>
+          <i class="fas fa-shopping-cart"></i>
+        </a>
+        <a class="header-cart-icon bg-orange text-white" href="#">
+          <span class="small-badge bg-red">1</span>
+          <i class="fas fa-bell"></i>
+        </a>
+        <a class="header-cart-icon bg-cyan text-white" href="#">
+          <span class="small-badge bg-dark-cyan">1</span>
+          <i class="fas fa-heart"></i>
+        </a>
+        <a class="header-cart-icon" href="#">
+          <span class="small-badge bg-green profile-active"></span>
+          <img src="./assets/images/user-two.png" alt="" />
+        </a>
+      </div>
 
-        <!-- sign button -->
-        <button class="btn1  mt-4 mt-md-0">sign in</button>
+      <!-- sign button -->
+      <button class="btn1 mt-4 mt-md-0">sign in</button>
+    </div>
+
+    <!-- mobile app menu -->
+    <ul class="mobile-app-menu-bottom d-lg-none">
+      <li>
+        <a href="#">
+          <!-- icon -->
+          <i class="fas fa-home"></i>
+          <span class="link-text">Home</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" id="showsearchbar">
+          <!-- icon -->
+          <i class="fas fa-search"></i>
+          <span class="link-text">search</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <!-- icon -->
+          <i class="fas fa-bookmark"></i>
+          <span class="link-text">courses</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <!-- icon -->
+          <i class="fas fa-heart"></i>
+          <span class="link-text">wislist</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          <!-- icon -->
+          <i class="fas fa-user-alt"></i>
+          <span class="link-text">profile</span>
+        </a>
+      </li>
+    </ul>
+
+    <!-- mobile searchbar -->
+    <div class="mobile-app-seachbar-style d-lg-none" id="mobile-overlay-active">
+      <!-- search input -->
+      <div class="search-wrapper" id="mobile-search-id">
+        <button class="search-icon" id="mobile-search-button-id">
+          <i class="fas fa-search"></i>
+        </button>
+        <button class="search-icon d-none" id="mobile-close-button-id">
+          <i class="fas fa-times"></i>
+        </button>
+        <input class="searchbox" type="text" placeholder="Search here" />
+      </div>
+
+      <!-- search content area -->
+      <div class="search-content-area" id="search-content-area-id">
+        <ul class="all-link-wrapper">
+          <li>
+            <a href="#">
+              <span class="icon"><i class="fas fa-search"></i></span>
+              python
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- top search  -->
+      <div class="container">
+        <div class="top-seacrh-categories">
+          <h6 class="mb-20">Top searches</h6>
+          <ul class="top-search-link-wrapper">
+            <li><a href="#"> python</a></li>
+            <li><a href="#">java</a></li>
+            <li><a href="#">js</a></li>
+            <li><a href="#">aws</a></li>
+            <li><a href="#">php</a></li>
+            <li><a href="#">english</a></li>
+            <li><a href="#">ielts</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- browse categories -->
+      <div class="container mt-20">
+        <div class="all-categories">
+          <h6 class="mb-20">Browse categories</h6>
+          <ul class="all-link-wrapper">
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fab fa-connectdevelop"></i></span>
+                python
+                <span class="nav-icon"
+                  ><i class="fas fa-chevron-right"></i
+                ></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fas fa-database"></i></span>
+                java</a
+              >
+              <span class="nav-icon"><i class="fas fa-chevron-right"></i></span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fab fa-js"></i></span>
+                js</a
+              >
+              <span class="nav-icon"><i class="fas fa-chevron-right"></i></span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fas fa-code"></i></span>
+                aws</a
+              >
+              <span class="nav-icon"><i class="fas fa-chevron-right"></i></span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fab fa-php"></i></span>
+                php</a
+              >
+              <span class="nav-icon"><i class="fas fa-chevron-right"></i></span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fas fa-book"></i></span>
+                english</a
+              >
+              <span class="nav-icon"><i class="fas fa-chevron-right"></i></span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fab fa-openid"></i></span>
+                ielts</a
+              >
+              <span class="nav-icon"><i class="fas fa-chevron-right"></i></span>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
 
     <!--breadcrumb section -->
-    <div class="lms_hero-section login-section" style="background: url('./assets/images/home-bg1.png');">
-        <div class="container">
-            <div class="hero-wrapper blog-hero-wrapper lms-about-wrapper d-flex align-items-center"
-                style="background-image: url('./assets/images/loginbg.png');">
-                <div class="row custom-width-lg-100 align-items-center ">
-                    <div class="col-lg-6 mt-4 mt-lg-0 col-12 ">
-                        <h3 class="mb-20 wow fadeInLeft" data-wow-duration=".5s">The Course LMS Blog</h3>
-                        <p class="para wow fadeInLeft" data-wow-duration=".7s">In 2022, build a
-                            beautiful responsive
-                            Wordpress site that looks great on all
-                            devices. No
-                            experience required.</p>
-                        <div class="blog_searchbar_wrapper lms_searchbar_wrapper mt-30 wow fadeInLeft"
-                            data-wow-duration=".7s">
-                            <!-- search input -->
-                            <input class="header-search-input" placeholder="Search for anything..." type="text" />
-                            <!-- seach button -->
-                            <button class="header-search-btn"><i class="fas fa-search"></i></button>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-12 mt-50 mt-lg-0 wow fadeIn">
-                        <img src="./assets/images/about-2.png" alt="">
-                    </div>
-                </div>
+    <div
+      class="lms_hero-section login-section"
+      style="background: url('./assets/images/home-bg1.png')"
+    >
+      <div class="container">
+        <div
+          class="hero-wrapper blog-hero-wrapper lms-about-wrapper d-flex align-items-center"
+          style="background-image: url('./assets/images/loginbg.png')"
+        >
+          <div class="row custom-width-lg-100 align-items-center">
+            <div class="col-lg-6 mt-4 mt-lg-0 col-12">
+              <h3 class="mb-20 wow fadeInLeft" data-wow-duration=".5s">
+                The Course LMS Blog
+              </h3>
+              <p class="para wow fadeInLeft" data-wow-duration=".7s">
+                In 2022, build a beautiful responsive Wordpress site that looks
+                great on all devices. No experience required.
+              </p>
+              <div
+                class="blog_searchbar_wrapper lms_searchbar_wrapper mt-30 wow fadeInLeft"
+                data-wow-duration=".7s"
+              >
+                <!-- search input -->
+                <input
+                  class="header-search-input"
+                  placeholder="Search for anything..."
+                  type="text"
+                />
+                <!-- seach button -->
+                <button class="header-search-btn">
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
             </div>
-
+            <div class="col-lg-6 col-12 mt-50 mt-lg-0 wow fadeIn">
+              <img src="./assets/images/about-2.png" alt="" />
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- collumn wrapper -->
     <div class="container pt-100">
-        <div class="row">
-            <!-- blog sidebar -->
-            <div class="col-lg-3 ">
-                <!-- single blog widget -->
-                <div class="single-blog-sidebar-widget mt-30 wow fadeInUp">
-                    <span class="title mb-4">
-                        Blog Categories
-                    </span>
-                    <ul class="cat-link">
-                        <li>
-                            <a href="#">Wordpress</a>
-                            <span class="item-counter">(10)</span>
-                        </li>
-                        <li>
-                            <a href="#">UI & UX Design </a>
-                            <span class="item-counter">(15)</span>
-                        </li>
-                        <li>
-                            <a href="#">CSS</a>
-                            <span class="item-counter">(20)</span>
-                        </li>
-                        <li>
-                            <a href="#">Photoshop</a>
-                            <span class="item-counter">(12)</span>
-                        </li>
-                        <li>
-                            <a href="#">Responsive Design</a>
-                            <span class="item-counter">(17)</span>
-                        </li>
-                        <li>
-                            <a href="#">Front End web development</a>
-                            <span class="item-counter">(14)</span>
-                        </li>
-                        <li>
-                            <a href="#">Javascript</a>
-                            <span class="item-counter">(13)</span>
-                        </li>
-                        <li>
-                            <a href="#">App Development</a>
-                            <span class="item-counter">(20)</span>
-                        </li>
-                    </ul>
-                </div>
+      <div class="row">
+        <!-- blog sidebar -->
+        <div class="col-lg-3">
+          <!-- single blog widget -->
+          <div class="single-blog-sidebar-widget mt-30 wow fadeInUp">
+            <span class="title mb-4"> Blog Categories </span>
+            <ul class="cat-link">
+              <li>
+                <a href="#">Wordpress</a>
+                <span class="item-counter">(10)</span>
+              </li>
+              <li>
+                <a href="#">UI & UX Design </a>
+                <span class="item-counter">(15)</span>
+              </li>
+              <li>
+                <a href="#">CSS</a>
+                <span class="item-counter">(20)</span>
+              </li>
+              <li>
+                <a href="#">Photoshop</a>
+                <span class="item-counter">(12)</span>
+              </li>
+              <li>
+                <a href="#">Responsive Design</a>
+                <span class="item-counter">(17)</span>
+              </li>
+              <li>
+                <a href="#">Front End web development</a>
+                <span class="item-counter">(14)</span>
+              </li>
+              <li>
+                <a href="#">Javascript</a>
+                <span class="item-counter">(13)</span>
+              </li>
+              <li>
+                <a href="#">App Development</a>
+                <span class="item-counter">(20)</span>
+              </li>
+            </ul>
+          </div>
 
-                <!-- single blog widget -->
-                <div class="single-blog-sidebar-widget mt-30 wow fadeInUp">
-                    <span class="title mb-4">
-                        Recent Blog Post
-                    </span>
-                    <ul class="recent-link">
-                        <li>
-                            <a href="#">
-                                <img class="rb-img" src="./assets/images/sb1.png" alt="img">
-                            </a>
-                            <a href="#">
-                                Freshman Computer Science
-                                Major Learn
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img class="rb-img" src="./assets/images/sb2.png" alt="img">
-                            </a>
-                            <a href="#">
-                                Novice Yogis Can Learn from
-                                Yoga Journal Experts
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img class="rb-img" src="./assets/images/sb3.png" alt="img">
-                            </a>
-                            <a href="#">
-                                Lorem ipsum dolor ipsum dolor
-                                sit ametque.
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+          <!-- single blog widget -->
+          <div class="single-blog-sidebar-widget mt-30 wow fadeInUp">
+            <span class="title mb-4"> Recent Blog Post </span>
+            <ul class="recent-link">
+              <li>
+                <a href="#">
+                  <img class="rb-img" src="./assets/images/sb1.png" alt="img" />
+                </a>
+                <a href="#"> Freshman Computer Science Major Learn </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img class="rb-img" src="./assets/images/sb2.png" alt="img" />
+                </a>
+                <a href="#">
+                  Novice Yogis Can Learn from Yoga Journal Experts
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img class="rb-img" src="./assets/images/sb3.png" alt="img" />
+                </a>
+                <a href="#"> Lorem ipsum dolor ipsum dolor sit ametque. </a>
+              </li>
+            </ul>
+          </div>
 
-                <!-- single blog widget -->
-                <div class="single-blog-sidebar-widget mt-30 wow fadeInUp">
-                    <span class="title mb-4">
-                        Courtside in Your Inbox
-                    </span>
-                    <span class="small-text d-block mb-20">
-                        Get course lms blog posts delivered to
-                        your email every week.
-                    </span>
-                    <a href="#" class="btn1 subs-btn">subscribe</a>
-                </div>
-            </div>
-            <!-- blog content -->
-            <div class="col-lg-9 ">
-                <!-- single blog wrapper -->
-                <div class="row align-items-center single-blog-excerpt-wrapper mt-30  g-0 wow fadeInUp">
-                    <!-- left side -->
-                    <div class="col-lg-5">
-                        <img class="blog-thumb" src="./assets/images/bl1.png" alt="">
-                    </div>
-                    <!-- right side -->
-                    <div class="col-lg-7 mt-50 mt-lg-0">
-                        <div class="content-right">
-                            <a href="#" class="title mb-30 d-block">The History of Historically Black Colleges
-                                And Universities (HBCUs)</a>
-
-                            <p>
-                                “HU… You Know” is a rallying cry that denotes those of us who attend or attended the
-                                Howard University. As an alumna, I love my alma mater. Attending a school that strived
-                                to drive Black excellence was one of the best decisions and best experiences of my life.
-                            </p>
-
-                            <p>
-                                Yet many people do not know the history of this and other Historically Black Colleges
-                                and Universities.
-                            </p>
-
-                            <p>
-                                I can personally credit Howard University with instilling in me Black pride and
-                                knowledge that I had not previously accessed before.
-                            </p>
-
-                            <!-- blog info -->
-                            <div class="blog-info mt-40">
-                                <a href="#" class="info">
-                                    <i class="fas fa-calendar"></i>
-                                    22 February, 2022
-                                </a>
-                                <a href="#" class="info">
-                                    <i class="fas fa-user-alt"></i>
-                                    Marry christ
-                                </a>
-                                <a href="#" class="info">
-                                    <i class="fas fa-heart"></i>
-                                    2.5k love
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- single blog wrapper -->
-                <div class="row align-items-center single-blog-excerpt-wrapper mt-30  g-0 wow fadeInUp">
-
-                    <!-- left side -->
-                    <div class="col-lg-7">
-                        <div class="content-right content-reverse">
-                            <a href="#" class="title mb-30 d-block">Belonging, Equity, Diversity, and Inclusion
-                                At Course LMS</a>
-
-                            <p>
-                                “HU… You Know” is a rallying cry that denotes those of us who attend or attended the
-                                Howard University. As an alumna, I love my alma mater. Attending a school that strived
-                                to drive Black excellence was one of the best decisions and best experiences of my life.
-                            </p>
-
-                            <p>
-                                Yet many people do not know the history of this and other Historically Black Colleges
-                                and Universities.
-                            </p>
-
-                            <p>
-                                I can personally credit Howard University with instilling in me Black pride and
-                                knowledge that I had not previously accessed before.
-                            </p>
-
-                            <!-- blog info -->
-                            <div class="blog-info mt-40">
-                                <a href="#" class="info">
-                                    <i class="fas fa-calendar"></i>
-                                    22 February, 2022
-                                </a>
-                                <a href="#" class="info">
-                                    <i class="fas fa-user-alt"></i>
-                                    Marry christ
-                                </a>
-                                <a href="#" class="info">
-                                    <i class="fas fa-heart"></i>
-                                    2.5k love
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- right side -->
-                    <div class="col-lg-5 mt-50 mt-lg-0">
-                        <img class="blog-thumb" src="./assets/images/bl2.png" alt="">
-                    </div>
-                </div>
-
-                <!-- single blog wrapper -->
-                <div class="row align-items-center single-blog-excerpt-wrapper mt-30  g-0 wow fadeInUp">
-                    <!-- left side -->
-                    <div class="col-lg-5">
-                        <img class="blog-thumb" src="./assets/images/bl3.png" alt="">
-                    </div>
-                    <!-- right side -->
-                    <div class="col-lg-7 mt-50 mt-lg-0">
-                        <div class="content-right">
-                            <a href="#" class="title mb-30 d-block">Meet our latest Social Impact Partner,
-                                Sentinels of Freedom</a>
-
-                            <p>
-                                “HU… You Know” is a rallying cry that denotes those of us who attend or attended the
-                                Howard University. As an alumna, I love my alma mater. Attending a school that strived
-                                to drive Black excellence was one of the best decisions and best experiences of my life.
-                            </p>
-
-                            <p>
-                                Yet many people do not know the history of this and other Historically Black Colleges
-                                and Universities.
-                            </p>
-
-                            <p>
-                                I can personally credit Howard University with instilling in me Black pride and
-                                knowledge that I had not previously accessed before.
-                            </p>
-
-                            <!-- blog info -->
-                            <div class="blog-info mt-40">
-                                <a href="#" class="info">
-                                    <i class="fas fa-calendar"></i>
-                                    22 February, 2022
-                                </a>
-                                <a href="#" class="info">
-                                    <i class="fas fa-user-alt"></i>
-                                    Marry christ
-                                </a>
-                                <a href="#" class="info">
-                                    <i class="fas fa-heart"></i>
-                                    2.5k love
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- single blog wrapper -->
-                <div class="row align-items-center single-blog-excerpt-wrapper mt-30  g-0 wow fadeInUp">
-
-                    <!-- left side -->
-                    <div class="col-lg-7">
-                        <div class="content-right content-reverse">
-                            <a href="#" class="title mb-30 d-block">2021 Workplace Learning Report: The Skills
-                                Defining the Future of Work</a>
-
-                            <p>
-                                “HU… You Know” is a rallying cry that denotes those of us who attend or attended the
-                                Howard University. As an alumna, I love my alma mater. Attending a school that strived
-                                to drive Black excellence was one of the best decisions and best experiences of my life.
-                            </p>
-
-                            <p>
-                                Yet many people do not know the history of this and other Historically Black Colleges
-                                and Universities.
-                            </p>
-
-                            <p>
-                                I can personally credit Howard University with instilling in me Black pride and
-                                knowledge that I had not previously accessed before.
-                            </p>
-
-                            <!-- blog info -->
-                            <div class="blog-info mt-40">
-                                <a href="#" class="info">
-                                    <i class="fas fa-calendar"></i>
-                                    22 February, 2022
-                                </a>
-                                <a href="#" class="info">
-                                    <i class="fas fa-user-alt"></i>
-                                    Marry christ
-                                </a>
-                                <a href="#" class="info">
-                                    <i class="fas fa-heart"></i>
-                                    2.5k love
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- video section  -->
-                    <div class="col-lg-5 position-relative mt-50 mt-lg-0">
-                        <a class="video-icon item-ripple popup-link" href="https://www.youtube.com/watch?v=dNwxvuR41gw">
-                            <i class="fas fa-play-circle"></i>
-                        </a>
-                        <img class="blog-thumb" src="./assets/images/bl4.png" alt="">
-                    </div>
-                </div>
-
-                <!-- template pagination -->
-                <div class="template-pagination mt-60 mb-130 wow fadeInUp">
-                    <ul>
-                        <li class="d-none"><a href="#"><i class="fas fa-chevron-left"></i></a></li>
-                        <li><a class="active" href="#">01</a></li>
-                        <li><a href="#">02</a></li>
-                        <li><a href="#">03</a></li>
-                        <li><a href="#">..</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right"></i></a></li>
-                    </ul>
-
-                </div>
-            </div>
+          <!-- single blog widget -->
+          <div class="single-blog-sidebar-widget mt-30 wow fadeInUp">
+            <span class="title mb-4"> Courtside in Your Inbox </span>
+            <span class="small-text d-block mb-20">
+              Get course lms blog posts delivered to your email every week.
+            </span>
+            <a href="#" class="btn1 subs-btn">subscribe</a>
+          </div>
         </div>
+        <!-- blog content -->
+        <div class="col-lg-9">
+          <!-- single blog wrapper -->
+          <div
+            class="row align-items-center single-blog-excerpt-wrapper mt-30 g-0 wow fadeInUp"
+          >
+            <!-- left side -->
+            <div class="col-lg-5">
+              <img class="blog-thumb" src="./assets/images/bl1.png" alt="" />
+            </div>
+            <!-- right side -->
+            <div class="col-lg-7 mt-50 mt-lg-0">
+              <div class="content-right">
+                <a href="#" class="title mb-30 d-block"
+                  >The History of Historically Black Colleges And Universities
+                  (HBCUs)</a
+                >
+
+                <p>
+                  “HU… You Know” is a rallying cry that denotes those of us who
+                  attend or attended the Howard University. As an alumna, I love
+                  my alma mater. Attending a school that strived to drive Black
+                  excellence was one of the best decisions and best experiences
+                  of my life.
+                </p>
+
+                <p>
+                  Yet many people do not know the history of this and other
+                  Historically Black Colleges and Universities.
+                </p>
+
+                <p>
+                  I can personally credit Howard University with instilling in
+                  me Black pride and knowledge that I had not previously
+                  accessed before.
+                </p>
+
+                <!-- blog info -->
+                <div class="blog-info mt-40">
+                  <a href="#" class="info">
+                    <i class="fas fa-calendar"></i>
+                    22 February, 2022
+                  </a>
+                  <a href="#" class="info">
+                    <i class="fas fa-user-alt"></i>
+                    Marry christ
+                  </a>
+                  <a href="#" class="info">
+                    <i class="fas fa-heart"></i>
+                    2.5k love
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- single blog wrapper -->
+          <div
+            class="row align-items-center single-blog-excerpt-wrapper mt-30 g-0 wow fadeInUp"
+          >
+            <!-- left side -->
+            <div class="col-lg-7">
+              <div class="content-right content-reverse">
+                <a href="#" class="title mb-30 d-block"
+                  >Belonging, Equity, Diversity, and Inclusion At Course LMS</a
+                >
+
+                <p>
+                  “HU… You Know” is a rallying cry that denotes those of us who
+                  attend or attended the Howard University. As an alumna, I love
+                  my alma mater. Attending a school that strived to drive Black
+                  excellence was one of the best decisions and best experiences
+                  of my life.
+                </p>
+
+                <p>
+                  Yet many people do not know the history of this and other
+                  Historically Black Colleges and Universities.
+                </p>
+
+                <p>
+                  I can personally credit Howard University with instilling in
+                  me Black pride and knowledge that I had not previously
+                  accessed before.
+                </p>
+
+                <!-- blog info -->
+                <div class="blog-info mt-40">
+                  <a href="#" class="info">
+                    <i class="fas fa-calendar"></i>
+                    22 February, 2022
+                  </a>
+                  <a href="#" class="info">
+                    <i class="fas fa-user-alt"></i>
+                    Marry christ
+                  </a>
+                  <a href="#" class="info">
+                    <i class="fas fa-heart"></i>
+                    2.5k love
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- right side -->
+            <div class="col-lg-5 mt-50 mt-lg-0">
+              <img class="blog-thumb" src="./assets/images/bl2.png" alt="" />
+            </div>
+          </div>
+
+          <!-- single blog wrapper -->
+          <div
+            class="row align-items-center single-blog-excerpt-wrapper mt-30 g-0 wow fadeInUp"
+          >
+            <!-- left side -->
+            <div class="col-lg-5">
+              <img class="blog-thumb" src="./assets/images/bl3.png" alt="" />
+            </div>
+            <!-- right side -->
+            <div class="col-lg-7 mt-50 mt-lg-0">
+              <div class="content-right">
+                <a href="#" class="title mb-30 d-block"
+                  >Meet our latest Social Impact Partner, Sentinels of
+                  Freedom</a
+                >
+
+                <p>
+                  “HU… You Know” is a rallying cry that denotes those of us who
+                  attend or attended the Howard University. As an alumna, I love
+                  my alma mater. Attending a school that strived to drive Black
+                  excellence was one of the best decisions and best experiences
+                  of my life.
+                </p>
+
+                <p>
+                  Yet many people do not know the history of this and other
+                  Historically Black Colleges and Universities.
+                </p>
+
+                <p>
+                  I can personally credit Howard University with instilling in
+                  me Black pride and knowledge that I had not previously
+                  accessed before.
+                </p>
+
+                <!-- blog info -->
+                <div class="blog-info mt-40">
+                  <a href="#" class="info">
+                    <i class="fas fa-calendar"></i>
+                    22 February, 2022
+                  </a>
+                  <a href="#" class="info">
+                    <i class="fas fa-user-alt"></i>
+                    Marry christ
+                  </a>
+                  <a href="#" class="info">
+                    <i class="fas fa-heart"></i>
+                    2.5k love
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- single blog wrapper -->
+          <div
+            class="row align-items-center single-blog-excerpt-wrapper mt-30 g-0 wow fadeInUp"
+          >
+            <!-- left side -->
+            <div class="col-lg-7">
+              <div class="content-right content-reverse">
+                <a href="#" class="title mb-30 d-block"
+                  >2021 Workplace Learning Report: The Skills Defining the
+                  Future of Work</a
+                >
+
+                <p>
+                  “HU… You Know” is a rallying cry that denotes those of us who
+                  attend or attended the Howard University. As an alumna, I love
+                  my alma mater. Attending a school that strived to drive Black
+                  excellence was one of the best decisions and best experiences
+                  of my life.
+                </p>
+
+                <p>
+                  Yet many people do not know the history of this and other
+                  Historically Black Colleges and Universities.
+                </p>
+
+                <p>
+                  I can personally credit Howard University with instilling in
+                  me Black pride and knowledge that I had not previously
+                  accessed before.
+                </p>
+
+                <!-- blog info -->
+                <div class="blog-info mt-40">
+                  <a href="#" class="info">
+                    <i class="fas fa-calendar"></i>
+                    22 February, 2022
+                  </a>
+                  <a href="#" class="info">
+                    <i class="fas fa-user-alt"></i>
+                    Marry christ
+                  </a>
+                  <a href="#" class="info">
+                    <i class="fas fa-heart"></i>
+                    2.5k love
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- video section  -->
+            <div class="col-lg-5 position-relative mt-50 mt-lg-0">
+              <a
+                class="video-icon item-ripple popup-link"
+                href="https://www.youtube.com/watch?v=dNwxvuR41gw"
+              >
+                <i class="fas fa-play-circle"></i>
+              </a>
+              <img class="blog-thumb" src="./assets/images/bl4.png" alt="" />
+            </div>
+          </div>
+
+          <!-- template pagination -->
+          <div class="template-pagination mt-60 mb-130 wow fadeInUp">
+            <ul>
+              <li class="d-none">
+                <a href="#"><i class="fas fa-chevron-left"></i></a>
+              </li>
+              <li><a class="active" href="#">01</a></li>
+              <li><a href="#">02</a></li>
+              <li><a href="#">03</a></li>
+              <li><a href="#">..</a></li>
+              <li>
+                <a href="#"><i class="fas fa-chevron-right"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- footer-area -->
-    <footer class="footer-area" style="background: url('./assets/images/section-bg1.png');">
-        <div class="container lms-footer-inner-wrapper">
-            <!-- brands -->
-            <div class="row align-items-center lms-brand-wraper">
-                <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
-                    <img class="lms-single-brand mx-auto" src="./assets/images/b6.png" alt="">
-                </div>
-                <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
-                    <img class="lms-single-brand mx-auto" src="./assets/images/b5.png" alt="">
-                </div>
-                <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
-                    <img class="lms-single-brand mx-auto" src="./assets/images/b4.png" alt="">
-                </div>
-                <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
-                    <img class="lms-single-brand mx-auto" src="./assets/images/b1.png" alt="">
-                </div>
-                <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
-                    <img class="lms-single-brand mx-auto" src="./assets/images/b3.png" alt="">
-                </div>
-                <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
-                    <img class="lms-single-brand mx-auto" src="./assets/images/b2.png" alt="">
-                </div>
-            </div>
-            <!-- separator -->
-            <hr class="my-5 colored-hr" />
-            <!-- bottom section -->
-            <div class="row align-items-center px-4">
-                <!-- newsletter -->
-                <div class="col-lg-5">
-                    <div class="lms-newsletter-section" style="background: url('./assets/images/newsletter.png');">
-                        <img class="logo" src="./assets/images/logo.png" alt="">
-
-                        <p class="mt-3">
-                            Want us to email you occasionally with news?
-                        </p>
-
-                        <!-- newsletter -->
-                        <div class="newletter-wrapper mt-3">
-                            <input class="input-box" type="text" placeholder="Enter your email">
-                            <button class="btn1 subs-btn">subscribe</button>
-                        </div>
-                    </div>
-                </div>
-                <!--footer menu  -->
-                <div class="col-lg-6 offset-lg-1">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
-                            <div class="single-footer-menu">
-                                <span class="title mb-3">
-                                    course
-                                </span>
-                                <ul class="footer-menu">
-                                    <li><a href="#">web design design</a></li>
-                                    <li><a href="#">ios application</a></li>
-                                    <li><a href="#">ux research</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
-                            <div class="single-footer-menu">
-                                <span class="title mb-3">
-                                    login
-                                </span>
-                                <ul class="footer-menu">
-                                    <li><a href="#">sign in</a></li>
-                                    <li><a href="#">sign up</a></li>
-                                    <li><a href="#">series</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
-                            <div class="single-footer-menu">
-                                <span class="title mb-3">
-                                    More Links
-                                </span>
-                                <ul class="footer-menu">
-                                    <li><a href="#">blog</a></li>
-                                    <li><a href="#">terms of service</a></li>
-                                    <li><a href="#">legal info</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
-                            <div class="single-footer-menu">
-                                <span class="title mb-3">
-                                    contact
-                                </span>
-                                <ul class="footer-menu">
-                                    <li><a href="#">online form</a></li>
-                                    <li><a href="#">support</a></li>
-                                    <li><a href="#">contact us</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <footer
+      class="footer-area"
+      style="background: url('./assets/images/section-bg1.png')"
+    >
+      <div class="container lms-footer-inner-wrapper">
+        <!-- brands -->
+        <div class="row align-items-center lms-brand-wraper">
+          <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
+            <img
+              class="lms-single-brand mx-auto"
+              src="./assets/images/b6.png"
+              alt=""
+            />
+          </div>
+          <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
+            <img
+              class="lms-single-brand mx-auto"
+              src="./assets/images/b5.png"
+              alt=""
+            />
+          </div>
+          <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
+            <img
+              class="lms-single-brand mx-auto"
+              src="./assets/images/b4.png"
+              alt=""
+            />
+          </div>
+          <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
+            <img
+              class="lms-single-brand mx-auto"
+              src="./assets/images/b1.png"
+              alt=""
+            />
+          </div>
+          <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
+            <img
+              class="lms-single-brand mx-auto"
+              src="./assets/images/b3.png"
+              alt=""
+            />
+          </div>
+          <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
+            <img
+              class="lms-single-brand mx-auto"
+              src="./assets/images/b2.png"
+              alt=""
+            />
+          </div>
         </div>
+        <!-- separator -->
+        <hr class="my-5 colored-hr" />
+        <!-- bottom section -->
+        <div class="row align-items-center px-4">
+          <!-- newsletter -->
+          <div class="col-lg-5">
+            <div
+              class="lms-newsletter-section"
+              style="background: url('./assets/images/newsletter.png')"
+            >
+              <img class="logo" src="./assets/images/logo.png" alt="" />
+
+              <p class="mt-3">Want us to email you occasionally with news?</p>
+
+              <!-- newsletter -->
+              <div class="newletter-wrapper mt-3">
+                <input
+                  class="input-box"
+                  type="text"
+                  placeholder="Enter your email"
+                />
+                <button class="btn1 subs-btn">subscribe</button>
+              </div>
+            </div>
+          </div>
+          <!--footer menu  -->
+          <div class="col-lg-6 offset-lg-1">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
+                <div class="single-footer-menu">
+                  <span class="title mb-3"> course </span>
+                  <ul class="footer-menu">
+                    <li><a href="#">web design design</a></li>
+                    <li><a href="#">ios application</a></li>
+                    <li><a href="#">ux research</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
+                <div class="single-footer-menu">
+                  <span class="title mb-3"> login </span>
+                  <ul class="footer-menu">
+                    <li><a href="#">sign in</a></li>
+                    <li><a href="#">sign up</a></li>
+                    <li><a href="#">series</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
+                <div class="single-footer-menu">
+                  <span class="title mb-3"> More Links </span>
+                  <ul class="footer-menu">
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">terms of service</a></li>
+                    <li><a href="#">legal info</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
+                <div class="single-footer-menu">
+                  <span class="title mb-3"> contact </span>
+                  <ul class="footer-menu">
+                    <li><a href="#">online form</a></li>
+                    <li><a href="#">support</a></li>
+                    <li><a href="#">contact us</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <!-- scroll to up -->
@@ -626,6 +828,5 @@
     <script src="assets/js/vendor/wow.min.js"></script>
     <script src="assets/js/vendor/jquery.nice-select.min.js"></script>
     <script src="assets/js/main.js"></script>
-</body>
-
+  </body>
 </html>

@@ -1,868 +1,1301 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required Meta Tags -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <!-- Page Title -->
-    <title> Student Single course -CourseLMS HTML5 Template</title>
+    <title>Student Single course -CourseLMS HTML5 Template</title>
 
     <!-- Favicon Icon -->
-    <link rel="shortcut icon" href="favicon.png">
+    <link rel="shortcut icon" href="favicon.png" />
 
     <!-- CSS Files -->
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/font-awsome-all.min.css">
-    <link rel="stylesheet" href="assets/css/meanmenu.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/font-awsome-all.min.css" />
+    <link rel="stylesheet" href="assets/css/meanmenu.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-<body>
+  <body>
     <!-- Preloader Starts -->
     <div class="preloader" id="preloader">
-        <div class="preloader-inner">
-            <div class="spinner">
-                <div class="bounce1"></div>
-                <div class="bounce2"></div>
-                <div class="bounce3"></div>
-            </div>
+      <div class="preloader-inner">
+        <div class="spinner">
+          <div class="bounce1"></div>
+          <div class="bounce2"></div>
+          <div class="bounce3"></div>
         </div>
+      </div>
     </div>
 
     <!-- header -->
     <header class="lms_header">
-        <div class="container header-wrapper-style-2 position-relative">
-
-            <!-- logo -->
-            <div class="d-flex align-items-center">
-                <span class="lms-mobile-menu-trigger"><i class="fas fa-bars"></i></span>
-                <img class="logo" src="./assets/images/logo.png" alt="">
-            </div>
-
-            <!-- menu -->
-            <ul class="lms_main_nav">
-                <li><a href="#">Home</a></li>
-                <li>
-                    <a href="#">tranding</a>
-                </li>
-                <li>
-                    <a href="#">Course</a>
-                    <span class="lms_badge">New</span>
-                </li>
-                <li><a href="#">instructors</a></li>
-            </ul>
-
-
-            <div class="searchbar-style-wrapper mt-4 mt-md-0">
-                <!-- searchbar login button -->
-                <div class="lms_searchbar_wrapper">
-                    <!-- category selector -->
-                    <select class="header_cat_selector">
-                        <option>all category</option>
-                        <option>history</option>
-                        <option>math</option>
-                        <option>biology</option>
-                        <option>science</option>
-                        <option>accounting</option>
-                        <option>Socialogy</option>
-                    </select>
-                    <!-- search input -->
-                    <input class="header-search-input" placeholder="Search for anything..." type="text" />
-                    <!-- seach button -->
-                    <button class="header-search-btn"><i class="fas fa-search"></i></button>
-                </div>
-
-                <!-- signin/login button -->
-                <button class="btn1 header-signin d-none d-xxl-block  mt-md-0">sign in</button>
-
-                <!-- cart -->
-                <div class="header-style-cart-wrapper d-none d-xxl-blocka">
-                    <span id="cart-box" class="header-cart-icon bg-green text-white">
-                        <span class="small-badge bg-lite-black">1</span>
-                        <i class="fas fa-shopping-cart"></i>
-                    </span>
-                    <a class="header-cart-icon bg-orange text-white" href="#">
-                        <span class="small-badge bg-red">1</span>
-                        <i class="fas fa-bell"></i>
-                    </a>
-                    <a class="header-cart-icon bg-cyan text-white" href="#">
-                        <span class="small-badge bg-dark-cyan">1</span>
-                        <i class="fas fa-heart"></i>
-                    </a>
-                    <a class="header-cart-icon" href="#">
-                        <span class="small-badge bg-green profile-active"></span>
-                        <img class="mt-10" src="./assets/images/user-two.png" alt="">
-                    </a>
-
-                    <!-- cart dropdown -->
-                    <div class="header-lms-cart-dropdown">
-                        <ul>
-                            <li>
-                                <!-- left side -->
-                                <img class="thumb" src="./assets/images/sc1.png" alt="">
-                                <!-- right side -->
-                                <div class="right-side">
-                                    <a class="title" href="#">
-                                        Graphic Design & illusta...
-                                    </a>
-                                    <span class="price">$50</span>
-                                </div>
-                            </li>
-                            <li>
-                                <!-- left side -->
-                                <img class="thumb" src="./assets/images/sc2.png" alt="">
-                                <!-- right side -->
-                                <div class="right-side">
-                                    <a class="title" href="#">
-                                        3d animation Cours....
-                                    </a>
-                                    <span class="price">$70</span>
-                                </div>
-                            </li>
-                        </ul>
-
-                        <!-- button -->
-                        <a class="btn1 border-radious-5 mt-3 mx-4" href="#">go to cart</a>
-                    </div>
-
-                </div>
-            </div>
+      <div
+        class="container-fluid container-xl header-wrapper-style-2 position-relative"
+      >
+        <!-- logo -->
+        <div class="d-flex align-items-center">
+          <span class="lms-mobile-menu-trigger"
+            ><i class="fas fa-bars"></i
+          ></span>
+          <img class="logo" src="./assets/images/logo.png" alt="" />
         </div>
+
+        <!-- menu -->
+        <ul class="lms_main_nav">
+          <li><a href="#">Home</a></li>
+          <li>
+            <a href="#">tranding</a>
+          </li>
+          <li>
+            <a href="#">Course</a>
+            <span class="lms_badge">New</span>
+          </li>
+          <li><a href="#">instructors</a></li>
+        </ul>
+
+        <!-- web search bar -->
+        <div class="searchbar-style-wrapper d-nonee d-lg-blocke mt-4 mt-md-0">
+          <!-- searchbar login button -->
+          <div class="lms_searchbar_wrapper d-none d-lg-flex">
+            <!-- category selector -->
+            <select class="header_cat_selector">
+              <option>all category</option>
+              <option>history</option>
+              <option>math</option>
+              <option>biology</option>
+              <option>science</option>
+              <option>accounting</option>
+              <option>Socialogy</option>
+            </select>
+            <!-- search input -->
+            <input
+              class="header-search-input"
+              placeholder="Search for anything..."
+              type="text"
+            />
+            <!-- seach button -->
+            <button class="header-search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+
+          <!-- signin/login button -->
+          <button class="btn1 header-signin mt-md-0 d-none d-xl-block">
+            sign in
+          </button>
+
+          <!-- cart -->
+          <div class="header-style-cart-wrapper d-none d-xxl-blocka">
+            <span id="cart-box" class="header-cart-icon bg-green text-white">
+              <span class="small-badge bg-lite-black">1</span>
+              <i class="fas fa-shopping-cart"></i>
+            </span>
+            <a class="header-cart-icon bg-orange text-white" href="#">
+              <span class="small-badge bg-red">1</span>
+              <i class="fas fa-bell"></i>
+            </a>
+            <a class="header-cart-icon bg-cyan text-white" href="#">
+              <span class="small-badge bg-dark-cyan">1</span>
+              <i class="fas fa-heart"></i>
+            </a>
+            <a class="header-cart-icon" href="#">
+              <span class="small-badge bg-green profile-active"></span>
+              <img class="mt-10" src="./assets/images/user-two.png" alt="" />
+            </a>
+
+            <!-- cart dropdown -->
+            <div class="header-lms-cart-dropdown">
+              <ul>
+                <li>
+                  <!-- left side -->
+                  <img class="thumb" src="./assets/images/sc1.png" alt="" />
+                  <!-- right side -->
+                  <div class="right-side">
+                    <a class="title" href="#"> Graphic Design & illusta... </a>
+                    <span class="price">$50</span>
+                  </div>
+                </li>
+                <li>
+                  <!-- left side -->
+                  <img class="thumb" src="./assets/images/sc2.png" alt="" />
+                  <!-- right side -->
+                  <div class="right-side">
+                    <a class="title" href="#"> 3d animation Cours.... </a>
+                    <span class="price">$70</span>
+                  </div>
+                </li>
+              </ul>
+
+              <!-- button -->
+              <a class="btn1 border-radious-5 mt-3 mx-4" href="#">go to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <!--sign in/sign out button -->
+        <a href="#" class="btn1 d-lg-none">sign in</a>
+      </div>
     </header>
 
     <!-- mobile sidebar -->
     <div class="lms-mobile-sidebar">
-        <span class="close-trigger"><i class="far fa-window-close"></i></span>
-        <ul class="lms-mobile-menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Trending</a></li>
-            <li><a href="#">Course</a></li>
-            <li><a href="#">Instructors</a></li>
-        </ul>
-        <!-- cart -->
-        <div class="header-style-cart-wrapper mb-4">
-            <a class="header-cart-icon bg-white green-color" href="#">
-                <span class="small-badge bg-white">1</span>
-                <i class="fas fa-shopping-cart"></i>
-            </a>
-            <a class="header-cart-icon bg-orange text-white" href="#">
-                <span class="small-badge bg-red">1</span>
-                <i class="fas fa-bell"></i>
-            </a>
-            <a class="header-cart-icon bg-cyan text-white" href="#">
-                <span class="small-badge bg-dark-cyan">1</span>
-                <i class="fas fa-heart"></i>
-            </a>
-            <a class="header-cart-icon" href="#">
-                <span class="small-badge bg-green profile-active"></span>
-                <img src="./assets/images/user-two.png" alt="">
-            </a>
-        </div>
+      <span class="close-trigger"><i class="far fa-window-close"></i></span>
+      <ul class="lms-mobile-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">Course</a></li>
+        <li><a href="#">Instructors</a></li>
+      </ul>
+      <!-- cart -->
+      <div class="header-style-cart-wrapper mb-4">
+        <a class="header-cart-icon bg-white green-color" href="#">
+          <span class="small-badge bg-white">1</span>
+          <i class="fas fa-shopping-cart"></i>
+        </a>
+        <a class="header-cart-icon bg-orange text-white" href="#">
+          <span class="small-badge bg-red">1</span>
+          <i class="fas fa-bell"></i>
+        </a>
+        <a class="header-cart-icon bg-cyan text-white" href="#">
+          <span class="small-badge bg-dark-cyan">1</span>
+          <i class="fas fa-heart"></i>
+        </a>
+        <a class="header-cart-icon" href="#">
+          <span class="small-badge bg-green profile-active"></span>
+          <img src="./assets/images/user-two.png" alt="" />
+        </a>
+      </div>
 
-        <!-- sign button -->
-        <button class="btn1  mt-4 mt-md-0">sign in</button>
+      <!-- sign button -->
+      <button class="btn1 mt-4 mt-md-0">sign in</button>
+    </div>
+
+    <!-- mobile app menu -->
+    <ul class="mobile-app-menu-bottom d-lg-none">
+      <li>
+        <a href="#">
+          <!-- icon -->
+          <i class="fas fa-home"></i>
+          <span class="link-text">Home</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" id="showsearchbar">
+          <!-- icon -->
+          <i class="fas fa-search"></i>
+          <span class="link-text">search</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <!-- icon -->
+          <i class="fas fa-bookmark"></i>
+          <span class="link-text">courses</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <!-- icon -->
+          <i class="fas fa-heart"></i>
+          <span class="link-text">wislist</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          <!-- icon -->
+          <i class="fas fa-user-alt"></i>
+          <span class="link-text">profile</span>
+        </a>
+      </li>
+    </ul>
+
+    <!-- mobile searchbar -->
+    <div class="mobile-app-seachbar-style d-lg-none" id="mobile-overlay-active">
+      <!-- search input -->
+      <div class="search-wrapper" id="mobile-search-id">
+        <button class="search-icon" id="mobile-search-button-id">
+          <i class="fas fa-search"></i>
+        </button>
+        <button class="search-icon d-none" id="mobile-close-button-id">
+          <i class="fas fa-times"></i>
+        </button>
+        <input class="searchbox" type="text" placeholder="Search here" />
+      </div>
+
+      <!-- search content area -->
+      <div class="search-content-area" id="search-content-area-id">
+        <ul class="all-link-wrapper">
+          <li>
+            <a href="#">
+              <span class="icon"><i class="fas fa-search"></i></span>
+              python
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- top search  -->
+      <div class="container">
+        <div class="top-seacrh-categories">
+          <h6 class="mb-20">Top searches</h6>
+          <ul class="top-search-link-wrapper">
+            <li><a href="#"> python</a></li>
+            <li><a href="#">java</a></li>
+            <li><a href="#">js</a></li>
+            <li><a href="#">aws</a></li>
+            <li><a href="#">php</a></li>
+            <li><a href="#">english</a></li>
+            <li><a href="#">ielts</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- browse categories -->
+      <div class="container mt-20">
+        <div class="all-categories">
+          <h6 class="mb-20">Browse categories</h6>
+          <ul class="all-link-wrapper">
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fab fa-connectdevelop"></i></span>
+                python
+                <span class="nav-icon"
+                  ><i class="fas fa-chevron-right"></i
+                ></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fas fa-database"></i></span>
+                java</a
+              >
+              <span class="nav-icon"><i class="fas fa-chevron-right"></i></span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fab fa-js"></i></span>
+                js</a
+              >
+              <span class="nav-icon"><i class="fas fa-chevron-right"></i></span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fas fa-code"></i></span>
+                aws</a
+              >
+              <span class="nav-icon"><i class="fas fa-chevron-right"></i></span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fab fa-php"></i></span>
+                php</a
+              >
+              <span class="nav-icon"><i class="fas fa-chevron-right"></i></span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fas fa-book"></i></span>
+                english</a
+              >
+              <span class="nav-icon"><i class="fas fa-chevron-right"></i></span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fab fa-openid"></i></span>
+                ielts</a
+              >
+              <span class="nav-icon"><i class="fas fa-chevron-right"></i></span>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
 
     <!--breadcrumb section -->
-    <div class="lms_hero-section login-section" style="background: url('./assets/images/home-bg1.png');">
-        <div class="container single-course-container-wrapper"
-            style="background-image: url('./assets/images/loginbg.png');">
-            <div class="row custom-width-lg-100 align-items-center ">
-                <div class="col-lg-6 px-lg-5 mt-4 mt-lg-0 col-12 ">
-                    <h3 class="mb-10 wow fadeInLeft">
-                        Learn photography
-                    </h3>
-                    <span class="para d-block wow fadeInLeft">
-                        Tonmoy khan
-                    </span>
-                    <div class="d-flex align-items-center d-block mt-3 wow fadeInLeft">
-                        <!-- ratings -->
-                        <div class="d-flex align-items-center">
+    <div
+      class="lms_hero-section login-section"
+      style="background: url('./assets/images/home-bg1.png')"
+    >
+      <div
+        class="container single-course-container-wrapper"
+        style="background-image: url('./assets/images/loginbg.png')"
+      >
+        <div class="row custom-width-lg-100 align-items-center">
+          <div class="col-lg-6 px-lg-5 mt-4 mt-lg-0 col-12">
+            <h3 class="mb-10 wow fadeInLeft">Learn photography</h3>
+            <span class="para d-block wow fadeInLeft"> Tonmoy khan </span>
+            <div class="d-flex align-items-center d-block mt-3 wow fadeInLeft">
+              <!-- ratings -->
+              <div class="d-flex align-items-center">
+                <i class="fas fa-star ratings-icon"></i>
+                <i class="fas fa-star ratings-icon"></i>
+                <i class="fas fa-star ratings-icon"></i>
+                <i class="fas fa-star ratings-icon"></i>
+                <i class="far fa-star ratings-icon"></i>
+              </div>
+
+              <!-- badge -->
+              <span class="ratings-badge ms-3">12k</span>
+            </div>
+
+            <!-- progressbar -->
+            <div class="progress student-single-course-progress mt-4">
+              <div
+                class="progress-bar bg-purple wow fadeInLeft"
+                role="progressbar"
+                style="width: 90%"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <span class="progress-percentage"> 90% </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12 mt-40 mt-lg-0">
+            <img class="wow fadeIn" src="./assets/images/sss1.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- about me -->
+    <div class="container pt-130">
+      <div class="row">
+        <!-- main content -->
+        <div class="col-lg-8 col-xl-9 pb-130">
+          <div class="row align-items-center">
+            <!-- course description -->
+            <div class="col-lg-12 wow fadeInUp">
+              <div class="single-blog-excerpt-wrapper">
+                <h4 class="title mb-20 d-block">course description</h4>
+                <p>
+                  Erich has been playing/teaching guitar for nearly 30 years. By
+                  personally teaching 100s of one-on-one students and 1000s of
+                  guitar lessons within the last 30+ years Erich has proven to
+                  maximize any students' results by providing them with the
+                  clearest step-by-step system to playing guitar. Erich brought
+                  his guitar teachings online, AKA Youtube, in 2008 and since
+                  then his Youtube Channels has accumulated more than 712,000
+                  subscribers and has also received more than 100 Million Views
+                  across all his channels.
+                </p>
+                <p>
+                  His celebrity Youtube status has placed him in the top 5
+                  Guitar Instructors online today! Along with Erich's success as
+                  a guitar instructor, he is also a best-selling author of the
+                  #1 Amazon Bestseller Guitar Mastery Simplified and the Amazon
+                  Bestseller Ukulele Mastery Simplified.
+                </p>
+              </div>
+            </div>
+
+            <!-- course content section -->
+            <div class="col-12 mt-30 wow fadeInUp">
+              <div
+                class="course-list-accordion lms-shopping-cart-left single-blog-excerpt-wrapper"
+              >
+                <div
+                  class="d-flex align-items-center mb-20 justify-content-between"
+                >
+                  <h4 class="title d-block">requirement</h4>
+                  <div class="d-md-flex d-none d">
+                    <span>27 section</span>
+                    <span class="separator mx-3">|</span>
+                    <span>40 lectures</span>
+                    <span class="separator mx-3">|</span>
+                    <span>12h 51m total length</span>
+                  </div>
+                </div>
+                <div class="accordion accordion-flush" id="lmsflushid">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="panel-course-1">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-course-1"
+                        aria-expanded="true"
+                        aria-controls="flush-course-1"
+                      >
+                        <span>getting started</span>
+                        <span class="course-details">3 lecturers: 12min</span>
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-course-1"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="panel-course-1"
+                      data-bs-parent="#lmsflushid"
+                    >
+                      <div class="accordion-body">
+                        <ul class="course-class-list-vdo-wrapper">
+                          <li>
+                            <span
+                              ><i class="fas fa-play-circle"></i> Introduction
+                              to the User Experience Course
+                              <span class="locked d-none">locaked</span></span
+                            >
+                            <span>
+                              <a
+                                class="preview popup-link"
+                                href="https://www.youtube.com/watch?v=9xwazD5SyVg"
+                                >preview</a
+                              >
+                              <span> 02.54</span>
+                            </span>
+                          </li>
+                          <li>
+                            <span
+                              ><i class="fas fa-play-circle"></i> Introduction
+                              to the User Experience Course
+                              <span class="locked d-none">locaked</span></span
+                            >
+                            <span>
+                              <a
+                                class="preview popup-link"
+                                href="https://www.youtube.com/watch?v=9xwazD5SyVg"
+                                >preview</a
+                              >
+                              <span> 02.54</span>
+                            </span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item mt-4">
+                    <h2 class="accordion-header" id="panels-course-2">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-course-2"
+                        aria-expanded="false"
+                        aria-controls="flush-course-2"
+                      >
+                        <span>the brief</span>
+                        <span class="course-details">3 lecturers: 12min</span>
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-course-2"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="panels-course-2"
+                      data-bs-parent="#lmsflushid"
+                    >
+                      <div class="accordion-body">
+                        <ul class="course-class-list-vdo-wrapper">
+                          <li>
+                            <span
+                              ><i class="fas fa-play-circle"></i> Introduction
+                              to the User Experience Course
+                              <span class="locked">locaked</span>
+                            </span>
+                            <span>
+                              <a
+                                class="preview popup-link"
+                                href="https://www.youtube.com/watch?v=9xwazD5SyVg"
+                                >preview</a
+                              >
+                              <span> 02.54</span>
+                            </span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item mt-4">
+                    <h2 class="accordion-header" id="panels-course-3">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-course-3"
+                        aria-expanded="false"
+                        aria-controls="flush-course-3"
+                      >
+                        <span>Wifeframing Low Fidelity</span>
+                        <span class="course-details">3 lecturers: 12min</span>
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-course-3"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="panels-course-3"
+                      data-bs-parent="#lmsflushid"
+                    >
+                      <div class="accordion-body">
+                        <ul class="course-class-list-vdo-wrapper">
+                          <li>
+                            <span
+                              ><i class="fas fa-play-circle"></i> Wifeframing
+                              Low Fidelity
+                              <span class="locked">locaked</span>
+                            </span>
+                            <span>
+                              <a
+                                class="preview popup-link"
+                                href="https://www.youtube.com/watch?v=9xwazD5SyVg"
+                                >preview</a
+                              >
+                              <span> 02.54</span>
+                            </span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item mt-4">
+                    <h2 class="accordion-header" id="panels-course-4">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-course-4"
+                        aria-expanded="false"
+                        aria-controls="flush-course-4"
+                      >
+                        <span>Type, Color & Icon Introduction</span>
+                        <span class="course-details">4 lecturers: 12min</span>
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-course-4"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="panels-course-4"
+                      data-bs-parent="#lmsflushid"
+                    >
+                      <div class="accordion-body">
+                        <ul class="course-class-list-vdo-wrapper">
+                          <li>
+                            <span
+                              ><i class="fas fa-play-circle"></i> Type, Color &
+                              Icon Introduction
+                              <span class="locked">locaked</span>
+                            </span>
+                            <span>
+                              <a
+                                class="preview popup-link"
+                                href="https://www.youtube.com/watch?v=9xwazD5SyVg"
+                                >preview</a
+                              >
+                              <span> 02.54</span>
+                            </span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="load-more mt-4">17 more section</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- instructor -->
+            <div class="col-12 mt-30">
+              <div class="single-blog-excerpt-wrapper">
+                <div class="row">
+                  <!-- instructor -->
+                  <div class="col-xl-6 wow fadeInUp">
+                    <h4 class="title mb-20 d-block">instructor</h4>
+
+                    <div
+                      class="single-small-course-card lms-testimonial-card mb-20"
+                    >
+                      <!-- left side -->
+                      <img
+                        src="./assets/images/t1.png"
+                        class="small-img"
+                        alt="img"
+                      />
+                      <!-- right side -->
+                      <div class="right-side">
+                        <h4 class="title">Mariya Chirst</h4>
+                        <span class="subtitle mt-2">UI &amp; UX Designer</span>
+
+                        <div class="d-flex align-items-center d-block mt-2">
+                          <!-- total ratings -->
+                          <span class="total-ratings me-2">4.7</span>
+                          <!-- ratings -->
+                          <div class="d-flex align-items-center">
+                            <i class="fas fa-star ratings-icon"></i>
+                          </div>
+                          <!-- badge -->
+                          <span class="total-ratings-amount ms-3"
+                            >12,054 Reviews</span
+                          >
+                        </div>
+                        <div class="d-flex align-items-center d-block mt-2">
+                          <span class="instructor-course-info">
+                            <i class="fas fa-user green-color"></i>
+                            <span class="fw-bold ms-2">5000+</span>
+                            <span class="text-capitalize"> students</span>
+                          </span>
+                          <span class="instructor-course-info ms-2">
+                            <i class="fas fa-play-circle cyan-color"></i>
+
+                            <span class="fw-bold ms-2">24+</span>
+                            <span class="text-capitalize"> courses</span>
+                          </span>
+                        </div>
+
+                        <a href="#" class="view-more mt-2 d-block" tabindex="0"
+                          >view more
+                          <i class="fas fa-arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- course review -->
+                  <div class="col-12 mt-30 wow fadeInUp">
+                    <h4 class="title mb-30 d-block">course review</h4>
+                    <div class="lms-student-single-ratings-wrapper">
+                      <span class="big-ratings mb-4">4.9</span>
+                      <!-- ratings -->
+                      <div class="ratings-wrapper ms-xl-4">
+                        <!-- top section -->
+                        <div class="d-flex align-items-center flex-wrap mb-4">
+                          <span class="text-capitalize d-inline-block"
+                            >course ratings-icon</span
+                          >
+                          <!-- ratings -->
+                          <div
+                            class="d-flex align-items-center d-inline-block ms-4"
+                          >
                             <i class="fas fa-star ratings-icon"></i>
                             <i class="fas fa-star ratings-icon"></i>
                             <i class="fas fa-star ratings-icon"></i>
                             <i class="fas fa-star ratings-icon"></i>
                             <i class="far fa-star ratings-icon"></i>
+                          </div>
                         </div>
+                        <!-- bottom section -->
+                        <ul class="students-review-list-wrapper">
+                          <li>
+                            <!-- progressbar -->
+                            <div
+                              class="progress student-single-course-progress"
+                            >
+                              <div
+                                class="progress-bar bg-yellow"
+                                role="progressbar"
+                                style="width: 90%"
+                                aria-valuenow="25"
+                                aria-valuemin="0"
+                                aria-valuemax="100"
+                              ></div>
+                            </div>
 
-                        <!-- badge -->
-                        <span class="ratings-badge ms-3">12k</span>
+                            <!-- rating count -->
+                            <span class="total-rating d-block ms-4"
+                              >5 stars</span
+                            >
+                            <div class="d-flex align-items-center d-block ms-4">
+                              <!-- ratings -->
+                              <div class="d-flex align-items-center">
+                                <i class="fas fa-star ratings-icon"></i>
+                                <i class="fas fa-star ratings-icon"></i>
+                                <i class="fas fa-star ratings-icon"></i>
+                                <i class="fas fa-star ratings-icon"></i>
+                                <i class="far fa-star ratings-icon"></i>
+                              </div>
+
+                              <!-- badge -->
+                              <span class="ratings-badge ms-3">12k</span>
+                            </div>
+                          </li>
+                          <li>
+                            <!-- progressbar -->
+                            <div
+                              class="progress student-single-course-progress"
+                            >
+                              <div
+                                class="progress-bar bg-yellow"
+                                role="progressbar"
+                                style="width: 70%"
+                                aria-valuenow="25"
+                                aria-valuemin="0"
+                                aria-valuemax="100"
+                              ></div>
+                            </div>
+
+                            <!-- rating count -->
+                            <span class="total-rating d-block ms-4"
+                              >3 stars</span
+                            >
+                            <div class="d-flex align-items-center d-block ms-4">
+                              <!-- ratings -->
+                              <div class="d-flex align-items-center">
+                                <i class="fas fa-star ratings-icon"></i>
+                                <i class="fas fa-star ratings-icon"></i>
+                                <i class="fas fa-star ratings-icon"></i>
+                                <i class="far fa-star ratings-icon"></i>
+                                <i class="far fa-star ratings-icon"></i>
+                              </div>
+
+                              <!-- badge -->
+                              <span class="ratings-badge ms-3">12k</span>
+                            </div>
+                          </li>
+                          <li>
+                            <!-- progressbar -->
+                            <div
+                              class="progress student-single-course-progress"
+                            >
+                              <div
+                                class="progress-bar bg-yellow"
+                                role="progressbar"
+                                style="width: 30%"
+                                aria-valuenow="25"
+                                aria-valuemin="0"
+                                aria-valuemax="100"
+                              ></div>
+                            </div>
+
+                            <!-- rating count -->
+                            <span class="total-rating d-block ms-4"
+                              >2 stars</span
+                            >
+                            <div class="d-flex align-items-center d-block ms-4">
+                              <!-- ratings -->
+                              <div class="d-flex align-items-center">
+                                <i class="fas fa-star ratings-icon"></i>
+                                <i class="fas fa-star ratings-icon"></i>
+                                <i class="far fa-star ratings-icon"></i>
+                                <i class="far fa-star ratings-icon"></i>
+                                <i class="far fa-star ratings-icon"></i>
+                              </div>
+
+                              <!-- badge -->
+                              <span class="ratings-badge ms-3">12k</span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
+                  </div>
 
-                    <!-- progressbar -->
-                    <div class="progress student-single-course-progress mt-4">
-                        <div class="progress-bar bg-purple wow fadeInLeft" role="progressbar" style="width: 90%;"
-                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                            <span class="progress-percentage">
-                                90%
-                            </span>
+                  <!-- comment section -->
+                  <div class="col-12 mt-30 wow fadeInUp">
+                    <form action="#">
+                      <textarea
+                        class="text-area-input mb-30"
+                        placeholder="Enter your Comment"
+                        cols="30"
+                        rows="2"
+                      ></textarea>
+
+                      <!--radion inputs  -->
+                      <div class="comments-radio-input-wrapper">
+                        <!-- single item -->
+                        <div class="single-radio-input">
+                          <span class="d-block small-title"
+                            >Content Quality</span
+                          >
+                          <!-- single radio -->
+                          <label class="label" for="q-1"
+                            ><i class="fas fa-star ratings-icon"></i
+                          ></label>
+                          <input
+                            value="1"
+                            class="radio-input"
+                            id="q-1"
+                            name="quality"
+                            type="radio"
+                          />
+                          <!-- single radio -->
+                          <label class="label" for="q-2">
+                            <i class="far fa-star ratings-icon"></i
+                          ></label>
+                          <input
+                            value="2"
+                            class="radio-input"
+                            id="q-2"
+                            name="quality"
+                            type="radio"
+                          />
+                          <!-- single radio -->
+                          <label class="label" for="q-3">
+                            <i class="far fa-star ratings-icon"></i
+                          ></label>
+                          <input
+                            value="3"
+                            class="radio-input"
+                            id="q-3"
+                            name="quality"
+                            type="radio"
+                          />
+                          <!-- single radio -->
+                          <label class="label" for="q-4">
+                            <i class="far fa-star ratings-icon"></i
+                          ></label>
+                          <input
+                            value="4"
+                            class="radio-input"
+                            id="q-4"
+                            name="quality"
+                            type="radio"
+                          />
+                          <!-- single radio -->
+                          <label class="label" for="q-5">
+                            <i class="far fa-star ratings-icon"></i
+                          ></label>
+                          <input
+                            value="5"
+                            class="radio-input"
+                            id="q-5"
+                            name="quality"
+                            type="radio"
+                          />
                         </div>
-                    </div>
+                        <!-- separator -->
+                        <span class="separator"></span>
+                        <!-- single item -->
+                        <div class="single-radio-input">
+                          <span class="d-block small-title"
+                            >Instructor Skills</span
+                          >
+                          <!-- single radio -->
+                          <label class="label" for="i-1"
+                            ><i class="fas fa-star ratings-icon"></i
+                          ></label>
+                          <input
+                            value="1"
+                            class="radio-input"
+                            id="i-1"
+                            name="quality"
+                            type="radio"
+                          />
+                          <!-- single radio -->
+                          <label class="label" for="i-2">
+                            <i class="far fa-star ratings-icon"></i
+                          ></label>
+                          <input
+                            value="2"
+                            class="radio-input"
+                            id="i-2"
+                            name="quality"
+                            type="radio"
+                          />
+                          <!-- single radio -->
+                          <label class="label" for="i-3">
+                            <i class="far fa-star ratings-icon"></i
+                          ></label>
+                          <input
+                            value="3"
+                            class="radio-input"
+                            id="i-3"
+                            name="quality"
+                            type="radio"
+                          />
+                          <!-- single radio -->
+                          <label class="label" for="i-4">
+                            <i class="far fa-star ratings-icon"></i
+                          ></label>
+                          <input
+                            value="4"
+                            class="radio-input"
+                            id="i-4"
+                            name="quality"
+                            type="radio"
+                          />
+                          <!-- single radio -->
+                          <label class="label" for="i-5">
+                            <i class="far fa-star ratings-icon"></i
+                          ></label>
+                          <input
+                            value="5"
+                            class="radio-input"
+                            id="i-5"
+                            name="quality"
+                            type="radio"
+                          />
+                        </div>
+                        <!-- separator -->
+                        <span class="separator"></span>
+                        <!-- single item -->
+                        <div class="single-radio-input">
+                          <span class="d-block small-title"
+                            >purchase worth</span
+                          >
+                          <!-- single radio -->
+                          <label class="label" for="p-1"
+                            ><i class="fas fa-star ratings-icon"></i
+                          ></label>
+                          <input
+                            value="1"
+                            class="radio-input"
+                            id="p-1"
+                            name="quality"
+                            type="radio"
+                          />
+                          <!-- single radio -->
+                          <label class="label" for="p-2">
+                            <i class="far fa-star ratings-icon"></i
+                          ></label>
+                          <input
+                            value="2"
+                            class="radio-input"
+                            id="p-2"
+                            name="quality"
+                            type="radio"
+                          />
+                          <!-- single radio -->
+                          <label class="label" for="p-3">
+                            <i class="far fa-star ratings-icon"></i
+                          ></label>
+                          <input
+                            value="3"
+                            class="radio-input"
+                            id="p-3"
+                            name="quality"
+                            type="radio"
+                          />
+                          <!-- single radio -->
+                          <label class="label" for="p-4">
+                            <i class="far fa-star ratings-icon"></i
+                          ></label>
+                          <input
+                            value="4"
+                            class="radio-input"
+                            id="p-4"
+                            name="quality"
+                            type="radio"
+                          />
+                          <!-- single radio -->
+                          <label class="label" for="p-5">
+                            <i class="far fa-star ratings-icon"></i
+                          ></label>
+                          <input
+                            value="5"
+                            class="radio-input"
+                            id="p-5"
+                            name="quality"
+                            type="radio"
+                          />
+                        </div>
+                        <span class="separator"></span>
+                        <!-- single item -->
+                        <div class="single-radio-input">
+                          <span class="d-block small-title"
+                            >support quality</span
+                          >
+                          <!-- single radio -->
+                          <label class="label" for="su-1"
+                            ><i class="fas fa-star ratings-icon"></i
+                          ></label>
+                          <input
+                            value="1"
+                            class="radio-input"
+                            id="su-1"
+                            name="quality"
+                            type="radio"
+                          />
+                          <!-- single radio -->
+                          <label class="label" for="su-2">
+                            <i class="far fa-star ratings-icon"></i
+                          ></label>
+                          <input
+                            value="2"
+                            class="radio-input"
+                            id="su-2"
+                            name="quality"
+                            type="radio"
+                          />
+                          <!-- single radio -->
+                          <label class="label" for="su-3">
+                            <i class="far fa-star ratings-icon"></i
+                          ></label>
+                          <input
+                            value="3"
+                            class="radio-input"
+                            id="su-3"
+                            name="quality"
+                            type="radio"
+                          />
+                          <!-- single radio -->
+                          <label class="label" for="su-4">
+                            <i class="far fa-star ratings-icon"></i
+                          ></label>
+                          <input
+                            value="4"
+                            class="radio-input"
+                            id="su-4"
+                            name="quality"
+                            type="radio"
+                          />
+                          <!-- single radio -->
+                          <label class="label" for="su-5">
+                            <i class="far fa-star ratings-icon"></i
+                          ></label>
+                          <input
+                            value="5"
+                            class="radio-input"
+                            id="su-5"
+                            name="quality"
+                            type="radio"
+                          />
+                        </div>
+                      </div>
+
+                      <!-- submit button -->
+                      <button class="btn1 mt-30 mb-40 border-radious-5">
+                        sent message
+                      </button>
+                    </form>
+                  </div>
                 </div>
-                <div class="col-lg-6  col-12 mt-40 mt-lg-0">
-                    <img class="wow fadeIn" src="./assets/images/sss1.png" alt="">
-                </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-
-    <!-- about me -->
-    <div class="container pt-130">
-        <div class="row">
-            <!-- main content -->
-            <div class="col-lg-8 col-xl-9 pb-130">
-                <div class="row align-items-center">
-                    <!-- course description -->
-                    <div class="col-lg-12 wow fadeInUp">
-                        <div class="single-blog-excerpt-wrapper">
-                            <h4 class="title mb-20 d-block">course description</h4>
-                            <p>
-                                Erich has been playing/teaching guitar for nearly 30 years. By personally teaching 100s
-                                of
-                                one-on-one students and 1000s of guitar lessons within the last 30+ years Erich has
-                                proven to
-                                maximize any students' results by providing them with the clearest step-by-step system
-                                to
-                                playing guitar. Erich brought his guitar teachings online, AKA Youtube, in 2008 and
-                                since then
-                                his Youtube Channels has accumulated more than 712,000 subscribers and has also received
-                                more
-                                than 100 Million Views across all his channels.
-                            </p>
-                            <p>
-                                His celebrity Youtube status has placed him in the top 5 Guitar Instructors online
-                                today! Along
-                                with Erich's success as a guitar instructor, he is also a best-selling author of the #1
-                                Amazon
-                                Bestseller Guitar Mastery Simplified and the Amazon Bestseller Ukulele Mastery
-                                Simplified.
-                            </p>
-
-                        </div>
-                    </div>
-
-                    <!-- course content section -->
-                    <div class="col-12 mt-30 wow fadeInUp">
-                        <div class="course-list-accordion lms-shopping-cart-left single-blog-excerpt-wrapper">
-                            <div class="d-flex align-items-center mb-20 justify-content-between">
-                                <h4 class="title d-block">requirement</h4>
-                                <div class="d-md-flex d-none d">
-                                    <span>27 section</span>
-                                    <span class="separator mx-3">|</span>
-                                    <span>40 lectures</span>
-                                    <span class="separator mx-3">|</span>
-                                    <span>12h 51m total length</span>
-                                </div>
-                            </div>
-                            <div class="accordion accordion-flush" id="lmsflushid">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="panel-course-1">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#flush-course-1" aria-expanded="true"
-                                            aria-controls="flush-course-1">
-                                            <span>getting started</span>
-                                            <span class="course-details">3 lecturers: 12min</span>
-                                        </button>
-                                    </h2>
-                                    <div id="flush-course-1" class="accordion-collapse collapse show"
-                                        aria-labelledby="panel-course-1" data-bs-parent="#lmsflushid">
-                                        <div class="accordion-body">
-                                            <ul class="course-class-list-vdo-wrapper">
-                                                <li>
-                                                    <span><i class="fas fa-play-circle"></i> Introduction to the User
-                                                        Experience
-                                                        Course <span class="locked d-none">locaked</span></span>
-                                                    <span>
-                                                        <a class="preview popup-link"
-                                                            href="https://www.youtube.com/watch?v=9xwazD5SyVg">preview</a>
-                                                        <span> 02.54</span>
-                                                    </span>
-                                                </li>
-                                                <li>
-                                                    <span><i class="fas fa-play-circle"></i> Introduction to the User
-                                                        Experience
-                                                        Course <span class="locked  d-none">locaked</span></span>
-                                                    <span>
-                                                        <a class="preview popup-link"
-                                                            href="https://www.youtube.com/watch?v=9xwazD5SyVg">preview</a>
-                                                        <span> 02.54</span>
-                                                    </span>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item mt-4">
-                                    <h2 class="accordion-header" id="panels-course-2">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#flush-course-2"
-                                            aria-expanded="false" aria-controls="flush-course-2">
-                                            <span>the brief</span>
-                                            <span class="course-details">3 lecturers: 12min</span>
-                                        </button>
-                                    </h2>
-                                    <div id="flush-course-2" class="accordion-collapse collapse"
-                                        aria-labelledby="panels-course-2" data-bs-parent="#lmsflushid">
-                                        <div class="accordion-body">
-                                            <ul class="course-class-list-vdo-wrapper">
-                                                <li>
-                                                    <span><i class="fas fa-play-circle"></i> Introduction to the User
-                                                        Experience
-                                                        Course
-                                                        <span class="locked">locaked</span>
-                                                    </span>
-                                                    <span>
-                                                        <a class="preview popup-link"
-                                                            href="https://www.youtube.com/watch?v=9xwazD5SyVg">preview</a>
-                                                        <span> 02.54</span>
-                                                    </span>
-                                                </li>
-
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item mt-4">
-                                    <h2 class="accordion-header" id="panels-course-3">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#flush-course-3"
-                                            aria-expanded="false" aria-controls="flush-course-3">
-                                            <span>Wifeframing Low Fidelity</span>
-                                            <span class="course-details">3 lecturers: 12min</span>
-                                        </button>
-                                    </h2>
-                                    <div id="flush-course-3" class="accordion-collapse collapse"
-                                        aria-labelledby="panels-course-3" data-bs-parent="#lmsflushid">
-                                        <div class="accordion-body">
-                                            <ul class="course-class-list-vdo-wrapper">
-                                                <li>
-                                                    <span><i class="fas fa-play-circle"></i> Wifeframing Low Fidelity
-                                                        <span class="locked">locaked</span>
-                                                    </span>
-                                                    <span>
-                                                        <a class="preview popup-link"
-                                                            href="https://www.youtube.com/watch?v=9xwazD5SyVg">preview</a>
-                                                        <span> 02.54</span>
-                                                    </span>
-                                                </li>
-
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item mt-4">
-                                    <h2 class="accordion-header" id="panels-course-4">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#flush-course-4"
-                                            aria-expanded="false" aria-controls="flush-course-4">
-                                            <span>Type, Color & Icon Introduction</span>
-                                            <span class="course-details">4 lecturers: 12min</span>
-                                        </button>
-                                    </h2>
-                                    <div id="flush-course-4" class="accordion-collapse collapse"
-                                        aria-labelledby="panels-course-4" data-bs-parent="#lmsflushid">
-                                        <div class="accordion-body">
-                                            <ul class="course-class-list-vdo-wrapper">
-                                                <li>
-                                                    <span><i class="fas fa-play-circle"></i> Type, Color & Icon
-                                                        Introduction
-                                                        <span class="locked">locaked</span>
-                                                    </span>
-                                                    <span>
-                                                        <a class="preview popup-link"
-                                                            href="https://www.youtube.com/watch?v=9xwazD5SyVg">preview</a>
-                                                        <span> 02.54</span>
-                                                    </span>
-                                                </li>
-
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button class="load-more mt-4">
-                                    17 more section
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- instructor -->
-                    <div class="col-12 mt-30">
-                        <div class="single-blog-excerpt-wrapper">
-                            <div class="row">
-                                <!-- instructor -->
-                                <div class="col-xl-6 wow fadeInUp">
-                                    <h4 class="title mb-20 d-block">instructor</h4>
-
-                                    <div class="single-small-course-card lms-testimonial-card mb-20">
-                                        <!-- left side -->
-                                        <img src="./assets/images/t1.png" class="small-img" alt="img">
-                                        <!-- right side -->
-                                        <div class="right-side">
-                                            <h4 class="title">Mariya Chirst</h4>
-                                            <span class="subtitle mt-2">UI &amp; UX Designer</span>
-
-                                            <div class="d-flex align-items-center d-block mt-2">
-                                                <!-- total ratings -->
-                                                <span class="total-ratings me-2">4.7</span>
-                                                <!-- ratings -->
-                                                <div class="d-flex align-items-center">
-                                                    <i class="fas fa-star ratings-icon"></i>
-                                                </div>
-                                                <!-- badge -->
-                                                <span class="total-ratings-amount ms-3">12,054 Reviews</span>
-                                            </div>
-                                            <div class="d-flex align-items-center d-block mt-2">
-                                                <span class="instructor-course-info">
-                                                    <i class="fas fa-user green-color"></i>
-                                                    <span class="fw-bold ms-2">5000+</span>
-                                                    <span class="text-capitalize"> students</span>
-                                                </span>
-                                                <span class="instructor-course-info ms-2">
-                                                    <i class="fas fa-play-circle cyan-color"></i>
-
-                                                    <span class="fw-bold ms-2">24+</span>
-                                                    <span class="text-capitalize"> courses</span>
-                                                </span>
-                                            </div>
-
-                                            <a href="#" class="view-more mt-2 d-block" tabindex="0">view more
-                                                <i class="fas fa-arrow-right"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- course review -->
-                                <div class="col-12 mt-30 wow fadeInUp">
-                                    <h4 class="title mb-30 d-block">course review</h4>
-                                    <div class="lms-student-single-ratings-wrapper">
-                                        <span class="big-ratings mb-4">4.9</span>
-                                        <!-- ratings -->
-                                        <div class="ratings-wrapper ms-xl-4">
-                                            <!-- top section -->
-                                            <div class="d-flex align-items-center flex-wrap mb-4">
-                                                <span class="text-capitalize  d-inline-block">course
-                                                    ratings-icon</span>
-                                                <!-- ratings -->
-                                                <div class="d-flex align-items-center d-inline-block ms-4">
-                                                    <i class="fas fa-star ratings-icon"></i>
-                                                    <i class="fas fa-star ratings-icon"></i>
-                                                    <i class="fas fa-star ratings-icon"></i>
-                                                    <i class="fas fa-star ratings-icon"></i>
-                                                    <i class="far fa-star ratings-icon"></i>
-                                                </div>
-                                            </div>
-                                            <!-- bottom section -->
-                                            <ul class="students-review-list-wrapper">
-                                                <li>
-                                                    <!-- progressbar -->
-                                                    <div class="progress student-single-course-progress">
-                                                        <div class="progress-bar bg-yellow" role="progressbar"
-                                                            style="width: 90%;" aria-valuenow="25" aria-valuemin="0"
-                                                            aria-valuemax="100">
-                                                        </div>
-                                                    </div>
-
-                                                    <!-- rating count -->
-                                                    <span class="total-rating d-block ms-4">5 stars</span>
-                                                    <div class="d-flex align-items-center d-block ms-4">
-                                                        <!-- ratings -->
-                                                        <div class="d-flex align-items-center">
-                                                            <i class="fas fa-star ratings-icon"></i>
-                                                            <i class="fas fa-star ratings-icon"></i>
-                                                            <i class="fas fa-star ratings-icon"></i>
-                                                            <i class="fas fa-star ratings-icon"></i>
-                                                            <i class="far fa-star ratings-icon"></i>
-                                                        </div>
-
-                                                        <!-- badge -->
-                                                        <span class="ratings-badge ms-3">12k</span>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <!-- progressbar -->
-                                                    <div class="progress student-single-course-progress">
-                                                        <div class="progress-bar bg-yellow" role="progressbar"
-                                                            style="width: 70%;" aria-valuenow="25" aria-valuemin="0"
-                                                            aria-valuemax="100">
-                                                        </div>
-                                                    </div>
-
-                                                    <!-- rating count -->
-                                                    <span class="total-rating d-block ms-4">3 stars</span>
-                                                    <div class="d-flex align-items-center d-block ms-4">
-                                                        <!-- ratings -->
-                                                        <div class="d-flex align-items-center">
-                                                            <i class="fas fa-star ratings-icon"></i>
-                                                            <i class="fas fa-star ratings-icon"></i>
-                                                            <i class="fas fa-star ratings-icon"></i>
-                                                            <i class="far fa-star ratings-icon"></i>
-                                                            <i class="far fa-star ratings-icon"></i>
-                                                        </div>
-
-                                                        <!-- badge -->
-                                                        <span class="ratings-badge ms-3">12k</span>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <!-- progressbar -->
-                                                    <div class="progress student-single-course-progress">
-                                                        <div class="progress-bar bg-yellow" role="progressbar"
-                                                            style="width: 30%;" aria-valuenow="25" aria-valuemin="0"
-                                                            aria-valuemax="100">
-                                                        </div>
-                                                    </div>
-
-                                                    <!-- rating count -->
-                                                    <span class="total-rating d-block ms-4">2 stars</span>
-                                                    <div class="d-flex align-items-center d-block ms-4">
-                                                        <!-- ratings -->
-                                                        <div class="d-flex align-items-center">
-                                                            <i class="fas fa-star ratings-icon"></i>
-                                                            <i class="fas fa-star ratings-icon"></i>
-                                                            <i class="far fa-star ratings-icon"></i>
-                                                            <i class="far fa-star ratings-icon"></i>
-                                                            <i class="far fa-star ratings-icon"></i>
-                                                        </div>
-
-                                                        <!-- badge -->
-                                                        <span class="ratings-badge ms-3">12k</span>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- comment section -->
-                                <div class="col-12 mt-30 wow fadeInUp">
-                                    <form action="#">
-
-                                        <textarea class="text-area-input mb-30" placeholder="Enter your Comment"
-                                            cols="30" rows="2"></textarea>
-
-                                        <!--radion inputs  -->
-                                        <div class="comments-radio-input-wrapper">
-                                            <!-- single item -->
-                                            <div class="single-radio-input">
-                                                <span class="d-block small-title">Content Quality</span>
-                                                <!-- single radio -->
-                                                <label class="label" for="q-1"><i
-                                                        class="fas fa-star ratings-icon"></i></label>
-                                                <input value="1" class="radio-input" id="q-1" name="quality"
-                                                    type="radio">
-                                                <!-- single radio -->
-                                                <label class="label" for="q-2"> <i
-                                                        class="far fa-star ratings-icon"></i></label>
-                                                <input value="2" class="radio-input" id="q-2" name="quality"
-                                                    type="radio">
-                                                <!-- single radio -->
-                                                <label class="label" for="q-3"> <i
-                                                        class="far fa-star ratings-icon"></i></label>
-                                                <input value="3" class="radio-input" id="q-3" name="quality"
-                                                    type="radio">
-                                                <!-- single radio -->
-                                                <label class="label" for="q-4"> <i
-                                                        class="far fa-star ratings-icon"></i></label>
-                                                <input value="4" class="radio-input" id="q-4" name="quality"
-                                                    type="radio">
-                                                <!-- single radio -->
-                                                <label class="label" for="q-5"> <i
-                                                        class="far fa-star ratings-icon"></i></label>
-                                                <input value="5" class="radio-input" id="q-5" name="quality"
-                                                    type="radio">
-
-                                            </div>
-                                            <!-- separator -->
-                                            <span class="separator"></span>
-                                            <!-- single item -->
-                                            <div class="single-radio-input">
-                                                <span class="d-block small-title">Instructor Skills</span>
-                                                <!-- single radio -->
-                                                <label class="label" for="i-1"><i
-                                                        class="fas fa-star ratings-icon"></i></label>
-                                                <input value="1" class="radio-input" id="i-1" name="quality"
-                                                    type="radio">
-                                                <!-- single radio -->
-                                                <label class="label" for="i-2"> <i
-                                                        class="far fa-star ratings-icon"></i></label>
-                                                <input value="2" class="radio-input" id="i-2" name="quality"
-                                                    type="radio">
-                                                <!-- single radio -->
-                                                <label class="label" for="i-3"> <i
-                                                        class="far fa-star ratings-icon"></i></label>
-                                                <input value="3" class="radio-input" id="i-3" name="quality"
-                                                    type="radio">
-                                                <!-- single radio -->
-                                                <label class="label" for="i-4"> <i
-                                                        class="far fa-star ratings-icon"></i></label>
-                                                <input value="4" class="radio-input" id="i-4" name="quality"
-                                                    type="radio">
-                                                <!-- single radio -->
-                                                <label class="label" for="i-5"> <i
-                                                        class="far fa-star ratings-icon"></i></label>
-                                                <input value="5" class="radio-input" id="i-5" name="quality"
-                                                    type="radio">
-
-                                            </div>
-                                            <!-- separator -->
-                                            <span class="separator"></span>
-                                            <!-- single item -->
-                                            <div class="single-radio-input">
-                                                <span class="d-block small-title">purchase worth</span>
-                                                <!-- single radio -->
-                                                <label class="label" for="p-1"><i
-                                                        class="fas fa-star ratings-icon"></i></label>
-                                                <input value="1" class="radio-input" id="p-1" name="quality"
-                                                    type="radio">
-                                                <!-- single radio -->
-                                                <label class="label" for="p-2"> <i
-                                                        class="far fa-star ratings-icon"></i></label>
-                                                <input value="2" class="radio-input" id="p-2" name="quality"
-                                                    type="radio">
-                                                <!-- single radio -->
-                                                <label class="label" for="p-3"> <i
-                                                        class="far fa-star ratings-icon"></i></label>
-                                                <input value="3" class="radio-input" id="p-3" name="quality"
-                                                    type="radio">
-                                                <!-- single radio -->
-                                                <label class="label" for="p-4"> <i
-                                                        class="far fa-star ratings-icon"></i></label>
-                                                <input value="4" class="radio-input" id="p-4" name="quality"
-                                                    type="radio">
-                                                <!-- single radio -->
-                                                <label class="label" for="p-5"> <i
-                                                        class="far fa-star ratings-icon"></i></label>
-                                                <input value="5" class="radio-input" id="p-5" name="quality"
-                                                    type="radio">
-
-                                            </div>
-                                            <span class="separator"></span>
-                                            <!-- single item -->
-                                            <div class="single-radio-input">
-                                                <span class="d-block small-title">support quality</span>
-                                                <!-- single radio -->
-                                                <label class="label" for="su-1"><i
-                                                        class="fas fa-star ratings-icon"></i></label>
-                                                <input value="1" class="radio-input" id="su-1" name="quality"
-                                                    type="radio">
-                                                <!-- single radio -->
-                                                <label class="label" for="su-2"> <i
-                                                        class="far fa-star ratings-icon"></i></label>
-                                                <input value="2" class="radio-input" id="su-2" name="quality"
-                                                    type="radio">
-                                                <!-- single radio -->
-                                                <label class="label" for="su-3"> <i
-                                                        class="far fa-star ratings-icon"></i></label>
-                                                <input value="3" class="radio-input" id="su-3" name="quality"
-                                                    type="radio">
-                                                <!-- single radio -->
-                                                <label class="label" for="su-4"> <i
-                                                        class="far fa-star ratings-icon"></i></label>
-                                                <input value="4" class="radio-input" id="su-4" name="quality"
-                                                    type="radio">
-                                                <!-- single radio -->
-                                                <label class="label" for="su-5"> <i
-                                                        class="far fa-star ratings-icon"></i></label>
-                                                <input value="5" class="radio-input" id="su-5" name="quality"
-                                                    type="radio">
-
-                                            </div>
-                                        </div>
-
-                                        <!-- submit button -->
-                                        <button class="btn1 mt-30 mb-40 border-radious-5">sent message</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
+        <!-- sidebar -->
+        <div class="col-lg-4 col-xl-3">
+          <div class="lms-course-sidebar-feature">
+            <div class="thumb position-relative">
+              <img src="./assets/images/lms-cc.png" alt="" />
+              <a
+                class="video-icon item-ripple popup-link"
+                href="https://www.youtube.com/watch?v=dNwxvuR41gw"
+              >
+                <i class="fas fa-play-circle"></i>
+              </a>
             </div>
-            <!-- sidebar -->
-            <div class="col-lg-4 col-xl-3">
-                <div class="lms-course-sidebar-feature">
-                    <div class="thumb position-relative">
-                        <img src="./assets/images/lms-cc.png" alt="">
-                        <a class="video-icon item-ripple popup-link" href="https://www.youtube.com/watch?v=dNwxvuR41gw">
-                            <i class="fas fa-play-circle"></i>
-                        </a>
-                    </div>
-                    <h4 class="mt-30"> course features</h4>
-                    <!-- feature list -->
-                    <ul class="fea-list">
-                        <li class="d-flex justify-content-between align-items-center">
-                            <div class="d-flex align-items-center">
-                                <!-- icon -->
-                                <img class="icon-thumb" src="./assets/images/cf1.png" alt="">
-                                <span class="content-one text-capitalize ms-3 d-block"> downloadable resource</span>
-                            </div>
-                            <span class="content-two">69</span>
-                        </li>
-                        <li class="d-flex justify-content-between align-items-center">
-                            <div class="d-flex align-items-center">
-                                <!-- icon -->
-                                <img class="icon-thumb" src="./assets/images/cf2.png" alt="">
-                                <span class="content-one text-capitalize ms-3 d-block"> video duration</span>
-                            </div>
-                            <span class="content-two">1:58:00</span>
-                        </li>
-                        <li class="d-flex justify-content-between align-items-center">
-                            <div class="d-flex align-items-center">
-                                <!-- icon -->
-                                <img class="icon-thumb" src="./assets/images/cf3.png" alt="">
-                                <span class="content-one text-capitalize ms-3 d-block"> lectures</span>
-                            </div>
-                            <span class="content-two">24</span>
-                        </li>
-                        <li class="d-flex justify-content-between align-items-center">
-                            <div class="d-flex align-items-center">
-                                <!-- icon -->
-                                <img class="icon-thumb" src="./assets/images/cf4.png" alt="">
-                                <span class="content-one text-capitalize ms-3 d-block"> language</span>
-                            </div>
-                            <span class="content-two">english</span>
-                        </li>
-                        <li class="d-flex justify-content-between align-items-center">
-                            <div class="d-flex align-items-center">
-                                <!-- icon -->
-                                <img class="icon-thumb" src="./assets/images/cf5.png" alt="">
-                                <span class="content-one text-capitalize ms-3 d-block"> skill level</span>
-                            </div>
-                            <span class="content-two">beginer</span>
-                        </li>
-                    </ul>
-
-                    <h3 class="text-center mt-30">Price $15.00</h3>
-
-                    <!-- social wrapper -->
-                    <div class="bottom-wrapper mt-4">
-                        <a href="#" class="btn1">enroll now</a>
-                        <a href="#" class="heart-icon ms-2">
-                            <i class="far fa-heart"></i>
-                        </a>
-                        <div class="social-wrapper ms-2 my-2">
-                            <span class="text-capitalize">share: </span>
-                            <a class="social-icon ms-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="social-icon ms-2" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="social-icon ms-2" href="#"><i class="fab fa-linkedin"></i></a>
-                        </div>
-                    </div>
+            <h4 class="mt-30">course features</h4>
+            <!-- feature list -->
+            <ul class="fea-list">
+              <li class="d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center">
+                  <!-- icon -->
+                  <img
+                    class="icon-thumb"
+                    src="./assets/images/cf1.png"
+                    alt=""
+                  />
+                  <span class="content-one text-capitalize ms-3 d-block">
+                    downloadable resource</span
+                  >
                 </div>
+                <span class="content-two">69</span>
+              </li>
+              <li class="d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center">
+                  <!-- icon -->
+                  <img
+                    class="icon-thumb"
+                    src="./assets/images/cf2.png"
+                    alt=""
+                  />
+                  <span class="content-one text-capitalize ms-3 d-block">
+                    video duration</span
+                  >
+                </div>
+                <span class="content-two">1:58:00</span>
+              </li>
+              <li class="d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center">
+                  <!-- icon -->
+                  <img
+                    class="icon-thumb"
+                    src="./assets/images/cf3.png"
+                    alt=""
+                  />
+                  <span class="content-one text-capitalize ms-3 d-block">
+                    lectures</span
+                  >
+                </div>
+                <span class="content-two">24</span>
+              </li>
+              <li class="d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center">
+                  <!-- icon -->
+                  <img
+                    class="icon-thumb"
+                    src="./assets/images/cf4.png"
+                    alt=""
+                  />
+                  <span class="content-one text-capitalize ms-3 d-block">
+                    language</span
+                  >
+                </div>
+                <span class="content-two">english</span>
+              </li>
+              <li class="d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center">
+                  <!-- icon -->
+                  <img
+                    class="icon-thumb"
+                    src="./assets/images/cf5.png"
+                    alt=""
+                  />
+                  <span class="content-one text-capitalize ms-3 d-block">
+                    skill level</span
+                  >
+                </div>
+                <span class="content-two">beginer</span>
+              </li>
+            </ul>
+
+            <h3 class="text-center mt-30">Price $15.00</h3>
+
+            <!-- social wrapper -->
+            <div class="bottom-wrapper mt-4">
+              <a href="#" class="btn1">enroll now</a>
+              <a href="#" class="heart-icon ms-2">
+                <i class="far fa-heart"></i>
+              </a>
+              <div class="social-wrapper ms-2 my-2">
+                <span class="text-capitalize">share: </span>
+                <a class="social-icon ms-2" href="#"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a class="social-icon ms-2" href="#"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a class="social-icon ms-2" href="#"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-
 
     <!-- footer-area -->
-    <footer class="footer-area" style="background: url('./assets/images/section-bg1.png');">
-        <div class="container lms-footer-inner-wrapper">
-            <!-- brands -->
-            <div class="row align-items-center lms-brand-wraper">
-                <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
-                    <img class="lms-single-brand mx-auto" src="./assets/images/b6.png" alt="">
-                </div>
-                <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
-                    <img class="lms-single-brand mx-auto" src="./assets/images/b5.png" alt="">
-                </div>
-                <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
-                    <img class="lms-single-brand mx-auto" src="./assets/images/b4.png" alt="">
-                </div>
-                <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
-                    <img class="lms-single-brand mx-auto" src="./assets/images/b1.png" alt="">
-                </div>
-                <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
-                    <img class="lms-single-brand mx-auto" src="./assets/images/b3.png" alt="">
-                </div>
-                <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
-                    <img class="lms-single-brand mx-auto" src="./assets/images/b2.png" alt="">
-                </div>
-            </div>
-            <!-- separator -->
-            <hr class="my-5 colored-hr" />
-            <!-- bottom section -->
-            <div class="row align-items-center px-4">
-                <!-- newsletter -->
-                <div class="col-lg-5">
-                    <div class="lms-newsletter-section" style="background: url('./assets/images/newsletter.png');">
-                        <img class="logo" src="./assets/images/logo.png" alt="">
-
-                        <p class="mt-3">
-                            Want us to email you occasionally with news?
-                        </p>
-
-                        <!-- newsletter -->
-                        <div class="newletter-wrapper mt-3">
-                            <input class="input-box" type="text" placeholder="Enter your email">
-                            <button class="btn1 subs-btn">subscribe</button>
-                        </div>
-                    </div>
-                </div>
-                <!--footer menu  -->
-                <div class="col-lg-6 offset-lg-1">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
-                            <div class="single-footer-menu">
-                                <span class="title mb-3">
-                                    course
-                                </span>
-                                <ul class="footer-menu">
-                                    <li><a href="#">web design design</a></li>
-                                    <li><a href="#">ios application</a></li>
-                                    <li><a href="#">ux research</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
-                            <div class="single-footer-menu">
-                                <span class="title mb-3">
-                                    login
-                                </span>
-                                <ul class="footer-menu">
-                                    <li><a href="#">sign in</a></li>
-                                    <li><a href="#">sign up</a></li>
-                                    <li><a href="#">series</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
-                            <div class="single-footer-menu">
-                                <span class="title mb-3">
-                                    More Links
-                                </span>
-                                <ul class="footer-menu">
-                                    <li><a href="#">blog</a></li>
-                                    <li><a href="#">terms of service</a></li>
-                                    <li><a href="#">legal info</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
-                            <div class="single-footer-menu">
-                                <span class="title mb-3">
-                                    contact
-                                </span>
-                                <ul class="footer-menu">
-                                    <li><a href="#">online form</a></li>
-                                    <li><a href="#">support</a></li>
-                                    <li><a href="#">contact us</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <footer
+      class="footer-area"
+      style="background: url('./assets/images/section-bg1.png')"
+    >
+      <div class="container lms-footer-inner-wrapper">
+        <!-- brands -->
+        <div class="row align-items-center lms-brand-wraper">
+          <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
+            <img
+              class="lms-single-brand mx-auto"
+              src="./assets/images/b6.png"
+              alt=""
+            />
+          </div>
+          <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
+            <img
+              class="lms-single-brand mx-auto"
+              src="./assets/images/b5.png"
+              alt=""
+            />
+          </div>
+          <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
+            <img
+              class="lms-single-brand mx-auto"
+              src="./assets/images/b4.png"
+              alt=""
+            />
+          </div>
+          <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
+            <img
+              class="lms-single-brand mx-auto"
+              src="./assets/images/b1.png"
+              alt=""
+            />
+          </div>
+          <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
+            <img
+              class="lms-single-brand mx-auto"
+              src="./assets/images/b3.png"
+              alt=""
+            />
+          </div>
+          <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
+            <img
+              class="lms-single-brand mx-auto"
+              src="./assets/images/b2.png"
+              alt=""
+            />
+          </div>
         </div>
+        <!-- separator -->
+        <hr class="my-5 colored-hr" />
+        <!-- bottom section -->
+        <div class="row align-items-center px-4">
+          <!-- newsletter -->
+          <div class="col-lg-5">
+            <div
+              class="lms-newsletter-section"
+              style="background: url('./assets/images/newsletter.png')"
+            >
+              <img class="logo" src="./assets/images/logo.png" alt="" />
+
+              <p class="mt-3">Want us to email you occasionally with news?</p>
+
+              <!-- newsletter -->
+              <div class="newletter-wrapper mt-3">
+                <input
+                  class="input-box"
+                  type="text"
+                  placeholder="Enter your email"
+                />
+                <button class="btn1 subs-btn">subscribe</button>
+              </div>
+            </div>
+          </div>
+          <!--footer menu  -->
+          <div class="col-lg-6 offset-lg-1">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
+                <div class="single-footer-menu">
+                  <span class="title mb-3"> course </span>
+                  <ul class="footer-menu">
+                    <li><a href="#">web design design</a></li>
+                    <li><a href="#">ios application</a></li>
+                    <li><a href="#">ux research</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
+                <div class="single-footer-menu">
+                  <span class="title mb-3"> login </span>
+                  <ul class="footer-menu">
+                    <li><a href="#">sign in</a></li>
+                    <li><a href="#">sign up</a></li>
+                    <li><a href="#">series</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
+                <div class="single-footer-menu">
+                  <span class="title mb-3"> More Links </span>
+                  <ul class="footer-menu">
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">terms of service</a></li>
+                    <li><a href="#">legal info</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
+                <div class="single-footer-menu">
+                  <span class="title mb-3"> contact </span>
+                  <ul class="footer-menu">
+                    <li><a href="#">online form</a></li>
+                    <li><a href="#">support</a></li>
+                    <li><a href="#">contact us</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <!-- scroll to up -->
@@ -883,6 +1316,5 @@
     <script src="assets/js/vendor/wow.min.js"></script>
     <script src="assets/js/vendor/jquery.nice-select.min.js"></script>
     <script src="assets/js/main.js"></script>
-</body>
-
+  </body>
 </html>

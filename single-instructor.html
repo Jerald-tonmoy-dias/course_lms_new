@@ -1,1714 +1,2105 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required Meta Tags -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <!-- Page Title -->
-    <title> Single instructor -CourseLMS HTML5 Template</title>
+    <title>Single instructor -CourseLMS HTML5 Template</title>
 
     <!-- Favicon Icon -->
-    <link rel="shortcut icon" href="favicon.png">
+    <link rel="shortcut icon" href="favicon.png" />
 
     <!-- CSS Files -->
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/font-awsome-all.min.css">
-    <link rel="stylesheet" href="assets/css/meanmenu.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/font-awsome-all.min.css" />
+    <link rel="stylesheet" href="assets/css/meanmenu.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-<body>
+  <body>
     <!-- Preloader Starts -->
     <div class="preloader" id="preloader">
-        <div class="preloader-inner">
-            <div class="spinner">
-                <div class="bounce1"></div>
-                <div class="bounce2"></div>
-                <div class="bounce3"></div>
-            </div>
+      <div class="preloader-inner">
+        <div class="spinner">
+          <div class="bounce1"></div>
+          <div class="bounce2"></div>
+          <div class="bounce3"></div>
         </div>
+      </div>
     </div>
 
     <!-- header -->
     <header class="lms_header">
-        <div class="container header-wrapper-style-2 position-relative">
-
-            <!-- logo -->
-            <div class="d-flex align-items-center">
-                <span class="lms-mobile-menu-trigger"><i class="fas fa-bars"></i></span>
-                <img class="logo" src="./assets/images/logo.png" alt="">
-            </div>
-
-            <!-- menu -->
-            <ul class="lms_main_nav">
-                <li><a href="#">Home</a></li>
-                <li>
-                    <a href="#">tranding</a>
-                </li>
-                <li>
-                    <a href="#">Course</a>
-                    <span class="lms_badge">New</span>
-                </li>
-                <li><a href="#">instructors</a></li>
-            </ul>
-
-
-            <div class="searchbar-style-wrapper mt-4 mt-md-0">
-                <!-- searchbar login button -->
-                <div class="lms_searchbar_wrapper">
-                    <!-- category selector -->
-                    <select class="header_cat_selector">
-                        <option>all category</option>
-                        <option>history</option>
-                        <option>math</option>
-                        <option>biology</option>
-                        <option>science</option>
-                        <option>accounting</option>
-                        <option>Socialogy</option>
-                    </select>
-                    <!-- search input -->
-                    <input class="header-search-input" placeholder="Search for anything..." type="text" />
-                    <!-- seach button -->
-                    <button class="header-search-btn"><i class="fas fa-search"></i></button>
-                </div>
-
-                <!-- signin/login button -->
-                <button class="btn1 header-signin d-none d-xxl-block  mt-md-0">sign in</button>
-
-                <!-- cart -->
-                <div class="header-style-cart-wrapper d-none d-xxl-blocka">
-                    <span id="cart-box" class="header-cart-icon bg-green text-white">
-                        <span class="small-badge bg-lite-black">1</span>
-                        <i class="fas fa-shopping-cart"></i>
-                    </span>
-                    <a class="header-cart-icon bg-orange text-white" href="#">
-                        <span class="small-badge bg-red">1</span>
-                        <i class="fas fa-bell"></i>
-                    </a>
-                    <a class="header-cart-icon bg-cyan text-white" href="#">
-                        <span class="small-badge bg-dark-cyan">1</span>
-                        <i class="fas fa-heart"></i>
-                    </a>
-                    <a class="header-cart-icon" href="#">
-                        <span class="small-badge bg-green profile-active"></span>
-                        <img class="mt-10" src="./assets/images/user-two.png" alt="">
-                    </a>
-
-                    <!-- cart dropdown -->
-                    <div class="header-lms-cart-dropdown">
-                        <ul>
-                            <li>
-                                <!-- left side -->
-                                <img class="thumb" src="./assets/images/sc1.png" alt="">
-                                <!-- right side -->
-                                <div class="right-side">
-                                    <a class="title" href="#">
-                                        Graphic Design & illusta...
-                                    </a>
-                                    <span class="price">$50</span>
-                                </div>
-                            </li>
-                            <li>
-                                <!-- left side -->
-                                <img class="thumb" src="./assets/images/sc2.png" alt="">
-                                <!-- right side -->
-                                <div class="right-side">
-                                    <a class="title" href="#">
-                                        3d animation Cours....
-                                    </a>
-                                    <span class="price">$70</span>
-                                </div>
-                            </li>
-                        </ul>
-
-                        <!-- button -->
-                        <a class="btn1 border-radious-5 mt-3 mx-4" href="#">go to cart</a>
-                    </div>
-
-                </div>
-            </div>
-
-
+      <div
+        class="container-fluid container-xl header-wrapper-style-2 position-relative"
+      >
+        <!-- logo -->
+        <div class="d-flex align-items-center">
+          <span class="lms-mobile-menu-trigger"
+            ><i class="fas fa-bars"></i
+          ></span>
+          <img class="logo" src="./assets/images/logo.png" alt="" />
         </div>
+
+        <!-- menu -->
+        <ul class="lms_main_nav">
+          <li><a href="#">Home</a></li>
+          <li>
+            <a href="#">tranding</a>
+          </li>
+          <li>
+            <a href="#">Course</a>
+            <span class="lms_badge">New</span>
+          </li>
+          <li><a href="#">instructors</a></li>
+        </ul>
+
+        <!-- web search bar -->
+        <div class="searchbar-style-wrapper d-nonee d-lg-blocke mt-4 mt-md-0">
+          <!-- searchbar login button -->
+          <div class="lms_searchbar_wrapper d-none d-lg-flex">
+            <!-- category selector -->
+            <select class="header_cat_selector">
+              <option>all category</option>
+              <option>history</option>
+              <option>math</option>
+              <option>biology</option>
+              <option>science</option>
+              <option>accounting</option>
+              <option>Socialogy</option>
+            </select>
+            <!-- search input -->
+            <input
+              class="header-search-input"
+              placeholder="Search for anything..."
+              type="text"
+            />
+            <!-- seach button -->
+            <button class="header-search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+
+          <!-- signin/login button -->
+          <button class="btn1 header-signin mt-md-0 d-none d-xl-block">
+            sign in
+          </button>
+
+          <!-- cart -->
+          <div class="header-style-cart-wrapper d-none d-xxl-blocka">
+            <span id="cart-box" class="header-cart-icon bg-green text-white">
+              <span class="small-badge bg-lite-black">1</span>
+              <i class="fas fa-shopping-cart"></i>
+            </span>
+            <a class="header-cart-icon bg-orange text-white" href="#">
+              <span class="small-badge bg-red">1</span>
+              <i class="fas fa-bell"></i>
+            </a>
+            <a class="header-cart-icon bg-cyan text-white" href="#">
+              <span class="small-badge bg-dark-cyan">1</span>
+              <i class="fas fa-heart"></i>
+            </a>
+            <a class="header-cart-icon" href="#">
+              <span class="small-badge bg-green profile-active"></span>
+              <img class="mt-10" src="./assets/images/user-two.png" alt="" />
+            </a>
+
+            <!-- cart dropdown -->
+            <div class="header-lms-cart-dropdown">
+              <ul>
+                <li>
+                  <!-- left side -->
+                  <img class="thumb" src="./assets/images/sc1.png" alt="" />
+                  <!-- right side -->
+                  <div class="right-side">
+                    <a class="title" href="#"> Graphic Design & illusta... </a>
+                    <span class="price">$50</span>
+                  </div>
+                </li>
+                <li>
+                  <!-- left side -->
+                  <img class="thumb" src="./assets/images/sc2.png" alt="" />
+                  <!-- right side -->
+                  <div class="right-side">
+                    <a class="title" href="#"> 3d animation Cours.... </a>
+                    <span class="price">$70</span>
+                  </div>
+                </li>
+              </ul>
+
+              <!-- button -->
+              <a class="btn1 border-radious-5 mt-3 mx-4" href="#">go to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <!--sign in/sign out button -->
+        <a href="#" class="btn1 d-lg-none">sign in</a>
+      </div>
     </header>
 
     <!-- mobile sidebar -->
     <div class="lms-mobile-sidebar">
-        <span class="close-trigger"><i class="far fa-window-close"></i></span>
-        <ul class="lms-mobile-menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Trending</a></li>
-            <li><a href="#">Course</a></li>
-            <li><a href="#">Instructors</a></li>
-        </ul>
-        <!-- cart -->
-        <div class="header-style-cart-wrapper mb-4">
-            <a class="header-cart-icon bg-white green-color" href="#">
-                <span class="small-badge bg-white">1</span>
-                <i class="fas fa-shopping-cart"></i>
-            </a>
-            <a class="header-cart-icon bg-orange text-white" href="#">
-                <span class="small-badge bg-red">1</span>
-                <i class="fas fa-bell"></i>
-            </a>
-            <a class="header-cart-icon bg-cyan text-white" href="#">
-                <span class="small-badge bg-dark-cyan">1</span>
-                <i class="fas fa-heart"></i>
-            </a>
-            <a class="header-cart-icon" href="#">
-                <span class="small-badge bg-green profile-active"></span>
-                <img src="./assets/images/user-two.png" alt="">
-            </a>
-        </div>
+      <span class="close-trigger"><i class="far fa-window-close"></i></span>
+      <ul class="lms-mobile-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">Course</a></li>
+        <li><a href="#">Instructors</a></li>
+      </ul>
+      <!-- cart -->
+      <div class="header-style-cart-wrapper mb-4">
+        <a class="header-cart-icon bg-white green-color" href="#">
+          <span class="small-badge bg-white">1</span>
+          <i class="fas fa-shopping-cart"></i>
+        </a>
+        <a class="header-cart-icon bg-orange text-white" href="#">
+          <span class="small-badge bg-red">1</span>
+          <i class="fas fa-bell"></i>
+        </a>
+        <a class="header-cart-icon bg-cyan text-white" href="#">
+          <span class="small-badge bg-dark-cyan">1</span>
+          <i class="fas fa-heart"></i>
+        </a>
+        <a class="header-cart-icon" href="#">
+          <span class="small-badge bg-green profile-active"></span>
+          <img src="./assets/images/user-two.png" alt="" />
+        </a>
+      </div>
 
-        <!-- sign button -->
-        <button class="btn1  mt-4 mt-md-0">sign in</button>
+      <!-- sign button -->
+      <button class="btn1 mt-4 mt-md-0">sign in</button>
+    </div>
+
+    <!-- mobile app menu -->
+    <ul class="mobile-app-menu-bottom d-lg-none">
+      <li>
+        <a href="#">
+          <!-- icon -->
+          <i class="fas fa-home"></i>
+          <span class="link-text">Home</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" id="showsearchbar">
+          <!-- icon -->
+          <i class="fas fa-search"></i>
+          <span class="link-text">search</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <!-- icon -->
+          <i class="fas fa-bookmark"></i>
+          <span class="link-text">courses</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <!-- icon -->
+          <i class="fas fa-heart"></i>
+          <span class="link-text">wislist</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          <!-- icon -->
+          <i class="fas fa-user-alt"></i>
+          <span class="link-text">profile</span>
+        </a>
+      </li>
+    </ul>
+
+    <!-- mobile searchbar -->
+    <div class="mobile-app-seachbar-style d-lg-none" id="mobile-overlay-active">
+      <!-- search input -->
+      <div class="search-wrapper" id="mobile-search-id">
+        <button class="search-icon" id="mobile-search-button-id">
+          <i class="fas fa-search"></i>
+        </button>
+        <button class="search-icon d-none" id="mobile-close-button-id">
+          <i class="fas fa-times"></i>
+        </button>
+        <input class="searchbox" type="text" placeholder="Search here" />
+      </div>
+
+      <!-- search content area -->
+      <div class="search-content-area" id="search-content-area-id">
+        <ul class="all-link-wrapper">
+          <li>
+            <a href="#">
+              <span class="icon"><i class="fas fa-search"></i></span>
+              python
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- top search  -->
+      <div class="container">
+        <div class="top-seacrh-categories">
+          <h6 class="mb-20">Top searches</h6>
+          <ul class="top-search-link-wrapper">
+            <li><a href="#"> python</a></li>
+            <li><a href="#">java</a></li>
+            <li><a href="#">js</a></li>
+            <li><a href="#">aws</a></li>
+            <li><a href="#">php</a></li>
+            <li><a href="#">english</a></li>
+            <li><a href="#">ielts</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- browse categories -->
+      <div class="container mt-20">
+        <div class="all-categories">
+          <h6 class="mb-20">Browse categories</h6>
+          <ul class="all-link-wrapper">
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fab fa-connectdevelop"></i></span>
+                python
+                <span class="nav-icon"
+                  ><i class="fas fa-chevron-right"></i
+                ></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fas fa-database"></i></span>
+                java</a
+              >
+              <span class="nav-icon"><i class="fas fa-chevron-right"></i></span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fab fa-js"></i></span>
+                js</a
+              >
+              <span class="nav-icon"><i class="fas fa-chevron-right"></i></span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fas fa-code"></i></span>
+                aws</a
+              >
+              <span class="nav-icon"><i class="fas fa-chevron-right"></i></span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fab fa-php"></i></span>
+                php</a
+              >
+              <span class="nav-icon"><i class="fas fa-chevron-right"></i></span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fas fa-book"></i></span>
+                english</a
+              >
+              <span class="nav-icon"><i class="fas fa-chevron-right"></i></span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fab fa-openid"></i></span>
+                ielts</a
+              >
+              <span class="nav-icon"><i class="fas fa-chevron-right"></i></span>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
 
     <!--breadcrumb section -->
-    <div class="lms_hero-section login-section" style="background: url('./assets/images/home-bg1.png');">
-        <div class="container">
-            <div class="hero-wrapper lms-about-wrapper single-instructor-wrapper d-flex align-items-center"
-                style="background-image: url('./assets/images/loginbg.png');">
-                <div class="row custom-width-lg-100 align-items-center ">
-                    <div class="col-lg-6 mt-4 mt-lg-0 col-12 ">
-                        <h3 class="mb-20">Mariya Chirst</h3>
-                        <!-- desig -->
-                        <div class="d-flex align-items-center mb-20 ">
-                            <span class="desig-title">music specialist</span>
-                            <span class="separator">|</span>
-                            <div class="d-flex align-items-center">
-                                <!-- total ratings -->
-                                <span class="total-ratings me-2">4.7</span>
-                                <!-- ratings -->
-                                <div class="d-flex align-items-center">
-                                    <i class="fas fa-star ratings-icon"></i>
-                                </div>
-                                <!-- badge -->
-                                <span class="desig-title ms-3">Ratings</span>
-                            </div>
-                        </div>
-                        <!-- experience -->
-                        <div class="d-flex flex-wrap flex-md-nowrap mb-20">
-                            <div class="single-experience">
-                                <img class="small-img" src="./assets/images/si1.png" alt="">
-                                <div class="ms-3">
-                                    <span class="total-title">
-                                        total course
-                                    </span>
-                                    <span class="d-flex">
-                                        <span class="counter count-number">
-                                            100
-                                        </span>
-                                        <span class="count-number">
-                                            +
-                                        </span>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="single-experience ms-md-4">
-                                <img class="small-img" src="./assets/images/si2.png" alt="">
-                                <div class="ms-3">
-                                    <span class="total-title">
-                                        total students
-                                    </span>
-                                    <span class="d-flex">
-                                        <span class="counter count-number">
-                                            3000
-                                        </span>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <h5 class="mb-10">social icon</h5>
-                        <!-- social icon -->
-                        <div class="social-icon-wrapper-two ">
-                            <a class="icon-class" href="#"><i class="fas fa-globe"></i> website</a>
-                            <a class="icon-class" href="#"><i class="fab fa-facebook"></i> facebook</a>
-                            <a class="icon-class" href="#"><i class="fab fa-twitter"></i> twitter</a>
-                            <a class="icon-class" href="#"><i class="fab fa-linkedin"></i> linkdin</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6  col-12 mt-40 mt-lg-0">
-                        <img class="wow fadeInUp" src="./assets/images/single-ins.png" alt="">
-                    </div>
+    <div
+      class="lms_hero-section login-section"
+      style="background: url('./assets/images/home-bg1.png')"
+    >
+      <div class="container">
+        <div
+          class="hero-wrapper lms-about-wrapper single-instructor-wrapper d-flex align-items-center"
+          style="background-image: url('./assets/images/loginbg.png')"
+        >
+          <div class="row custom-width-lg-100 align-items-center">
+            <div class="col-lg-6 mt-4 mt-lg-0 col-12">
+              <h3 class="mb-20">Mariya Chirst</h3>
+              <!-- desig -->
+              <div class="d-flex align-items-center mb-20">
+                <span class="desig-title">music specialist</span>
+                <span class="separator">|</span>
+                <div class="d-flex align-items-center">
+                  <!-- total ratings -->
+                  <span class="total-ratings me-2">4.7</span>
+                  <!-- ratings -->
+                  <div class="d-flex align-items-center">
+                    <i class="fas fa-star ratings-icon"></i>
+                  </div>
+                  <!-- badge -->
+                  <span class="desig-title ms-3">Ratings</span>
                 </div>
+              </div>
+              <!-- experience -->
+              <div class="d-flex flex-wrap flex-md-nowrap mb-20">
+                <div class="single-experience">
+                  <img class="small-img" src="./assets/images/si1.png" alt="" />
+                  <div class="ms-3">
+                    <span class="total-title"> total course </span>
+                    <span class="d-flex">
+                      <span class="counter count-number"> 100 </span>
+                      <span class="count-number"> + </span>
+                    </span>
+                  </div>
+                </div>
+                <div class="single-experience ms-md-4">
+                  <img class="small-img" src="./assets/images/si2.png" alt="" />
+                  <div class="ms-3">
+                    <span class="total-title"> total students </span>
+                    <span class="d-flex">
+                      <span class="counter count-number"> 3000 </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <h5 class="mb-10">social icon</h5>
+              <!-- social icon -->
+              <div class="social-icon-wrapper-two">
+                <a class="icon-class" href="#"
+                  ><i class="fas fa-globe"></i> website</a
+                >
+                <a class="icon-class" href="#"
+                  ><i class="fab fa-facebook"></i> facebook</a
+                >
+                <a class="icon-class" href="#"
+                  ><i class="fab fa-twitter"></i> twitter</a
+                >
+                <a class="icon-class" href="#"
+                  ><i class="fab fa-linkedin"></i> linkdin</a
+                >
+              </div>
             </div>
-
+            <div class="col-lg-6 col-12 mt-40 mt-lg-0">
+              <img
+                class="wow fadeInUp"
+                src="./assets/images/single-ins.png"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- about me -->
     <div class="container pt-100">
-        <div class="row align-items-center">
-            <!-- about section -->
-            <div class="col-lg-12 mt-30 wow fadeInUp">
-                <div class="single-blog-excerpt-wrapper">
-                    <h4 class="title mb-20 d-block">about me</h4>
-                    <p>
-                        Erich has been playing/teaching guitar for nearly 30 years. By personally teaching 100s of
-                        one-on-one students and 1000s of guitar lessons within the last 30+ years Erich has proven to
-                        maximize any students' results by providing them with the clearest step-by-step system to
-                        playing guitar. Erich brought his guitar teachings online, AKA Youtube, in 2008 and since then
-                        his Youtube Channels has accumulated more than 712,000 subscribers and has also received more
-                        than 100 Million Views across all his channels.
-                    </p>
-                    <p>
-                        His celebrity Youtube status has placed him in the top 5 Guitar Instructors online today! Along
-                        with Erich's success as a guitar instructor, he is also a best-selling author of the #1 Amazon
-                        Bestseller Guitar Mastery Simplified and the Amazon Bestseller Ukulele Mastery Simplified.
-                    </p>
-
-                </div>
-            </div>
-            <!-- skill wrappper -->
-            <div class="col-lg-6 mt-30 wow fadeInUp">
-                <div class="single-blog-excerpt-wrapper">
-                    <h4 class="title mb-10 d-block">skills</h4>
-                    <div class="skill-progressbar-wrapper">
-                        <div class="single-skill-progress-bar mt-20">
-                            <h5>guitar</h5>
-                            <div class="progress">
-
-                                <div class="progress-bar bg-orange wow fadeInLeft" role="progressbar"
-                                    style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                    <span class="progress-percentage">
-                                        90%
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-skill-progress-bar mt-20">
-                            <h5>virtual piano</h5>
-                            <div class="progress">
-
-                                <div class="progress-bar bg-purple wow fadeInLeft" role="progressbar"
-                                    style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                    <span class="progress-percentage">
-                                        80%
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-skill-progress-bar mt-20">
-                            <h5>song writing</h5>
-                            <div class="progress">
-
-                                <div class="progress-bar bg-green wow fadeInLeft" role="progressbar" style="width: 70%;"
-                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                    <span class="progress-percentage">
-                                        70%
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- education -->
-            <div class="col-lg-6 mt-30 wow fadeInUp">
-                <div class="single-blog-excerpt-wrapper">
-                    <h4 class="title mb-10 d-block">education</h4>
-
-                    <ul class="single-page-list-items">
-                        <li><i class="fas fa-book-open"></i> Associate of Applied Business from Stanford University.
-                        </li>
-                        <li><i class="fas fa-book-open"></i> Bachelor of Science in Business from Harvard University.
-                        </li>
-                        <li><i class="fas fa-book-open"></i> Master of Computational Finance from University of Chicago.
-                        </li>
-                        <li><i class="fas fa-book-open"></i> Bachelor of Music (BM) USA.</li>
-
-                    </ul>
-                </div>
-            </div>
-
-            <!-- video section -->
-            <div class="col-12 col-xl-6 col-xxl-6 mt-30 wow fadeInUp">
-                <div class="course-vdo-section  course-vdo-section-2 position-relative single-blog-excerpt-wrapper">
-
-                    <img src="./assets/images/vdo2.png" alt="">
-                    <!-- video icon -->
-                    <a class="video-icon item-ripple popup-link" href="https://www.youtube.com/watch?v=dNwxvuR41gw">
-                        <i class="fas fa-play-circle"></i>
-                    </a>
-                </div>
-            </div>
-
-            <!-- badge section -->
-            <div class="col-12 col-xl-6 col-xxl-6 mt-30 wow fadeInUp">
-                <div class="single-blog-excerpt-wrapper">
-                    <h4>badges</h4>
-                    <div class="row">
-                        <div class="col-12 col-md-6 mt-4">
-                            <div class="single-small-course-card single-badge-card">
-                                <!-- left side -->
-                                <img src="./assets/images/bd1.png" class="small-img" alt="img">
-                                <!-- right side -->
-                                <div class="right-side">
-                                    <a class="counter-title mb-10" href="#">
-                                        Faitful User
-                                    </a>
-                                    <span class="subtitle">3 Classes Featured</span>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 mt-4">
-                            <div class="single-small-course-card single-badge-card">
-                                <!-- left side -->
-                                <img src="./assets/images/bd4.png" class="small-img" alt="img">
-                                <!-- right side -->
-                                <div class="right-side">
-                                    <a class="counter-title mb-10" href="#">
-                                        Faitful User
-                                    </a>
-                                    <span class="subtitle">3 Classes Featured</span>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 mt-4">
-                            <div class="single-small-course-card single-badge-card">
-                                <!-- left side -->
-                                <img src="./assets/images/bd2.png" class="small-img" alt="img">
-                                <!-- right side -->
-                                <div class="right-side">
-                                    <a class="counter-title mb-10" href="#">
-                                        Faitful User
-                                    </a>
-                                    <span class="subtitle">3 Classes Featured</span>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 mt-4">
-                            <div class="single-small-course-card single-badge-card">
-                                <!-- left side -->
-                                <img src="./assets/images/bd3.png" class="small-img" alt="img">
-                                <!-- right side -->
-                                <div class="right-side">
-                                    <a class="counter-title mb-10" href="#">
-                                        Faitful User
-                                    </a>
-                                    <span class="subtitle">3 Classes Featured</span>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="row align-items-center">
+        <!-- about section -->
+        <div class="col-lg-12 mt-30 wow fadeInUp">
+          <div class="single-blog-excerpt-wrapper">
+            <h4 class="title mb-20 d-block">about me</h4>
+            <p>
+              Erich has been playing/teaching guitar for nearly 30 years. By
+              personally teaching 100s of one-on-one students and 1000s of
+              guitar lessons within the last 30+ years Erich has proven to
+              maximize any students' results by providing them with the clearest
+              step-by-step system to playing guitar. Erich brought his guitar
+              teachings online, AKA Youtube, in 2008 and since then his Youtube
+              Channels has accumulated more than 712,000 subscribers and has
+              also received more than 100 Million Views across all his channels.
+            </p>
+            <p>
+              His celebrity Youtube status has placed him in the top 5 Guitar
+              Instructors online today! Along with Erich's success as a guitar
+              instructor, he is also a best-selling author of the #1 Amazon
+              Bestseller Guitar Mastery Simplified and the Amazon Bestseller
+              Ukulele Mastery Simplified.
+            </p>
+          </div>
         </div>
+        <!-- skill wrappper -->
+        <div class="col-lg-6 mt-30 wow fadeInUp">
+          <div class="single-blog-excerpt-wrapper">
+            <h4 class="title mb-10 d-block">skills</h4>
+            <div class="skill-progressbar-wrapper">
+              <div class="single-skill-progress-bar mt-20">
+                <h5>guitar</h5>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-orange wow fadeInLeft"
+                    role="progressbar"
+                    style="width: 90%"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <span class="progress-percentage"> 90% </span>
+                  </div>
+                </div>
+              </div>
+              <div class="single-skill-progress-bar mt-20">
+                <h5>virtual piano</h5>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-purple wow fadeInLeft"
+                    role="progressbar"
+                    style="width: 80%"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <span class="progress-percentage"> 80% </span>
+                  </div>
+                </div>
+              </div>
+              <div class="single-skill-progress-bar mt-20">
+                <h5>song writing</h5>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-green wow fadeInLeft"
+                    role="progressbar"
+                    style="width: 70%"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <span class="progress-percentage"> 70% </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- education -->
+        <div class="col-lg-6 mt-30 wow fadeInUp">
+          <div class="single-blog-excerpt-wrapper">
+            <h4 class="title mb-10 d-block">education</h4>
+
+            <ul class="single-page-list-items">
+              <li>
+                <i class="fas fa-book-open"></i> Associate of Applied Business
+                from Stanford University.
+              </li>
+              <li>
+                <i class="fas fa-book-open"></i> Bachelor of Science in Business
+                from Harvard University.
+              </li>
+              <li>
+                <i class="fas fa-book-open"></i> Master of Computational Finance
+                from University of Chicago.
+              </li>
+              <li>
+                <i class="fas fa-book-open"></i> Bachelor of Music (BM) USA.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- video section -->
+        <div class="col-12 col-xl-6 col-xxl-6 mt-30 wow fadeInUp">
+          <div
+            class="course-vdo-section course-vdo-section-2 position-relative single-blog-excerpt-wrapper"
+          >
+            <img src="./assets/images/vdo2.png" alt="" />
+            <!-- video icon -->
+            <a
+              class="video-icon item-ripple popup-link"
+              href="https://www.youtube.com/watch?v=dNwxvuR41gw"
+            >
+              <i class="fas fa-play-circle"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- badge section -->
+        <div class="col-12 col-xl-6 col-xxl-6 mt-30 wow fadeInUp">
+          <div class="single-blog-excerpt-wrapper">
+            <h4>badges</h4>
+            <div class="row">
+              <div class="col-12 col-md-6 mt-4">
+                <div class="single-small-course-card single-badge-card">
+                  <!-- left side -->
+                  <img
+                    src="./assets/images/bd1.png"
+                    class="small-img"
+                    alt="img"
+                  />
+                  <!-- right side -->
+                  <div class="right-side">
+                    <a class="counter-title mb-10" href="#"> Faitful User </a>
+                    <span class="subtitle">3 Classes Featured</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 mt-4">
+                <div class="single-small-course-card single-badge-card">
+                  <!-- left side -->
+                  <img
+                    src="./assets/images/bd4.png"
+                    class="small-img"
+                    alt="img"
+                  />
+                  <!-- right side -->
+                  <div class="right-side">
+                    <a class="counter-title mb-10" href="#"> Faitful User </a>
+                    <span class="subtitle">3 Classes Featured</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 mt-4">
+                <div class="single-small-course-card single-badge-card">
+                  <!-- left side -->
+                  <img
+                    src="./assets/images/bd2.png"
+                    class="small-img"
+                    alt="img"
+                  />
+                  <!-- right side -->
+                  <div class="right-side">
+                    <a class="counter-title mb-10" href="#"> Faitful User </a>
+                    <span class="subtitle">3 Classes Featured</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 mt-4">
+                <div class="single-small-course-card single-badge-card">
+                  <!-- left side -->
+                  <img
+                    src="./assets/images/bd3.png"
+                    class="small-img"
+                    alt="img"
+                  />
+                  <!-- right side -->
+                  <div class="right-side">
+                    <a class="counter-title mb-10" href="#"> Faitful User </a>
+                    <span class="subtitle">3 Classes Featured</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- course slider with tab -->
-    <div class="container box-shadow-combo mt-30 mb-130  pb-130">
-        <div class="d-flex justify-content-between mb-20">
-            <!-- section title -->
-            <h4 class="section-title">Courses to get you started</h4>
+    <div class="container box-shadow-combo mt-30 mb-130 pb-130">
+      <div class="d-flex justify-content-between mb-20">
+        <!-- section title -->
+        <h4 class="section-title">Courses to get you started</h4>
 
-            <!-- tab menu -->
-            <ul class="nav" id="myTab" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button class="btn1 small-btn-border-radious-5 active" id="most-popular-tab" data-bs-toggle="tab"
-                        data-bs-target="#most-popular" type="button" role="tab" aria-controls="most-popular"
-                        aria-selected="true">
-                        most popular
-                    </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="btn1 small-btn-border-radious-5 mx-4" id="new-course-tab" data-bs-toggle="tab"
-                        data-bs-target="#new-course" type="button" role="tab" aria-controls="new-course"
-                        aria-selected="false">
-                        new course
-                    </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="btn1 small-btn-border-radious-5" id="trending-tab" data-bs-toggle="tab"
-                        data-bs-target="#trending" type="button" role="tab" aria-controls="trending"
-                        aria-selected="false">
-                        trending
-                    </button>
-                </li>
-            </ul>
+        <!-- tab menu -->
+        <ul class="nav" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="btn1 small-btn-border-radious-5 active"
+              id="most-popular-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#most-popular"
+              type="button"
+              role="tab"
+              aria-controls="most-popular"
+              aria-selected="true"
+            >
+              most popular
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="btn1 small-btn-border-radious-5 mx-4"
+              id="new-course-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#new-course"
+              type="button"
+              role="tab"
+              aria-controls="new-course"
+              aria-selected="false"
+            >
+              new course
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="btn1 small-btn-border-radious-5"
+              id="trending-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#trending"
+              type="button"
+              role="tab"
+              aria-controls="trending"
+              aria-selected="false"
+            >
+              trending
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <!-- product with slider tab -->
+      <div class="tab-content">
+        <!-- most popular -->
+        <div
+          class="tab-pane fade show active"
+          id="most-popular"
+          role="tabpanel"
+          aria-labelledby="most-popular-tab"
+        >
+          <div class="tab-product-slider-active">
+            <div class="tab-product-slider-item">
+              <div
+                class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card"
+              >
+                <!-- heart icon -->
+                <a href="#">
+                  <i class="far fa-heart heart-icon heart-icon-left"></i>
+                </a>
+                <img
+                  src="./assets/images/sm8.png"
+                  class="small-img"
+                  alt="img"
+                />
+                <div class="right-side bottom-section">
+                  <a href="#" class="title"> Microsoft SQL Server 2022 </a>
+                  <span class="teacher-name d-block mt-1">
+                    Shohanur Rahman
+                  </span>
+                  <div class="d-flex align-items-center d-block">
+                    <!-- total ratings -->
+                    <span class="total-ratings me-2">5.0</span>
+                    <!-- ratings -->
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="far fa-star ratings-icon"></i>
+                    </div>
+
+                    <!-- badge -->
+                    <span class="total-ratings-amount ms-3">(22,023)</span>
+                  </div>
+                  <!-- bottom section -->
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-1"
+                  >
+                    <span class="price">$15.00</span>
+                    <a class="btn1 small-btn" href="#">enroll now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-product-slider-item">
+              <div
+                class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card"
+              >
+                <!-- heart icon -->
+                <a href="#">
+                  <i class="far fa-heart heart-icon heart-icon-left"></i>
+                </a>
+                <img
+                  src="./assets/images/sm6.png"
+                  class="small-img"
+                  alt="img"
+                />
+                <div class="right-side bottom-section">
+                  <a href="#" class="title"> Microsoft SQL Server 2022 </a>
+                  <span class="teacher-name d-block mt-1">
+                    Shohanur Rahman
+                  </span>
+                  <div class="d-flex align-items-center d-block">
+                    <!-- total ratings -->
+                    <span class="total-ratings me-2">5.0</span>
+                    <!-- ratings -->
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="far fa-star ratings-icon"></i>
+                    </div>
+
+                    <!-- badge -->
+                    <span class="total-ratings-amount ms-3">(22,023)</span>
+                  </div>
+                  <!-- bottom section -->
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-1"
+                  >
+                    <span class="price">$15.00</span>
+                    <a class="btn1 small-btn" href="#">enroll now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-product-slider-item">
+              <div
+                class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card"
+              >
+                <!-- heart icon -->
+                <a href="#">
+                  <i class="far fa-heart heart-icon heart-icon-left"></i>
+                </a>
+                <img
+                  src="./assets/images/sm7.png"
+                  class="small-img"
+                  alt="img"
+                />
+                <div class="right-side bottom-section">
+                  <a href="#" class="title"> Microsoft SQL Server 2022 </a>
+                  <span class="teacher-name d-block mt-1">
+                    Shohanur Rahman
+                  </span>
+                  <div class="d-flex align-items-center d-block">
+                    <!-- total ratings -->
+                    <span class="total-ratings me-2">5.0</span>
+                    <!-- ratings -->
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="far fa-star ratings-icon"></i>
+                    </div>
+
+                    <!-- badge -->
+                    <span class="total-ratings-amount ms-3">(22,023)</span>
+                  </div>
+                  <!-- bottom section -->
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-1"
+                  >
+                    <span class="price">$15.00</span>
+                    <a class="btn1 small-btn" href="#">enroll now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-product-slider-item">
+              <div
+                class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card"
+              >
+                <!-- heart icon -->
+                <a href="#">
+                  <i class="far fa-heart heart-icon heart-icon-left"></i>
+                </a>
+                <img
+                  src="./assets/images/sm9.png"
+                  class="small-img"
+                  alt="img"
+                />
+                <div class="right-side bottom-section">
+                  <a href="#" class="title"> Microsoft SQL Server 2022 </a>
+                  <span class="teacher-name d-block mt-1">
+                    Shohanur Rahman
+                  </span>
+                  <div class="d-flex align-items-center d-block">
+                    <!-- total ratings -->
+                    <span class="total-ratings me-2">5.0</span>
+                    <!-- ratings -->
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="far fa-star ratings-icon"></i>
+                    </div>
+
+                    <!-- badge -->
+                    <span class="total-ratings-amount ms-3">(22,023)</span>
+                  </div>
+                  <!-- bottom section -->
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-1"
+                  >
+                    <span class="price">$15.00</span>
+                    <a class="btn1 small-btn" href="#">enroll now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-product-slider-item">
+              <div
+                class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card"
+              >
+                <!-- heart icon -->
+                <a href="#">
+                  <i class="far fa-heart heart-icon heart-icon-left"></i>
+                </a>
+                <img
+                  src="./assets/images/sm10.png"
+                  class="small-img"
+                  alt="img"
+                />
+                <div class="right-side bottom-section">
+                  <a href="#" class="title"> Microsoft SQL Server 2022 </a>
+                  <span class="teacher-name d-block mt-1">
+                    Shohanur Rahman
+                  </span>
+                  <div class="d-flex align-items-center d-block">
+                    <!-- total ratings -->
+                    <span class="total-ratings me-2">5.0</span>
+                    <!-- ratings -->
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="far fa-star ratings-icon"></i>
+                    </div>
+
+                    <!-- badge -->
+                    <span class="total-ratings-amount ms-3">(22,023)</span>
+                  </div>
+                  <!-- bottom section -->
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-1"
+                  >
+                    <span class="price">$15.00</span>
+                    <a class="btn1 small-btn" href="#">enroll now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-product-slider-item">
+              <div
+                class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card"
+              >
+                <!-- heart icon -->
+                <a href="#">
+                  <i class="far fa-heart heart-icon heart-icon-left"></i>
+                </a>
+                <img
+                  src="./assets/images/sm11.png"
+                  class="small-img"
+                  alt="img"
+                />
+                <div class="right-side bottom-section">
+                  <a href="#" class="title"> Microsoft SQL Server 2022 </a>
+                  <span class="teacher-name d-block mt-1">
+                    Shohanur Rahman
+                  </span>
+                  <div class="d-flex align-items-center d-block">
+                    <!-- total ratings -->
+                    <span class="total-ratings me-2">5.0</span>
+                    <!-- ratings -->
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="far fa-star ratings-icon"></i>
+                    </div>
+
+                    <!-- badge -->
+                    <span class="total-ratings-amount ms-3">(22,023)</span>
+                  </div>
+                  <!-- bottom section -->
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-1"
+                  >
+                    <span class="price">$15.00</span>
+                    <a class="btn1 small-btn" href="#">enroll now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-product-slider-item">
+              <div
+                class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card"
+              >
+                <!-- heart icon -->
+                <a href="#">
+                  <i class="far fa-heart heart-icon heart-icon-left"></i>
+                </a>
+                <img
+                  src="./assets/images/sm8.png"
+                  class="small-img"
+                  alt="img"
+                />
+                <div class="right-side bottom-section">
+                  <a href="#" class="title"> Microsoft SQL Server 2022 </a>
+                  <span class="teacher-name d-block mt-1">
+                    Shohanur Rahman
+                  </span>
+                  <div class="d-flex align-items-center d-block">
+                    <!-- total ratings -->
+                    <span class="total-ratings me-2">5.0</span>
+                    <!-- ratings -->
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="far fa-star ratings-icon"></i>
+                    </div>
+
+                    <!-- badge -->
+                    <span class="total-ratings-amount ms-3">(22,023)</span>
+                  </div>
+                  <!-- bottom section -->
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-1"
+                  >
+                    <span class="price">$15.00</span>
+                    <a class="btn1 small-btn" href="#">enroll now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-product-slider-item">
+              <div
+                class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card"
+              >
+                <!-- heart icon -->
+                <a href="#">
+                  <i class="far fa-heart heart-icon heart-icon-left"></i>
+                </a>
+                <img
+                  src="./assets/images/sm6.png"
+                  class="small-img"
+                  alt="img"
+                />
+                <div class="right-side bottom-section">
+                  <a href="#" class="title"> Microsoft SQL Server 2022 </a>
+                  <span class="teacher-name d-block mt-1">
+                    Shohanur Rahman
+                  </span>
+                  <div class="d-flex align-items-center d-block">
+                    <!-- total ratings -->
+                    <span class="total-ratings me-2">5.0</span>
+                    <!-- ratings -->
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="far fa-star ratings-icon"></i>
+                    </div>
+
+                    <!-- badge -->
+                    <span class="total-ratings-amount ms-3">(22,023)</span>
+                  </div>
+                  <!-- bottom section -->
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-1"
+                  >
+                    <span class="price">$15.00</span>
+                    <a class="btn1 small-btn" href="#">enroll now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-product-slider-item">
+              <div
+                class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card"
+              >
+                <!-- heart icon -->
+                <a href="#">
+                  <i class="far fa-heart heart-icon heart-icon-left"></i>
+                </a>
+                <img
+                  src="./assets/images/sm10.png"
+                  class="small-img"
+                  alt="img"
+                />
+                <div class="right-side bottom-section">
+                  <a href="#" class="title"> Microsoft SQL Server 2022 </a>
+                  <span class="teacher-name d-block mt-1">
+                    Shohanur Rahman
+                  </span>
+                  <div class="d-flex align-items-center d-block">
+                    <!-- total ratings -->
+                    <span class="total-ratings me-2">5.0</span>
+                    <!-- ratings -->
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="far fa-star ratings-icon"></i>
+                    </div>
+
+                    <!-- badge -->
+                    <span class="total-ratings-amount ms-3">(22,023)</span>
+                  </div>
+                  <!-- bottom section -->
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-1"
+                  >
+                    <span class="price">$15.00</span>
+                    <a class="btn1 small-btn" href="#">enroll now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-product-slider-item">
+              <div
+                class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card"
+              >
+                <!-- heart icon -->
+                <a href="#">
+                  <i class="far fa-heart heart-icon heart-icon-left"></i>
+                </a>
+                <img
+                  src="./assets/images/sm11.png"
+                  class="small-img"
+                  alt="img"
+                />
+                <div class="right-side bottom-section">
+                  <a href="#" class="title"> Microsoft SQL Server 2022 </a>
+                  <span class="teacher-name d-block mt-1">
+                    Shohanur Rahman
+                  </span>
+                  <div class="d-flex align-items-center d-block">
+                    <!-- total ratings -->
+                    <span class="total-ratings me-2">5.0</span>
+                    <!-- ratings -->
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="far fa-star ratings-icon"></i>
+                    </div>
+
+                    <!-- badge -->
+                    <span class="total-ratings-amount ms-3">(22,023)</span>
+                  </div>
+                  <!-- bottom section -->
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-1"
+                  >
+                    <span class="price">$15.00</span>
+                    <a class="btn1 small-btn" href="#">enroll now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <!-- product with slider tab -->
-        <div class="tab-content">
-            <!-- most popular -->
-            <div class="tab-pane fade show active" id="most-popular" role="tabpanel" aria-labelledby="most-popular-tab">
-                <div class="tab-product-slider-active">
-                    <div class="tab-product-slider-item">
-                        <div
-                            class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card">
-                            <!-- heart icon -->
-                            <a href="#">
-                                <i class="far fa-heart heart-icon heart-icon-left"></i>
-                            </a>
-                            <img src="./assets/images/sm8.png" class="small-img" alt="img">
-                            <div class="right-side bottom-section">
-                                <a href="#" class="title">
-                                    Microsoft SQL Server 2022
-                                </a>
-                                <span class="teacher-name d-block mt-1">
-                                    Shohanur Rahman
-                                </span>
-                                <div class="d-flex align-items-center d-block">
-                                    <!-- total ratings -->
-                                    <span class="total-ratings me-2">5.0</span>
-                                    <!-- ratings -->
-                                    <div class="d-flex align-items-center">
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="far fa-star ratings-icon"></i>
-                                    </div>
-
-                                    <!-- badge -->
-                                    <span class="total-ratings-amount ms-3">(22,023)</span>
-                                </div>
-                                <!-- bottom section -->
-                                <div class="d-flex justify-content-between align-items-center mt-1">
-                                    <span class="price">$15.00</span>
-                                    <a class="btn1 small-btn" href="#">enroll now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-product-slider-item">
-                        <div
-                            class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card">
-                            <!-- heart icon -->
-                            <a href="#">
-                                <i class="far fa-heart heart-icon heart-icon-left"></i>
-                            </a>
-                            <img src="./assets/images/sm6.png" class="small-img" alt="img">
-                            <div class="right-side bottom-section">
-                                <a href="#" class="title">
-                                    Microsoft SQL Server 2022
-                                </a>
-                                <span class="teacher-name d-block mt-1">
-                                    Shohanur Rahman
-                                </span>
-                                <div class="d-flex align-items-center d-block">
-                                    <!-- total ratings -->
-                                    <span class="total-ratings me-2">5.0</span>
-                                    <!-- ratings -->
-                                    <div class="d-flex align-items-center">
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="far fa-star ratings-icon"></i>
-                                    </div>
-
-                                    <!-- badge -->
-                                    <span class="total-ratings-amount ms-3">(22,023)</span>
-                                </div>
-                                <!-- bottom section -->
-                                <div class="d-flex justify-content-between align-items-center mt-1">
-                                    <span class="price">$15.00</span>
-                                    <a class="btn1 small-btn" href="#">enroll now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-product-slider-item">
-                        <div
-                            class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card">
-                            <!-- heart icon -->
-                            <a href="#">
-                                <i class="far fa-heart heart-icon heart-icon-left"></i>
-                            </a>
-                            <img src="./assets/images/sm7.png" class="small-img" alt="img">
-                            <div class="right-side bottom-section">
-                                <a href="#" class="title">
-                                    Microsoft SQL Server 2022
-                                </a>
-                                <span class="teacher-name d-block mt-1">
-                                    Shohanur Rahman
-                                </span>
-                                <div class="d-flex align-items-center d-block">
-                                    <!-- total ratings -->
-                                    <span class="total-ratings me-2">5.0</span>
-                                    <!-- ratings -->
-                                    <div class="d-flex align-items-center">
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="far fa-star ratings-icon"></i>
-                                    </div>
-
-                                    <!-- badge -->
-                                    <span class="total-ratings-amount ms-3">(22,023)</span>
-                                </div>
-                                <!-- bottom section -->
-                                <div class="d-flex justify-content-between align-items-center mt-1">
-                                    <span class="price">$15.00</span>
-                                    <a class="btn1 small-btn" href="#">enroll now</a>
-                                </div>
-                            </div>
-                        </div>
+        <!-- new course -->
+        <div
+          class="tab-pane fade"
+          id="new-course"
+          role="tabpanel"
+          aria-labelledby="new-course-tab"
+        >
+          <div class="tab-product-slider-active">
+            <div class="tab-product-slider-item">
+              <div
+                class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card"
+              >
+                <!-- heart icon -->
+                <a href="#">
+                  <i class="far fa-heart heart-icon heart-icon-left"></i>
+                </a>
+                <img
+                  src="./assets/images/sm8.png"
+                  class="small-img"
+                  alt="img"
+                />
+                <div class="right-side bottom-section">
+                  <a href="#" class="title"> Microsoft SQL Server 2022 </a>
+                  <span class="teacher-name d-block mt-1">
+                    Shohanur Rahman
+                  </span>
+                  <div class="d-flex align-items-center d-block">
+                    <!-- total ratings -->
+                    <span class="total-ratings me-2">5.0</span>
+                    <!-- ratings -->
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="far fa-star ratings-icon"></i>
                     </div>
 
-                    <div class="tab-product-slider-item">
-                        <div
-                            class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card">
-                            <!-- heart icon -->
-                            <a href="#">
-                                <i class="far fa-heart heart-icon heart-icon-left"></i>
-                            </a>
-                            <img src="./assets/images/sm9.png" class="small-img" alt="img">
-                            <div class="right-side bottom-section">
-                                <a href="#" class="title">
-                                    Microsoft SQL Server 2022
-                                </a>
-                                <span class="teacher-name d-block mt-1">
-                                    Shohanur Rahman
-                                </span>
-                                <div class="d-flex align-items-center d-block">
-                                    <!-- total ratings -->
-                                    <span class="total-ratings me-2">5.0</span>
-                                    <!-- ratings -->
-                                    <div class="d-flex align-items-center">
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="far fa-star ratings-icon"></i>
-                                    </div>
-
-                                    <!-- badge -->
-                                    <span class="total-ratings-amount ms-3">(22,023)</span>
-                                </div>
-                                <!-- bottom section -->
-                                <div class="d-flex justify-content-between align-items-center mt-1">
-                                    <span class="price">$15.00</span>
-                                    <a class="btn1 small-btn" href="#">enroll now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-product-slider-item">
-                        <div
-                            class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card">
-                            <!-- heart icon -->
-                            <a href="#">
-                                <i class="far fa-heart heart-icon heart-icon-left"></i>
-                            </a>
-                            <img src="./assets/images/sm10.png" class="small-img" alt="img">
-                            <div class="right-side bottom-section">
-                                <a href="#" class="title">
-                                    Microsoft SQL Server 2022
-                                </a>
-                                <span class="teacher-name d-block mt-1">
-                                    Shohanur Rahman
-                                </span>
-                                <div class="d-flex align-items-center d-block">
-                                    <!-- total ratings -->
-                                    <span class="total-ratings me-2">5.0</span>
-                                    <!-- ratings -->
-                                    <div class="d-flex align-items-center">
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="far fa-star ratings-icon"></i>
-                                    </div>
-
-                                    <!-- badge -->
-                                    <span class="total-ratings-amount ms-3">(22,023)</span>
-                                </div>
-                                <!-- bottom section -->
-                                <div class="d-flex justify-content-between align-items-center mt-1">
-                                    <span class="price">$15.00</span>
-                                    <a class="btn1 small-btn" href="#">enroll now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-product-slider-item">
-                        <div
-                            class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card">
-                            <!-- heart icon -->
-                            <a href="#">
-                                <i class="far fa-heart heart-icon heart-icon-left"></i>
-                            </a>
-                            <img src="./assets/images/sm11.png" class="small-img" alt="img">
-                            <div class="right-side bottom-section">
-                                <a href="#" class="title">
-                                    Microsoft SQL Server 2022
-                                </a>
-                                <span class="teacher-name d-block mt-1">
-                                    Shohanur Rahman
-                                </span>
-                                <div class="d-flex align-items-center d-block">
-                                    <!-- total ratings -->
-                                    <span class="total-ratings me-2">5.0</span>
-                                    <!-- ratings -->
-                                    <div class="d-flex align-items-center">
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="far fa-star ratings-icon"></i>
-                                    </div>
-
-                                    <!-- badge -->
-                                    <span class="total-ratings-amount ms-3">(22,023)</span>
-                                </div>
-                                <!-- bottom section -->
-                                <div class="d-flex justify-content-between align-items-center mt-1">
-                                    <span class="price">$15.00</span>
-                                    <a class="btn1 small-btn" href="#">enroll now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tab-product-slider-item">
-                        <div
-                            class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card">
-                            <!-- heart icon -->
-                            <a href="#">
-                                <i class="far fa-heart heart-icon heart-icon-left"></i>
-                            </a>
-                            <img src="./assets/images/sm8.png" class="small-img" alt="img">
-                            <div class="right-side bottom-section">
-                                <a href="#" class="title">
-                                    Microsoft SQL Server 2022
-                                </a>
-                                <span class="teacher-name d-block mt-1">
-                                    Shohanur Rahman
-                                </span>
-                                <div class="d-flex align-items-center d-block">
-                                    <!-- total ratings -->
-                                    <span class="total-ratings me-2">5.0</span>
-                                    <!-- ratings -->
-                                    <div class="d-flex align-items-center">
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="far fa-star ratings-icon"></i>
-                                    </div>
-
-                                    <!-- badge -->
-                                    <span class="total-ratings-amount ms-3">(22,023)</span>
-                                </div>
-                                <!-- bottom section -->
-                                <div class="d-flex justify-content-between align-items-center mt-1">
-                                    <span class="price">$15.00</span>
-                                    <a class="btn1 small-btn" href="#">enroll now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-product-slider-item">
-                        <div
-                            class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card">
-                            <!-- heart icon -->
-                            <a href="#">
-                                <i class="far fa-heart heart-icon heart-icon-left"></i>
-                            </a>
-                            <img src="./assets/images/sm6.png" class="small-img" alt="img">
-                            <div class="right-side bottom-section">
-                                <a href="#" class="title">
-                                    Microsoft SQL Server 2022
-                                </a>
-                                <span class="teacher-name d-block mt-1">
-                                    Shohanur Rahman
-                                </span>
-                                <div class="d-flex align-items-center d-block">
-                                    <!-- total ratings -->
-                                    <span class="total-ratings me-2">5.0</span>
-                                    <!-- ratings -->
-                                    <div class="d-flex align-items-center">
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="far fa-star ratings-icon"></i>
-                                    </div>
-
-                                    <!-- badge -->
-                                    <span class="total-ratings-amount ms-3">(22,023)</span>
-                                </div>
-                                <!-- bottom section -->
-                                <div class="d-flex justify-content-between align-items-center mt-1">
-                                    <span class="price">$15.00</span>
-                                    <a class="btn1 small-btn" href="#">enroll now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-product-slider-item">
-                        <div
-                            class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card">
-                            <!-- heart icon -->
-                            <a href="#">
-                                <i class="far fa-heart heart-icon heart-icon-left"></i>
-                            </a>
-                            <img src="./assets/images/sm10.png" class="small-img" alt="img">
-                            <div class="right-side bottom-section">
-                                <a href="#" class="title">
-                                    Microsoft SQL Server 2022
-                                </a>
-                                <span class="teacher-name d-block mt-1">
-                                    Shohanur Rahman
-                                </span>
-                                <div class="d-flex align-items-center d-block">
-                                    <!-- total ratings -->
-                                    <span class="total-ratings me-2">5.0</span>
-                                    <!-- ratings -->
-                                    <div class="d-flex align-items-center">
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="far fa-star ratings-icon"></i>
-                                    </div>
-
-                                    <!-- badge -->
-                                    <span class="total-ratings-amount ms-3">(22,023)</span>
-                                </div>
-                                <!-- bottom section -->
-                                <div class="d-flex justify-content-between align-items-center mt-1">
-                                    <span class="price">$15.00</span>
-                                    <a class="btn1 small-btn" href="#">enroll now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-product-slider-item">
-                        <div
-                            class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card">
-                            <!-- heart icon -->
-                            <a href="#">
-                                <i class="far fa-heart heart-icon heart-icon-left"></i>
-                            </a>
-                            <img src="./assets/images/sm11.png" class="small-img" alt="img">
-                            <div class="right-side bottom-section">
-                                <a href="#" class="title">
-                                    Microsoft SQL Server 2022
-                                </a>
-                                <span class="teacher-name d-block mt-1">
-                                    Shohanur Rahman
-                                </span>
-                                <div class="d-flex align-items-center d-block">
-                                    <!-- total ratings -->
-                                    <span class="total-ratings me-2">5.0</span>
-                                    <!-- ratings -->
-                                    <div class="d-flex align-items-center">
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="far fa-star ratings-icon"></i>
-                                    </div>
-
-                                    <!-- badge -->
-                                    <span class="total-ratings-amount ms-3">(22,023)</span>
-                                </div>
-                                <!-- bottom section -->
-                                <div class="d-flex justify-content-between align-items-center mt-1">
-                                    <span class="price">$15.00</span>
-                                    <a class="btn1 small-btn" href="#">enroll now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <!-- badge -->
+                    <span class="total-ratings-amount ms-3">(22,023)</span>
+                  </div>
+                  <!-- bottom section -->
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-1"
+                  >
+                    <span class="price">$15.00</span>
+                    <a class="btn1 small-btn" href="#">enroll now</a>
+                  </div>
                 </div>
+              </div>
+            </div>
+            <div class="tab-product-slider-item">
+              <div
+                class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card"
+              >
+                <!-- heart icon -->
+                <a href="#">
+                  <i class="far fa-heart heart-icon heart-icon-left"></i>
+                </a>
+                <img
+                  src="./assets/images/sm6.png"
+                  class="small-img"
+                  alt="img"
+                />
+                <div class="right-side bottom-section">
+                  <a href="#" class="title"> Microsoft SQL Server 2022 </a>
+                  <span class="teacher-name d-block mt-1">
+                    Shohanur Rahman
+                  </span>
+                  <div class="d-flex align-items-center d-block">
+                    <!-- total ratings -->
+                    <span class="total-ratings me-2">5.0</span>
+                    <!-- ratings -->
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="far fa-star ratings-icon"></i>
+                    </div>
+
+                    <!-- badge -->
+                    <span class="total-ratings-amount ms-3">(22,023)</span>
+                  </div>
+                  <!-- bottom section -->
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-1"
+                  >
+                    <span class="price">$15.00</span>
+                    <a class="btn1 small-btn" href="#">enroll now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-product-slider-item">
+              <div
+                class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card"
+              >
+                <!-- heart icon -->
+                <a href="#">
+                  <i class="far fa-heart heart-icon heart-icon-left"></i>
+                </a>
+                <img
+                  src="./assets/images/sm7.png"
+                  class="small-img"
+                  alt="img"
+                />
+                <div class="right-side bottom-section">
+                  <a href="#" class="title"> Microsoft SQL Server 2022 </a>
+                  <span class="teacher-name d-block mt-1">
+                    Shohanur Rahman
+                  </span>
+                  <div class="d-flex align-items-center d-block">
+                    <!-- total ratings -->
+                    <span class="total-ratings me-2">5.0</span>
+                    <!-- ratings -->
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="far fa-star ratings-icon"></i>
+                    </div>
+
+                    <!-- badge -->
+                    <span class="total-ratings-amount ms-3">(22,023)</span>
+                  </div>
+                  <!-- bottom section -->
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-1"
+                  >
+                    <span class="price">$15.00</span>
+                    <a class="btn1 small-btn" href="#">enroll now</a>
+                  </div>
+                </div>
+              </div>
             </div>
 
-            <!-- new course -->
-            <div class="tab-pane fade" id="new-course" role="tabpanel" aria-labelledby="new-course-tab">
-                <div class="tab-product-slider-active">
-                    <div class="tab-product-slider-item">
-                        <div
-                            class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card">
-                            <!-- heart icon -->
-                            <a href="#">
-                                <i class="far fa-heart heart-icon heart-icon-left"></i>
-                            </a>
-                            <img src="./assets/images/sm8.png" class="small-img" alt="img">
-                            <div class="right-side bottom-section">
-                                <a href="#" class="title">
-                                    Microsoft SQL Server 2022
-                                </a>
-                                <span class="teacher-name d-block mt-1">
-                                    Shohanur Rahman
-                                </span>
-                                <div class="d-flex align-items-center d-block">
-                                    <!-- total ratings -->
-                                    <span class="total-ratings me-2">5.0</span>
-                                    <!-- ratings -->
-                                    <div class="d-flex align-items-center">
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="far fa-star ratings-icon"></i>
-                                    </div>
-
-                                    <!-- badge -->
-                                    <span class="total-ratings-amount ms-3">(22,023)</span>
-                                </div>
-                                <!-- bottom section -->
-                                <div class="d-flex justify-content-between align-items-center mt-1">
-                                    <span class="price">$15.00</span>
-                                    <a class="btn1 small-btn" href="#">enroll now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-product-slider-item">
-                        <div
-                            class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card">
-                            <!-- heart icon -->
-                            <a href="#">
-                                <i class="far fa-heart heart-icon heart-icon-left"></i>
-                            </a>
-                            <img src="./assets/images/sm6.png" class="small-img" alt="img">
-                            <div class="right-side bottom-section">
-                                <a href="#" class="title">
-                                    Microsoft SQL Server 2022
-                                </a>
-                                <span class="teacher-name d-block mt-1">
-                                    Shohanur Rahman
-                                </span>
-                                <div class="d-flex align-items-center d-block">
-                                    <!-- total ratings -->
-                                    <span class="total-ratings me-2">5.0</span>
-                                    <!-- ratings -->
-                                    <div class="d-flex align-items-center">
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="far fa-star ratings-icon"></i>
-                                    </div>
-
-                                    <!-- badge -->
-                                    <span class="total-ratings-amount ms-3">(22,023)</span>
-                                </div>
-                                <!-- bottom section -->
-                                <div class="d-flex justify-content-between align-items-center mt-1">
-                                    <span class="price">$15.00</span>
-                                    <a class="btn1 small-btn" href="#">enroll now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-product-slider-item">
-                        <div
-                            class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card">
-                            <!-- heart icon -->
-                            <a href="#">
-                                <i class="far fa-heart heart-icon heart-icon-left"></i>
-                            </a>
-                            <img src="./assets/images/sm7.png" class="small-img" alt="img">
-                            <div class="right-side bottom-section">
-                                <a href="#" class="title">
-                                    Microsoft SQL Server 2022
-                                </a>
-                                <span class="teacher-name d-block mt-1">
-                                    Shohanur Rahman
-                                </span>
-                                <div class="d-flex align-items-center d-block">
-                                    <!-- total ratings -->
-                                    <span class="total-ratings me-2">5.0</span>
-                                    <!-- ratings -->
-                                    <div class="d-flex align-items-center">
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="far fa-star ratings-icon"></i>
-                                    </div>
-
-                                    <!-- badge -->
-                                    <span class="total-ratings-amount ms-3">(22,023)</span>
-                                </div>
-                                <!-- bottom section -->
-                                <div class="d-flex justify-content-between align-items-center mt-1">
-                                    <span class="price">$15.00</span>
-                                    <a class="btn1 small-btn" href="#">enroll now</a>
-                                </div>
-                            </div>
-                        </div>
+            <div class="tab-product-slider-item">
+              <div
+                class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card"
+              >
+                <!-- heart icon -->
+                <a href="#">
+                  <i class="far fa-heart heart-icon heart-icon-left"></i>
+                </a>
+                <img
+                  src="./assets/images/sm9.png"
+                  class="small-img"
+                  alt="img"
+                />
+                <div class="right-side bottom-section">
+                  <a href="#" class="title"> Microsoft SQL Server 2022 </a>
+                  <span class="teacher-name d-block mt-1">
+                    Shohanur Rahman
+                  </span>
+                  <div class="d-flex align-items-center d-block">
+                    <!-- total ratings -->
+                    <span class="total-ratings me-2">5.0</span>
+                    <!-- ratings -->
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="far fa-star ratings-icon"></i>
                     </div>
 
-                    <div class="tab-product-slider-item">
-                        <div
-                            class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card">
-                            <!-- heart icon -->
-                            <a href="#">
-                                <i class="far fa-heart heart-icon heart-icon-left"></i>
-                            </a>
-                            <img src="./assets/images/sm9.png" class="small-img" alt="img">
-                            <div class="right-side bottom-section">
-                                <a href="#" class="title">
-                                    Microsoft SQL Server 2022
-                                </a>
-                                <span class="teacher-name d-block mt-1">
-                                    Shohanur Rahman
-                                </span>
-                                <div class="d-flex align-items-center d-block">
-                                    <!-- total ratings -->
-                                    <span class="total-ratings me-2">5.0</span>
-                                    <!-- ratings -->
-                                    <div class="d-flex align-items-center">
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="far fa-star ratings-icon"></i>
-                                    </div>
-
-                                    <!-- badge -->
-                                    <span class="total-ratings-amount ms-3">(22,023)</span>
-                                </div>
-                                <!-- bottom section -->
-                                <div class="d-flex justify-content-between align-items-center mt-1">
-                                    <span class="price">$15.00</span>
-                                    <a class="btn1 small-btn" href="#">enroll now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-product-slider-item">
-                        <div
-                            class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card">
-                            <!-- heart icon -->
-                            <a href="#">
-                                <i class="far fa-heart heart-icon heart-icon-left"></i>
-                            </a>
-                            <img src="./assets/images/sm10.png" class="small-img" alt="img">
-                            <div class="right-side bottom-section">
-                                <a href="#" class="title">
-                                    Microsoft SQL Server 2022
-                                </a>
-                                <span class="teacher-name d-block mt-1">
-                                    Shohanur Rahman
-                                </span>
-                                <div class="d-flex align-items-center d-block">
-                                    <!-- total ratings -->
-                                    <span class="total-ratings me-2">5.0</span>
-                                    <!-- ratings -->
-                                    <div class="d-flex align-items-center">
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="far fa-star ratings-icon"></i>
-                                    </div>
-
-                                    <!-- badge -->
-                                    <span class="total-ratings-amount ms-3">(22,023)</span>
-                                </div>
-                                <!-- bottom section -->
-                                <div class="d-flex justify-content-between align-items-center mt-1">
-                                    <span class="price">$15.00</span>
-                                    <a class="btn1 small-btn" href="#">enroll now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-product-slider-item">
-                        <div
-                            class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card">
-                            <!-- heart icon -->
-                            <a href="#">
-                                <i class="far fa-heart heart-icon heart-icon-left"></i>
-                            </a>
-                            <img src="./assets/images/sm11.png" class="small-img" alt="img">
-                            <div class="right-side bottom-section">
-                                <a href="#" class="title">
-                                    Microsoft SQL Server 2022
-                                </a>
-                                <span class="teacher-name d-block mt-1">
-                                    Shohanur Rahman
-                                </span>
-                                <div class="d-flex align-items-center d-block">
-                                    <!-- total ratings -->
-                                    <span class="total-ratings me-2">5.0</span>
-                                    <!-- ratings -->
-                                    <div class="d-flex align-items-center">
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="far fa-star ratings-icon"></i>
-                                    </div>
-
-                                    <!-- badge -->
-                                    <span class="total-ratings-amount ms-3">(22,023)</span>
-                                </div>
-                                <!-- bottom section -->
-                                <div class="d-flex justify-content-between align-items-center mt-1">
-                                    <span class="price">$15.00</span>
-                                    <a class="btn1 small-btn" href="#">enroll now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tab-product-slider-item">
-                        <div
-                            class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card">
-                            <!-- heart icon -->
-                            <a href="#">
-                                <i class="far fa-heart heart-icon heart-icon-left"></i>
-                            </a>
-                            <img src="./assets/images/sm8.png" class="small-img" alt="img">
-                            <div class="right-side bottom-section">
-                                <a href="#" class="title">
-                                    Microsoft SQL Server 2022
-                                </a>
-                                <span class="teacher-name d-block mt-1">
-                                    Shohanur Rahman
-                                </span>
-                                <div class="d-flex align-items-center d-block">
-                                    <!-- total ratings -->
-                                    <span class="total-ratings me-2">5.0</span>
-                                    <!-- ratings -->
-                                    <div class="d-flex align-items-center">
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="far fa-star ratings-icon"></i>
-                                    </div>
-
-                                    <!-- badge -->
-                                    <span class="total-ratings-amount ms-3">(22,023)</span>
-                                </div>
-                                <!-- bottom section -->
-                                <div class="d-flex justify-content-between align-items-center mt-1">
-                                    <span class="price">$15.00</span>
-                                    <a class="btn1 small-btn" href="#">enroll now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-product-slider-item">
-                        <div
-                            class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card">
-                            <!-- heart icon -->
-                            <a href="#">
-                                <i class="far fa-heart heart-icon heart-icon-left"></i>
-                            </a>
-                            <img src="./assets/images/sm6.png" class="small-img" alt="img">
-                            <div class="right-side bottom-section">
-                                <a href="#" class="title">
-                                    Microsoft SQL Server 2022
-                                </a>
-                                <span class="teacher-name d-block mt-1">
-                                    Shohanur Rahman
-                                </span>
-                                <div class="d-flex align-items-center d-block">
-                                    <!-- total ratings -->
-                                    <span class="total-ratings me-2">5.0</span>
-                                    <!-- ratings -->
-                                    <div class="d-flex align-items-center">
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="far fa-star ratings-icon"></i>
-                                    </div>
-
-                                    <!-- badge -->
-                                    <span class="total-ratings-amount ms-3">(22,023)</span>
-                                </div>
-                                <!-- bottom section -->
-                                <div class="d-flex justify-content-between align-items-center mt-1">
-                                    <span class="price">$15.00</span>
-                                    <a class="btn1 small-btn" href="#">enroll now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-product-slider-item">
-                        <div
-                            class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card">
-                            <!-- heart icon -->
-                            <a href="#">
-                                <i class="far fa-heart heart-icon heart-icon-left"></i>
-                            </a>
-                            <img src="./assets/images/sm10.png" class="small-img" alt="img">
-                            <div class="right-side bottom-section">
-                                <a href="#" class="title">
-                                    Microsoft SQL Server 2022
-                                </a>
-                                <span class="teacher-name d-block mt-1">
-                                    Shohanur Rahman
-                                </span>
-                                <div class="d-flex align-items-center d-block">
-                                    <!-- total ratings -->
-                                    <span class="total-ratings me-2">5.0</span>
-                                    <!-- ratings -->
-                                    <div class="d-flex align-items-center">
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="far fa-star ratings-icon"></i>
-                                    </div>
-
-                                    <!-- badge -->
-                                    <span class="total-ratings-amount ms-3">(22,023)</span>
-                                </div>
-                                <!-- bottom section -->
-                                <div class="d-flex justify-content-between align-items-center mt-1">
-                                    <span class="price">$15.00</span>
-                                    <a class="btn1 small-btn" href="#">enroll now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-product-slider-item">
-                        <div
-                            class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card">
-                            <!-- heart icon -->
-                            <a href="#">
-                                <i class="far fa-heart heart-icon heart-icon-left"></i>
-                            </a>
-                            <img src="./assets/images/sm11.png" class="small-img" alt="img">
-                            <div class="right-side bottom-section">
-                                <a href="#" class="title">
-                                    Microsoft SQL Server 2022
-                                </a>
-                                <span class="teacher-name d-block mt-1">
-                                    Shohanur Rahman
-                                </span>
-                                <div class="d-flex align-items-center d-block">
-                                    <!-- total ratings -->
-                                    <span class="total-ratings me-2">5.0</span>
-                                    <!-- ratings -->
-                                    <div class="d-flex align-items-center">
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="far fa-star ratings-icon"></i>
-                                    </div>
-
-                                    <!-- badge -->
-                                    <span class="total-ratings-amount ms-3">(22,023)</span>
-                                </div>
-                                <!-- bottom section -->
-                                <div class="d-flex justify-content-between align-items-center mt-1">
-                                    <span class="price">$15.00</span>
-                                    <a class="btn1 small-btn" href="#">enroll now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <!-- badge -->
+                    <span class="total-ratings-amount ms-3">(22,023)</span>
+                  </div>
+                  <!-- bottom section -->
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-1"
+                  >
+                    <span class="price">$15.00</span>
+                    <a class="btn1 small-btn" href="#">enroll now</a>
+                  </div>
                 </div>
+              </div>
+            </div>
+            <div class="tab-product-slider-item">
+              <div
+                class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card"
+              >
+                <!-- heart icon -->
+                <a href="#">
+                  <i class="far fa-heart heart-icon heart-icon-left"></i>
+                </a>
+                <img
+                  src="./assets/images/sm10.png"
+                  class="small-img"
+                  alt="img"
+                />
+                <div class="right-side bottom-section">
+                  <a href="#" class="title"> Microsoft SQL Server 2022 </a>
+                  <span class="teacher-name d-block mt-1">
+                    Shohanur Rahman
+                  </span>
+                  <div class="d-flex align-items-center d-block">
+                    <!-- total ratings -->
+                    <span class="total-ratings me-2">5.0</span>
+                    <!-- ratings -->
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="far fa-star ratings-icon"></i>
+                    </div>
+
+                    <!-- badge -->
+                    <span class="total-ratings-amount ms-3">(22,023)</span>
+                  </div>
+                  <!-- bottom section -->
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-1"
+                  >
+                    <span class="price">$15.00</span>
+                    <a class="btn1 small-btn" href="#">enroll now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-product-slider-item">
+              <div
+                class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card"
+              >
+                <!-- heart icon -->
+                <a href="#">
+                  <i class="far fa-heart heart-icon heart-icon-left"></i>
+                </a>
+                <img
+                  src="./assets/images/sm11.png"
+                  class="small-img"
+                  alt="img"
+                />
+                <div class="right-side bottom-section">
+                  <a href="#" class="title"> Microsoft SQL Server 2022 </a>
+                  <span class="teacher-name d-block mt-1">
+                    Shohanur Rahman
+                  </span>
+                  <div class="d-flex align-items-center d-block">
+                    <!-- total ratings -->
+                    <span class="total-ratings me-2">5.0</span>
+                    <!-- ratings -->
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="far fa-star ratings-icon"></i>
+                    </div>
+
+                    <!-- badge -->
+                    <span class="total-ratings-amount ms-3">(22,023)</span>
+                  </div>
+                  <!-- bottom section -->
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-1"
+                  >
+                    <span class="price">$15.00</span>
+                    <a class="btn1 small-btn" href="#">enroll now</a>
+                  </div>
+                </div>
+              </div>
             </div>
 
-            <!-- trending course -->
-            <div class="tab-pane fade" id="trending" role="tabpanel" aria-labelledby="trending-tab">
-                <div class="tab-product-slider-active">
-                    <div class="tab-product-slider-item">
-                        <div
-                            class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card">
-                            <!-- heart icon -->
-                            <a href="#">
-                                <i class="far fa-heart heart-icon heart-icon-left"></i>
-                            </a>
-                            <img src="./assets/images/sm8.png" class="small-img" alt="img">
-                            <div class="right-side bottom-section">
-                                <a href="#" class="title">
-                                    Microsoft SQL Server 2022
-                                </a>
-                                <span class="teacher-name d-block mt-1">
-                                    Shohanur Rahman
-                                </span>
-                                <div class="d-flex align-items-center d-block">
-                                    <!-- total ratings -->
-                                    <span class="total-ratings me-2">5.0</span>
-                                    <!-- ratings -->
-                                    <div class="d-flex align-items-center">
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="far fa-star ratings-icon"></i>
-                                    </div>
-
-                                    <!-- badge -->
-                                    <span class="total-ratings-amount ms-3">(22,023)</span>
-                                </div>
-                                <!-- bottom section -->
-                                <div class="d-flex justify-content-between align-items-center mt-1">
-                                    <span class="price">$15.00</span>
-                                    <a class="btn1 small-btn" href="#">enroll now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-product-slider-item">
-                        <div
-                            class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card">
-                            <!-- heart icon -->
-                            <a href="#">
-                                <i class="far fa-heart heart-icon heart-icon-left"></i>
-                            </a>
-                            <img src="./assets/images/sm6.png" class="small-img" alt="img">
-                            <div class="right-side bottom-section">
-                                <a href="#" class="title">
-                                    Microsoft SQL Server 2022
-                                </a>
-                                <span class="teacher-name d-block mt-1">
-                                    Shohanur Rahman
-                                </span>
-                                <div class="d-flex align-items-center d-block">
-                                    <!-- total ratings -->
-                                    <span class="total-ratings me-2">5.0</span>
-                                    <!-- ratings -->
-                                    <div class="d-flex align-items-center">
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="far fa-star ratings-icon"></i>
-                                    </div>
-
-                                    <!-- badge -->
-                                    <span class="total-ratings-amount ms-3">(22,023)</span>
-                                </div>
-                                <!-- bottom section -->
-                                <div class="d-flex justify-content-between align-items-center mt-1">
-                                    <span class="price">$15.00</span>
-                                    <a class="btn1 small-btn" href="#">enroll now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-product-slider-item">
-                        <div
-                            class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card">
-                            <!-- heart icon -->
-                            <a href="#">
-                                <i class="far fa-heart heart-icon heart-icon-left"></i>
-                            </a>
-                            <img src="./assets/images/sm7.png" class="small-img" alt="img">
-                            <div class="right-side bottom-section">
-                                <a href="#" class="title">
-                                    Microsoft SQL Server 2022
-                                </a>
-                                <span class="teacher-name d-block mt-1">
-                                    Shohanur Rahman
-                                </span>
-                                <div class="d-flex align-items-center d-block">
-                                    <!-- total ratings -->
-                                    <span class="total-ratings me-2">5.0</span>
-                                    <!-- ratings -->
-                                    <div class="d-flex align-items-center">
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="far fa-star ratings-icon"></i>
-                                    </div>
-
-                                    <!-- badge -->
-                                    <span class="total-ratings-amount ms-3">(22,023)</span>
-                                </div>
-                                <!-- bottom section -->
-                                <div class="d-flex justify-content-between align-items-center mt-1">
-                                    <span class="price">$15.00</span>
-                                    <a class="btn1 small-btn" href="#">enroll now</a>
-                                </div>
-                            </div>
-                        </div>
+            <div class="tab-product-slider-item">
+              <div
+                class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card"
+              >
+                <!-- heart icon -->
+                <a href="#">
+                  <i class="far fa-heart heart-icon heart-icon-left"></i>
+                </a>
+                <img
+                  src="./assets/images/sm8.png"
+                  class="small-img"
+                  alt="img"
+                />
+                <div class="right-side bottom-section">
+                  <a href="#" class="title"> Microsoft SQL Server 2022 </a>
+                  <span class="teacher-name d-block mt-1">
+                    Shohanur Rahman
+                  </span>
+                  <div class="d-flex align-items-center d-block">
+                    <!-- total ratings -->
+                    <span class="total-ratings me-2">5.0</span>
+                    <!-- ratings -->
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="far fa-star ratings-icon"></i>
                     </div>
 
-                    <div class="tab-product-slider-item">
-                        <div
-                            class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card">
-                            <!-- heart icon -->
-                            <a href="#">
-                                <i class="far fa-heart heart-icon heart-icon-left"></i>
-                            </a>
-                            <img src="./assets/images/sm9.png" class="small-img" alt="img">
-                            <div class="right-side bottom-section">
-                                <a href="#" class="title">
-                                    Microsoft SQL Server 2022
-                                </a>
-                                <span class="teacher-name d-block mt-1">
-                                    Shohanur Rahman
-                                </span>
-                                <div class="d-flex align-items-center d-block">
-                                    <!-- total ratings -->
-                                    <span class="total-ratings me-2">5.0</span>
-                                    <!-- ratings -->
-                                    <div class="d-flex align-items-center">
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="far fa-star ratings-icon"></i>
-                                    </div>
-
-                                    <!-- badge -->
-                                    <span class="total-ratings-amount ms-3">(22,023)</span>
-                                </div>
-                                <!-- bottom section -->
-                                <div class="d-flex justify-content-between align-items-center mt-1">
-                                    <span class="price">$15.00</span>
-                                    <a class="btn1 small-btn" href="#">enroll now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-product-slider-item">
-                        <div
-                            class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card">
-                            <!-- heart icon -->
-                            <a href="#">
-                                <i class="far fa-heart heart-icon heart-icon-left"></i>
-                            </a>
-                            <img src="./assets/images/sm10.png" class="small-img" alt="img">
-                            <div class="right-side bottom-section">
-                                <a href="#" class="title">
-                                    Microsoft SQL Server 2022
-                                </a>
-                                <span class="teacher-name d-block mt-1">
-                                    Shohanur Rahman
-                                </span>
-                                <div class="d-flex align-items-center d-block">
-                                    <!-- total ratings -->
-                                    <span class="total-ratings me-2">5.0</span>
-                                    <!-- ratings -->
-                                    <div class="d-flex align-items-center">
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="far fa-star ratings-icon"></i>
-                                    </div>
-
-                                    <!-- badge -->
-                                    <span class="total-ratings-amount ms-3">(22,023)</span>
-                                </div>
-                                <!-- bottom section -->
-                                <div class="d-flex justify-content-between align-items-center mt-1">
-                                    <span class="price">$15.00</span>
-                                    <a class="btn1 small-btn" href="#">enroll now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-product-slider-item">
-                        <div
-                            class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card">
-                            <!-- heart icon -->
-                            <a href="#">
-                                <i class="far fa-heart heart-icon heart-icon-left"></i>
-                            </a>
-                            <img src="./assets/images/sm11.png" class="small-img" alt="img">
-                            <div class="right-side bottom-section">
-                                <a href="#" class="title">
-                                    Microsoft SQL Server 2022
-                                </a>
-                                <span class="teacher-name d-block mt-1">
-                                    Shohanur Rahman
-                                </span>
-                                <div class="d-flex align-items-center d-block">
-                                    <!-- total ratings -->
-                                    <span class="total-ratings me-2">5.0</span>
-                                    <!-- ratings -->
-                                    <div class="d-flex align-items-center">
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="far fa-star ratings-icon"></i>
-                                    </div>
-
-                                    <!-- badge -->
-                                    <span class="total-ratings-amount ms-3">(22,023)</span>
-                                </div>
-                                <!-- bottom section -->
-                                <div class="d-flex justify-content-between align-items-center mt-1">
-                                    <span class="price">$15.00</span>
-                                    <a class="btn1 small-btn" href="#">enroll now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tab-product-slider-item">
-                        <div
-                            class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card">
-                            <!-- heart icon -->
-                            <a href="#">
-                                <i class="far fa-heart heart-icon heart-icon-left"></i>
-                            </a>
-                            <img src="./assets/images/sm8.png" class="small-img" alt="img">
-                            <div class="right-side bottom-section">
-                                <a href="#" class="title">
-                                    Microsoft SQL Server 2022
-                                </a>
-                                <span class="teacher-name d-block mt-1">
-                                    Shohanur Rahman
-                                </span>
-                                <div class="d-flex align-items-center d-block">
-                                    <!-- total ratings -->
-                                    <span class="total-ratings me-2">5.0</span>
-                                    <!-- ratings -->
-                                    <div class="d-flex align-items-center">
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="far fa-star ratings-icon"></i>
-                                    </div>
-
-                                    <!-- badge -->
-                                    <span class="total-ratings-amount ms-3">(22,023)</span>
-                                </div>
-                                <!-- bottom section -->
-                                <div class="d-flex justify-content-between align-items-center mt-1">
-                                    <span class="price">$15.00</span>
-                                    <a class="btn1 small-btn" href="#">enroll now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-product-slider-item">
-                        <div
-                            class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card">
-                            <!-- heart icon -->
-                            <a href="#">
-                                <i class="far fa-heart heart-icon heart-icon-left"></i>
-                            </a>
-                            <img src="./assets/images/sm6.png" class="small-img" alt="img">
-                            <div class="right-side bottom-section">
-                                <a href="#" class="title">
-                                    Microsoft SQL Server 2022
-                                </a>
-                                <span class="teacher-name d-block mt-1">
-                                    Shohanur Rahman
-                                </span>
-                                <div class="d-flex align-items-center d-block">
-                                    <!-- total ratings -->
-                                    <span class="total-ratings me-2">5.0</span>
-                                    <!-- ratings -->
-                                    <div class="d-flex align-items-center">
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="far fa-star ratings-icon"></i>
-                                    </div>
-
-                                    <!-- badge -->
-                                    <span class="total-ratings-amount ms-3">(22,023)</span>
-                                </div>
-                                <!-- bottom section -->
-                                <div class="d-flex justify-content-between align-items-center mt-1">
-                                    <span class="price">$15.00</span>
-                                    <a class="btn1 small-btn" href="#">enroll now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-product-slider-item">
-                        <div
-                            class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card">
-                            <!-- heart icon -->
-                            <a href="#">
-                                <i class="far fa-heart heart-icon heart-icon-left"></i>
-                            </a>
-                            <img src="./assets/images/sm10.png" class="small-img" alt="img">
-                            <div class="right-side bottom-section">
-                                <a href="#" class="title">
-                                    Microsoft SQL Server 2022
-                                </a>
-                                <span class="teacher-name d-block mt-1">
-                                    Shohanur Rahman
-                                </span>
-                                <div class="d-flex align-items-center d-block">
-                                    <!-- total ratings -->
-                                    <span class="total-ratings me-2">5.0</span>
-                                    <!-- ratings -->
-                                    <div class="d-flex align-items-center">
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="far fa-star ratings-icon"></i>
-                                    </div>
-
-                                    <!-- badge -->
-                                    <span class="total-ratings-amount ms-3">(22,023)</span>
-                                </div>
-                                <!-- bottom section -->
-                                <div class="d-flex justify-content-between align-items-center mt-1">
-                                    <span class="price">$15.00</span>
-                                    <a class="btn1 small-btn" href="#">enroll now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-product-slider-item">
-                        <div
-                            class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card">
-                            <!-- heart icon -->
-                            <a href="#">
-                                <i class="far fa-heart heart-icon heart-icon-left"></i>
-                            </a>
-                            <img src="./assets/images/sm11.png" class="small-img" alt="img">
-                            <div class="right-side bottom-section">
-                                <a href="#" class="title">
-                                    Microsoft SQL Server 2022
-                                </a>
-                                <span class="teacher-name d-block mt-1">
-                                    Shohanur Rahman
-                                </span>
-                                <div class="d-flex align-items-center d-block">
-                                    <!-- total ratings -->
-                                    <span class="total-ratings me-2">5.0</span>
-                                    <!-- ratings -->
-                                    <div class="d-flex align-items-center">
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="fas fa-star ratings-icon"></i>
-                                        <i class="far fa-star ratings-icon"></i>
-                                    </div>
-
-                                    <!-- badge -->
-                                    <span class="total-ratings-amount ms-3">(22,023)</span>
-                                </div>
-                                <!-- bottom section -->
-                                <div class="d-flex justify-content-between align-items-center mt-1">
-                                    <span class="price">$15.00</span>
-                                    <a class="btn1 small-btn" href="#">enroll now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <!-- badge -->
+                    <span class="total-ratings-amount ms-3">(22,023)</span>
+                  </div>
+                  <!-- bottom section -->
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-1"
+                  >
+                    <span class="price">$15.00</span>
+                    <a class="btn1 small-btn" href="#">enroll now</a>
+                  </div>
                 </div>
+              </div>
             </div>
+            <div class="tab-product-slider-item">
+              <div
+                class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card"
+              >
+                <!-- heart icon -->
+                <a href="#">
+                  <i class="far fa-heart heart-icon heart-icon-left"></i>
+                </a>
+                <img
+                  src="./assets/images/sm6.png"
+                  class="small-img"
+                  alt="img"
+                />
+                <div class="right-side bottom-section">
+                  <a href="#" class="title"> Microsoft SQL Server 2022 </a>
+                  <span class="teacher-name d-block mt-1">
+                    Shohanur Rahman
+                  </span>
+                  <div class="d-flex align-items-center d-block">
+                    <!-- total ratings -->
+                    <span class="total-ratings me-2">5.0</span>
+                    <!-- ratings -->
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="far fa-star ratings-icon"></i>
+                    </div>
+
+                    <!-- badge -->
+                    <span class="total-ratings-amount ms-3">(22,023)</span>
+                  </div>
+                  <!-- bottom section -->
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-1"
+                  >
+                    <span class="price">$15.00</span>
+                    <a class="btn1 small-btn" href="#">enroll now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-product-slider-item">
+              <div
+                class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card"
+              >
+                <!-- heart icon -->
+                <a href="#">
+                  <i class="far fa-heart heart-icon heart-icon-left"></i>
+                </a>
+                <img
+                  src="./assets/images/sm10.png"
+                  class="small-img"
+                  alt="img"
+                />
+                <div class="right-side bottom-section">
+                  <a href="#" class="title"> Microsoft SQL Server 2022 </a>
+                  <span class="teacher-name d-block mt-1">
+                    Shohanur Rahman
+                  </span>
+                  <div class="d-flex align-items-center d-block">
+                    <!-- total ratings -->
+                    <span class="total-ratings me-2">5.0</span>
+                    <!-- ratings -->
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="far fa-star ratings-icon"></i>
+                    </div>
+
+                    <!-- badge -->
+                    <span class="total-ratings-amount ms-3">(22,023)</span>
+                  </div>
+                  <!-- bottom section -->
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-1"
+                  >
+                    <span class="price">$15.00</span>
+                    <a class="btn1 small-btn" href="#">enroll now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-product-slider-item">
+              <div
+                class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card"
+              >
+                <!-- heart icon -->
+                <a href="#">
+                  <i class="far fa-heart heart-icon heart-icon-left"></i>
+                </a>
+                <img
+                  src="./assets/images/sm11.png"
+                  class="small-img"
+                  alt="img"
+                />
+                <div class="right-side bottom-section">
+                  <a href="#" class="title"> Microsoft SQL Server 2022 </a>
+                  <span class="teacher-name d-block mt-1">
+                    Shohanur Rahman
+                  </span>
+                  <div class="d-flex align-items-center d-block">
+                    <!-- total ratings -->
+                    <span class="total-ratings me-2">5.0</span>
+                    <!-- ratings -->
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="far fa-star ratings-icon"></i>
+                    </div>
+
+                    <!-- badge -->
+                    <span class="total-ratings-amount ms-3">(22,023)</span>
+                  </div>
+                  <!-- bottom section -->
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-1"
+                  >
+                    <span class="price">$15.00</span>
+                    <a class="btn1 small-btn" href="#">enroll now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+
+        <!-- trending course -->
+        <div
+          class="tab-pane fade"
+          id="trending"
+          role="tabpanel"
+          aria-labelledby="trending-tab"
+        >
+          <div class="tab-product-slider-active">
+            <div class="tab-product-slider-item">
+              <div
+                class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card"
+              >
+                <!-- heart icon -->
+                <a href="#">
+                  <i class="far fa-heart heart-icon heart-icon-left"></i>
+                </a>
+                <img
+                  src="./assets/images/sm8.png"
+                  class="small-img"
+                  alt="img"
+                />
+                <div class="right-side bottom-section">
+                  <a href="#" class="title"> Microsoft SQL Server 2022 </a>
+                  <span class="teacher-name d-block mt-1">
+                    Shohanur Rahman
+                  </span>
+                  <div class="d-flex align-items-center d-block">
+                    <!-- total ratings -->
+                    <span class="total-ratings me-2">5.0</span>
+                    <!-- ratings -->
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="far fa-star ratings-icon"></i>
+                    </div>
+
+                    <!-- badge -->
+                    <span class="total-ratings-amount ms-3">(22,023)</span>
+                  </div>
+                  <!-- bottom section -->
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-1"
+                  >
+                    <span class="price">$15.00</span>
+                    <a class="btn1 small-btn" href="#">enroll now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-product-slider-item">
+              <div
+                class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card"
+              >
+                <!-- heart icon -->
+                <a href="#">
+                  <i class="far fa-heart heart-icon heart-icon-left"></i>
+                </a>
+                <img
+                  src="./assets/images/sm6.png"
+                  class="small-img"
+                  alt="img"
+                />
+                <div class="right-side bottom-section">
+                  <a href="#" class="title"> Microsoft SQL Server 2022 </a>
+                  <span class="teacher-name d-block mt-1">
+                    Shohanur Rahman
+                  </span>
+                  <div class="d-flex align-items-center d-block">
+                    <!-- total ratings -->
+                    <span class="total-ratings me-2">5.0</span>
+                    <!-- ratings -->
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="far fa-star ratings-icon"></i>
+                    </div>
+
+                    <!-- badge -->
+                    <span class="total-ratings-amount ms-3">(22,023)</span>
+                  </div>
+                  <!-- bottom section -->
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-1"
+                  >
+                    <span class="price">$15.00</span>
+                    <a class="btn1 small-btn" href="#">enroll now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-product-slider-item">
+              <div
+                class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card"
+              >
+                <!-- heart icon -->
+                <a href="#">
+                  <i class="far fa-heart heart-icon heart-icon-left"></i>
+                </a>
+                <img
+                  src="./assets/images/sm7.png"
+                  class="small-img"
+                  alt="img"
+                />
+                <div class="right-side bottom-section">
+                  <a href="#" class="title"> Microsoft SQL Server 2022 </a>
+                  <span class="teacher-name d-block mt-1">
+                    Shohanur Rahman
+                  </span>
+                  <div class="d-flex align-items-center d-block">
+                    <!-- total ratings -->
+                    <span class="total-ratings me-2">5.0</span>
+                    <!-- ratings -->
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="far fa-star ratings-icon"></i>
+                    </div>
+
+                    <!-- badge -->
+                    <span class="total-ratings-amount ms-3">(22,023)</span>
+                  </div>
+                  <!-- bottom section -->
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-1"
+                  >
+                    <span class="price">$15.00</span>
+                    <a class="btn1 small-btn" href="#">enroll now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-product-slider-item">
+              <div
+                class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card"
+              >
+                <!-- heart icon -->
+                <a href="#">
+                  <i class="far fa-heart heart-icon heart-icon-left"></i>
+                </a>
+                <img
+                  src="./assets/images/sm9.png"
+                  class="small-img"
+                  alt="img"
+                />
+                <div class="right-side bottom-section">
+                  <a href="#" class="title"> Microsoft SQL Server 2022 </a>
+                  <span class="teacher-name d-block mt-1">
+                    Shohanur Rahman
+                  </span>
+                  <div class="d-flex align-items-center d-block">
+                    <!-- total ratings -->
+                    <span class="total-ratings me-2">5.0</span>
+                    <!-- ratings -->
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="far fa-star ratings-icon"></i>
+                    </div>
+
+                    <!-- badge -->
+                    <span class="total-ratings-amount ms-3">(22,023)</span>
+                  </div>
+                  <!-- bottom section -->
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-1"
+                  >
+                    <span class="price">$15.00</span>
+                    <a class="btn1 small-btn" href="#">enroll now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-product-slider-item">
+              <div
+                class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card"
+              >
+                <!-- heart icon -->
+                <a href="#">
+                  <i class="far fa-heart heart-icon heart-icon-left"></i>
+                </a>
+                <img
+                  src="./assets/images/sm10.png"
+                  class="small-img"
+                  alt="img"
+                />
+                <div class="right-side bottom-section">
+                  <a href="#" class="title"> Microsoft SQL Server 2022 </a>
+                  <span class="teacher-name d-block mt-1">
+                    Shohanur Rahman
+                  </span>
+                  <div class="d-flex align-items-center d-block">
+                    <!-- total ratings -->
+                    <span class="total-ratings me-2">5.0</span>
+                    <!-- ratings -->
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="far fa-star ratings-icon"></i>
+                    </div>
+
+                    <!-- badge -->
+                    <span class="total-ratings-amount ms-3">(22,023)</span>
+                  </div>
+                  <!-- bottom section -->
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-1"
+                  >
+                    <span class="price">$15.00</span>
+                    <a class="btn1 small-btn" href="#">enroll now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-product-slider-item">
+              <div
+                class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card"
+              >
+                <!-- heart icon -->
+                <a href="#">
+                  <i class="far fa-heart heart-icon heart-icon-left"></i>
+                </a>
+                <img
+                  src="./assets/images/sm11.png"
+                  class="small-img"
+                  alt="img"
+                />
+                <div class="right-side bottom-section">
+                  <a href="#" class="title"> Microsoft SQL Server 2022 </a>
+                  <span class="teacher-name d-block mt-1">
+                    Shohanur Rahman
+                  </span>
+                  <div class="d-flex align-items-center d-block">
+                    <!-- total ratings -->
+                    <span class="total-ratings me-2">5.0</span>
+                    <!-- ratings -->
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="far fa-star ratings-icon"></i>
+                    </div>
+
+                    <!-- badge -->
+                    <span class="total-ratings-amount ms-3">(22,023)</span>
+                  </div>
+                  <!-- bottom section -->
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-1"
+                  >
+                    <span class="price">$15.00</span>
+                    <a class="btn1 small-btn" href="#">enroll now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-product-slider-item">
+              <div
+                class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card"
+              >
+                <!-- heart icon -->
+                <a href="#">
+                  <i class="far fa-heart heart-icon heart-icon-left"></i>
+                </a>
+                <img
+                  src="./assets/images/sm8.png"
+                  class="small-img"
+                  alt="img"
+                />
+                <div class="right-side bottom-section">
+                  <a href="#" class="title"> Microsoft SQL Server 2022 </a>
+                  <span class="teacher-name d-block mt-1">
+                    Shohanur Rahman
+                  </span>
+                  <div class="d-flex align-items-center d-block">
+                    <!-- total ratings -->
+                    <span class="total-ratings me-2">5.0</span>
+                    <!-- ratings -->
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="far fa-star ratings-icon"></i>
+                    </div>
+
+                    <!-- badge -->
+                    <span class="total-ratings-amount ms-3">(22,023)</span>
+                  </div>
+                  <!-- bottom section -->
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-1"
+                  >
+                    <span class="price">$15.00</span>
+                    <a class="btn1 small-btn" href="#">enroll now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-product-slider-item">
+              <div
+                class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card"
+              >
+                <!-- heart icon -->
+                <a href="#">
+                  <i class="far fa-heart heart-icon heart-icon-left"></i>
+                </a>
+                <img
+                  src="./assets/images/sm6.png"
+                  class="small-img"
+                  alt="img"
+                />
+                <div class="right-side bottom-section">
+                  <a href="#" class="title"> Microsoft SQL Server 2022 </a>
+                  <span class="teacher-name d-block mt-1">
+                    Shohanur Rahman
+                  </span>
+                  <div class="d-flex align-items-center d-block">
+                    <!-- total ratings -->
+                    <span class="total-ratings me-2">5.0</span>
+                    <!-- ratings -->
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="far fa-star ratings-icon"></i>
+                    </div>
+
+                    <!-- badge -->
+                    <span class="total-ratings-amount ms-3">(22,023)</span>
+                  </div>
+                  <!-- bottom section -->
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-1"
+                  >
+                    <span class="price">$15.00</span>
+                    <a class="btn1 small-btn" href="#">enroll now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-product-slider-item">
+              <div
+                class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card"
+              >
+                <!-- heart icon -->
+                <a href="#">
+                  <i class="far fa-heart heart-icon heart-icon-left"></i>
+                </a>
+                <img
+                  src="./assets/images/sm10.png"
+                  class="small-img"
+                  alt="img"
+                />
+                <div class="right-side bottom-section">
+                  <a href="#" class="title"> Microsoft SQL Server 2022 </a>
+                  <span class="teacher-name d-block mt-1">
+                    Shohanur Rahman
+                  </span>
+                  <div class="d-flex align-items-center d-block">
+                    <!-- total ratings -->
+                    <span class="total-ratings me-2">5.0</span>
+                    <!-- ratings -->
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="far fa-star ratings-icon"></i>
+                    </div>
+
+                    <!-- badge -->
+                    <span class="total-ratings-amount ms-3">(22,023)</span>
+                  </div>
+                  <!-- bottom section -->
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-1"
+                  >
+                    <span class="price">$15.00</span>
+                    <a class="btn1 small-btn" href="#">enroll now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-product-slider-item">
+              <div
+                class="single-course-card single-small-course-card single-small-course-card-extend single-small-filter-card"
+              >
+                <!-- heart icon -->
+                <a href="#">
+                  <i class="far fa-heart heart-icon heart-icon-left"></i>
+                </a>
+                <img
+                  src="./assets/images/sm11.png"
+                  class="small-img"
+                  alt="img"
+                />
+                <div class="right-side bottom-section">
+                  <a href="#" class="title"> Microsoft SQL Server 2022 </a>
+                  <span class="teacher-name d-block mt-1">
+                    Shohanur Rahman
+                  </span>
+                  <div class="d-flex align-items-center d-block">
+                    <!-- total ratings -->
+                    <span class="total-ratings me-2">5.0</span>
+                    <!-- ratings -->
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="fas fa-star ratings-icon"></i>
+                      <i class="far fa-star ratings-icon"></i>
+                    </div>
+
+                    <!-- badge -->
+                    <span class="total-ratings-amount ms-3">(22,023)</span>
+                  </div>
+                  <!-- bottom section -->
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-1"
+                  >
+                    <span class="price">$15.00</span>
+                    <a class="btn1 small-btn" href="#">enroll now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- footer-area -->
-    <footer class="footer-area" style="background: url('./assets/images/section-bg1.png');">
-        <div class="container lms-footer-inner-wrapper">
-            <!-- brands -->
-            <div class="row align-items-center lms-brand-wraper">
-                <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
-                    <img class="lms-single-brand mx-auto" src="./assets/images/b6.png" alt="">
-                </div>
-                <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
-                    <img class="lms-single-brand mx-auto" src="./assets/images/b5.png" alt="">
-                </div>
-                <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
-                    <img class="lms-single-brand mx-auto" src="./assets/images/b4.png" alt="">
-                </div>
-                <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
-                    <img class="lms-single-brand mx-auto" src="./assets/images/b1.png" alt="">
-                </div>
-                <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
-                    <img class="lms-single-brand mx-auto" src="./assets/images/b3.png" alt="">
-                </div>
-                <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
-                    <img class="lms-single-brand mx-auto" src="./assets/images/b2.png" alt="">
-                </div>
-            </div>
-            <!-- separator -->
-            <hr class="my-5 colored-hr" />
-            <!-- bottom section -->
-            <div class="row align-items-center px-4">
-                <!-- newsletter -->
-                <div class="col-lg-5">
-                    <div class="lms-newsletter-section" style="background: url('./assets/images/newsletter.png');">
-                        <img class="logo" src="./assets/images/logo.png" alt="">
-
-                        <p class="mt-3">
-                            Want us to email you occasionally with news?
-                        </p>
-
-                        <!-- newsletter -->
-                        <div class="newletter-wrapper mt-3">
-                            <input class="input-box" type="text" placeholder="Enter your email">
-                            <button class="btn1 subs-btn">subscribe</button>
-                        </div>
-                    </div>
-                </div>
-                <!--footer menu  -->
-                <div class="col-lg-6 offset-lg-1">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
-                            <div class="single-footer-menu">
-                                <span class="title mb-3">
-                                    course
-                                </span>
-                                <ul class="footer-menu">
-                                    <li><a href="#">web design design</a></li>
-                                    <li><a href="#">ios application</a></li>
-                                    <li><a href="#">ux research</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
-                            <div class="single-footer-menu">
-                                <span class="title mb-3">
-                                    login
-                                </span>
-                                <ul class="footer-menu">
-                                    <li><a href="#">sign in</a></li>
-                                    <li><a href="#">sign up</a></li>
-                                    <li><a href="#">series</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
-                            <div class="single-footer-menu">
-                                <span class="title mb-3">
-                                    More Links
-                                </span>
-                                <ul class="footer-menu">
-                                    <li><a href="#">blog</a></li>
-                                    <li><a href="#">terms of service</a></li>
-                                    <li><a href="#">legal info</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
-                            <div class="single-footer-menu">
-                                <span class="title mb-3">
-                                    contact
-                                </span>
-                                <ul class="footer-menu">
-                                    <li><a href="#">online form</a></li>
-                                    <li><a href="#">support</a></li>
-                                    <li><a href="#">contact us</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <footer
+      class="footer-area"
+      style="background: url('./assets/images/section-bg1.png')"
+    >
+      <div class="container lms-footer-inner-wrapper">
+        <!-- brands -->
+        <div class="row align-items-center lms-brand-wraper">
+          <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
+            <img
+              class="lms-single-brand mx-auto"
+              src="./assets/images/b6.png"
+              alt=""
+            />
+          </div>
+          <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
+            <img
+              class="lms-single-brand mx-auto"
+              src="./assets/images/b5.png"
+              alt=""
+            />
+          </div>
+          <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
+            <img
+              class="lms-single-brand mx-auto"
+              src="./assets/images/b4.png"
+              alt=""
+            />
+          </div>
+          <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
+            <img
+              class="lms-single-brand mx-auto"
+              src="./assets/images/b1.png"
+              alt=""
+            />
+          </div>
+          <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
+            <img
+              class="lms-single-brand mx-auto"
+              src="./assets/images/b3.png"
+              alt=""
+            />
+          </div>
+          <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
+            <img
+              class="lms-single-brand mx-auto"
+              src="./assets/images/b2.png"
+              alt=""
+            />
+          </div>
         </div>
+        <!-- separator -->
+        <hr class="my-5 colored-hr" />
+        <!-- bottom section -->
+        <div class="row align-items-center px-4">
+          <!-- newsletter -->
+          <div class="col-lg-5">
+            <div
+              class="lms-newsletter-section"
+              style="background: url('./assets/images/newsletter.png')"
+            >
+              <img class="logo" src="./assets/images/logo.png" alt="" />
+
+              <p class="mt-3">Want us to email you occasionally with news?</p>
+
+              <!-- newsletter -->
+              <div class="newletter-wrapper mt-3">
+                <input
+                  class="input-box"
+                  type="text"
+                  placeholder="Enter your email"
+                />
+                <button class="btn1 subs-btn">subscribe</button>
+              </div>
+            </div>
+          </div>
+          <!--footer menu  -->
+          <div class="col-lg-6 offset-lg-1">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
+                <div class="single-footer-menu">
+                  <span class="title mb-3"> course </span>
+                  <ul class="footer-menu">
+                    <li><a href="#">web design design</a></li>
+                    <li><a href="#">ios application</a></li>
+                    <li><a href="#">ux research</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
+                <div class="single-footer-menu">
+                  <span class="title mb-3"> login </span>
+                  <ul class="footer-menu">
+                    <li><a href="#">sign in</a></li>
+                    <li><a href="#">sign up</a></li>
+                    <li><a href="#">series</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
+                <div class="single-footer-menu">
+                  <span class="title mb-3"> More Links </span>
+                  <ul class="footer-menu">
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">terms of service</a></li>
+                    <li><a href="#">legal info</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
+                <div class="single-footer-menu">
+                  <span class="title mb-3"> contact </span>
+                  <ul class="footer-menu">
+                    <li><a href="#">online form</a></li>
+                    <li><a href="#">support</a></li>
+                    <li><a href="#">contact us</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <!-- scroll to up -->
@@ -1729,6 +2120,5 @@
     <script src="assets/js/vendor/wow.min.js"></script>
     <script src="assets/js/vendor/jquery.nice-select.min.js"></script>
     <script src="assets/js/main.js"></script>
-</body>
-
+  </body>
 </html>

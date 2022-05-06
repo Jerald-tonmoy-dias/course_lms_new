@@ -1,709 +1,908 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required Meta Tags -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <!-- Page Title -->
-    <title> Explore question page-CourseLMS HTML5 Template</title>
+    <title>Explore question page-CourseLMS HTML5 Template</title>
 
     <!-- Favicon Icon -->
-    <link rel="shortcut icon" href="favicon.png">
+    <link rel="shortcut icon" href="favicon.png" />
 
     <!-- CSS Files -->
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/font-awsome-all.min.css">
-    <link rel="stylesheet" href="assets/css/meanmenu.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/font-awsome-all.min.css" />
+    <link rel="stylesheet" href="assets/css/meanmenu.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-<body>
+  <body>
     <!-- Preloader Starts -->
     <div class="preloader" id="preloader">
-        <div class="preloader-inner">
-            <div class="spinner">
-                <div class="bounce1"></div>
-                <div class="bounce2"></div>
-                <div class="bounce3"></div>
-            </div>
+      <div class="preloader-inner">
+        <div class="spinner">
+          <div class="bounce1"></div>
+          <div class="bounce2"></div>
+          <div class="bounce3"></div>
         </div>
+      </div>
     </div>
 
     <!-- header -->
     <header class="lms_header">
-        <div class="container header-wrapper-style-2 position-relative">
-
-            <!-- logo -->
-            <div class="d-flex align-items-center">
-                <span class="lms-mobile-menu-trigger"><i class="fas fa-bars"></i></span>
-                <img class="logo" src="./assets/images/logo.png" alt="">
-            </div>
-
-            <!-- menu -->
-            <ul class="lms_main_nav">
-                <li><a href="#">Home</a></li>
-                <li>
-                    <a href="#">tranding</a>
-                </li>
-                <li>
-                    <a href="#">Course</a>
-                    <span class="lms_badge">New</span>
-                </li>
-                <li><a href="#">instructors</a></li>
-            </ul>
-
-
-            <div class="searchbar-style-wrapper mt-4 mt-md-0">
-                <!-- searchbar login button -->
-                <div class="lms_searchbar_wrapper">
-                    <!-- category selector -->
-                    <select class="header_cat_selector">
-                        <option>all category</option>
-                        <option>history</option>
-                        <option>math</option>
-                        <option>biology</option>
-                        <option>science</option>
-                        <option>accounting</option>
-                        <option>Socialogy</option>
-                    </select>
-                    <!-- search input -->
-                    <input class="header-search-input" placeholder="Search for anything..." type="text" />
-                    <!-- seach button -->
-                    <button class="header-search-btn"><i class="fas fa-search"></i></button>
-                </div>
-
-                <!-- signin/login button -->
-                <button class="btn1 header-signin d-none d-xxl-block  mt-md-0">sign in</button>
-
-                <!-- cart -->
-                <div class="header-style-cart-wrapper d-none d-xxl-blocka">
-                    <span id="cart-box" class="header-cart-icon bg-green text-white">
-                        <span class="small-badge bg-lite-black">1</span>
-                        <i class="fas fa-shopping-cart"></i>
-                    </span>
-                    <a class="header-cart-icon bg-orange text-white" href="#">
-                        <span class="small-badge bg-red">1</span>
-                        <i class="fas fa-bell"></i>
-                    </a>
-                    <a class="header-cart-icon bg-cyan text-white" href="#">
-                        <span class="small-badge bg-dark-cyan">1</span>
-                        <i class="fas fa-heart"></i>
-                    </a>
-                    <a class="header-cart-icon" href="#">
-                        <span class="small-badge bg-green profile-active"></span>
-                        <img class="mt-10" src="./assets/images/user-two.png" alt="">
-                    </a>
-
-                    <!-- cart dropdown -->
-                    <div class="header-lms-cart-dropdown">
-                        <ul>
-                            <li>
-                                <!-- left side -->
-                                <img class="thumb" src="./assets/images/sc1.png" alt="">
-                                <!-- right side -->
-                                <div class="right-side">
-                                    <a class="title" href="#">
-                                        Graphic Design & illusta...
-                                    </a>
-                                    <span class="price">$50</span>
-                                </div>
-                            </li>
-                            <li>
-                                <!-- left side -->
-                                <img class="thumb" src="./assets/images/sc2.png" alt="">
-                                <!-- right side -->
-                                <div class="right-side">
-                                    <a class="title" href="#">
-                                        3d animation Cours....
-                                    </a>
-                                    <span class="price">$70</span>
-                                </div>
-                            </li>
-                        </ul>
-
-                        <!-- button -->
-                        <a class="btn1 border-radious-5 mt-3 mx-4" href="#">go to cart</a>
-                    </div>
-
-                </div>
-            </div>
-
-
+      <div
+        class="container-fluid container-xl header-wrapper-style-2 position-relative"
+      >
+        <!-- logo -->
+        <div class="d-flex align-items-center">
+          <span class="lms-mobile-menu-trigger"
+            ><i class="fas fa-bars"></i
+          ></span>
+          <img class="logo" src="./assets/images/logo.png" alt="" />
         </div>
+
+        <!-- menu -->
+        <ul class="lms_main_nav">
+          <li><a href="#">Home</a></li>
+          <li>
+            <a href="#">tranding</a>
+          </li>
+          <li>
+            <a href="#">Course</a>
+            <span class="lms_badge">New</span>
+          </li>
+          <li><a href="#">instructors</a></li>
+        </ul>
+
+        <!-- web search bar -->
+        <div class="searchbar-style-wrapper d-nonee d-lg-blocke mt-4 mt-md-0">
+          <!-- searchbar login button -->
+          <div class="lms_searchbar_wrapper d-none d-lg-flex">
+            <!-- category selector -->
+            <select class="header_cat_selector">
+              <option>all category</option>
+              <option>history</option>
+              <option>math</option>
+              <option>biology</option>
+              <option>science</option>
+              <option>accounting</option>
+              <option>Socialogy</option>
+            </select>
+            <!-- search input -->
+            <input
+              class="header-search-input"
+              placeholder="Search for anything..."
+              type="text"
+            />
+            <!-- seach button -->
+            <button class="header-search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+
+          <!-- signin/login button -->
+          <button class="btn1 header-signin mt-md-0 d-none d-xl-block">
+            sign in
+          </button>
+
+          <!-- cart -->
+          <div class="header-style-cart-wrapper d-none d-xxl-blocka">
+            <span id="cart-box" class="header-cart-icon bg-green text-white">
+              <span class="small-badge bg-lite-black">1</span>
+              <i class="fas fa-shopping-cart"></i>
+            </span>
+            <a class="header-cart-icon bg-orange text-white" href="#">
+              <span class="small-badge bg-red">1</span>
+              <i class="fas fa-bell"></i>
+            </a>
+            <a class="header-cart-icon bg-cyan text-white" href="#">
+              <span class="small-badge bg-dark-cyan">1</span>
+              <i class="fas fa-heart"></i>
+            </a>
+            <a class="header-cart-icon" href="#">
+              <span class="small-badge bg-green profile-active"></span>
+              <img class="mt-10" src="./assets/images/user-two.png" alt="" />
+            </a>
+
+            <!-- cart dropdown -->
+            <div class="header-lms-cart-dropdown">
+              <ul>
+                <li>
+                  <!-- left side -->
+                  <img class="thumb" src="./assets/images/sc1.png" alt="" />
+                  <!-- right side -->
+                  <div class="right-side">
+                    <a class="title" href="#"> Graphic Design & illusta... </a>
+                    <span class="price">$50</span>
+                  </div>
+                </li>
+                <li>
+                  <!-- left side -->
+                  <img class="thumb" src="./assets/images/sc2.png" alt="" />
+                  <!-- right side -->
+                  <div class="right-side">
+                    <a class="title" href="#"> 3d animation Cours.... </a>
+                    <span class="price">$70</span>
+                  </div>
+                </li>
+              </ul>
+
+              <!-- button -->
+              <a class="btn1 border-radious-5 mt-3 mx-4" href="#">go to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <!--sign in/sign out button -->
+        <a href="#" class="btn1 d-lg-none">sign in</a>
+      </div>
     </header>
 
     <!-- mobile sidebar -->
     <div class="lms-mobile-sidebar">
-        <span class="close-trigger"><i class="far fa-window-close"></i></span>
-        <ul class="lms-mobile-menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Trending</a></li>
-            <li><a href="#">Course</a></li>
-            <li><a href="#">Instructors</a></li>
-        </ul>
-        <!-- cart -->
-        <div class="header-style-cart-wrapper mb-4">
-            <a class="header-cart-icon bg-white green-color" href="#">
-                <span class="small-badge bg-white">1</span>
-                <i class="fas fa-shopping-cart"></i>
-            </a>
-            <a class="header-cart-icon bg-orange text-white" href="#">
-                <span class="small-badge bg-red">1</span>
-                <i class="fas fa-bell"></i>
-            </a>
-            <a class="header-cart-icon bg-cyan text-white" href="#">
-                <span class="small-badge bg-dark-cyan">1</span>
-                <i class="fas fa-heart"></i>
-            </a>
-            <a class="header-cart-icon" href="#">
-                <span class="small-badge bg-green profile-active"></span>
-                <img src="./assets/images/user-two.png" alt="">
-            </a>
-        </div>
+      <span class="close-trigger"><i class="far fa-window-close"></i></span>
+      <ul class="lms-mobile-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">Course</a></li>
+        <li><a href="#">Instructors</a></li>
+      </ul>
+      <!-- cart -->
+      <div class="header-style-cart-wrapper mb-4">
+        <a class="header-cart-icon bg-white green-color" href="#">
+          <span class="small-badge bg-white">1</span>
+          <i class="fas fa-shopping-cart"></i>
+        </a>
+        <a class="header-cart-icon bg-orange text-white" href="#">
+          <span class="small-badge bg-red">1</span>
+          <i class="fas fa-bell"></i>
+        </a>
+        <a class="header-cart-icon bg-cyan text-white" href="#">
+          <span class="small-badge bg-dark-cyan">1</span>
+          <i class="fas fa-heart"></i>
+        </a>
+        <a class="header-cart-icon" href="#">
+          <span class="small-badge bg-green profile-active"></span>
+          <img src="./assets/images/user-two.png" alt="" />
+        </a>
+      </div>
 
-        <!-- sign button -->
-        <button class="btn1  mt-4 mt-md-0">sign in</button>
+      <!-- sign button -->
+      <button class="btn1 mt-4 mt-md-0">sign in</button>
+    </div>
+
+    <!-- mobile app menu -->
+    <ul class="mobile-app-menu-bottom d-lg-none">
+      <li>
+        <a href="#">
+          <!-- icon -->
+          <i class="fas fa-home"></i>
+          <span class="link-text">Home</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" id="showsearchbar">
+          <!-- icon -->
+          <i class="fas fa-search"></i>
+          <span class="link-text">search</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <!-- icon -->
+          <i class="fas fa-bookmark"></i>
+          <span class="link-text">courses</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <!-- icon -->
+          <i class="fas fa-heart"></i>
+          <span class="link-text">wislist</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          <!-- icon -->
+          <i class="fas fa-user-alt"></i>
+          <span class="link-text">profile</span>
+        </a>
+      </li>
+    </ul>
+
+    <!-- mobile searchbar -->
+    <div class="mobile-app-seachbar-style d-lg-none" id="mobile-overlay-active">
+      <!-- search input -->
+      <div class="search-wrapper" id="mobile-search-id">
+        <button class="search-icon" id="mobile-search-button-id">
+          <i class="fas fa-search"></i>
+        </button>
+        <button class="search-icon d-none" id="mobile-close-button-id">
+          <i class="fas fa-times"></i>
+        </button>
+        <input class="searchbox" type="text" placeholder="Search here" />
+      </div>
+
+      <!-- search content area -->
+      <div class="search-content-area" id="search-content-area-id">
+        <ul class="all-link-wrapper">
+          <li>
+            <a href="#">
+              <span class="icon"><i class="fas fa-search"></i></span>
+              python
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- top search  -->
+      <div class="container">
+        <div class="top-seacrh-categories">
+          <h6 class="mb-20">Top searches</h6>
+          <ul class="top-search-link-wrapper">
+            <li><a href="#"> python</a></li>
+            <li><a href="#">java</a></li>
+            <li><a href="#">js</a></li>
+            <li><a href="#">aws</a></li>
+            <li><a href="#">php</a></li>
+            <li><a href="#">english</a></li>
+            <li><a href="#">ielts</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- browse categories -->
+      <div class="container mt-20">
+        <div class="all-categories">
+          <h6 class="mb-20">Browse categories</h6>
+          <ul class="all-link-wrapper">
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fab fa-connectdevelop"></i></span>
+                python
+                <span class="nav-icon"
+                  ><i class="fas fa-chevron-right"></i
+                ></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fas fa-database"></i></span>
+                java</a
+              >
+              <span class="nav-icon"><i class="fas fa-chevron-right"></i></span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fab fa-js"></i></span>
+                js</a
+              >
+              <span class="nav-icon"><i class="fas fa-chevron-right"></i></span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fas fa-code"></i></span>
+                aws</a
+              >
+              <span class="nav-icon"><i class="fas fa-chevron-right"></i></span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fab fa-php"></i></span>
+                php</a
+              >
+              <span class="nav-icon"><i class="fas fa-chevron-right"></i></span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fas fa-book"></i></span>
+                english</a
+              >
+              <span class="nav-icon"><i class="fas fa-chevron-right"></i></span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fab fa-openid"></i></span>
+                ielts</a
+              >
+              <span class="nav-icon"><i class="fas fa-chevron-right"></i></span>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
 
     <!--about section -->
-    <div class="lms_hero-section login-section" style="background: url('./assets/images/home-bg1.png');">
-        <div class="container">
-            <div class="hero-wrapper blog-hero-wrapper lms-about-wrapper d-flex align-items-center"
-                style="background-image: url('./assets/images/loginbg.png');">
-                <div class="row custom-width-lg-100 align-items-center ">
-                    <div class="col-lg-6  mt-4 mt-lg-0 col-12 ">
-                        <h3 class="mb-20 explore-hero-title wow fadeInUp">
-                            Course LMS- All in One
-                            Forum Portal
-                        </h3>
-                        <!-- button wrapper -->
-                        <div class="d-flex">
-                            <a class="btn1 me-4 wow fadeInUp" href="#">all question</a>
-                            <a class="btn1 wow fadeInDown" href="#">ask question</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-12 mt-50 mt-lg-0">
-                        <img class="wow fadeInUp" src="./assets/images/contact.png" alt="">
-                    </div>
-                </div>
+    <div
+      class="lms_hero-section login-section"
+      style="background: url('./assets/images/home-bg1.png')"
+    >
+      <div class="container">
+        <div
+          class="hero-wrapper blog-hero-wrapper lms-about-wrapper d-flex align-items-center"
+          style="background-image: url('./assets/images/loginbg.png')"
+        >
+          <div class="row custom-width-lg-100 align-items-center">
+            <div class="col-lg-6 mt-4 mt-lg-0 col-12">
+              <h3 class="mb-20 explore-hero-title wow fadeInUp">
+                Course LMS- All in One Forum Portal
+              </h3>
+              <!-- button wrapper -->
+              <div class="d-flex">
+                <a class="btn1 me-4 wow fadeInUp" href="#">all question</a>
+                <a class="btn1 wow fadeInDown" href="#">ask question</a>
+              </div>
             </div>
-
+            <div class="col-lg-6 col-12 mt-50 mt-lg-0">
+              <img
+                class="wow fadeInUp"
+                src="./assets/images/contact.png"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- collumn wrapper -->
     <div class="container pt-100">
-        <div class="row">
-            <!-- blog sidebar -->
-            <div class="col-lg-3 ">
-                <!-- single blog widget -->
-                <div class="single-blog-sidebar-widget explore-sidebar-icon mt-30 wow fadeInUp">
-                    <img class="thumb mb-4" src="./assets/images/e1.png" alt="">
-                    <span class="title mb-4">
-                        QA section
-                    </span>
-                    <ul class="cat-link">
-                        <li>
-                            <img class="small-img" src="./assets/images/eicon1.png" alt="">
-                            <span class="small-text me-5 ms-3">question</span>
-                            <span class="cat-amount">07</span>
-                        </li>
-                        <li>
-                            <img class="small-img" src="./assets/images/eicon2.png" alt="">
-                            <span class="small-text me-5 ms-3">Answers</span>
-                            <span class="cat-amount">09</span>
-                        </li>
-                    </ul>
+      <div class="row">
+        <!-- blog sidebar -->
+        <div class="col-lg-3">
+          <!-- single blog widget -->
+          <div
+            class="single-blog-sidebar-widget explore-sidebar-icon mt-30 wow fadeInUp"
+          >
+            <img class="thumb mb-4" src="./assets/images/e1.png" alt="" />
+            <span class="title mb-4"> QA section </span>
+            <ul class="cat-link">
+              <li>
+                <img
+                  class="small-img"
+                  src="./assets/images/eicon1.png"
+                  alt=""
+                />
+                <span class="small-text me-5 ms-3">question</span>
+                <span class="cat-amount">07</span>
+              </li>
+              <li>
+                <img
+                  class="small-img"
+                  src="./assets/images/eicon2.png"
+                  alt=""
+                />
+                <span class="small-text me-5 ms-3">Answers</span>
+                <span class="cat-amount">09</span>
+              </li>
+            </ul>
 
-                    <a href="#" class="btn1 px-3 mt-4">see all question</a>
-                </div>
+            <a href="#" class="btn1 px-3 mt-4">see all question</a>
+          </div>
 
-                <!-- single blog widget -->
-                <div class="single-blog-sidebar-widget explore-sidebar-icon mt-30 wow fadeInUp">
-                    <img class="thumb mb-4" src="./assets/images/e2.png" alt="">
-                    <span class="title mb-4">
-                        latest update
-                    </span>
-                    <ul class="cat-link">
-                        <li>
-                            <img class="small-img" src="./assets/images/eicon3.png" alt="">
-                            <span class="small-text me-5 ms-3">comments</span>
-                            <span class="cat-amount">02</span>
-                        </li>
-                        <li>
-                            <img class="small-img" src="./assets/images/eicon4.png" alt="">
-                            <span class="small-text me-5 ms-3">update</span>
-                            <span class="cat-amount">05</span>
-                        </li>
-                    </ul>
-                </div>
+          <!-- single blog widget -->
+          <div
+            class="single-blog-sidebar-widget explore-sidebar-icon mt-30 wow fadeInUp"
+          >
+            <img class="thumb mb-4" src="./assets/images/e2.png" alt="" />
+            <span class="title mb-4"> latest update </span>
+            <ul class="cat-link">
+              <li>
+                <img
+                  class="small-img"
+                  src="./assets/images/eicon3.png"
+                  alt=""
+                />
+                <span class="small-text me-5 ms-3">comments</span>
+                <span class="cat-amount">02</span>
+              </li>
+              <li>
+                <img
+                  class="small-img"
+                  src="./assets/images/eicon4.png"
+                  alt=""
+                />
+                <span class="small-text me-5 ms-3">update</span>
+                <span class="cat-amount">05</span>
+              </li>
+            </ul>
+          </div>
 
-                <!-- single blog widget -->
-                <div class="single-blog-sidebar-widget mt-30 wow fadeInUp">
-                    <span class="title mb-4">
-                        top Categories
-                    </span>
-                    <ul class="cat-link">
-                        <li>
-                            <a href="#">Wordpress</a>
-                            <span class="item-counter">(10)</span>
-                        </li>
-                        <li>
-                            <a href="#">UI & UX Design </a>
-                            <span class="item-counter">(15)</span>
-                        </li>
-                        <li>
-                            <a href="#">CSS</a>
-                            <span class="item-counter">(20)</span>
-                        </li>
-                        <li>
-                            <a href="#">Photoshop</a>
-                            <span class="item-counter">(12)</span>
-                        </li>
-                        <li>
-                            <a href="#">Responsive Design</a>
-                            <span class="item-counter">(17)</span>
-                        </li>
-                        <li>
-                            <a href="#">Front End web development</a>
-                            <span class="item-counter">(14)</span>
-                        </li>
-                        <li>
-                            <a href="#">Javascript</a>
-                            <span class="item-counter">(13)</span>
-                        </li>
-                        <li>
-                            <a href="#">App Development</a>
-                            <span class="item-counter">(20)</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- blog content -->
-            <div class="col-lg-9 pb-130">
-                <!-- single blog wrapper -->
-                <div class="row align-items-center single-blog-excerpt-wrapper pt-60 pb-60 mt-30">
-                    <div class="col-12">
-                        <h4 class="mb-4">explore topics</h4>
-                    </div>
-                    <div class="col-xl-4 col-md-6 col-12 mt-4 wow fadeInUp">
-                        <div class="single-explore-topics">
-                            <img class="thumb mb-4" src="./assets/images/et1.png" alt="">
-                            <a class="title mb-3" href="#">web design</a>
-                            <div class="tag-wrapper ">
-                                <a href="#" class="single-tag">
-                                    <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
-                                    FB
-                                </a>
-                                <a href="#" class="single-tag">
-                                    <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
-                                    Site de tchat en ligne
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6 col-12 mt-4 wow fadeInUp">
-                        <div class="single-explore-topics">
-                            <img class="thumb mb-4" src="./assets/images/et2.png" alt="">
-                            <a class="title mb-3" href="#">Education</a>
-                            <div class="tag-wrapper ">
-                                <a href="#" class="single-tag">
-                                    <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
-                                    admin
-                                </a>
-                                <a href="#" class="single-tag">
-                                    <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
-                                    Site
-                                </a>
-                                <a href="#" class="single-tag">
-                                    <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
-                                    too bad
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6 col-12 mt-4 wow fadeInUp">
-                        <div class="single-explore-topics">
-                            <img class="thumb mb-4" src="./assets/images/et3.png" alt="">
-                            <a class="title mb-3" href="#">business</a>
-                            <div class="tag-wrapper ">
-                                <a href="#" class="single-tag">
-                                    <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
-                                    fg
-                                </a>
-                                <a href="#" class="single-tag">
-                                    <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
-                                    Site
-                                </a>
-                                <a href="#" class="single-tag">
-                                    <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
-                                    new sms
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6 col-12 mt-4 wow fadeInUp">
-                        <div class="single-explore-topics">
-                            <img class="thumb mb-4" src="./assets/images/et3.png" alt="">
-                            <a class="title mb-3" href="#">latest business</a>
-                            <div class="tag-wrapper ">
-                                <a href="#" class="single-tag">
-                                    <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
-                                    fg
-                                </a>
-                                <a href="#" class="single-tag">
-                                    <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
-                                    new blog
-                                </a>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6 col-12 mt-4 wow fadeInUp">
-                        <div class="single-explore-topics">
-                            <img class="thumb mb-4" src="./assets/images/et4.png" alt="">
-                            <a class="title mb-3" href="#">web development</a>
-                            <div class="tag-wrapper ">
-                                <a href="#" class="single-tag">
-                                    <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
-                                    admin
-                                </a>
-                                <a href="#" class="single-tag">
-                                    <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
-                                    too bad
-                                </a>
-                                <a href="#" class="single-tag">
-                                    <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
-                                    new blog
-                                </a>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6 col-12 mt-4 wow fadeInUp">
-                        <div class="single-explore-topics">
-                            <img class="thumb mb-4" src="./assets/images/et5.png" alt="">
-                            <a class="title mb-3" href="#">business</a>
-                            <div class="tag-wrapper ">
-                                <a href="#" class="single-tag">
-                                    <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
-                                    admin
-                                </a>
-                                <a href="#" class="single-tag">
-                                    <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
-                                    new sms
-                                </a>
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- single blog wrapper -->
-                <div class="row align-items-center single-blog-excerpt-wrapper pt-60 pb-60 mt-30">
-                    <div
-                        class="col-12 d-flex flex-wrap flex-md-nowrap align-items-center justify-content-between mb-30">
-                        <h4>explore Question</h4>
-                        <div class="lms_searchbar_wrapper mt-4 mt-md-0">
-                            <!-- search input -->
-                            <input class="header-search-input" placeholder="Search for anything..." type="text">
-                            <!-- seach button -->
-                            <button class="header-search-btn"><i class="fas fa-search"></i></button>
-                        </div>
-                    </div>
-
-                    <!-- single item -->
-                    <div class="col-12 col-12 mt-4 wow fadeInUp">
-                        <div class="single-explore-topics single-explore-topics-2 ">
-                            <div class="d-flex align-items-center">
-                                <img class="thumb" src="./assets/images/et1.png" alt="">
-                                <div class="ms-4">
-                                    <a class="title mb-3" href="#">Site de tchat en ligne</a>
-                                    <div class="tag-wrapper ">
-                                        <a href="#" class="single-tag">
-                                            <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
-                                            Admin created at 2 months ago
-                                        </a>
-                                        <a href="#" class="single-tag">
-                                            <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
-                                            Web Development
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="small-card-wrapper ms-md-4">
-                                <div class="small-card-info green">
-                                    <span class="number">01</span>
-                                    <span class="views">Views</span>
-                                </div>
-                                <div class="small-card-info orange mx-4">
-                                    <span class="number">01</span>
-                                    <span class="views"> Views</span>
-                                </div>
-                                <div class="small-card-info cyan">
-                                    <span class="number">01</span>
-                                    <span class="views">Views</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- single item -->
-                    <div class="col-12 col-12 mt-4 wow fadeInUp">
-                        <div class="single-explore-topics single-explore-topics-2 ">
-                            <div class="d-flex align-items-center">
-                                <img class="thumb" src="./assets/images/et2.png" alt="">
-                                <div class="ms-4">
-                                    <a class="title mb-3" href="#">Too Bad</a>
-                                    <div class="tag-wrapper ">
-                                        <a href="#" class="single-tag">
-                                            <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
-                                            Admin created at 2 months ago
-                                        </a>
-                                        <a href="#" class="single-tag">
-                                            <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
-                                            Web Development
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="small-card-wrapper ms-md-4">
-                                <div class="small-card-info green">
-                                    <span class="number">01</span>
-                                    <span class="views">Views</span>
-                                </div>
-                                <div class="small-card-info orange mx-4">
-                                    <span class="number">01</span>
-                                    <span class="views"> Views</span>
-                                </div>
-                                <div class="small-card-info cyan">
-                                    <span class="number">01</span>
-                                    <span class="views">Views</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- single item -->
-                    <div class="col-12 col-12 mt-4 wow fadeInUp">
-                        <div class="single-explore-topics single-explore-topics-2 ">
-                            <div class="d-flex align-items-center">
-                                <img class="thumb" src="./assets/images/et3.png" alt="">
-                                <div class="ms-4">
-                                    <a class="title mb-3" href="#">New Blog</a>
-                                    <div class="tag-wrapper ">
-                                        <a href="#" class="single-tag">
-                                            <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
-                                            Admin created at 2 months ago
-                                        </a>
-                                        <a href="#" class="single-tag">
-                                            <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
-                                            business
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="small-card-wrapper ms-md-4">
-                                <div class="small-card-info green">
-                                    <span class="number">01</span>
-                                    <span class="views">Views</span>
-                                </div>
-                                <div class="small-card-info orange mx-4">
-                                    <span class="number">01</span>
-                                    <span class="views"> Views</span>
-                                </div>
-                                <div class="small-card-info cyan">
-                                    <span class="number">01</span>
-                                    <span class="views">Views</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- single item -->
-                    <div class="col-12 col-12 mt-4 wow fadeInUp">
-                        <div class="single-explore-topics single-explore-topics-2 ">
-                            <div class="d-flex align-items-center">
-                                <img class="thumb" src="./assets/images/et4.png" alt="">
-                                <div class="ms-4">
-                                    <a class="title mb-3" href="#">BeDesk</a>
-                                    <div class="tag-wrapper ">
-                                        <a href="#" class="single-tag">
-                                            <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
-                                            Admin created at 2 months ago
-                                        </a>
-                                        <a href="#" class="single-tag">
-                                            <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
-                                            business
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="small-card-wrapper ms-md-4">
-                                <div class="small-card-info green">
-                                    <span class="number">01</span>
-                                    <span class="views">Views</span>
-                                </div>
-                                <div class="small-card-info orange mx-4">
-                                    <span class="number">01</span>
-                                    <span class="views"> Views</span>
-                                </div>
-                                <div class="small-card-info cyan">
-                                    <span class="number">01</span>
-                                    <span class="views">Views</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- single item -->
-                    <div class="col-12 col-12 mt-4 wow fadeInUp">
-                        <div class="single-explore-topics single-explore-topics-2 ">
-                            <div class="d-flex align-items-center">
-                                <img class="thumb" src="./assets/images/et5.png" alt="">
-                                <div class="ms-4">
-                                    <a class="title mb-3" href="#">So Nice</a>
-                                    <div class="tag-wrapper ">
-                                        <a href="#" class="single-tag">
-                                            <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
-                                            Admin created at 2 months ago
-                                        </a>
-                                        <a href="#" class="single-tag">
-                                            <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
-                                            business
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="small-card-wrapper ms-md-4">
-                                <div class="small-card-info green">
-                                    <span class="number">01</span>
-                                    <span class="views">Views</span>
-                                </div>
-                                <div class="small-card-info orange mx-4">
-                                    <span class="number">01</span>
-                                    <span class="views"> Views</span>
-                                </div>
-                                <div class="small-card-info cyan">
-                                    <span class="number">01</span>
-                                    <span class="views">Views</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+          <!-- single blog widget -->
+          <div class="single-blog-sidebar-widget mt-30 wow fadeInUp">
+            <span class="title mb-4"> top Categories </span>
+            <ul class="cat-link">
+              <li>
+                <a href="#">Wordpress</a>
+                <span class="item-counter">(10)</span>
+              </li>
+              <li>
+                <a href="#">UI & UX Design </a>
+                <span class="item-counter">(15)</span>
+              </li>
+              <li>
+                <a href="#">CSS</a>
+                <span class="item-counter">(20)</span>
+              </li>
+              <li>
+                <a href="#">Photoshop</a>
+                <span class="item-counter">(12)</span>
+              </li>
+              <li>
+                <a href="#">Responsive Design</a>
+                <span class="item-counter">(17)</span>
+              </li>
+              <li>
+                <a href="#">Front End web development</a>
+                <span class="item-counter">(14)</span>
+              </li>
+              <li>
+                <a href="#">Javascript</a>
+                <span class="item-counter">(13)</span>
+              </li>
+              <li>
+                <a href="#">App Development</a>
+                <span class="item-counter">(20)</span>
+              </li>
+            </ul>
+          </div>
         </div>
+        <!-- blog content -->
+        <div class="col-lg-9 pb-130">
+          <!-- single blog wrapper -->
+          <div
+            class="row align-items-center single-blog-excerpt-wrapper pt-60 pb-60 mt-30"
+          >
+            <div class="col-12">
+              <h4 class="mb-4">explore topics</h4>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12 mt-4 wow fadeInUp">
+              <div class="single-explore-topics">
+                <img class="thumb mb-4" src="./assets/images/et1.png" alt="" />
+                <a class="title mb-3" href="#">web design</a>
+                <div class="tag-wrapper">
+                  <a href="#" class="single-tag">
+                    <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
+                    FB
+                  </a>
+                  <a href="#" class="single-tag">
+                    <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
+                    Site de tchat en ligne
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12 mt-4 wow fadeInUp">
+              <div class="single-explore-topics">
+                <img class="thumb mb-4" src="./assets/images/et2.png" alt="" />
+                <a class="title mb-3" href="#">Education</a>
+                <div class="tag-wrapper">
+                  <a href="#" class="single-tag">
+                    <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
+                    admin
+                  </a>
+                  <a href="#" class="single-tag">
+                    <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
+                    Site
+                  </a>
+                  <a href="#" class="single-tag">
+                    <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
+                    too bad
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12 mt-4 wow fadeInUp">
+              <div class="single-explore-topics">
+                <img class="thumb mb-4" src="./assets/images/et3.png" alt="" />
+                <a class="title mb-3" href="#">business</a>
+                <div class="tag-wrapper">
+                  <a href="#" class="single-tag">
+                    <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
+                    fg
+                  </a>
+                  <a href="#" class="single-tag">
+                    <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
+                    Site
+                  </a>
+                  <a href="#" class="single-tag">
+                    <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
+                    new sms
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12 mt-4 wow fadeInUp">
+              <div class="single-explore-topics">
+                <img class="thumb mb-4" src="./assets/images/et3.png" alt="" />
+                <a class="title mb-3" href="#">latest business</a>
+                <div class="tag-wrapper">
+                  <a href="#" class="single-tag">
+                    <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
+                    fg
+                  </a>
+                  <a href="#" class="single-tag">
+                    <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
+                    new blog
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12 mt-4 wow fadeInUp">
+              <div class="single-explore-topics">
+                <img class="thumb mb-4" src="./assets/images/et4.png" alt="" />
+                <a class="title mb-3" href="#">web development</a>
+                <div class="tag-wrapper">
+                  <a href="#" class="single-tag">
+                    <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
+                    admin
+                  </a>
+                  <a href="#" class="single-tag">
+                    <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
+                    too bad
+                  </a>
+                  <a href="#" class="single-tag">
+                    <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
+                    new blog
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12 mt-4 wow fadeInUp">
+              <div class="single-explore-topics">
+                <img class="thumb mb-4" src="./assets/images/et5.png" alt="" />
+                <a class="title mb-3" href="#">business</a>
+                <div class="tag-wrapper">
+                  <a href="#" class="single-tag">
+                    <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
+                    admin
+                  </a>
+                  <a href="#" class="single-tag">
+                    <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
+                    new sms
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- single blog wrapper -->
+          <div
+            class="row align-items-center single-blog-excerpt-wrapper pt-60 pb-60 mt-30"
+          >
+            <div
+              class="col-12 d-flex flex-wrap flex-md-nowrap align-items-center justify-content-between mb-30"
+            >
+              <h4>explore Question</h4>
+              <div class="lms_searchbar_wrapper mt-4 mt-md-0">
+                <!-- search input -->
+                <input
+                  class="header-search-input"
+                  placeholder="Search for anything..."
+                  type="text"
+                />
+                <!-- seach button -->
+                <button class="header-search-btn">
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- single item -->
+            <div class="col-12 col-12 mt-4 wow fadeInUp">
+              <div class="single-explore-topics single-explore-topics-2">
+                <div class="d-flex align-items-center">
+                  <img class="thumb" src="./assets/images/et1.png" alt="" />
+                  <div class="ms-4">
+                    <a class="title mb-3" href="#">Site de tchat en ligne</a>
+                    <div class="tag-wrapper">
+                      <a href="#" class="single-tag">
+                        <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
+                        Admin created at 2 months ago
+                      </a>
+                      <a href="#" class="single-tag">
+                        <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
+                        Web Development
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-card-wrapper ms-md-4">
+                  <div class="small-card-info green">
+                    <span class="number">01</span>
+                    <span class="views">Views</span>
+                  </div>
+                  <div class="small-card-info orange mx-4">
+                    <span class="number">01</span>
+                    <span class="views"> Views</span>
+                  </div>
+                  <div class="small-card-info cyan">
+                    <span class="number">01</span>
+                    <span class="views">Views</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- single item -->
+            <div class="col-12 col-12 mt-4 wow fadeInUp">
+              <div class="single-explore-topics single-explore-topics-2">
+                <div class="d-flex align-items-center">
+                  <img class="thumb" src="./assets/images/et2.png" alt="" />
+                  <div class="ms-4">
+                    <a class="title mb-3" href="#">Too Bad</a>
+                    <div class="tag-wrapper">
+                      <a href="#" class="single-tag">
+                        <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
+                        Admin created at 2 months ago
+                      </a>
+                      <a href="#" class="single-tag">
+                        <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
+                        Web Development
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-card-wrapper ms-md-4">
+                  <div class="small-card-info green">
+                    <span class="number">01</span>
+                    <span class="views">Views</span>
+                  </div>
+                  <div class="small-card-info orange mx-4">
+                    <span class="number">01</span>
+                    <span class="views"> Views</span>
+                  </div>
+                  <div class="small-card-info cyan">
+                    <span class="number">01</span>
+                    <span class="views">Views</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- single item -->
+            <div class="col-12 col-12 mt-4 wow fadeInUp">
+              <div class="single-explore-topics single-explore-topics-2">
+                <div class="d-flex align-items-center">
+                  <img class="thumb" src="./assets/images/et3.png" alt="" />
+                  <div class="ms-4">
+                    <a class="title mb-3" href="#">New Blog</a>
+                    <div class="tag-wrapper">
+                      <a href="#" class="single-tag">
+                        <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
+                        Admin created at 2 months ago
+                      </a>
+                      <a href="#" class="single-tag">
+                        <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
+                        business
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-card-wrapper ms-md-4">
+                  <div class="small-card-info green">
+                    <span class="number">01</span>
+                    <span class="views">Views</span>
+                  </div>
+                  <div class="small-card-info orange mx-4">
+                    <span class="number">01</span>
+                    <span class="views"> Views</span>
+                  </div>
+                  <div class="small-card-info cyan">
+                    <span class="number">01</span>
+                    <span class="views">Views</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- single item -->
+            <div class="col-12 col-12 mt-4 wow fadeInUp">
+              <div class="single-explore-topics single-explore-topics-2">
+                <div class="d-flex align-items-center">
+                  <img class="thumb" src="./assets/images/et4.png" alt="" />
+                  <div class="ms-4">
+                    <a class="title mb-3" href="#">BeDesk</a>
+                    <div class="tag-wrapper">
+                      <a href="#" class="single-tag">
+                        <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
+                        Admin created at 2 months ago
+                      </a>
+                      <a href="#" class="single-tag">
+                        <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
+                        business
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-card-wrapper ms-md-4">
+                  <div class="small-card-info green">
+                    <span class="number">01</span>
+                    <span class="views">Views</span>
+                  </div>
+                  <div class="small-card-info orange mx-4">
+                    <span class="number">01</span>
+                    <span class="views"> Views</span>
+                  </div>
+                  <div class="small-card-info cyan">
+                    <span class="number">01</span>
+                    <span class="views">Views</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- single item -->
+            <div class="col-12 col-12 mt-4 wow fadeInUp">
+              <div class="single-explore-topics single-explore-topics-2">
+                <div class="d-flex align-items-center">
+                  <img class="thumb" src="./assets/images/et5.png" alt="" />
+                  <div class="ms-4">
+                    <a class="title mb-3" href="#">So Nice</a>
+                    <div class="tag-wrapper">
+                      <a href="#" class="single-tag">
+                        <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
+                        Admin created at 2 months ago
+                      </a>
+                      <a href="#" class="single-tag">
+                        <i class="fas fa-arrow-alt-circle-right tag-icon"></i>
+                        business
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-card-wrapper ms-md-4">
+                  <div class="small-card-info green">
+                    <span class="number">01</span>
+                    <span class="views">Views</span>
+                  </div>
+                  <div class="small-card-info orange mx-4">
+                    <span class="number">01</span>
+                    <span class="views"> Views</span>
+                  </div>
+                  <div class="small-card-info cyan">
+                    <span class="number">01</span>
+                    <span class="views">Views</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- footer-area -->
-    <footer class="footer-area" style="background: url('./assets/images/section-bg1.png');">
-        <div class="container lms-footer-inner-wrapper">
-            <!-- brands -->
-            <div class="row align-items-center lms-brand-wraper">
-                <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
-                    <img class="lms-single-brand mx-auto" src="./assets/images/b6.png" alt="">
-                </div>
-                <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
-                    <img class="lms-single-brand mx-auto" src="./assets/images/b5.png" alt="">
-                </div>
-                <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
-                    <img class="lms-single-brand mx-auto" src="./assets/images/b4.png" alt="">
-                </div>
-                <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
-                    <img class="lms-single-brand mx-auto" src="./assets/images/b1.png" alt="">
-                </div>
-                <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
-                    <img class="lms-single-brand mx-auto" src="./assets/images/b3.png" alt="">
-                </div>
-                <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
-                    <img class="lms-single-brand mx-auto" src="./assets/images/b2.png" alt="">
-                </div>
-            </div>
-            <!-- separator -->
-            <hr class="my-5 colored-hr" />
-            <!-- bottom section -->
-            <div class="row align-items-center px-4">
-                <!-- newsletter -->
-                <div class="col-lg-5">
-                    <div class="lms-newsletter-section" style="background: url('./assets/images/newsletter.png');">
-                        <img class="logo" src="./assets/images/logo.png" alt="">
-
-                        <p class="mt-3">
-                            Want us to email you occasionally with news?
-                        </p>
-
-                        <!-- newsletter -->
-                        <div class="newletter-wrapper mt-3">
-                            <input class="input-box" type="text" placeholder="Enter your email">
-                            <button class="btn1 subs-btn">subscribe</button>
-                        </div>
-                    </div>
-                </div>
-                <!--footer menu  -->
-                <div class="col-lg-6 offset-lg-1">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
-                            <div class="single-footer-menu">
-                                <span class="title mb-3">
-                                    course
-                                </span>
-                                <ul class="footer-menu">
-                                    <li><a href="#">web design design</a></li>
-                                    <li><a href="#">ios application</a></li>
-                                    <li><a href="#">ux research</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
-                            <div class="single-footer-menu">
-                                <span class="title mb-3">
-                                    login
-                                </span>
-                                <ul class="footer-menu">
-                                    <li><a href="#">sign in</a></li>
-                                    <li><a href="#">sign up</a></li>
-                                    <li><a href="#">series</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
-                            <div class="single-footer-menu">
-                                <span class="title mb-3">
-                                    More Links
-                                </span>
-                                <ul class="footer-menu">
-                                    <li><a href="#">blog</a></li>
-                                    <li><a href="#">terms of service</a></li>
-                                    <li><a href="#">legal info</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
-                            <div class="single-footer-menu">
-                                <span class="title mb-3">
-                                    contact
-                                </span>
-                                <ul class="footer-menu">
-                                    <li><a href="#">online form</a></li>
-                                    <li><a href="#">support</a></li>
-                                    <li><a href="#">contact us</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <footer
+      class="footer-area"
+      style="background: url('./assets/images/section-bg1.png')"
+    >
+      <div class="container lms-footer-inner-wrapper">
+        <!-- brands -->
+        <div class="row align-items-center lms-brand-wraper">
+          <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
+            <img
+              class="lms-single-brand mx-auto"
+              src="./assets/images/b6.png"
+              alt=""
+            />
+          </div>
+          <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
+            <img
+              class="lms-single-brand mx-auto"
+              src="./assets/images/b5.png"
+              alt=""
+            />
+          </div>
+          <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
+            <img
+              class="lms-single-brand mx-auto"
+              src="./assets/images/b4.png"
+              alt=""
+            />
+          </div>
+          <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
+            <img
+              class="lms-single-brand mx-auto"
+              src="./assets/images/b1.png"
+              alt=""
+            />
+          </div>
+          <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
+            <img
+              class="lms-single-brand mx-auto"
+              src="./assets/images/b3.png"
+              alt=""
+            />
+          </div>
+          <div class="col-12 col-md-3 col-lg-2 mt-4 mt-lg-0">
+            <img
+              class="lms-single-brand mx-auto"
+              src="./assets/images/b2.png"
+              alt=""
+            />
+          </div>
         </div>
+        <!-- separator -->
+        <hr class="my-5 colored-hr" />
+        <!-- bottom section -->
+        <div class="row align-items-center px-4">
+          <!-- newsletter -->
+          <div class="col-lg-5">
+            <div
+              class="lms-newsletter-section"
+              style="background: url('./assets/images/newsletter.png')"
+            >
+              <img class="logo" src="./assets/images/logo.png" alt="" />
+
+              <p class="mt-3">Want us to email you occasionally with news?</p>
+
+              <!-- newsletter -->
+              <div class="newletter-wrapper mt-3">
+                <input
+                  class="input-box"
+                  type="text"
+                  placeholder="Enter your email"
+                />
+                <button class="btn1 subs-btn">subscribe</button>
+              </div>
+            </div>
+          </div>
+          <!--footer menu  -->
+          <div class="col-lg-6 offset-lg-1">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
+                <div class="single-footer-menu">
+                  <span class="title mb-3"> course </span>
+                  <ul class="footer-menu">
+                    <li><a href="#">web design design</a></li>
+                    <li><a href="#">ios application</a></li>
+                    <li><a href="#">ux research</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
+                <div class="single-footer-menu">
+                  <span class="title mb-3"> login </span>
+                  <ul class="footer-menu">
+                    <li><a href="#">sign in</a></li>
+                    <li><a href="#">sign up</a></li>
+                    <li><a href="#">series</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
+                <div class="single-footer-menu">
+                  <span class="title mb-3"> More Links </span>
+                  <ul class="footer-menu">
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">terms of service</a></li>
+                    <li><a href="#">legal info</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0">
+                <div class="single-footer-menu">
+                  <span class="title mb-3"> contact </span>
+                  <ul class="footer-menu">
+                    <li><a href="#">online form</a></li>
+                    <li><a href="#">support</a></li>
+                    <li><a href="#">contact us</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <!-- scroll to up -->
@@ -724,6 +923,5 @@
     <script src="assets/js/vendor/wow.min.js"></script>
     <script src="assets/js/vendor/jquery.nice-select.min.js"></script>
     <script src="assets/js/main.js"></script>
-</body>
-
+  </body>
 </html>
